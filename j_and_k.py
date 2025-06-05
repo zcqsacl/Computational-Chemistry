@@ -149,15 +149,14 @@ def k_ij(i, j):
 # P is just a coefficient matrix so we can multiply it by the integrands pre-integration.
 
 def parallel_J_matrix(basis_set):
-  n = len(basis_set)
-  J = np.zeros((n, n))
-  with ProcessPoolExecutor(max_workers=8) as executor:
-    futures = [[executor.submit(j_ij, i, j) for i in range(n)]
-               for j in range(n)]
-      for i in range(n):
-        for j in range(n):
-          J[i, j] = futures[i][j].result()
-  return J
+    n = len(basis_set)
+    J = np.zeros((n, n))
+    with ProcessPoolExecutor(max_workers=8) as executor:
+        futures = [[executor.submit(j_ij, i, j) for i in range(n)] for j in range(n)]
+        for i in range(n):
+            for j in range(n):
+                J[i, j] = futures[i][j].result()
+    return J
 
 def parallel_K_matrix(basis_set):
   n = len(basis_set)
