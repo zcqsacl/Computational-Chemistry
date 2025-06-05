@@ -101,7 +101,7 @@ P = [
     [0.0, 0.0, 0.0, 0.0, 0.0, -2.22044604925e-16, 2.0]
 ]
 
-
+x1, y1, z1, x2, y2, z2 = sp.symbols('x1 y1 z1 x2 y2 z2')
 
 # J = SIGMA(lambda sigma)(P_{lambda sigma} * (mu nu | lambda sigma))
 # First define the 4-index integral (mu nu | lambda sigma):
