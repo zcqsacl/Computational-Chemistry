@@ -4,7 +4,6 @@ import sympy as sp
 from sympy import Matrix, symbols
 from scipy.integrate import nquad
 from concurrent.futures import ProcessPoolExecutor
-!pip install vegas
 import vegas
 
 ## Molecule (e.g. water)
