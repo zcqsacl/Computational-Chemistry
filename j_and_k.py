@@ -6,6 +6,9 @@ from scipy.integrate import nquad
 from concurrent.futures import ProcessPoolExecutor
 import vegas
 
+x, y, z = sp.symbols('x y z')
+x1, y1, z1, x2, y2, z2 = sp.symbols('x1 y1 z1 x2 y2 z2')
+
 ## Molecule (e.g. water)
 
 # N.B. distances are in Bohr radii (this will produce a final ground state energy in Hartrees)
@@ -114,27 +117,31 @@ numeric_K_integrand = np.empty((len(basis_set),)*4, dtype=object)
 
 def integrand_JK(x1, y1, z1, x2, y2, z2, bf1, bf2, bf3, bf4):
     r12 = sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
-    return bf1 * bf2 * (1 / r12) * bf3 * bf4
+    return bf1.subs({x: x1, y: y1, z: z1}) * bf2.subs({x: x1, y: y1, z: z1}) * (1 / r12) * bf3.subs({x: x2, y: y2, z: z2}) * bf4.subs({x: x2, y: y2, z: z2})
+    
+def integrand_JK_symbolic(bf1, bf2, bf3, bf4):
+    return bf1 * bf2 * (1 / sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)) * bf3 * bf4
+
+numeric_J_integrand = np.empty((len(basis_set),)*4, dtype=object)
+numeric_K_integrand = np.empty((len(basis_set),)*4, dtype=object)
 
 for i in range(len(basis_set)):
     for j in range(len(basis_set)):
         for k in range(len(basis_set)):
             for l in range(len(basis_set)):
-                symbolic_J_integrand = integrand_JK(
-                    x1, y1, z1, x2, y2, z2,
-                    basis_set[i],
-                    basis_set[j],
-                    basis_set[k],
-                    basis_set[l]
+                symbolic_J_integrand = integrand_JK_symbolic(
+                    basis_set[i].subs({x: x1, y: y1, z: z1}),
+                    basis_set[j].subs({x: x1, y: y1, z: z1}),
+                    basis_set[k].subs({x: x2, y: y2, z: z2}),
+                    basis_set[l].subs({x: x2, y: y2, z: z2}),
                 )
                 numeric_J_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_J_integrand, 'numpy')
 
-                symbolic_K_integrand = integrand_JK(
-                    x1, y1, z1, x2, y2, z2,
-                    basis_set[i],
-                    basis_set[k],
-                    basis_set[j],
-                    basis_set[l]
+                symbolic_K_integrand = integrand_JK_symbolic(
+                    basis_set[i].subs({x: x1, y: y1, z: z1}),
+                    basis_set[k].subs({x: x1, y: y1, z: z1}),
+                    basis_set[j].subs({x: x2, y: y2, z: z2}),
+                    basis_set[l].subs({x: x2, y: y2, z: z2}),
                 )
                 numeric_K_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_K_integrand, 'numpy')
 
