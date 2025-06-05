@@ -159,15 +159,14 @@ def parallel_J_matrix(basis_set):
     return J
 
 def parallel_K_matrix(basis_set):
-  n = len(basis_set)
-  K = np.zeros((n, n))
-  with ProcessPoolExecutor(max_workers=8) as executor:
-    futures = [[executor.submit(k_ij, i, j) for i in range(n)]
-               for j in range(n)]
-      for i in range(n):
-        for j in range(n):
-          K[i, j] = futures[i][j].result()
-  return K
+    n = len(basis_set)
+    K = np.zeros((n, n))
+    with ProcessPoolExecutor(max_workers=8) as executor:
+        futures = [[executor.submit(k_ij, i, j) for i in range(n)] for j in range(n)]
+        for i in range(n):
+            for j in range(n):
+                K[i, j] = futures[i][j].result()
+    return K
 
 J = parallel_J_matrix(basis_set)
 K = parallel_K_matrix(basis_set)
