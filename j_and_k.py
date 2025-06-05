@@ -113,12 +113,8 @@ numeric_J_integrand = np.empty((len(basis_set),)*4, dtype=object)
 numeric_K_integrand = np.empty((len(basis_set),)*4, dtype=object)
 
 def integrand_JK(x1, y1, z1, x2, y2, z2, bf1, bf2, bf3, bf4):
-    bf1_val = bf1.subs({x: x1, y: y1, z: z1})
-    bf2_val = bf2.subs({x: x1, y: y1, z: z1})
-    bf3_val = bf3.subs({x: x2, y: y2, z: z2})
-    bf4_val = bf4.subs({x: x2, y: y2, z: z2})
     r12 = sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
-    return bf1_val * bf2_val * (1 / r12) * bf3_val * bf4_val
+    return bf1 * bf2 * (1 / r12) * bf3 * bf4
 
 for i in range(len(basis_set)):
     for j in range(len(basis_set)):
