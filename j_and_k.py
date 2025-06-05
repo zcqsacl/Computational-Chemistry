@@ -135,7 +135,8 @@ for i in range(len(basis_set)):
                     basis_set[k].subs({x: x2, y: y2, z: z2}),
                     basis_set[l].subs({x: x2, y: y2, z: z2}),
                 )
-                numeric_J_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_J_integrand, 'numpy')
+                numeric_J_integrand[i,j,k,l] = sp.lambdify(((x1, y1, z1, x2, y2, z2),), symbolic_J_integrand, 'numpy')
+
 
                 symbolic_K_integrand = integrand_JK_symbolic(
                     basis_set[i].subs({x: x1, y: y1, z: z1}),
@@ -143,7 +144,7 @@ for i in range(len(basis_set)):
                     basis_set[j].subs({x: x2, y: y2, z: z2}),
                     basis_set[l].subs({x: x2, y: y2, z: z2}),
                 )
-                numeric_K_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_K_integrand, 'numpy')
+                numeric_K_integrand[i,j,k,l] = sp.lambdify(((x1, y1, z1, x2, y2, z2),), symbolic_K_integrand, 'numpy')
 
 
 # Use vegas monte carlo integrator (faster than analytic integrators)
