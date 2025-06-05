@@ -156,7 +156,7 @@ def j_ij(i, j):
   integrator = vegas.Integrator([[-2,2], [-2,2], [-2,2], [-2,2], [-2,2], [-2,2]])
   for k in range(len(basis_set)):
     for l in range(len(basis_set)):
-      j_term += P[k, l] * integrator(numeric_J_integrand[i,j,k,l], nitn=10, neval=10000).mean
+      j_term += P[k][l] * integrator(numeric_J_integrand[i,j,k,l], nitn=10, neval=10000).mean
   return j_term
 
 
@@ -165,7 +165,7 @@ def k_ij(i, j):
   integrator = vegas.Integrator([[-2,2], [-2,2], [-2,2], [-2,2], [-2,2], [-2,2]])
   for k in range(len(basis_set)):
     for l in range(len(basis_set)):
-      k_term += P[k, l] * integrator(numeric_K_integrand[i,k,j,l], nitn=10, neval=10000).mean
+      k_term += P[k][l] * integrator(numeric_K_integrand[i,k,j,l], nitn=10, neval=10000).mean
   return k_term
 
 
