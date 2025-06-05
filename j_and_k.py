@@ -195,7 +195,7 @@ def parallel_K_matrix(basis_set):
 J = parallel_J_matrix(basis_set)
 K = parallel_K_matrix(basis_set)
 
-F = np.zeros((n, n))
+F = np.zeros((7, 7))
 F[i, j] = T[i, j] + V[i, j] + J[i, j] - 0.5 * K[i, j]
 
 sp.pprint(F)
