@@ -103,25 +103,43 @@ P = [
 
 x1, y1, z1, x2, y2, z2 = sp.symbols('x1 y1 z1 x2 y2 z2')
 
-basis_funcs = [sp.lambdify((x, y, z), bf_expr, "numpy") for bf_expr in basis_set]
-
 # J = SIGMA(lambda sigma)(P_{lambda sigma} * (mu nu | lambda sigma))
 # First define the 4-index integral (mu nu | lambda sigma):
 
 def r12_inv(x1, y1, z1, x2, y2, z2):
     return (1 / np.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2))
 
+numeric_J_integrand = np.empty((len(basis_set),)*4, dtype=object)
+numeric_K_integrand = np.empty((len(basis_set),)*4, dtype=object)
+
 def integrand_JK(x1, y1, z1, x2, y2, z2, bf1, bf2, bf3, bf4):
-    return bf1(x1,y1,z1) * bf2(x1,y1,z1) * r12_inv(x1,y1,z1,x2,y2,z2) * bf3(x2,y2,z2) * bf4(x2,y2,z2)
+    bf1_val = bf1.subs({x: x1, y: y1, z: z1})
+    bf2_val = bf2.subs({x: x1, y: y1, z: z1})
+    bf3_val = bf3.subs({x: x2, y: y2, z: z2})
+    bf4_val = bf4.subs({x: x2, y: y2, z: z2})
+    r12 = sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
+    return bf1_val * bf2_val * (1 / r12) * bf3_val * bf4_val
 
 for i in range(len(basis_set)):
     for j in range(len(basis_set)):
         for k in range(len(basis_set)):
             for l in range(len(basis_set)):
-                symbolic_J_integrand = integrand_JK(x1, y1, z1, x2, y2, z2, basis_funcs[i], basis_funcs[j], basis_funcs[k], basis_funcs[l])
+                symbolic_J_integrand = integrand_JK(
+                    x1, y1, z1, x2, y2, z2,
+                    basis_set[i],
+                    basis_set[j],
+                    basis_set[k],
+                    basis_set[l]
+                )
                 numeric_J_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_J_integrand, 'numpy')
 
-                symbolic_K_integrand = integrand_JK(x1, y1, z1, x2, y2, z2, basis_funcs[i], basis_funcs[k], basis_funcs[j], basis_funcs[l])
+                symbolic_K_integrand = integrand_JK(
+                    x1, y1, z1, x2, y2, z2,
+                    basis_set[i],
+                    basis_set[k],
+                    basis_set[j],
+                    basis_set[l]
+                )
                 numeric_K_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_K_integrand, 'numpy')
 
 
