@@ -103,6 +103,8 @@ P = [
 
 x1, y1, z1, x2, y2, z2 = sp.symbols('x1 y1 z1 x2 y2 z2')
 
+basis_funcs = [sp.lambdify((x, y, z), bf_expr, "numpy") for bf_expr in basis_set]
+
 # J = SIGMA(lambda sigma)(P_{lambda sigma} * (mu nu | lambda sigma))
 # First define the 4-index integral (mu nu | lambda sigma):
 
@@ -116,10 +118,10 @@ for i in range(len(basis_set)):
     for j in range(len(basis_set)):
         for k in range(len(basis_set)):
             for l in range(len(basis_set)):
-                symbolic_J_integrand = integrand_JK(x1,y1,z1,x2,y2,z2, basis_set[i], basis_set[j], basis_set[k], basis_set[l])
+                symbolic_J_integrand = integrand_JK(x1, y1, z1, x2, y2, z2, basis_funcs[i], basis_funcs[j], basis_funcs[k], basis_funcs[l])
                 numeric_J_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_J_integrand, 'numpy')
 
-                symbolic_K_integrand = integrand_JK(x1,y1,z1,x2,y2,z2, basis_set[i], basis_set[k], basis_set[j], basis_set[l])
+                symbolic_K_integrand = integrand_JK(x1, y1, z1, x2, y2, z2, basis_funcs[i], basis_funcs[k], basis_funcs[j], basis_funcs[l])
                 numeric_K_integrand[i,j,k,l] = sp.lambdify((x1,y1,z1,x2,y2,z2), symbolic_K_integrand, 'numpy')
 
 
