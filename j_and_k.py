@@ -151,4 +151,5 @@ if __name__ == "__main__":
             for a, b, c, d in perms:
                 eri_tensor[a, b, c, d] = val
         
+np.set_printoptions(threshold=np.inf)
 print(eri_tensor)
