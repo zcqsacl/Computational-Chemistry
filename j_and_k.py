@@ -152,4 +152,4 @@ if __name__ == "__main__":
                 eri_tensor[a, b, c, d] = val
         
 np.set_printoptions(threshold=np.inf)
-print(eri_tensor)
+print(eri.tolist())
