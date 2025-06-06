@@ -6,4 +6,4 @@ agreement with literature values of -74.96, likely limited by the choice of basi
 where I originally wrote the script. Much of the theory is taken from my UCL CHEM0028 notes.
 
 # j_and_k.py
-This was solely used with RunPod to calculated the 4-index electron resonance integral matrix as described above.
+This was solely used with RunPod to calculate the 4-index electron resonance integral matrix as described above.
