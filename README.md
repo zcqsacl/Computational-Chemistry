@@ -4,3 +4,6 @@ in basic Python code. The final converged answer for the Hartree-Fock energy of 
 agreement with literature values of -74.96, likely limited by the choice of basis set. N.B. I used an external computer 
 (RunPod H100 PCLe) to compute the electron repulsion 4-index integral, since it would otherwise take ~5hrs on Google Colab 
 where I originally wrote the script. Much of the theory is taken from my UCL CHEM0028 notes.
+
+# j_and_k.py
+This was solely used with RunPod to calculated the 4-index electron resonance integral matrix as described above.
