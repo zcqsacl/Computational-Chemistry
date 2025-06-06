@@ -6,8 +6,10 @@ from scipy.integrate import nquad
 from concurrent.futures import ProcessPoolExecutor
 import vegas
 
-x, y, z = sp.symbols('x y z')
-x1, y1, z1, x2, y2, z2 = sp.symbols('x1 y1 z1 x2 y2 z2')
+x, y, z = sp.symbols("x y z")
+x1, y1, z1, x2, y2, z2 = sp.symbols("x1 y1 z1 x2 y2 z2")
+bounds = [[-3,3]] * 6
+
 
 ## Molecule (e.g. water)
 
@@ -93,108 +95,60 @@ basis_set = [sto_3G_1s(r, center=(Molecule['x'][0], Molecule['y'][0], Molecule['
 
 # N.B. Approximate alpha coefficients taken from https://www.basissetexchange.org/
 
-
-P = [
-    [4.4, -0.6, -0.6, -0.6, -0.6, 0.0, 0.0],
-    [-0.6, 1.4, 0.4, 0.4, 0.4, 0.0, 0.0],
-    [-0.6, 0.4, 1.4, 0.4, 0.4, 0.0, 0.0],
-    [-0.6, 0.4, 0.4, 1.4, 0.4, 0.0, 0.0],
-    [-0.6, 0.4, 0.4, 0.4, 1.4, 0.0, 0.0],
-    [0.0, 0.0, 0.0, 0.0, 0.0, 2.0, -2.22044604925e-16],
-    [0.0, 0.0, 0.0, 0.0, 0.0, -2.22044604925e-16, 2.0]
-]
+nbf = len(basis_set)
 
 x1, y1, z1, x2, y2, z2 = sp.symbols('x1 y1 z1 x2 y2 z2')
 
 # J = SIGMA(lambda sigma)(P_{lambda sigma} * (mu nu | lambda sigma))
 # First define the 4-index integral (mu nu | lambda sigma):
 
-def r12_inv(x1, y1, z1, x2, y2, z2):
-    return (1 / np.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2))
+def make_integrand(bf1, bf2, bf3, bf4):
+    expr = bf1 * bf2 * (1 / sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)) * bf3 * bf4
+    return sp.lambdify((x1, y1, z1, x2, y2, z2), expr, "numpy")
 
-numeric_J_integrand = np.empty((len(basis_set),)*4, dtype=object)
-numeric_K_integrand = np.empty((len(basis_set),)*4, dtype=object)
+def compute_eri_entry(i, j, k, l):
+    bf1 = basis_set[i].subs({x: x1, y: y1, z: z1})
+    bf2 = basis_set[j].subs({x: x1, y: y1, z: z1})
+    bf3 = basis_set[k].subs({x: x2, y: y2, z: z2})
+    bf4 = basis_set[l].subs({x: x2, y: y2, z: z2})
 
-def integrand_JK(x1, y1, z1, x2, y2, z2, bf1, bf2, bf3, bf4):
-    r12 = sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
-    return bf1.subs({x: x1, y: y1, z: z1}) * bf2.subs({x: x1, y: y1, z: z1}) * (1 / r12) * bf3.subs({x: x2, y: y2, z: z2}) * bf4.subs({x: x2, y: y2, z: z2})
-    
-def integrand_JK_symbolic(bf1, bf2, bf3, bf4):
-    return bf1 * bf2 * (1 / sp.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)) * bf3 * bf4
+    integrand = make_integrand(bf1, bf2, bf3, bf4)
+    integrator = vegas.Integrator(bounds)
+    result = integrator(lambda pts: integrand(*pts), nitn=10, neval=10000).mean
+    return (i, j, k, l, result)
 
-numeric_J_integrand = np.empty((len(basis_set),)*4, dtype=object)
-numeric_K_integrand = np.empty((len(basis_set),)*4, dtype=object)
-
-for i in range(len(basis_set)):
-    for j in range(len(basis_set)):
-        for k in range(len(basis_set)):
-            for l in range(len(basis_set)):
-                symbolic_J_integrand = integrand_JK_symbolic(
-                    basis_set[i].subs({x: x1, y: y1, z: z1}),
-                    basis_set[j].subs({x: x1, y: y1, z: z1}),
-                    basis_set[k].subs({x: x2, y: y2, z: z2}),
-                    basis_set[l].subs({x: x2, y: y2, z: z2}),
-                )
-                numeric_J_integrand[i,j,k,l] = sp.lambdify(((x1, y1, z1, x2, y2, z2),), symbolic_J_integrand, 'numpy')
-
-
-                symbolic_K_integrand = integrand_JK_symbolic(
-                    basis_set[i].subs({x: x1, y: y1, z: z1}),
-                    basis_set[k].subs({x: x1, y: y1, z: z1}),
-                    basis_set[j].subs({x: x2, y: y2, z: z2}),
-                    basis_set[l].subs({x: x2, y: y2, z: z2}),
-                )
-                numeric_K_integrand[i,j,k,l] = sp.lambdify(((x1, y1, z1, x2, y2, z2),), symbolic_K_integrand, 'numpy')
-
+eri_tensor = np.zeros((nbf, nbf, nbf, nbf))
 
 # Use vegas monte carlo integrator (faster than analytic integrators)
 # Re-initialise the integrator on each run so that its monte carlo adaptive sampling doesnt carry over
 
+if __name__ == "__main__":
+    eri_tensor = np.zeros((nbf, nbf, nbf, nbf))
+    computed_indices = []
 
-
-def j_ij(i, j):
-  j_term = 0
-  integrator = vegas.Integrator([[-2,2], [-2,2], [-2,2], [-2,2], [-2,2], [-2,2]])
-  for k in range(len(basis_set)):
-    for l in range(len(basis_set)):
-      j_term += P[k][l] * integrator(numeric_J_integrand[i,j,k,l], nitn=10, neval=10000).mean
-  return j_term
-
-
-def k_ij(i, j):
-  k_term = 0
-  integrator = vegas.Integrator([[-2,2], [-2,2], [-2,2], [-2,2], [-2,2], [-2,2]])
-  for k in range(len(basis_set)):
-    for l in range(len(basis_set)):
-      k_term += P[k][l] * integrator(numeric_K_integrand[i,k,j,l], nitn=10, neval=10000).mean
-  return k_term
-
-
-# P is just a coefficient matrix so we can multiply it by the integrands pre-integration.
-
-def parallel_J_matrix(basis_set):
-    n = len(basis_set)
-    J = np.zeros((n, n))
     with ProcessPoolExecutor(max_workers=8) as executor:
-        futures = [[executor.submit(j_ij, i, j) for i in range(n)] for j in range(n)]
-        for i in range(n):
-            for j in range(n):
-                J[i, j] = futures[i][j].result()
-    return J
+        futures = []
 
-def parallel_K_matrix(basis_set):
-    n = len(basis_set)
-    K = np.zeros((n, n))
-    with ProcessPoolExecutor(max_workers=8) as executor:
-        futures = [[executor.submit(k_ij, i, j) for i in range(n)] for j in range(n)]
-        for i in range(n):
-            for j in range(n):
-                K[i, j] = futures[i][j].result()
-    return K
+        for i in range(nbf):
+            for j in range(i + 1):
+                for k in range(nbf):
+                    for l in range(k + 1):
+                        # Ensure (i,j,k,l) is unique under 8-fold symmetry
+                        ij = i * (i + 1) // 2 + j
+                        kl = k * (k + 1) // 2 + l
+                        if ij >= kl:
+                            futures.append(executor.submit(compute_eri_entry, i, j, k, l))
+                            computed_indices.append((i, j, k, l))
 
-J = parallel_J_matrix(basis_set)
-K = parallel_K_matrix(basis_set)
+        # Fill in all symmetric permutations
+        for future, (i, j, k, l) in zip(futures, computed_indices):
+            val = future.result()[-1]
 
-sp.pprint(J)
-sp.pprint(K)
-
+            perms = {
+                (i, j, k, l), (j, i, k, l), (i, j, l, k), (j, i, l, k),
+                (k, l, i, j), (l, k, i, j), (k, l, j, i), (l, k, j, i)
+            }
+            for a, b, c, d in perms:
+                eri_tensor[a, b, c, d] = val
+        
+print(eri_tensor)
