@@ -1,3 +1,11 @@
+# neural.ipynb
+This model takes smile strings of small organic molecules and tokenises them using the bert-base-case tokeniser, which vectorises each symbol into the smile string into a 768-dimensional vector.
+These vectors are then passed through 40 x [Attention + MLP] layers, with a final MLP head, to predict the 1st excited state energy of the molecule.
+It was trained on 20,000 molecule smile strings and their energies via the Kaggle data set ‘qm8’, and sent to a HPC (runpod.io RTX5090 GPU).
+It is validated on 1787 molecules as follows, with a MAE of +/-0.384 eV:
+<img width="884" height="884" alt="image" src="https://github.com/user-attachments/assets/1adb0ddd-36b1-4d2f-884f-79d0d3fc5250" />
+
+
 # Notes on the HF_SCF_Minimal_Solver
 This script derives an algorithm for solving the Roothaan-Hall equations for a general molecule (uses water as an example) 
 in basic Python code. The final converged answer for the Hartree-Fock energy of water is -74.34 Hartrees, which is in close 
@@ -9,4 +17,4 @@ where I originally wrote the script. Much of the theory is taken from my UCL CHE
 This was solely used with RunPod to calculate the 4-index electron resonance integral matrix as described above.
 
 # DFT_SCF_Minimal_Solver
-Sharing some blocks of code with the HF solver, this is a work in progress.
+[Unfinished]
