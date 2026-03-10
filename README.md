@@ -16,5 +16,9 @@ where I originally wrote the script. Much of the theory is taken from my UCL CHE
 # j_and_k.py
 This was solely used with RunPod to calculate the 4-index electron resonance integral matrix as described above.
 
+# prediction TVJK.ipynb
+Basic neural network which learns inter-orbital potentials between common organic atoms, by separately learning T, V, J and K by inter-atomic distance.
+Could be used to provide rapid first guesses to molecular energy, though doesn't account for four-fold-orbital J and K interactions.
+
 # DFT_SCF_Minimal_Solver
 [Unfinished]
