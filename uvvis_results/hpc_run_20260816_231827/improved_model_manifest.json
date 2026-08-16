@@ -1,0 +1,49 @@
+{
+  "run_dir": "/workspace/.cache/uvadvisor/outputs/hpc_run_20260816_231827",
+  "no_cascisd_calculations": true,
+  "n_dataset_json_records": 876,
+  "n_supported_mace_structures": 875,
+  "excluded_missing_or_invalid_mace": [
+    "ODFJOVXVLFUVNQ"
+  ],
+  "n_rf_rows": 891,
+  "n_rf_structures": 875,
+  "mlp": {
+    "standardized_inputs": true,
+    "standardized_outputs": true,
+    "best_validation_checkpoint": true,
+    "n_rows": 1000,
+    "n_train": 850,
+    "n_val": 150,
+    "best_val_rmse_standardized": 0.674616642548588,
+    "best_val_rmse_raw": 0.267629970486513,
+    "best_val_mae_raw": 0.15758436814555637
+  },
+  "spectral_basis": {
+    "type": "DCT",
+    "components": 80,
+    "ridge": 1e-06,
+    "dct_rmse": 0.0028506715916122895,
+    "dct_mae": 0.0008944024939097315,
+    "missing_wavelengths_supported": true
+  },
+  "rf": {
+    "n_estimators": 1200,
+    "max_features": "sqrt",
+    "criterion": "squared_error",
+    "max_depth": null,
+    "n_jobs": 32
+  },
+  "split": {
+    "type": "GroupShuffleSplit",
+    "group": "inchi_first_block",
+    "test_fraction": 0.2,
+    "random_state": 123
+  },
+  "metrics": {
+    "train_rmse": 0.0632620212806273,
+    "test_rmse": 0.18672383359983138,
+    "train_mae": 0.039159061604171985,
+    "test_mae": 0.11627050499719355
+  }
+}
