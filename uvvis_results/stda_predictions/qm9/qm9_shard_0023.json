@@ -1,0 +1,4109 @@
+{
+  "dataset": "qm9",
+  "shard_index": 23,
+  "start_index": 2200,
+  "end_index": 2299,
+  "n_records": 100,
+  "records": [
+    {
+      "label": "qm9_66210",
+      "qm9_id": 66210,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.5729,
+        5.9292,
+        6.3813,
+        7.0038,
+        7.2402
+      ],
+      "predicted_oscillator_strengths": [
+        0.000564,
+        0.00846,
+        0.000633,
+        0.04198,
+        0.344805
+      ],
+      "reference_excitation_energies_eV": [
+        4.7022121,
+        6.97567885,
+        7.47167873,
+        7.68265742,
+        7.83378763
+      ],
+      "reference_oscillator_strengths": [
+        7.103e-05,
+        0.01414737,
+        0.13837416,
+        0.13787737,
+        0.01845878
+      ],
+      "energy_rmse_eV": 0.7891715971470614,
+      "osc_rmse": 0.16413614911791288,
+      "xtb4stda_time_s": 0.28103962540626526,
+      "stda_time_s": 1.5775742251425982,
+      "total_time_s": 1.8586138505488634,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_59116",
+      "qm9_id": 59116,
+      "total_atoms": 22,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.8962,
+        6.6328,
+        6.8333,
+        7.0824,
+        7.1928
+      ],
+      "predicted_oscillator_strengths": [
+        0.026085,
+        0.001544,
+        0.003359,
+        0.021058,
+        0.037798
+      ],
+      "reference_excitation_energies_eV": [
+        6.87133021,
+        7.41900018,
+        7.84618923,
+        7.95304159,
+        8.07898656
+      ],
+      "reference_oscillator_strengths": [
+        0.00935473,
+        0.04880952,
+        0.00268968,
+        0.03224604,
+        0.04550664
+      ],
+      "energy_rmse_eV": 0.9097557517376883,
+      "osc_rmse": 0.023233487358108342,
+      "xtb4stda_time_s": 0.2810442131012678,
+      "stda_time_s": 1.843529611825943,
+      "total_time_s": 2.124573824927211,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_94509",
+      "qm9_id": 94509,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4546,
+        5.5569,
+        6.0917,
+        6.6327,
+        6.8636
+      ],
+      "predicted_oscillator_strengths": [
+        0.00097,
+        0.000513,
+        0.228564,
+        0.009547,
+        0.09335
+      ],
+      "reference_excitation_energies_eV": [
+        4.26034223,
+        5.39910258,
+        6.26827089,
+        7.27370083,
+        7.45181468
+      ],
+      "reference_oscillator_strengths": [
+        0.000802,
+        0.0001486,
+        0.11590708,
+        0.06746797,
+        0.01730546
+      ],
+      "energy_rmse_eV": 0.41247835336841937,
+      "osc_rmse": 0.06607473566318506,
+      "xtb4stda_time_s": 0.27141191251575947,
+      "stda_time_s": 1.416795652359724,
+      "total_time_s": 1.6882075648754835,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_1026",
+      "qm9_id": 1026,
+      "total_atoms": 11,
+      "heavy_atoms": 7,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.2186,
+        4.7082,
+        5.5995,
+        6.0766,
+        6.9273
+      ],
+      "predicted_oscillator_strengths": [
+        5.8e-05,
+        0.469948,
+        0.092143,
+        0.000121,
+        0.082019
+      ],
+      "reference_excitation_energies_eV": [
+        4.1609964,
+        5.07752561,
+        6.22431686,
+        7.01112197,
+        7.43248805
+      ],
+      "reference_oscillator_strengths": [
+        0.00030157,
+        0.33408085,
+        0.04589731,
+        0.00153678,
+        0.22471578
+      ],
+      "energy_rmse_eV": 0.5759621459350562,
+      "osc_rmse": 0.09051296158497997,
+      "xtb4stda_time_s": 0.2008530180901289,
+      "stda_time_s": 0.3776895236223936,
+      "total_time_s": 0.5785425417125225,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_19424",
+      "qm9_id": 19424,
+      "total_atoms": 14,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.0996,
+        6.3684,
+        6.6013,
+        6.9372,
+        7.1031
+      ],
+      "predicted_oscillator_strengths": [
+        0.013291,
+        0.198194,
+        0.046814,
+        0.011185,
+        0.038875
+      ],
+      "reference_excitation_energies_eV": [
+        6.35816375,
+        6.60144999,
+        7.37664999,
+        7.68383214,
+        7.74357014
+      ],
+      "reference_oscillator_strengths": [
+        0.09809476,
+        0.08087865,
+        0.05710622,
+        0.10122321,
+        0.05356227
+      ],
+      "energy_rmse_eV": 0.5813771014339421,
+      "osc_rmse": 0.07665910775419384,
+      "xtb4stda_time_s": 0.2460236009210348,
+      "stda_time_s": 1.1909253057092428,
+      "total_time_s": 1.4369489066302776,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_14636",
+      "qm9_id": 14636,
+      "total_atoms": 14,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4328,
+        5.7325,
+        5.7494,
+        6.0216,
+        6.1103
+      ],
+      "predicted_oscillator_strengths": [
+        0.002909,
+        0.013385,
+        0.010631,
+        0.002774,
+        0.011106
+      ],
+      "reference_excitation_energies_eV": [
+        4.63921145,
+        5.09290222,
+        5.39705873,
+        5.42051142,
+        6.89169277
+      ],
+      "reference_oscillator_strengths": [
+        0.00143409,
+        3.077e-05,
+        0.00126566,
+        0.0012911,
+        0.04337568
+      ],
+      "energy_rmse_eV": 0.5563663396417746,
+      "osc_rmse": 0.016197232179783066,
+      "xtb4stda_time_s": 0.23048435524106026,
+      "stda_time_s": 0.5069721974432468,
+      "total_time_s": 0.7374565526843071,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_27630",
+      "qm9_id": 27630,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.0243,
+        5.3767,
+        5.6453,
+        5.7674,
+        6.5512
+      ],
+      "predicted_oscillator_strengths": [
+        1.3e-05,
+        0.221932,
+        0.243893,
+        0.009894,
+        0.000112
+      ],
+      "reference_excitation_energies_eV": [
+        5.92085723,
+        6.00666974,
+        6.63082878,
+        6.96026142,
+        7.38465558
+      ],
+      "reference_oscillator_strengths": [
+        0.2475993,
+        0.0001077,
+        0.00033282,
+        0.00134835,
+        0.00017527
+      ],
+      "energy_rmse_eV": 0.9262300240595512,
+      "osc_rmse": 0.1843364258288783,
+      "xtb4stda_time_s": 0.23023843206465244,
+      "stda_time_s": 0.6644166130572557,
+      "total_time_s": 0.8946550451219082,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_54587",
+      "qm9_id": 54587,
+      "total_atoms": 20,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.5054,
+        6.037,
+        6.5602,
+        7.1246,
+        7.3883
+      ],
+      "predicted_oscillator_strengths": [
+        0.000891,
+        0.012022,
+        0.013721,
+        0.009138,
+        0.004745
+      ],
+      "reference_excitation_energies_eV": [
+        4.64685187,
+        6.12442354,
+        6.72942113,
+        7.26792466,
+        7.42260569
+      ],
+      "reference_oscillator_strengths": [
+        0.00010141,
+        0.00358592,
+        0.00541376,
+        0.00069693,
+        0.01078379
+      ],
+      "energy_rmse_eV": 0.12490487279653857,
+      "osc_rmse": 0.007050103289471723,
+      "xtb4stda_time_s": 0.2790514640510082,
+      "stda_time_s": 1.155176304280758,
+      "total_time_s": 1.4342277683317661,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_106472",
+      "qm9_id": 106472,
+      "total_atoms": 20,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.7251,
+        7.2444,
+        7.2743,
+        7.7778,
+        8.171
+      ],
+      "predicted_oscillator_strengths": [
+        0.02871,
+        0.176968,
+        0.063698,
+        0.006609,
+        0.028462
+      ],
+      "reference_excitation_energies_eV": [
+        7.00726557,
+        7.80175981,
+        7.93094838,
+        8.3248568,
+        8.41324024
+      ],
+      "reference_oscillator_strengths": [
+        0.00772812,
+        0.20774356,
+        0.01078555,
+        0.04550122,
+        0.00258141
+      ],
+      "energy_rmse_eV": 0.4856760109280225,
+      "osc_rmse": 0.03569176785178062,
+      "xtb4stda_time_s": 0.2882310226559639,
+      "stda_time_s": 1.407260000705719,
+      "total_time_s": 1.695491023361683,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_46381",
+      "qm9_id": 46381,
+      "total_atoms": 20,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.397,
+        6.4565,
+        6.6954,
+        6.8285,
+        7.477
+      ],
+      "predicted_oscillator_strengths": [
+        0.00048,
+        0.008287,
+        0.03569,
+        0.024314,
+        0.034838
+      ],
+      "reference_excitation_energies_eV": [
+        4.69855298,
+        7.30649056,
+        7.49371779,
+        7.58809617,
+        7.84520989
+      ],
+      "reference_oscillator_strengths": [
+        0.00019378,
+        0.01641777,
+        0.04134558,
+        0.04249191,
+        0.00879744
+      ],
+      "energy_rmse_eV": 0.6577680913876801,
+      "osc_rmse": 0.014877661811584508,
+      "xtb4stda_time_s": 0.2904253117740154,
+      "stda_time_s": 1.2924178875982761,
+      "total_time_s": 1.5828431993722916,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_53565",
+      "qm9_id": 53565,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.7195,
+        6.8445,
+        6.9666,
+        7.4844,
+        7.5904
+      ],
+      "predicted_oscillator_strengths": [
+        0.019488,
+        0.00906,
+        0.01045,
+        0.003704,
+        0.010611
+      ],
+      "reference_excitation_energies_eV": [
+        7.15587492,
+        7.22055615,
+        7.31013199,
+        7.53855428,
+        7.54441779
+      ],
+      "reference_oscillator_strengths": [
+        0.00027231,
+        0.01348059,
+        0.00918769,
+        0.0039595,
+        0.00081803
+      ],
+      "energy_rmse_eV": 0.3016297653050811,
+      "osc_rmse": 0.009862508061656528,
+      "xtb4stda_time_s": 0.27008744329214096,
+      "stda_time_s": 1.2607675716280937,
+      "total_time_s": 1.5308550149202347,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_35799",
+      "qm9_id": 35799,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.463,
+        6.2512,
+        6.4577,
+        6.6268,
+        7.0099
+      ],
+      "predicted_oscillator_strengths": [
+        0.00197,
+        0.016283,
+        0.030382,
+        0.005701,
+        0.009244
+      ],
+      "reference_excitation_energies_eV": [
+        6.61164121,
+        7.14847777,
+        7.41604638,
+        7.59197135,
+        7.77891421
+      ],
+      "reference_oscillator_strengths": [
+        0.01261267,
+        0.008055,
+        0.00199849,
+        0.00268788,
+        0.01151513
+      ],
+      "energy_rmse_eV": 0.9555993302580625,
+      "osc_rmse": 0.014147981992215711,
+      "xtb4stda_time_s": 0.24720018729567528,
+      "stda_time_s": 1.0259057190269232,
+      "total_time_s": 1.2731059063225985,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_117410",
+      "qm9_id": 117410,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.0765,
+        6.1035,
+        6.4786,
+        6.8808,
+        7.2026
+      ],
+      "predicted_oscillator_strengths": [
+        0.008518,
+        0.02412,
+        0.164537,
+        0.005567,
+        0.022707
+      ],
+      "reference_excitation_energies_eV": [
+        6.29362538,
+        7.3267421,
+        7.78949672,
+        7.94967364,
+        8.09554769
+      ],
+      "reference_oscillator_strengths": [
+        0.00034564,
+        0.00656448,
+        0.03503215,
+        0.21624899,
+        0.01342578
+      ],
+      "energy_rmse_eV": 1.0199765989200436,
+      "osc_rmse": 0.11101309101093529,
+      "xtb4stda_time_s": 0.3068548869341612,
+      "stda_time_s": 1.3578548040241003,
+      "total_time_s": 1.6647096909582615,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_124058",
+      "qm9_id": 124058,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.6313,
+        4.9675,
+        5.4289,
+        5.9373,
+        6.1981
+      ],
+      "predicted_oscillator_strengths": [
+        0.173291,
+        0.009271,
+        0.156284,
+        5.8e-05,
+        0.012359
+      ],
+      "reference_excitation_energies_eV": [
+        5.21386043,
+        5.99141285,
+        6.06279625,
+        6.0968905,
+        6.65466678
+      ],
+      "reference_oscillator_strengths": [
+        0.07397525,
+        0.00255143,
+        0.00406313,
+        0.07064193,
+        9.518e-05
+      ],
+      "energy_rmse_eV": 0.6361636561531613,
+      "osc_rmse": 0.08742134354703272,
+      "xtb4stda_time_s": 0.2534393072128296,
+      "stda_time_s": 0.6649483442306519,
+      "total_time_s": 0.9183876514434814,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_70040",
+      "qm9_id": 70040,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.4531,
+        5.8854,
+        6.702,
+        6.7785,
+        7.1941
+      ],
+      "predicted_oscillator_strengths": [
+        0.156478,
+        0.190588,
+        0.001566,
+        0.246438,
+        0.001659
+      ],
+      "reference_excitation_energies_eV": [
+        5.785145,
+        6.04211531,
+        6.7217886,
+        7.30288533,
+        7.53546143
+      ],
+      "reference_oscillator_strengths": [
+        0.26171929,
+        0.00970959,
+        0.00322875,
+        0.0601972,
+        0.00444535
+      ],
+      "energy_rmse_eV": 0.32456517352119263,
+      "osc_rmse": 0.12529077571275327,
+      "xtb4stda_time_s": 0.22473257221281528,
+      "stda_time_s": 1.5881839245557785,
+      "total_time_s": 1.8129164967685938,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_92676",
+      "qm9_id": 92676,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.8836,
+        6.2445,
+        6.3338,
+        7.2594,
+        7.3229
+      ],
+      "predicted_oscillator_strengths": [
+        0.594508,
+        0.048282,
+        0.021951,
+        0.022929,
+        0.040718
+      ],
+      "reference_excitation_energies_eV": [
+        5.86600966,
+        6.02086539,
+        6.65809596,
+        6.82362264,
+        7.55991278
+      ],
+      "reference_oscillator_strengths": [
+        0.28259098,
+        0.04129282,
+        0.00097908,
+        0.00300547,
+        0.10717354
+      ],
+      "energy_rmse_eV": 0.28339608109336584,
+      "osc_rmse": 0.14324397598195307,
+      "xtb4stda_time_s": 0.2967111002653837,
+      "stda_time_s": 1.4985126536339521,
+      "total_time_s": 1.7952237538993359,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_3650",
+      "qm9_id": 3650,
+      "total_atoms": 12,
+      "heavy_atoms": 7,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.1289,
+        6.3341,
+        6.3725,
+        7.0099,
+        7.1373
+      ],
+      "predicted_oscillator_strengths": [
+        0.177793,
+        0.028236,
+        0.002199,
+        0.018092,
+        0.008496
+      ],
+      "reference_excitation_energies_eV": [
+        6.2736416,
+        6.63709938,
+        7.07094814,
+        7.32847738,
+        7.57336637
+      ],
+      "reference_oscillator_strengths": [
+        0.00959091,
+        0.09348886,
+        0.0056158,
+        0.01304444,
+        0.0003669
+      ],
+      "energy_rmse_eV": 0.4224296356585426,
+      "osc_rmse": 0.08081226821411623,
+      "xtb4stda_time_s": 0.2228770349174738,
+      "stda_time_s": 0.3827007096260786,
+      "total_time_s": 0.6055777445435524,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_30248",
+      "qm9_id": 30248,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.6767,
+        4.9068,
+        5.286,
+        5.7568,
+        5.8162
+      ],
+      "predicted_oscillator_strengths": [
+        0.00699,
+        0.1596,
+        0.018671,
+        0.036073,
+        0.03252
+      ],
+      "reference_excitation_energies_eV": [
+        5.66518382,
+        5.94794945,
+        6.53140894,
+        6.82669698,
+        7.03929775
+      ],
+      "reference_oscillator_strengths": [
+        0.12773363,
+        0.01856689,
+        0.009396,
+        0.02663375,
+        0.01655001
+      ],
+      "energy_rmse_eV": 1.118282926753083,
+      "osc_rmse": 0.08354582927712381,
+      "xtb4stda_time_s": 0.2719900142401457,
+      "stda_time_s": 0.8750441092997789,
+      "total_time_s": 1.1470341235399246,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_34033",
+      "qm9_id": 34033,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.7882,
+        7.3382,
+        7.4541,
+        7.5588,
+        7.644
+      ],
+      "predicted_oscillator_strengths": [
+        0.016356,
+        0.001379,
+        0.047381,
+        0.027706,
+        0.057784
+      ],
+      "reference_excitation_energies_eV": [
+        6.6367723,
+        7.08519576,
+        7.12881291,
+        8.00726874,
+        8.10283164
+      ],
+      "reference_oscillator_strengths": [
+        0.00439706,
+        0.00101927,
+        0.02449782,
+        0.02889543,
+        0.04066671
+      ],
+      "energy_rmse_eV": 0.34767912486320296,
+      "osc_rmse": 0.013865077996015024,
+      "xtb4stda_time_s": 0.28394589200615883,
+      "stda_time_s": 1.4964557867497206,
+      "total_time_s": 1.7804016787558794,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_127352",
+      "qm9_id": 127352,
+      "total_atoms": 13,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.1633,
+        5.2241,
+        5.3717,
+        6.0354,
+        6.2253
+      ],
+      "predicted_oscillator_strengths": [
+        0.294367,
+        0.221468,
+        0.003935,
+        0.016507,
+        9.9e-05
+      ],
+      "reference_excitation_energies_eV": [
+        4.88676009,
+        5.68932713,
+        5.88461165,
+        6.19696151,
+        6.73702236
+      ],
+      "reference_oscillator_strengths": [
+        0.19986196,
+        0.00293835,
+        0.10931005,
+        0.00757862,
+        0.01863721
+      ],
+      "energy_rmse_eV": 0.5081084609124352,
+      "osc_rmse": 0.11680213429253346,
+      "xtb4stda_time_s": 0.23971742950379848,
+      "stda_time_s": 0.559098657220602,
+      "total_time_s": 0.7988160867244005,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_98882",
+      "qm9_id": 98882,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.8169,
+        4.9732,
+        5.6659,
+        5.8886,
+        5.964
+      ],
+      "predicted_oscillator_strengths": [
+        5e-06,
+        0.544904,
+        0.001386,
+        0.004589,
+        0.075919
+      ],
+      "reference_excitation_energies_eV": [
+        5.72170108,
+        5.91524624,
+        5.93917595,
+        6.82212928,
+        7.02718269
+      ],
+      "reference_oscillator_strengths": [
+        0.39267729,
+        0.0029232,
+        0.01611273,
+        0.00058887,
+        0.04044784
+      ],
+      "energy_rmse_eV": 0.8697850546484067,
+      "osc_rmse": 0.29980853747374825,
+      "xtb4stda_time_s": 0.33436976559460163,
+      "stda_time_s": 1.1240540612488985,
+      "total_time_s": 1.4584238268435001,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_55140",
+      "qm9_id": 55140,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.8153,
+        6.3865,
+        6.5483,
+        6.8112,
+        7.0607
+      ],
+      "predicted_oscillator_strengths": [
+        0.003879,
+        0.008705,
+        0.127578,
+        0.02685,
+        0.073889
+      ],
+      "reference_excitation_energies_eV": [
+        6.23100052,
+        7.34618274,
+        7.65259563,
+        7.79581548,
+        8.17484661
+      ],
+      "reference_oscillator_strengths": [
+        0.00063892,
+        0.02208811,
+        0.01676261,
+        0.01271219,
+        0.18698296
+      ],
+      "energy_rmse_eV": 0.9512157519983988,
+      "osc_rmse": 0.07135793981416265,
+      "xtb4stda_time_s": 0.3405002597719431,
+      "stda_time_s": 1.083200728520751,
+      "total_time_s": 1.423700988292694,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_34299",
+      "qm9_id": 34299,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.9721,
+        7.432,
+        7.8825,
+        8.0035,
+        8.1077
+      ],
+      "predicted_oscillator_strengths": [
+        0.015675,
+        0.012241,
+        0.012364,
+        0.009312,
+        0.003246
+      ],
+      "reference_excitation_energies_eV": [
+        6.6437463,
+        7.27492452,
+        7.4996915,
+        8.06370573,
+        8.2923419
+      ],
+      "reference_oscillator_strengths": [
+        9.819e-05,
+        0.00429435,
+        0.00075386,
+        0.01396163,
+        0.07535125
+      ],
+      "energy_rmse_eV": 0.251693689850824,
+      "osc_rmse": 0.03364927263260708,
+      "xtb4stda_time_s": 0.31694553419947624,
+      "stda_time_s": 0.961407084017992,
+      "total_time_s": 1.2783526182174683,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_82278",
+      "qm9_id": 82278,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        3.9725,
+        4.7035,
+        5.5362,
+        5.7391,
+        6.4574
+      ],
+      "predicted_oscillator_strengths": [
+        0.021232,
+        0.40239,
+        0.026621,
+        0.082577,
+        0.003903
+      ],
+      "reference_excitation_energies_eV": [
+        4.22186966,
+        5.09696352,
+        6.08770692,
+        6.34039062,
+        7.44800563
+      ],
+      "reference_oscillator_strengths": [
+        0.00166644,
+        0.27709363,
+        0.06985659,
+        0.00126098,
+        0.00495147
+      ],
+      "energy_rmse_eV": 0.6105749054120836,
+      "osc_rmse": 0.07009237064605521,
+      "xtb4stda_time_s": 0.29756649769842625,
+      "stda_time_s": 0.8499176353216171,
+      "total_time_s": 1.1474841330200434,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_24943",
+      "qm9_id": 24943,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.002,
+        4.2893,
+        4.7241,
+        5.2056,
+        5.3514
+      ],
+      "predicted_oscillator_strengths": [
+        0.115938,
+        0.00566,
+        0.000844,
+        0.068892,
+        0.085342
+      ],
+      "reference_excitation_energies_eV": [
+        4.90233344,
+        5.27014994,
+        5.85369814,
+        5.99913708,
+        6.02519418
+      ],
+      "reference_oscillator_strengths": [
+        0.00346435,
+        0.10883774,
+        0.00238023,
+        0.09569575,
+        0.06935155
+      ],
+      "energy_rmse_eV": 0.9091048960607895,
+      "osc_rmse": 0.06967418960233122,
+      "xtb4stda_time_s": 0.28704905323684216,
+      "stda_time_s": 0.8184821829199791,
+      "total_time_s": 1.1055312361568213,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_66569",
+      "qm9_id": 66569,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.4197,
+        6.5745,
+        7.3144,
+        7.5308,
+        7.5926
+      ],
+      "predicted_oscillator_strengths": [
+        0.00055,
+        0.009689,
+        0.007024,
+        0.030268,
+        0.013229
+      ],
+      "reference_excitation_energies_eV": [
+        6.79021275,
+        7.13192317,
+        7.57111871,
+        7.71049632,
+        7.77840345
+      ],
+      "reference_oscillator_strengths": [
+        0.00800431,
+        0.0153985,
+        0.00323555,
+        0.00588902,
+        0.00268316
+      ],
+      "energy_rmse_eV": 0.3407986132257353,
+      "osc_rmse": 0.012712725029470276,
+      "xtb4stda_time_s": 0.29776853881776333,
+      "stda_time_s": 1.4357624277472496,
+      "total_time_s": 1.733530966565013,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_77959",
+      "qm9_id": 77959,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.0237,
+        7.302,
+        7.6001,
+        7.717,
+        7.9626
+      ],
+      "predicted_oscillator_strengths": [
+        0.037938,
+        0.050996,
+        0.016734,
+        0.007285,
+        0.016423
+      ],
+      "reference_excitation_energies_eV": [
+        6.88997981,
+        7.25829999,
+        7.2650174,
+        7.69709579,
+        7.845322
+      ],
+      "reference_oscillator_strengths": [
+        8.493e-05,
+        0.02272597,
+        0.00052095,
+        0.00715912,
+        0.05113585
+      ],
+      "energy_rmse_eV": 0.1710096112913661,
+      "osc_rmse": 0.027202611256367283,
+      "xtb4stda_time_s": 0.2701273746788502,
+      "stda_time_s": 1.2401473373174667,
+      "total_time_s": 1.510274711996317,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_26772",
+      "qm9_id": 26772,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.3968,
+        4.8218,
+        5.3173,
+        5.5839,
+        6.1031
+      ],
+      "predicted_oscillator_strengths": [
+        0.361588,
+        0.019469,
+        0.025776,
+        0.023139,
+        0.090341
+      ],
+      "reference_excitation_energies_eV": [
+        4.90918364,
+        5.26769465,
+        5.89117667,
+        6.3706731,
+        6.44146302
+      ],
+      "reference_oscillator_strengths": [
+        0.30549682,
+        0.00453795,
+        0.00284245,
+        0.00078522,
+        0.00423466
+      ],
+      "energy_rmse_eV": 0.5521222527657607,
+      "osc_rmse": 0.04859855494144122,
+      "xtb4stda_time_s": 0.2446151003241539,
+      "stda_time_s": 0.7798438705503941,
+      "total_time_s": 1.024458970874548,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_96206",
+      "qm9_id": 96206,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.5897,
+        6.3216,
+        6.6771,
+        6.8866,
+        7.6173
+      ],
+      "predicted_oscillator_strengths": [
+        0.058276,
+        0.514955,
+        0.121423,
+        0.009111,
+        0.00967
+      ],
+      "reference_excitation_energies_eV": [
+        6.38294327,
+        6.46982246,
+        7.23060287,
+        7.55031777,
+        7.66959649
+      ],
+      "reference_oscillator_strengths": [
+        0.34296149,
+        0.02266041,
+        0.0084674,
+        0.00931101,
+        0.00207934
+      ],
+      "energy_rmse_eV": 0.5293064162141011,
+      "osc_rmse": 0.25931309926588897,
+      "xtb4stda_time_s": 1.8930563945323229,
+      "stda_time_s": 1.178606078028679,
+      "total_time_s": 3.0716624725610018,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_60860",
+      "qm9_id": 60860,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.6013,
+        5.6522,
+        7.1248,
+        7.5469,
+        7.7324
+      ],
+      "predicted_oscillator_strengths": [
+        0.000673,
+        0.06772,
+        0.026681,
+        0.006638,
+        0.010024
+      ],
+      "reference_excitation_energies_eV": [
+        4.71649291,
+        7.07757221,
+        8.02645822,
+        8.28833556,
+        8.32461925
+      ],
+      "reference_oscillator_strengths": [
+        0.00019983,
+        0.05389307,
+        0.00353498,
+        0.01215445,
+        0.0045899
+      ],
+      "energy_rmse_eV": 0.8669940275401207,
+      "osc_rmse": 0.01254676682119103,
+      "xtb4stda_time_s": 0.2983010374009609,
+      "stda_time_s": 1.6747331991791725,
+      "total_time_s": 1.9730342365801334,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_120246",
+      "qm9_id": 120246,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.3847,
+        6.0426,
+        6.5171,
+        6.7154,
+        6.887
+      ],
+      "predicted_oscillator_strengths": [
+        0.004885,
+        0.06235,
+        0.03045,
+        0.011662,
+        0.011561
+      ],
+      "reference_excitation_energies_eV": [
+        4.7873729,
+        6.59507681,
+        7.6798209,
+        7.79681414,
+        7.90773733
+      ],
+      "reference_oscillator_strengths": [
+        0.00185372,
+        0.06091447,
+        0.03030688,
+        0.01055254,
+        0.02862425
+      ],
+      "energy_rmse_eV": 0.8978482299728019,
+      "osc_rmse": 0.007793013412124993,
+      "xtb4stda_time_s": 0.28240205347537994,
+      "stda_time_s": 1.1396919265389442,
+      "total_time_s": 1.4220939800143242,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_133193",
+      "qm9_id": 133193,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        3.6309,
+        5.0215,
+        5.1507,
+        5.2431,
+        6.0355
+      ],
+      "predicted_oscillator_strengths": [
+        0.108189,
+        0.231979,
+        0.000151,
+        0.00055,
+        0.004184
+      ],
+      "reference_excitation_energies_eV": [
+        4.18943912,
+        5.33696971,
+        5.82989877,
+        5.87151507,
+        6.27861775
+      ],
+      "reference_oscillator_strengths": [
+        0.06205467,
+        8.832e-05,
+        0.0144642,
+        0.19303695,
+        0.00724326
+      ],
+      "energy_rmse_eV": 0.5151329529811774,
+      "osc_rmse": 0.1365042977797413,
+      "xtb4stda_time_s": 0.25941470824182034,
+      "stda_time_s": 0.682948799803853,
+      "total_time_s": 0.9423635080456734,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_118066",
+      "qm9_id": 118066,
+      "total_atoms": 25,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.8185,
+        7.5893,
+        7.8611,
+        8.0123,
+        8.2538
+      ],
+      "predicted_oscillator_strengths": [
+        0.014127,
+        0.005753,
+        0.023237,
+        0.023538,
+        0.004131
+      ],
+      "reference_excitation_energies_eV": [
+        7.8927199,
+        8.19365323,
+        8.62042784,
+        8.80925591,
+        8.97346637
+      ],
+      "reference_oscillator_strengths": [
+        0.01084816,
+        0.01260602,
+        0.00594344,
+        0.01380595,
+        0.05126138
+      ],
+      "energy_rmse_eV": 0.8060804420601474,
+      "osc_rmse": 0.023120412662781347,
+      "xtb4stda_time_s": 0.3661152124404907,
+      "stda_time_s": 2.612667076289654,
+      "total_time_s": 2.9787822887301445,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_43756",
+      "qm9_id": 43756,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.1982,
+        6.3145,
+        6.7913,
+        7.5607,
+        7.7775
+      ],
+      "predicted_oscillator_strengths": [
+        0.007918,
+        0.007521,
+        0.039019,
+        0.033285,
+        0.006422
+      ],
+      "reference_excitation_energies_eV": [
+        6.32279601,
+        7.30242164,
+        8.06847289,
+        8.41768332,
+        8.50104789
+      ],
+      "reference_oscillator_strengths": [
+        0.00100796,
+        0.00201414,
+        0.00058662,
+        0.0312278,
+        0.19763195
+      ],
+      "energy_rmse_eV": 0.8809796687007984,
+      "osc_rmse": 0.08731620587630695,
+      "xtb4stda_time_s": 0.2600422967225313,
+      "stda_time_s": 0.7567746359854937,
+      "total_time_s": 1.016816932708025,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_12728",
+      "qm9_id": 12728,
+      "total_atoms": 14,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.3645,
+        4.9609,
+        6.1327,
+        6.7135,
+        6.7788
+      ],
+      "predicted_oscillator_strengths": [
+        0.002536,
+        0.047484,
+        0.006467,
+        0.026165,
+        0.015956
+      ],
+      "reference_excitation_energies_eV": [
+        4.44660481,
+        6.19180903,
+        6.74059059,
+        7.58332819,
+        7.81138693
+      ],
+      "reference_oscillator_strengths": [
+        0.00038123,
+        0.02792778,
+        0.0106099,
+        0.01718276,
+        0.006372
+      ],
+      "energy_rmse_eV": 0.8618870062249142,
+      "osc_rmse": 0.010740447721290765,
+      "xtb4stda_time_s": 0.2729567848145962,
+      "stda_time_s": 0.7205167133361101,
+      "total_time_s": 0.9934734981507063,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_93633",
+      "qm9_id": 93633,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.3236,
+        7.2481,
+        7.6434,
+        7.9676,
+        8.4709
+      ],
+      "predicted_oscillator_strengths": [
+        0.009394,
+        0.000224,
+        0.003973,
+        0.0372,
+        0.024609
+      ],
+      "reference_excitation_energies_eV": [
+        6.46302206,
+        7.88383974,
+        8.08685175,
+        8.17761619,
+        8.46628261
+      ],
+      "reference_oscillator_strengths": [
+        0.01463912,
+        0.00311367,
+        0.00095389,
+        0.00407246,
+        0.01129344
+      ],
+      "energy_rmse_eV": 0.3645219068205645,
+      "osc_rmse": 0.016246319868084586,
+      "xtb4stda_time_s": 0.28831031918525696,
+      "stda_time_s": 1.7318509258329868,
+      "total_time_s": 2.020161245018244,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_106666",
+      "qm9_id": 106666,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.7263,
+        7.0962,
+        7.4872,
+        7.6188,
+        7.7705
+      ],
+      "predicted_oscillator_strengths": [
+        0.041298,
+        0.000845,
+        0.005266,
+        0.007944,
+        0.024468
+      ],
+      "reference_excitation_energies_eV": [
+        7.41067404,
+        7.88424138,
+        7.98429878,
+        8.300406,
+        8.52190815
+      ],
+      "reference_oscillator_strengths": [
+        0.00239015,
+        0.02166074,
+        0.03643151,
+        0.01321444,
+        0.01086081
+      ],
+      "energy_rmse_eV": 0.6878495747499066,
+      "osc_rmse": 0.02502533913624309,
+      "xtb4stda_time_s": 0.2981198988854885,
+      "stda_time_s": 1.6201001778244972,
+      "total_time_s": 1.9182200767099857,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_17642",
+      "qm9_id": 17642,
+      "total_atoms": 19,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.1546,
+        6.0363,
+        6.4782,
+        6.6522,
+        7.0921
+      ],
+      "predicted_oscillator_strengths": [
+        0.001632,
+        0.004259,
+        0.0157,
+        0.001996,
+        0.013054
+      ],
+      "reference_excitation_energies_eV": [
+        4.42103208,
+        6.64838313,
+        6.82729944,
+        7.52736904,
+        7.57425101
+      ],
+      "reference_oscillator_strengths": [
+        0.0011841,
+        0.01128218,
+        0.01282173,
+        0.00653171,
+        0.00385786
+      ],
+      "energy_rmse_eV": 0.5596235654992701,
+      "osc_rmse": 0.005708796125611774,
+      "xtb4stda_time_s": 0.27526206336915493,
+      "stda_time_s": 1.2736624293029308,
+      "total_time_s": 1.5489244926720858,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_66050",
+      "qm9_id": 66050,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.2903,
+        7.1679,
+        7.3655,
+        7.5669,
+        7.8789
+      ],
+      "predicted_oscillator_strengths": [
+        0.006059,
+        0.022414,
+        0.00278,
+        0.02234,
+        0.012014
+      ],
+      "reference_excitation_energies_eV": [
+        6.68036686,
+        6.82586649,
+        7.1868668,
+        7.20935049,
+        7.38228792
+      ],
+      "reference_oscillator_strengths": [
+        0.00457244,
+        1.673e-05,
+        0.00211687,
+        0.01396053,
+        0.00225069
+      ],
+      "energy_rmse_eV": 0.36756335711781357,
+      "osc_rmse": 0.011574325424148053,
+      "xtb4stda_time_s": 0.9112255237996578,
+      "stda_time_s": 0.8422108069062233,
+      "total_time_s": 1.7534363307058811,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_26101",
+      "qm9_id": 26101,
+      "total_atoms": 20,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.8545,
+        6.1872,
+        6.9276,
+        7.0085,
+        7.0942
+      ],
+      "predicted_oscillator_strengths": [
+        0.195827,
+        0.000153,
+        0.007926,
+        0.002467,
+        0.097128
+      ],
+      "reference_excitation_energies_eV": [
+        6.35774225,
+        6.78161313,
+        7.21575225,
+        7.57625432,
+        8.05251885
+      ],
+      "reference_oscillator_strengths": [
+        0.12552002,
+        0.00276455,
+        0.01274406,
+        0.04623496,
+        0.01833272
+      ],
+      "energy_rmse_eV": 0.6213423270026772,
+      "osc_rmse": 0.05118092575389097,
+      "xtb4stda_time_s": 0.3268276248127222,
+      "stda_time_s": 1.2264666799455881,
+      "total_time_s": 1.5532943047583103,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_89261",
+      "qm9_id": 89261,
+      "total_atoms": 20,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.1025,
+        6.9756,
+        7.1674,
+        7.2872,
+        7.6516
+      ],
+      "predicted_oscillator_strengths": [
+        0.005476,
+        0.005602,
+        0.000557,
+        0.001552,
+        0.00839
+      ],
+      "reference_excitation_energies_eV": [
+        6.41920191,
+        7.29290935,
+        7.4598151,
+        7.62152429,
+        7.83433948
+      ],
+      "reference_oscillator_strengths": [
+        0.00291754,
+        0.01471386,
+        0.02930685,
+        0.00163863,
+        0.01533587
+      ],
+      "energy_rmse_eV": 0.2938225187209976,
+      "osc_rmse": 0.013887967454364948,
+      "xtb4stda_time_s": 0.3239866755902767,
+      "stda_time_s": 1.487568786367774,
+      "total_time_s": 1.8115554619580507,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_131356",
+      "qm9_id": 131356,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4997,
+        5.2998,
+        5.79,
+        6.0323,
+        6.1801
+      ],
+      "predicted_oscillator_strengths": [
+        0.002694,
+        0.018541,
+        0.08465,
+        0.067671,
+        0.005891
+      ],
+      "reference_excitation_energies_eV": [
+        4.58496471,
+        6.42597374,
+        6.74177184,
+        7.03300184,
+        7.16621498
+      ],
+      "reference_oscillator_strengths": [
+        0.00095713,
+        0.10351663,
+        0.03948618,
+        0.00640705,
+        0.00217477
+      ],
+      "energy_rmse_eV": 0.9116176748191911,
+      "osc_rmse": 0.051050420141858975,
+      "xtb4stda_time_s": 0.2542478069663048,
+      "stda_time_s": 1.360965322703123,
+      "total_time_s": 1.6152131296694279,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_127786",
+      "qm9_id": 127786,
+      "total_atoms": 12,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        3.845,
+        4.4756,
+        5.2287,
+        5.3311,
+        5.3399
+      ],
+      "predicted_oscillator_strengths": [
+        0.235189,
+        0.003801,
+        0.002541,
+        0.364234,
+        0.020129
+      ],
+      "reference_excitation_energies_eV": [
+        4.50331391,
+        4.6125206,
+        5.52527232,
+        5.58154278,
+        5.80726569
+      ],
+      "reference_oscillator_strengths": [
+        0.08609117,
+        0.00267378,
+        0.00206975,
+        0.18878554,
+        0.00749198
+      ],
+      "energy_rmse_eV": 0.40527320909167813,
+      "osc_rmse": 0.10312469345704917,
+      "xtb4stda_time_s": 0.24389934726059437,
+      "stda_time_s": 0.5414271000772715,
+      "total_time_s": 0.7853264473378658,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_131848",
+      "qm9_id": 131848,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.7835,
+        5.353,
+        5.5241,
+        5.8784,
+        5.9105
+      ],
+      "predicted_oscillator_strengths": [
+        0.006168,
+        0.111376,
+        0.123886,
+        0.051707,
+        0.004022
+      ],
+      "reference_excitation_energies_eV": [
+        5.80027127,
+        6.25462737,
+        6.47481004,
+        6.80711076,
+        7.01250785
+      ],
+      "reference_oscillator_strengths": [
+        0.00138679,
+        0.23239303,
+        0.01684521,
+        0.01580922,
+        0.00151827
+      ],
+      "energy_rmse_eV": 0.9826016779131543,
+      "osc_rmse": 0.07405488709835482,
+      "xtb4stda_time_s": 0.27373072504997253,
+      "stda_time_s": 1.1865681074559689,
+      "total_time_s": 1.4602988325059414,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_73449",
+      "qm9_id": 73449,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.179,
+        6.9003,
+        6.9612,
+        7.3194,
+        7.4447
+      ],
+      "predicted_oscillator_strengths": [
+        0.005063,
+        0.018599,
+        0.012881,
+        0.002047,
+        0.002749
+      ],
+      "reference_excitation_energies_eV": [
+        6.98480311,
+        7.31571768,
+        7.53761494,
+        7.58368031,
+        7.83605244
+      ],
+      "reference_oscillator_strengths": [
+        0.01343844,
+        0.00313266,
+        0.01332775,
+        0.00795835,
+        0.00373796
+      ],
+      "energy_rmse_eV": 0.5248133951310897,
+      "osc_rmse": 0.00831236854880485,
+      "xtb4stda_time_s": 0.341253699734807,
+      "stda_time_s": 1.578739134594798,
+      "total_time_s": 1.919992834329605,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_68382",
+      "qm9_id": 68382,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.2607,
+        6.0666,
+        6.1456,
+        7.0625,
+        7.2066
+      ],
+      "predicted_oscillator_strengths": [
+        3.1e-05,
+        0.008665,
+        0.00041,
+        0.025614,
+        0.003722
+      ],
+      "reference_excitation_energies_eV": [
+        4.40594635,
+        6.30401442,
+        6.63456463,
+        7.03899706,
+        7.52095041
+      ],
+      "reference_oscillator_strengths": [
+        3.714e-05,
+        0.00126757,
+        0.02465295,
+        0.02566352,
+        0.03060571
+      ],
+      "energy_rmse_eV": 0.28841535564498205,
+      "osc_rmse": 0.01652379465256997,
+      "xtb4stda_time_s": 0.27558591589331627,
+      "stda_time_s": 1.4128505531698465,
+      "total_time_s": 1.6884364690631628,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_783",
+      "qm9_id": 783,
+      "total_atoms": 9,
+      "heavy_atoms": 6,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.6524,
+        6.2894,
+        6.7943,
+        6.9979,
+        7.0335
+      ],
+      "predicted_oscillator_strengths": [
+        0.002675,
+        0.093512,
+        0.002602,
+        0.018034,
+        0.071031
+      ],
+      "reference_excitation_energies_eV": [
+        6.87968873,
+        7.12933945,
+        7.2015381,
+        7.63983157,
+        7.65369361
+      ],
+      "reference_oscillator_strengths": [
+        4.374e-05,
+        0.00445503,
+        0.11538268,
+        0.01552247,
+        0.00040763
+      ],
+      "energy_rmse_eV": 0.7967804002346471,
+      "osc_rmse": 0.07162613683443872,
+      "xtb4stda_time_s": 0.23663176223635674,
+      "stda_time_s": 0.32760853320360184,
+      "total_time_s": 0.5642402954399586,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_48073",
+      "qm9_id": 48073,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        2.3835,
+        4.0938,
+        5.0982,
+        5.8406,
+        6.364
+      ],
+      "predicted_oscillator_strengths": [
+        0.00012,
+        0.159752,
+        5.5e-05,
+        0.018056,
+        0.068961
+      ],
+      "reference_excitation_energies_eV": [
+        3.11603619,
+        4.74759418,
+        5.23336801,
+        6.28365486,
+        7.30807454
+      ],
+      "reference_oscillator_strengths": [
+        0.00040053,
+        0.00067362,
+        0.12980915,
+        0.00680712,
+        0.00040335
+      ],
+      "energy_rmse_eV": 0.6434129057510084,
+      "osc_rmse": 0.09692145046119016,
+      "xtb4stda_time_s": 0.2508188374340534,
+      "stda_time_s": 1.2086860034614801,
+      "total_time_s": 1.4595048408955336,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_110227",
+      "qm9_id": 110227,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.7979,
+        6.5569,
+        6.7343,
+        7.2401,
+        7.4668
+      ],
+      "predicted_oscillator_strengths": [
+        0.002795,
+        0.02525,
+        0.012608,
+        0.099942,
+        0.01392
+      ],
+      "reference_excitation_energies_eV": [
+        5.23083409,
+        6.71149017,
+        7.54824508,
+        7.75765394,
+        8.01163073
+      ],
+      "reference_oscillator_strengths": [
+        0.0017232,
+        0.0046529,
+        0.02259166,
+        0.10285621,
+        0.0155416
+      ],
+      "energy_rmse_eV": 0.5363840499796428,
+      "osc_rmse": 0.010355529509684186,
+      "xtb4stda_time_s": 0.29489199072122574,
+      "stda_time_s": 1.5240107979625463,
+      "total_time_s": 1.818902788683772,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_32845",
+      "qm9_id": 32845,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.9279,
+        5.4731,
+        5.6179,
+        5.7106,
+        5.8724
+      ],
+      "predicted_oscillator_strengths": [
+        0.008697,
+        0.068579,
+        0.0179,
+        0.002529,
+        0.070133
+      ],
+      "reference_excitation_energies_eV": [
+        5.43579226,
+        6.02395878,
+        6.20432247,
+        6.37492298,
+        6.52153474
+      ],
+      "reference_oscillator_strengths": [
+        0.00793741,
+        0.03573232,
+        0.06163997,
+        0.15945168,
+        0.00226804
+      ],
+      "energy_rmse_eV": 0.5946414363333329,
+      "osc_rmse": 0.08027832414017548,
+      "xtb4stda_time_s": 0.330368472263217,
+      "stda_time_s": 1.7862489856779575,
+      "total_time_s": 2.1166174579411745,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_83202",
+      "qm9_id": 83202,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.4362,
+        7.4102,
+        7.7725,
+        7.7921,
+        8.2407
+      ],
+      "predicted_oscillator_strengths": [
+        0.017835,
+        0.024318,
+        0.007057,
+        0.006449,
+        0.009358
+      ],
+      "reference_excitation_energies_eV": [
+        6.96744931,
+        7.55088431,
+        8.00650628,
+        8.07846029,
+        8.12705877
+      ],
+      "reference_oscillator_strengths": [
+        0.01282272,
+        0.01283313,
+        0.01559571,
+        0.0066677,
+        0.0022422
+      ],
+      "energy_rmse_eV": 0.3005639327597003,
+      "osc_rmse": 0.007491557882168435,
+      "xtb4stda_time_s": 0.28949860855937004,
+      "stda_time_s": 1.499437402933836,
+      "total_time_s": 1.788936011493206,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_31428",
+      "qm9_id": 31428,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.3278,
+        5.0816,
+        5.8886,
+        6.0021,
+        6.3304
+      ],
+      "predicted_oscillator_strengths": [
+        0.139896,
+        0.000518,
+        2e-06,
+        0.093587,
+        0.018617
+      ],
+      "reference_excitation_energies_eV": [
+        4.73462877,
+        5.42349869,
+        6.29293612,
+        6.6513821,
+        6.83788821
+      ],
+      "reference_oscillator_strengths": [
+        0.05594247,
+        0.00108885,
+        0.00241755,
+        0.08498192,
+        0.03023462
+      ],
+      "energy_rmse_eV": 0.47434240563742497,
+      "osc_rmse": 0.038113967117729165,
+      "xtb4stda_time_s": 0.25962294824421406,
+      "stda_time_s": 0.7743816617876291,
+      "total_time_s": 1.0340046100318432,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_83379",
+      "qm9_id": 83379,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.7203,
+        7.1449,
+        7.6276,
+        7.6864,
+        7.8404
+      ],
+      "predicted_oscillator_strengths": [
+        0.005972,
+        0.004888,
+        0.008573,
+        0.04826,
+        0.017149
+      ],
+      "reference_excitation_energies_eV": [
+        7.60036144,
+        7.75298175,
+        7.87999966,
+        8.05022792,
+        8.15586475
+      ],
+      "reference_oscillator_strengths": [
+        0.01041823,
+        0.00099025,
+        0.01365832,
+        0.00118071,
+        0.0079266
+      ],
+      "energy_rmse_eV": 0.5366313269070566,
+      "osc_rmse": 0.02173630191381183,
+      "xtb4stda_time_s": 0.3569796960800886,
+      "stda_time_s": 2.346998730674386,
+      "total_time_s": 2.7039784267544746,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_86190",
+      "qm9_id": 86190,
+      "total_atoms": 25,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.9585,
+        6.3512,
+        6.7026,
+        6.9099,
+        7.2983
+      ],
+      "predicted_oscillator_strengths": [
+        0.011455,
+        0.349938,
+        0.003954,
+        0.328348,
+        0.011864
+      ],
+      "reference_excitation_energies_eV": [
+        6.56319022,
+        7.13150766,
+        7.40121971,
+        7.50480398,
+        7.65877506
+      ],
+      "reference_oscillator_strengths": [
+        0.00230416,
+        0.40694061,
+        0.00280477,
+        0.04455995,
+        0.0333901
+      ],
+      "energy_rmse_eV": 0.6239315378982938,
+      "osc_rmse": 0.1298717724935816,
+      "xtb4stda_time_s": 0.36572729609906673,
+      "stda_time_s": 2.3282100837677717,
+      "total_time_s": 2.6939373798668385,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_115140",
+      "qm9_id": 115140,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        3.5762,
+        5.2285,
+        5.5288,
+        5.8766,
+        6.8993
+      ],
+      "predicted_oscillator_strengths": [
+        0.000707,
+        0.155679,
+        0.02946,
+        0.001065,
+        0.004757
+      ],
+      "reference_excitation_energies_eV": [
+        3.90035418,
+        5.40761676,
+        5.86309695,
+        6.69300411,
+        7.87201557
+      ],
+      "reference_oscillator_strengths": [
+        0.00010682,
+        0.00309739,
+        0.12472643,
+        0.01052294,
+        0.04002837
+      ],
+      "energy_rmse_eV": 0.6101810301621954,
+      "osc_rmse": 0.08208620198533965,
+      "xtb4stda_time_s": 0.25057205744087696,
+      "stda_time_s": 0.9374060109257698,
+      "total_time_s": 1.1879780683666468,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_99524",
+      "qm9_id": 99524,
+      "total_atoms": 23,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.0802,
+        7.7077,
+        7.9754,
+        8.0182,
+        8.193
+      ],
+      "predicted_oscillator_strengths": [
+        0.027905,
+        0.013909,
+        0.00277,
+        0.028557,
+        0.002588
+      ],
+      "reference_excitation_energies_eV": [
+        6.91438409,
+        7.39851925,
+        7.48557178,
+        8.12113348,
+        8.23197286
+      ],
+      "reference_oscillator_strengths": [
+        0.0001451,
+        0.00194055,
+        0.00217109,
+        0.01771873,
+        0.0291193
+      ],
+      "energy_rmse_eV": 0.2739100299038166,
+      "osc_rmse": 0.018631116514495314,
+      "xtb4stda_time_s": 0.27286471240222454,
+      "stda_time_s": 2.317445207387209,
+      "total_time_s": 2.5903099197894335,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_120215",
+      "qm9_id": 120215,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.0383,
+        6.1417,
+        7.1003,
+        7.299,
+        7.3584
+      ],
+      "predicted_oscillator_strengths": [
+        0.060159,
+        0.071662,
+        0.000289,
+        0.008606,
+        0.00128
+      ],
+      "reference_excitation_energies_eV": [
+        6.42741323,
+        6.97110951,
+        7.45573013,
+        7.47182295,
+        7.80239792
+      ],
+      "reference_oscillator_strengths": [
+        0.07931748,
+        0.05986614,
+        0.00334453,
+        0.00216266,
+        0.00859101
+      ],
+      "energy_rmse_eV": 0.4883977361459242,
+      "osc_rmse": 0.011049827421336499,
+      "xtb4stda_time_s": 0.33410671167075634,
+      "stda_time_s": 1.8998951613903046,
+      "total_time_s": 2.234001873061061,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_38516",
+      "qm9_id": 38516,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        2.7857,
+        4.8916,
+        4.9814,
+        5.0755,
+        5.4278
+      ],
+      "predicted_oscillator_strengths": [
+        0.10168,
+        0.011371,
+        0.023933,
+        0.009347,
+        0.039598
+      ],
+      "reference_excitation_energies_eV": [
+        4.45616553,
+        5.9153559,
+        6.33000431,
+        6.40721611,
+        6.67464431
+      ],
+      "reference_oscillator_strengths": [
+        0.06315818,
+        0.0254985,
+        0.00087035,
+        0.00819674,
+        0.04961793
+      ],
+      "energy_rmse_eV": 1.3405486448216994,
+      "osc_rmse": 0.02152730727544623,
+      "xtb4stda_time_s": 0.2869066633284092,
+      "stda_time_s": 1.1036197263747454,
+      "total_time_s": 1.3905263897031546,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_27079",
+      "qm9_id": 27079,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.5896,
+        4.9043,
+        5.3683,
+        5.6114,
+        6.2088
+      ],
+      "predicted_oscillator_strengths": [
+        0.2197,
+        0.077985,
+        0.280884,
+        0.00292,
+        0.011983
+      ],
+      "reference_excitation_energies_eV": [
+        5.40974496,
+        5.71960063,
+        6.42208768,
+        6.62365994,
+        6.92669779
+      ],
+      "reference_oscillator_strengths": [
+        0.15713706,
+        0.0032581,
+        0.01602493,
+        0.2046471,
+        0.01591373
+      ],
+      "energy_rmse_eV": 0.893069848357593,
+      "osc_rmse": 0.15515014116594378,
+      "xtb4stda_time_s": 0.2626636568456888,
+      "stda_time_s": 0.7811269108206034,
+      "total_time_s": 1.0437905676662922,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_128155",
+      "qm9_id": 128155,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.7715,
+        5.2041,
+        5.5226,
+        5.6195,
+        5.7613
+      ],
+      "predicted_oscillator_strengths": [
+        0.2071,
+        0.013046,
+        0.030121,
+        0.003416,
+        0.028749
+      ],
+      "reference_excitation_energies_eV": [
+        5.65514363,
+        5.76931749,
+        6.251282,
+        6.28491774,
+        6.83862238
+      ],
+      "reference_oscillator_strengths": [
+        0.02160002,
+        0.10126552,
+        0.01264904,
+        0.00277809,
+        0.01277608
+      ],
+      "energy_rmse_eV": 0.8043231455231225,
+      "osc_rmse": 0.09247025119222603,
+      "xtb4stda_time_s": 0.26567509584128857,
+      "stda_time_s": 0.9574167914688587,
+      "total_time_s": 1.2230918873101473,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_85694",
+      "qm9_id": 85694,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.1271,
+        7.4518,
+        7.6982,
+        7.7691,
+        7.9059
+      ],
+      "predicted_oscillator_strengths": [
+        0.015444,
+        0.038854,
+        0.008332,
+        0.01066,
+        0.00398
+      ],
+      "reference_excitation_energies_eV": [
+        6.54510961,
+        7.16784794,
+        7.42656658,
+        7.64477235,
+        8.1121861
+      ],
+      "reference_oscillator_strengths": [
+        0.00211205,
+        0.01009846,
+        0.0066789,
+        0.00125956,
+        0.03973703
+      ],
+      "energy_rmse_eV": 0.3320053074573434,
+      "osc_rmse": 0.021791228408323385,
+      "xtb4stda_time_s": 0.2664893660694361,
+      "stda_time_s": 2.1919915918260813,
+      "total_time_s": 2.4584809578955173,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_66816",
+      "qm9_id": 66816,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.487,
+        6.6356,
+        6.9223,
+        7.1932,
+        7.3449
+      ],
+      "predicted_oscillator_strengths": [
+        0.007396,
+        0.007317,
+        0.004192,
+        0.001871,
+        0.010996
+      ],
+      "reference_excitation_energies_eV": [
+        6.94262761,
+        7.09596739,
+        7.16982702,
+        7.63336778,
+        7.85378719
+      ],
+      "reference_oscillator_strengths": [
+        0.01254807,
+        0.01490002,
+        0.00029369,
+        0.00878389,
+        0.00448587
+      ],
+      "energy_rmse_eV": 0.4320921487590417,
+      "osc_rmse": 0.006154879027737264,
+      "xtb4stda_time_s": 0.2641878668218851,
+      "stda_time_s": 1.0211800802499056,
+      "total_time_s": 1.2853679470717907,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_41103",
+      "qm9_id": 41103,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.8333,
+        6.4329,
+        6.6635,
+        6.8548,
+        6.8965
+      ],
+      "predicted_oscillator_strengths": [
+        0.005509,
+        0.004899,
+        0.007539,
+        0.018026,
+        0.033126
+      ],
+      "reference_excitation_energies_eV": [
+        6.17177355,
+        6.68635718,
+        6.89933482,
+        7.26818725,
+        7.41077635
+      ],
+      "reference_oscillator_strengths": [
+        0.00960402,
+        0.01523444,
+        0.01068754,
+        0.00530864,
+        0.00917732
+      ],
+      "energy_rmse_eV": 0.3660033144930447,
+      "osc_rmse": 0.013181610918530406,
+      "xtb4stda_time_s": 0.2659405246376991,
+      "stda_time_s": 1.1405502278357744,
+      "total_time_s": 1.4064907524734735,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_48832",
+      "qm9_id": 48832,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.1947,
+        5.4434,
+        5.8737,
+        6.0925,
+        6.1606
+      ],
+      "predicted_oscillator_strengths": [
+        0.00021,
+        0.020071,
+        0.011441,
+        0.014011,
+        0.039573
+      ],
+      "reference_excitation_energies_eV": [
+        4.19009491,
+        5.54316354,
+        6.55336582,
+        6.69995526,
+        7.3267519
+      ],
+      "reference_oscillator_strengths": [
+        0.00019836,
+        0.00659653,
+        0.03542348,
+        0.03545063,
+        0.01954528
+      ],
+      "energy_rmse_eV": 0.6634503364109161,
+      "osc_rmse": 0.017986039737286248,
+      "xtb4stda_time_s": 0.22173656523227692,
+      "stda_time_s": 0.7540557067841291,
+      "total_time_s": 0.9757922720164061,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_34403",
+      "qm9_id": 34403,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.3287,
+        7.167,
+        7.3888,
+        7.8233,
+        8.131
+      ],
+      "predicted_oscillator_strengths": [
+        0.006611,
+        0.001536,
+        0.029547,
+        0.003474,
+        0.00436
+      ],
+      "reference_excitation_energies_eV": [
+        6.80011716,
+        7.83631285,
+        7.86304669,
+        8.23736644,
+        8.38931435
+      ],
+      "reference_oscillator_strengths": [
+        0.01538698,
+        0.01204471,
+        0.00447867,
+        0.01199398,
+        0.00832228
+      ],
+      "energy_rmse_eV": 0.4760884525051496,
+      "osc_rmse": 0.013447391582103944,
+      "xtb4stda_time_s": 0.279544934630394,
+      "stda_time_s": 1.2992339562624693,
+      "total_time_s": 1.5787788908928633,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_41496",
+      "qm9_id": 41496,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.6118,
+        5.4128,
+        5.9595,
+        6.4542,
+        6.7697
+      ],
+      "predicted_oscillator_strengths": [
+        0.011113,
+        0.145394,
+        0.026513,
+        0.005233,
+        0.010102
+      ],
+      "reference_excitation_energies_eV": [
+        5.3294365,
+        6.34869636,
+        6.5973876,
+        6.87124422,
+        7.02370752
+      ],
+      "reference_oscillator_strengths": [
+        0.00508127,
+        0.0420342,
+        0.06273953,
+        0.03828308,
+        0.00630611
+      ],
+      "energy_rmse_eV": 0.638161489699781,
+      "osc_rmse": 0.05126150225573242,
+      "xtb4stda_time_s": 0.26100724563002586,
+      "stda_time_s": 2.261384755373001,
+      "total_time_s": 2.522392001003027,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_34597",
+      "qm9_id": 34597,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.7379,
+        6.1686,
+        6.5795,
+        6.7469,
+        7.4422
+      ],
+      "predicted_oscillator_strengths": [
+        0.0076,
+        0.5265,
+        0.006672,
+        0.003613,
+        0.058396
+      ],
+      "reference_excitation_energies_eV": [
+        5.75005835,
+        6.04543157,
+        7.0041017,
+        7.42522261,
+        7.59538583
+      ],
+      "reference_oscillator_strengths": [
+        0.0639893,
+        0.18614165,
+        6.076e-05,
+        0.00314558,
+        0.00015488
+      ],
+      "energy_rmse_eV": 0.36856270918699224,
+      "osc_rmse": 0.1564988911167494,
+      "xtb4stda_time_s": 0.2527760975062847,
+      "stda_time_s": 0.9494653344154358,
+      "total_time_s": 1.2022414319217205,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_36247",
+      "qm9_id": 36247,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.0707,
+        6.8931,
+        7.1961,
+        7.5577,
+        7.8191
+      ],
+      "predicted_oscillator_strengths": [
+        0.009365,
+        0.006168,
+        0.00798,
+        0.006127,
+        0.001112
+      ],
+      "reference_excitation_energies_eV": [
+        7.42179071,
+        7.67768998,
+        7.95621743,
+        8.12486988,
+        8.20966224
+      ],
+      "reference_oscillator_strengths": [
+        0.00172152,
+        0.00085813,
+        0.00573487,
+        0.00709133,
+        0.00041826
+      ],
+      "energy_rmse_eV": 0.8358261286712136,
+      "osc_rmse": 0.004314378800724388,
+      "xtb4stda_time_s": 0.2664785962551832,
+      "stda_time_s": 1.0801427401602268,
+      "total_time_s": 1.34662133641541,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_9373",
+      "qm9_id": 9373,
+      "total_atoms": 19,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.0721,
+        8.1026,
+        8.3409,
+        8.6595,
+        8.8009
+      ],
+      "predicted_oscillator_strengths": [
+        0.000229,
+        0.019094,
+        0.066228,
+        0.022777,
+        0.004034
+      ],
+      "reference_excitation_energies_eV": [
+        7.56704162,
+        8.17578813,
+        8.66467793,
+        8.67761369,
+        9.16964315
+      ],
+      "reference_oscillator_strengths": [
+        0.00332145,
+        1.5e-05,
+        0.00827248,
+        0.00081778,
+        0.02552096
+      ],
+      "energy_rmse_eV": 0.31351410621327575,
+      "osc_rmse": 0.030582055455848287,
+      "xtb4stda_time_s": 0.2588645964860916,
+      "stda_time_s": 1.0428070779889822,
+      "total_time_s": 1.3016716744750738,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_63538",
+      "qm9_id": 63538,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.6303,
+        7.5044,
+        7.6345,
+        7.7965,
+        7.8802
+      ],
+      "predicted_oscillator_strengths": [
+        0.008012,
+        0.017096,
+        0.020278,
+        0.007833,
+        0.019143
+      ],
+      "reference_excitation_energies_eV": [
+        7.63034976,
+        7.98852145,
+        8.22449762,
+        8.2850038,
+        8.49809301
+      ],
+      "reference_oscillator_strengths": [
+        0.00315569,
+        0.01179366,
+        0.01905068,
+        0.02485977,
+        0.07624529
+      ],
+      "energy_rmse_eV": 0.6637767737505015,
+      "osc_rmse": 0.026846926418311275,
+      "xtb4stda_time_s": 0.34958492778241634,
+      "stda_time_s": 1.5013729240745306,
+      "total_time_s": 1.850957851856947,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_73880",
+      "qm9_id": 73880,
+      "total_atoms": 15,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.0029,
+        4.1957,
+        4.9034,
+        5.0334,
+        5.4288
+      ],
+      "predicted_oscillator_strengths": [
+        0.089856,
+        0.132067,
+        0.023473,
+        0.285688,
+        0.027319
+      ],
+      "reference_excitation_energies_eV": [
+        4.14577924,
+        5.22320592,
+        5.53028058,
+        5.91138821,
+        6.08209348
+      ],
+      "reference_oscillator_strengths": [
+        0.0005133,
+        0.24315673,
+        0.02602751,
+        0.00681053,
+        0.09204495
+      ],
+      "energy_rmse_eV": 0.7303174408911064,
+      "osc_rmse": 0.14303262813295883,
+      "xtb4stda_time_s": 0.2653044629842043,
+      "stda_time_s": 0.7817784827202559,
+      "total_time_s": 1.0470829457044601,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_109554",
+      "qm9_id": 109554,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.1543,
+        5.5324,
+        6.3179,
+        6.7074,
+        7.0821
+      ],
+      "predicted_oscillator_strengths": [
+        0.002722,
+        0.021242,
+        0.015932,
+        0.006255,
+        0.011109
+      ],
+      "reference_excitation_energies_eV": [
+        4.53654855,
+        6.57444377,
+        7.37630549,
+        7.64373097,
+        8.04239131
+      ],
+      "reference_oscillator_strengths": [
+        0.00027568,
+        0.00836565,
+        0.01029671,
+        0.00329625,
+        0.0052821
+      ],
+      "energy_rmse_eV": 0.9111604073134119,
+      "osc_rmse": 0.007017810619010747,
+      "xtb4stda_time_s": 0.26969763450324535,
+      "stda_time_s": 1.4368094988167286,
+      "total_time_s": 1.706507133319974,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_109790",
+      "qm9_id": 109790,
+      "total_atoms": 23,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.2023,
+        6.8513,
+        6.9612,
+        7.3692,
+        7.6169
+      ],
+      "predicted_oscillator_strengths": [
+        0.016124,
+        0.006169,
+        0.00661,
+        0.01192,
+        0.000963
+      ],
+      "reference_excitation_energies_eV": [
+        6.62761892,
+        6.99433581,
+        7.22620278,
+        7.33380809,
+        7.8459133
+      ],
+      "reference_oscillator_strengths": [
+        0.01079617,
+        0.01045827,
+        0.02828768,
+        0.02875926,
+        0.00158222
+      ],
+      "energy_rmse_eV": 0.2550613961109713,
+      "osc_rmse": 0.012654244588913238,
+      "xtb4stda_time_s": 0.26750399358570576,
+      "stda_time_s": 2.1166556868702173,
+      "total_time_s": 2.384159680455923,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_59390",
+      "qm9_id": 59390,
+      "total_atoms": 21,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.2605,
+        7.1092,
+        7.3081,
+        7.4922,
+        7.6754
+      ],
+      "predicted_oscillator_strengths": [
+        0.025636,
+        0.007072,
+        0.081551,
+        0.007877,
+        0.068141
+      ],
+      "reference_excitation_energies_eV": [
+        6.7040601,
+        7.64214509,
+        7.91362452,
+        8.09386059,
+        8.20314837
+      ],
+      "reference_oscillator_strengths": [
+        0.0234512,
+        0.00323671,
+        0.00581814,
+        0.084427,
+        0.01463477
+      ],
+      "energy_rmse_eV": 0.5455180626129904,
+      "osc_rmse": 0.05381034850847298,
+      "xtb4stda_time_s": 0.32229137420654297,
+      "stda_time_s": 1.7878040354698896,
+      "total_time_s": 2.1100954096764326,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_46025",
+      "qm9_id": 46025,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        3.6226,
+        4.062,
+        5.593,
+        5.6418,
+        6.4259
+      ],
+      "predicted_oscillator_strengths": [
+        0.040676,
+        0.069884,
+        0.005741,
+        0.019384,
+        0.002207
+      ],
+      "reference_excitation_energies_eV": [
+        4.01299768,
+        5.22869554,
+        5.40493371,
+        6.52383111,
+        7.57969112
+      ],
+      "reference_oscillator_strengths": [
+        0.00012593,
+        0.07333713,
+        0.02681917,
+        0.00203339,
+        0.02733983
+      ],
+      "energy_rmse_eV": 0.8553561350266125,
+      "osc_rmse": 0.024630161775886488,
+      "xtb4stda_time_s": 0.2696697935461998,
+      "stda_time_s": 0.7008543852716684,
+      "total_time_s": 0.9705241788178682,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_81491",
+      "qm9_id": 81491,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.1786,
+        7.8135,
+        8.095,
+        8.3062,
+        8.5561
+      ],
+      "predicted_oscillator_strengths": [
+        0.02187,
+        0.127509,
+        0.021003,
+        0.004045,
+        0.037973
+      ],
+      "reference_excitation_energies_eV": [
+        7.64678354,
+        7.79043416,
+        8.34092813,
+        8.47418698,
+        8.9688769
+      ],
+      "reference_oscillator_strengths": [
+        0.00666465,
+        0.00110339,
+        0.02379346,
+        0.00154548,
+        0.03692718
+      ],
+      "energy_rmse_eV": 0.30945529559219487,
+      "osc_rmse": 0.05696439048178959,
+      "xtb4stda_time_s": 0.2867537532001734,
+      "stda_time_s": 1.3325452376157045,
+      "total_time_s": 1.619298990815878,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_48484",
+      "qm9_id": 48484,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.3004,
+        6.6009,
+        6.6458,
+        7.2564,
+        7.9385
+      ],
+      "predicted_oscillator_strengths": [
+        0.002872,
+        0.015178,
+        0.011274,
+        0.052519,
+        0.025221
+      ],
+      "reference_excitation_energies_eV": [
+        4.47090404,
+        7.0869479,
+        7.65031694,
+        8.04104625,
+        8.30461723
+      ],
+      "reference_oscillator_strengths": [
+        0.00055403,
+        0.00441896,
+        0.00699992,
+        0.00303388,
+        0.00527483
+      ],
+      "energy_rmse_eV": 0.6362515281301303,
+      "osc_rmse": 0.024437776026358046,
+      "xtb4stda_time_s": 0.267252616584301,
+      "stda_time_s": 0.9966989159584045,
+      "total_time_s": 1.2639515325427055,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_42956",
+      "qm9_id": 42956,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4298,
+        6.0489,
+        6.3969,
+        7.1201,
+        7.261
+      ],
+      "predicted_oscillator_strengths": [
+        0.002835,
+        0.053636,
+        0.013883,
+        0.00324,
+        0.006484
+      ],
+      "reference_excitation_energies_eV": [
+        4.50808243,
+        6.47247612,
+        7.01521076,
+        7.62914022,
+        7.73965496
+      ],
+      "reference_oscillator_strengths": [
+        0.00092513,
+        0.00882832,
+        0.0299463,
+        0.02392375,
+        0.00104012
+      ],
+      "energy_rmse_eV": 0.4595836334168109,
+      "osc_rmse": 0.02335319567342423,
+      "xtb4stda_time_s": 0.2893061302602291,
+      "stda_time_s": 1.1160438116639853,
+      "total_time_s": 1.4053499419242144,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_133757",
+      "qm9_id": 133757,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4225,
+        6.3146,
+        6.9711,
+        7.2959,
+        7.6881
+      ],
+      "predicted_oscillator_strengths": [
+        0.00072,
+        0.025717,
+        0.014761,
+        0.038866,
+        0.022304
+      ],
+      "reference_excitation_energies_eV": [
+        4.41063025,
+        7.69150983,
+        8.55419747,
+        8.79948348,
+        9.13256
+      ],
+      "reference_oscillator_strengths": [
+        3.844e-05,
+        0.00560813,
+        0.01043735,
+        0.01833115,
+        0.02395675
+      ],
+      "energy_rmse_eV": 1.3228338628387921,
+      "osc_rmse": 0.0130225709682689,
+      "xtb4stda_time_s": 0.24180996231734753,
+      "stda_time_s": 0.962837090715766,
+      "total_time_s": 1.2046470530331135,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_9726",
+      "qm9_id": 9726,
+      "total_atoms": 17,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.8786,
+        7.8615,
+        8.2101,
+        8.6461,
+        8.8841
+      ],
+      "predicted_oscillator_strengths": [
+        0.026309,
+        0.003821,
+        0.056301,
+        0.00462,
+        0.010031
+      ],
+      "reference_excitation_energies_eV": [
+        8.07651795,
+        8.12576976,
+        8.583247,
+        8.62286571,
+        9.05783042
+      ],
+      "reference_oscillator_strengths": [
+        0.02005679,
+        0.00012994,
+        0.01631757,
+        0.00479479,
+        0.04206795
+      ],
+      "energy_rmse_eV": 0.5787584462721629,
+      "osc_rmse": 0.023142106408964594,
+      "xtb4stda_time_s": 0.2426456119865179,
+      "stda_time_s": 0.9853696394711733,
+      "total_time_s": 1.2280152514576912,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_65290",
+      "qm9_id": 65290,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.3219,
+        7.5775,
+        7.639,
+        7.8749,
+        8.1181
+      ],
+      "predicted_oscillator_strengths": [
+        0.023095,
+        0.126091,
+        0.046162,
+        0.006288,
+        0.001189
+      ],
+      "reference_excitation_energies_eV": [
+        6.70785582,
+        7.17106677,
+        7.23300264,
+        7.98203153,
+        8.00109012
+      ],
+      "reference_oscillator_strengths": [
+        0.00676647,
+        0.00738822,
+        0.03020007,
+        0.06444926,
+        0.00902319
+      ],
+      "energy_rmse_eV": 0.3826853952020721,
+      "osc_rmse": 0.06009302917769731,
+      "xtb4stda_time_s": 0.30946044623851776,
+      "stda_time_s": 1.2589296717196703,
+      "total_time_s": 1.568390117958188,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_11466",
+      "qm9_id": 11466,
+      "total_atoms": 20,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.5205,
+        7.2094,
+        7.5412,
+        7.8247,
+        8.1825
+      ],
+      "predicted_oscillator_strengths": [
+        0.020585,
+        0.012958,
+        0.009703,
+        0.037113,
+        0.024573
+      ],
+      "reference_excitation_energies_eV": [
+        7.49260756,
+        7.75290746,
+        8.30208494,
+        8.65049209,
+        8.940635
+      ],
+      "reference_oscillator_strengths": [
+        0.0143018,
+        0.00818152,
+        0.00879006,
+        0.04649465,
+        0.00413063
+      ],
+      "energy_rmse_eV": 0.7843520400094819,
+      "osc_rmse": 0.01066801453704859,
+      "xtb4stda_time_s": 0.2780684642493725,
+      "stda_time_s": 1.226843448355794,
+      "total_time_s": 1.5049119126051664,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_2271",
+      "qm9_id": 2271,
+      "total_atoms": 17,
+      "heavy_atoms": 7,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.5086,
+        7.5487,
+        8.0859,
+        8.2776,
+        8.3149
+      ],
+      "predicted_oscillator_strengths": [
+        0.005944,
+        0.012524,
+        0.009754,
+        0.017006,
+        0.049127
+      ],
+      "reference_excitation_energies_eV": [
+        7.03877311,
+        7.43095061,
+        7.44781977,
+        7.96720295,
+        8.01731383
+      ],
+      "reference_oscillator_strengths": [
+        8.54e-06,
+        0.0059983,
+        0.00087583,
+        0.0402882,
+        0.03826496
+      ],
+      "energy_rmse_eV": 0.4066085248868422,
+      "osc_rmse": 0.012780305929453332,
+      "xtb4stda_time_s": 0.27620674297213554,
+      "stda_time_s": 0.6813836395740509,
+      "total_time_s": 0.9575903825461864,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_131710",
+      "qm9_id": 131710,
+      "total_atoms": 13,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        3.7675,
+        5.142,
+        5.8294,
+        6.2111,
+        6.6049
+      ],
+      "predicted_oscillator_strengths": [
+        0.0001,
+        0.004567,
+        0.095056,
+        0.003458,
+        0.074302
+      ],
+      "reference_excitation_energies_eV": [
+        3.92000517,
+        5.86266538,
+        6.1555942,
+        6.93110685,
+        7.05393585
+      ],
+      "reference_oscillator_strengths": [
+        0.00029779,
+        0.00377444,
+        0.04535915,
+        0.00440637,
+        0.14816471
+      ],
+      "energy_rmse_eV": 0.5232708919007552,
+      "osc_rmse": 0.039817191026894905,
+      "xtb4stda_time_s": 0.25506855733692646,
+      "stda_time_s": 0.7393152490258217,
+      "total_time_s": 0.9943838063627481,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_37945",
+      "qm9_id": 37945,
+      "total_atoms": 19,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.2117,
+        6.3414,
+        6.6987,
+        6.7943,
+        7.1764
+      ],
+      "predicted_oscillator_strengths": [
+        0.057631,
+        0.014077,
+        0.018654,
+        0.28541,
+        0.029217
+      ],
+      "reference_excitation_energies_eV": [
+        6.76424682,
+        6.92223077,
+        7.04513486,
+        7.77359302,
+        8.02708871
+      ],
+      "reference_oscillator_strengths": [
+        0.199414,
+        0.00453932,
+        0.05819549,
+        0.00744286,
+        0.01397101
+      ],
+      "energy_rmse_eV": 0.6993390571441449,
+      "osc_rmse": 0.14089363860094054,
+      "xtb4stda_time_s": 0.2708737552165985,
+      "stda_time_s": 1.3076581116765738,
+      "total_time_s": 1.5785318668931723,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_68293",
+      "qm9_id": 68293,
+      "total_atoms": 20,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.1632,
+        7.6971,
+        7.8509,
+        8.0598,
+        8.1793
+      ],
+      "predicted_oscillator_strengths": [
+        0.039486,
+        9.2e-05,
+        3.4e-05,
+        0.003353,
+        0.050356
+      ],
+      "reference_excitation_energies_eV": [
+        7.2508457,
+        7.58058283,
+        7.70134893,
+        7.87436445,
+        8.04735358
+      ],
+      "reference_oscillator_strengths": [
+        0.01087404,
+        0.04629105,
+        0.01539223,
+        0.00579896,
+        0.00946124
+      ],
+      "energy_rmse_eV": 0.1381446655691508,
+      "osc_rmse": 0.03120011480894325,
+      "xtb4stda_time_s": 0.2630417551845312,
+      "stda_time_s": 1.4804277792572975,
+      "total_time_s": 1.7434695344418287,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_78244",
+      "qm9_id": 78244,
+      "total_atoms": 22,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.4011,
+        7.2164,
+        7.293,
+        7.3833,
+        7.9429
+      ],
+      "predicted_oscillator_strengths": [
+        0.014295,
+        0.000807,
+        0.030089,
+        0.004594,
+        0.033213
+      ],
+      "reference_excitation_energies_eV": [
+        7.02334261,
+        7.66239935,
+        7.84317747,
+        7.91716717,
+        8.25150847
+      ],
+      "reference_oscillator_strengths": [
+        0.00859658,
+        0.00219086,
+        4.405e-05,
+        0.04030643,
+        0.01549426
+      ],
+      "energy_rmse_eV": 0.5037955691260464,
+      "osc_rmse": 0.022478511886648546,
+      "xtb4stda_time_s": 0.28424670174717903,
+      "stda_time_s": 1.7839191742241383,
+      "total_time_s": 2.0681658759713173,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_54814",
+      "qm9_id": 54814,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4831,
+        5.3544,
+        5.707,
+        6.4688,
+        6.6571
+      ],
+      "predicted_oscillator_strengths": [
+        0.003489,
+        0.060428,
+        0.034736,
+        0.038203,
+        0.088718
+      ],
+      "reference_excitation_energies_eV": [
+        4.7196878,
+        6.05987728,
+        6.41698473,
+        7.02239049,
+        7.15172137
+      ],
+      "reference_oscillator_strengths": [
+        0.00045744,
+        0.04648937,
+        0.02477305,
+        0.0602884,
+        0.00614148
+      ],
+      "energy_rmse_eV": 0.5672500377818109,
+      "osc_rmse": 0.03901123603138819,
+      "xtb4stda_time_s": 1.5122190602123737,
+      "stda_time_s": 1.0492833647876978,
+      "total_time_s": 2.5615024250000715,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_29205",
+      "qm9_id": 29205,
+      "total_atoms": 14,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.7273,
+        4.894,
+        6.281,
+        6.4149,
+        6.5058
+      ],
+      "predicted_oscillator_strengths": [
+        0.204831,
+        0.001345,
+        0.00741,
+        0.002379,
+        0.006353
+      ],
+      "reference_excitation_energies_eV": [
+        4.98497963,
+        5.34136026,
+        5.99725922,
+        6.77876165,
+        7.15171348
+      ],
+      "reference_oscillator_strengths": [
+        0.09038304,
+        0.00182669,
+        6.824e-05,
+        0.0578135,
+        0.00042737
+      ],
+      "energy_rmse_eV": 0.42347097850163123,
+      "osc_rmse": 0.05702730204816322,
+      "xtb4stda_time_s": 0.2564793284982443,
+      "stda_time_s": 0.5696544516831636,
+      "total_time_s": 0.8261337801814079,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_63655",
+      "qm9_id": 63655,
+      "total_atoms": 23,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.2747,
+        7.5813,
+        7.7478,
+        8.0104,
+        8.1938
+      ],
+      "predicted_oscillator_strengths": [
+        0.029852,
+        0.008541,
+        0.008597,
+        0.039282,
+        0.035989
+      ],
+      "reference_excitation_energies_eV": [
+        8.16478955,
+        8.31207697,
+        8.39216202,
+        8.55850395,
+        8.58300128
+      ],
+      "reference_oscillator_strengths": [
+        0.00887036,
+        0.02255966,
+        0.00635975,
+        0.01936186,
+        0.01593383
+      ],
+      "energy_rmse_eV": 0.6623280721937287,
+      "osc_rmse": 0.016975153337723932,
+      "xtb4stda_time_s": 0.3467125091701746,
+      "stda_time_s": 1.980751883238554,
+      "total_time_s": 2.3274643924087286,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_70995",
+      "qm9_id": 70995,
+      "total_atoms": 23,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.25,
+        7.0313,
+        7.2378,
+        7.3049,
+        7.7108
+      ],
+      "predicted_oscillator_strengths": [
+        0.006847,
+        0.030627,
+        0.005871,
+        0.026765,
+        0.009685
+      ],
+      "reference_excitation_energies_eV": [
+        6.93089542,
+        7.16696302,
+        7.5838199,
+        7.70329264,
+        8.21865261
+      ],
+      "reference_oscillator_strengths": [
+        0.01121006,
+        0.0051452,
+        0.01770764,
+        0.03918881,
+        0.03214174
+      ],
+      "energy_rmse_eV": 0.45130561003791825,
+      "osc_rmse": 0.01712962753031659,
+      "xtb4stda_time_s": 0.2944972291588783,
+      "stda_time_s": 1.7930927518755198,
+      "total_time_s": 2.087589981034398,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_110962",
+      "qm9_id": 110962,
+      "total_atoms": 17,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.7963,
+        6.3473,
+        6.6247,
+        7.2167,
+        7.4293
+      ],
+      "predicted_oscillator_strengths": [
+        0.000823,
+        0.015773,
+        0.027868,
+        0.017827,
+        0.032959
+      ],
+      "reference_excitation_energies_eV": [
+        5.36243223,
+        7.11056032,
+        7.84526268,
+        8.02742259,
+        8.0516372
+      ],
+      "reference_oscillator_strengths": [
+        4.015e-05,
+        0.01023425,
+        0.01076286,
+        0.01090266,
+        0.00919193
+      ],
+      "energy_rmse_eV": 0.8291465470205142,
+      "osc_rmse": 0.013687194898335451,
+      "xtb4stda_time_s": 0.26852455735206604,
+      "stda_time_s": 0.9230255223810673,
+      "total_time_s": 1.1915500797331333,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_23313",
+      "qm9_id": 23313,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.1082,
+        6.6585,
+        6.8938,
+        6.9779,
+        7.0821
+      ],
+      "predicted_oscillator_strengths": [
+        0.015148,
+        0.353835,
+        0.072366,
+        0.090595,
+        0.030945
+      ],
+      "reference_excitation_energies_eV": [
+        6.38571176,
+        7.04889602,
+        7.16860768,
+        7.3571405,
+        7.5465509
+      ],
+      "reference_oscillator_strengths": [
+        0.00128299,
+        0.33046551,
+        0.02507445,
+        0.01471067,
+        0.01353486
+      ],
+      "energy_rmse_eV": 0.36454878568119814,
+      "osc_rmse": 0.04251213187063476,
+      "xtb4stda_time_s": 0.3061865959316492,
+      "stda_time_s": 0.8715709913522005,
+      "total_time_s": 1.1777575872838497,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_125317",
+      "qm9_id": 125317,
+      "total_atoms": 16,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.7334,
+        5.9359,
+        6.1195,
+        6.5313,
+        6.7615
+      ],
+      "predicted_oscillator_strengths": [
+        0.014602,
+        0.164326,
+        0.009453,
+        0.008774,
+        0.056692
+      ],
+      "reference_excitation_energies_eV": [
+        6.38147576,
+        6.88041174,
+        6.96202417,
+        7.32740742,
+        7.47087218
+      ],
+      "reference_oscillator_strengths": [
+        0.14016648,
+        0.02536492,
+        0.05689145,
+        0.00149837,
+        0.00467789
+      ],
+      "energy_rmse_eV": 0.7948518740832915,
+      "osc_rmse": 0.08953818108698469,
+      "xtb4stda_time_s": 0.2792633008211851,
+      "stda_time_s": 0.9051073752343655,
+      "total_time_s": 1.1843706760555506,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_119037",
+      "qm9_id": 119037,
+      "total_atoms": 25,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        7.1534,
+        7.2767,
+        7.6446,
+        8.15,
+        8.26
+      ],
+      "predicted_oscillator_strengths": [
+        0.000298,
+        0.021971,
+        0.00317,
+        0.00369,
+        0.003671
+      ],
+      "reference_excitation_energies_eV": [
+        7.4432273,
+        7.90788645,
+        8.13674167,
+        8.39310871,
+        8.48987435
+      ],
+      "reference_oscillator_strengths": [
+        0.00355852,
+        0.0127961,
+        0.01489215,
+        0.0105449,
+        0.0020605
+      ],
+      "energy_rmse_eV": 0.4090339065420048,
+      "osc_rmse": 0.007507355667116085,
+      "xtb4stda_time_s": 0.32430292293429375,
+      "stda_time_s": 2.363020895048976,
+      "total_time_s": 2.6873238179832697,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_2161",
+      "qm9_id": 2161,
+      "total_atoms": 14,
+      "heavy_atoms": 7,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.3587,
+        6.3869,
+        7.0331,
+        7.2551,
+        7.6777
+      ],
+      "predicted_oscillator_strengths": [
+        0.037894,
+        0.006363,
+        0.135748,
+        0.034846,
+        0.077514
+      ],
+      "reference_excitation_energies_eV": [
+        7.02310315,
+        7.9553434,
+        8.19980327,
+        8.25249461,
+        8.50432007
+      ],
+      "reference_oscillator_strengths": [
+        0.0087438,
+        0.12178418,
+        0.14484544,
+        0.02847494,
+        0.06384241
+      ],
+      "energy_rmse_eV": 1.0900219734616396,
+      "osc_rmse": 0.053818303848853694,
+      "xtb4stda_time_s": 0.2613592650741339,
+      "stda_time_s": 0.47144668363034725,
+      "total_time_s": 0.7328059487044811,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_46682",
+      "qm9_id": 46682,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        6.5582,
+        6.6402,
+        7.0471,
+        7.2999,
+        7.462
+      ],
+      "predicted_oscillator_strengths": [
+        0.020986,
+        0.01406,
+        0.019841,
+        0.309839,
+        0.005557
+      ],
+      "reference_excitation_energies_eV": [
+        7.00889608,
+        7.66309433,
+        7.69653605,
+        7.88917344,
+        8.00399249
+      ],
+      "reference_oscillator_strengths": [
+        0.00474516,
+        0.07852247,
+        0.00300081,
+        0.24370837,
+        0.00527402
+      ],
+      "energy_rmse_eV": 0.6800302928868611,
+      "osc_rmse": 0.04260541567340916,
+      "xtb4stda_time_s": 0.2913777604699135,
+      "stda_time_s": 1.1465830355882645,
+      "total_time_s": 1.437960796058178,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_39523",
+      "qm9_id": 39523,
+      "total_atoms": 18,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.8973,
+        5.2424,
+        6.3997,
+        6.5391,
+        6.6175
+      ],
+      "predicted_oscillator_strengths": [
+        0.06843,
+        0.094472,
+        0.001294,
+        0.041336,
+        0.02438
+      ],
+      "reference_excitation_energies_eV": [
+        5.31558644,
+        6.16603848,
+        6.79449039,
+        7.08907746,
+        7.13273435
+      ],
+      "reference_oscillator_strengths": [
+        0.0210565,
+        0.07094511,
+        0.0192114,
+        0.0201178,
+        0.01999242
+      ],
+      "energy_rmse_eV": 0.5919244346348459,
+      "osc_rmse": 0.026789024422619424,
+      "xtb4stda_time_s": 0.2717211954295635,
+      "stda_time_s": 1.1036997847259045,
+      "total_time_s": 1.375420980155468,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_15972",
+      "qm9_id": 15972,
+      "total_atoms": 16,
+      "heavy_atoms": 8,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        4.4838,
+        6.616,
+        6.8764,
+        7.3476,
+        7.487
+      ],
+      "predicted_oscillator_strengths": [
+        0.00081,
+        0.067798,
+        0.086155,
+        0.016266,
+        0.02021
+      ],
+      "reference_excitation_energies_eV": [
+        4.4992605,
+        7.61113797,
+        7.92984496,
+        8.15180264,
+        8.39775614
+      ],
+      "reference_oscillator_strengths": [
+        0.00012792,
+        0.10517416,
+        0.02333096,
+        0.00131469,
+        0.00285884
+      ],
+      "energy_rmse_eV": 0.8457545179159305,
+      "osc_rmse": 0.034260493269815305,
+      "xtb4stda_time_s": 0.27119489572942257,
+      "stda_time_s": 0.7322524320334196,
+      "total_time_s": 1.0034473277628422,
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "label": "qm9_92263",
+      "qm9_id": 92263,
+      "total_atoms": 23,
+      "heavy_atoms": 9,
+      "status": "success",
+      "predicted_excitation_energies_eV": [
+        5.642,
+        6.6431,
+        6.9113,
+        7.0835,
+        7.4958
+      ],
+      "predicted_oscillator_strengths": [
+        0.028973,
+        0.367978,
+        0.12548,
+        0.047044,
+        0.03067
+      ],
+      "reference_excitation_energies_eV": [
+        6.8346087,
+        7.12454426,
+        7.52796769,
+        7.63193265,
+        8.04871062
+      ],
+      "reference_oscillator_strengths": [
+        0.02202914,
+        0.22081006,
+        0.00450601,
+        0.06365765,
+        0.00653132
+      ],
+      "energy_rmse_eV": 0.7267560322401709,
+      "osc_rmse": 0.08625545229204726,
+      "xtb4stda_time_s": 0.2981017678976059,
+      "stda_time_s": 2.7269509825855494,
+      "total_time_s": 3.0250527504831553,
+      "stda_energy_window_eV": 30.0
+    }
+  ]
+}
