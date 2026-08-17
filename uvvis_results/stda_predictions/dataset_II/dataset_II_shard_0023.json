@@ -1,0 +1,144 @@
+{
+  "dataset": "dataset_II",
+  "shard_index": 23,
+  "n_records": 9,
+  "records": [
+    {
+      "status": "failed",
+      "label": "dataset_II_000339_ASTAXANTHIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 339,
+        "name": "ASTAXANTHIN",
+        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)C(O)CC2(C)C)C(C)(C)CC(O)C1=O",
+        "total_atoms": 96,
+        "heavy_atoms": 44
+      },
+      "error": "Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000341_ATAZANAVIR_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 341,
+        "name": "ATAZANAVIR SULFATE",
+        "smiles": "COC(=O)N[C@H](C(=O)N[C@@H](Cc1ccccc1)[C@@H](O)CN(Cc1ccc(-c2ccccn2)cc1)NC(=O)[C@@H](NC(=O)OC)C(C)(C)C)C(C)(C)C",
+        "total_atoms": 103,
+        "heavy_atoms": 51
+      },
+      "error": "Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000344_ATORVASTATIN_CALCIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 344,
+        "name": "ATORVASTATIN CALCIUM",
+        "smiles": "CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@H](O)C[C@H](O)CC(=O)O",
+        "total_atoms": 76,
+        "heavy_atoms": 41
+      },
+      "error": "Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000346_ATRACURIUM_BESYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 346,
+        "name": "ATRACURIUM BESYLATE",
+        "smiles": "COc1ccc(CC2c3cc(OC)c(OC)cc3CC[N+]2(C)CCC(=O)OCCCCCOC(=O)CC[N+]2(C)CCc3cc(OC)c(OC)cc3C2Cc2ccc(OC)c(OC)c2)cc1OC",
+        "total_atoms": 139,
+        "heavy_atoms": 67
+      },
+      "error": "[Errno 122] Disk quota exceeded"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000335_ASIATICOSIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 335,
+        "name": "ASIATICOSIDE",
+        "smiles": "C[C@@H]1C2C3=CCC4[C@@]5(C)C[C@@H](O)[C@H](O)[C@@](C)(CO)C5CC[C@@]4(C)[C@]3(C)CC[C@@]2(C(=O)O[C@@H]2O[C@H](CO[C@@H]3O[C@H](CO)[C@@H](O[C@H]4O[C@H](C)[C@H](O)[C@@H](O)[C@H]4O)[C@H](O)[C@H]3O)[C@@H](O)[C@H](O)[C@H]2O)CC[C@H]1C",
+        "total_atoms": 145,
+        "heavy_atoms": 67
+      },
+      "error": "Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000352_AVERMECTIN_A1a",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 352,
+        "name": "AVERMECTIN A1a",
+        "smiles": "CCC(C)[C@H]1O[C@]2(C=C[C@@H]1C)C[C@@H]1C[C@@H](C/C=C(\\C)[C@@H](OC3C[C@H](OC)C(O[C@H]4C[C@H](OC)[C@@H](O)[C@H](C)O4)[C@H](C)O3)[C@@H](C)/C=C/C=C3\\CO[C@@H]4[C@H](OC)C(C)=C[C@@H](C(=O)O1)[C@]34O)O2",
+        "total_atoms": 137,
+        "heavy_atoms": 63
+      },
+      "error": "[Errno 122] Disk quota exceeded"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000366_AZLOCILLIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 366,
+        "name": "AZLOCILLIN SODIUM",
+        "smiles": "CC1(C)S[C@H]2[C@@H](NC(=O)[C@@H](NC(=O)N3CCNC3=O)c3ccccc3)C(=O)N2C1C(=O)O",
+        "total_atoms": 55,
+        "heavy_atoms": 32
+      },
+      "energies_eV": [
+        5.1639,
+        5.2696,
+        5.3275,
+        5.4997,
+        5.7983
+      ],
+      "oscillator_strengths": [
+        0.000299,
+        0.026798,
+        0.000277,
+        0.009515,
+        0.028259
+      ],
+      "timing": {
+        "xtb_opt_s": 8.946878196671605,
+        "xtb4stda_s": 0.9193986710160971,
+        "stda_s": 584.5214794799685,
+        "total_s": 594.3877563476562
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000351_AVANAFIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 351,
+        "name": "AVANAFIL",
+        "smiles": "COc1ccc(CNc2nc(N3CCC[C@@H]3CO)ncc2C(=O)NCc2ncccn2)cc1Cl",
+        "total_atoms": 60,
+        "heavy_atoms": 34
+      },
+      "error": "Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000365_AZILSARTAN_MEDOXOMIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 365,
+        "name": "AZILSARTAN MEDOXOMIL",
+        "smiles": "CCOc1nc2cccc(C(=O)OCc3oc(=O)oc3C)c2n1Cc1ccc(-c2ccccc2-c2noc(O)n2)cc1",
+        "total_atoms": 66,
+        "heavy_atoms": 42
+      },
+      "error": "Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    }
+  ]
+}
