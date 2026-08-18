@@ -1,0 +1,3150 @@
+{
+  "schema_version": 1,
+  "dataset": "dataset_II",
+  "source": "streaming_resume",
+  "batch_number": 13,
+  "record_count": 100,
+  "created_utc": "20260818T044515Z",
+  "records": [
+    {
+      "status": "success",
+      "label": "dataset_II_001539_ONDANSETRON_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1539,
+        "name": "ONDANSETRON HYDROCHLORIDE",
+        "smiles": "Cc1nccn1C[C@H]1CCc2c(c3ccccc3n2C)C1=O",
+        "charge": 0,
+        "total_atoms": 41,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.2264,
+        4.4849,
+        4.6084,
+        5.1321,
+        5.3047
+      ],
+      "predicted_oscillator_strengths": [
+        0.332701,
+        0.086179,
+        0.00181,
+        0.226009,
+        0.210955
+      ],
+      "timing": {
+        "xtb_s": 1.6925519295036793,
+        "xtb4stda_s": 0.3833100777119398,
+        "stda_s": 102.33105387724936,
+        "total_s": 104.47272349521518
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001529_OFLOXACIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1529,
+        "name": "OFLOXACIN",
+        "smiles": "C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+        "charge": 0,
+        "total_atoms": 46,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        3.5099,
+        3.7915,
+        4.2943,
+        4.4997,
+        4.5417
+      ],
+      "predicted_oscillator_strengths": [
+        0.056546,
+        0.234483,
+        0.928874,
+        0.016492,
+        0.177602
+      ],
+      "timing": {
+        "xtb_s": 1.6325582340359688,
+        "xtb4stda_s": 0.4602726995944977,
+        "stda_s": 258.5136131197214,
+        "total_s": 260.68088633939624
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001512_NOBILETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1512,
+        "name": "NOBILETIN",
+        "smiles": "COc1ccc(-c2cc(=O)c3c(OC)c(OC)c(OC)c(OC)c3o2)cc1OC",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        3.5797,
+        3.9053,
+        4.1286,
+        4.461,
+        4.5614
+      ],
+      "predicted_oscillator_strengths": [
+        0.129421,
+        0.436509,
+        0.214742,
+        0.425281,
+        0.009721
+      ],
+      "timing": {
+        "xtb_s": 4.411625783890486,
+        "xtb4stda_s": 0.49349552020430565,
+        "stda_s": 457.90165784955025,
+        "total_s": 462.9026831109077
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001538_OMEPRAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1538,
+        "name": "OMEPRAZOLE",
+        "smiles": "COc1ccc2nc([S@@](=O)Cc3ncc(C)c(OC)c3C)[nH]c2c1",
+        "charge": 0,
+        "total_atoms": 43,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        4.467,
+        4.9004,
+        5.1024,
+        5.1753,
+        5.4345
+      ],
+      "predicted_oscillator_strengths": [
+        0.3428,
+        0.304855,
+        0.075673,
+        0.027133,
+        0.005874
+      ],
+      "timing": {
+        "xtb_s": 2.1532734520733356,
+        "xtb4stda_s": 0.4217026513069868,
+        "stda_s": 179.94373460114002,
+        "total_s": 182.5971316769719
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001553_OXCARBAZEPINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1553,
+        "name": "OXCARBAZEPINE",
+        "smiles": "NC(=O)N1c2ccccc2CC(=O)c2ccccc21",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        3.5927,
+        4.1785,
+        4.7534,
+        4.8335,
+        4.9163
+      ],
+      "predicted_oscillator_strengths": [
+        0.12723,
+        0.020841,
+        0.065782,
+        0.029573,
+        0.001614
+      ],
+      "timing": {
+        "xtb_s": 0.8281495310366154,
+        "xtb4stda_s": 0.31931112334132195,
+        "stda_s": 24.25468523427844,
+        "total_s": 25.450489446520805
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001554_OXEDRINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1554,
+        "name": "OXEDRINE",
+        "smiles": "CNC[C@H](O)c1ccc(O)cc1",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        4.8305,
+        5.695,
+        5.7718,
+        5.7802,
+        6.4202
+      ],
+      "predicted_oscillator_strengths": [
+        0.039946,
+        0.048661,
+        0.046,
+        0.08364,
+        0.005311
+      ],
+      "timing": {
+        "xtb_s": 0.628564054146409,
+        "xtb4stda_s": 0.24665796011686325,
+        "stda_s": 3.69706772826612,
+        "total_s": 4.595458019524813
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001552_OXAPROZIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1552,
+        "name": "OXAPROZIN",
+        "smiles": "O=C(O)CCc1nc(-c2ccccc2)c(-c2ccccc2)o1",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.0885,
+        4.7141,
+        4.8161,
+        5.152,
+        5.6832
+      ],
+      "predicted_oscillator_strengths": [
+        0.602624,
+        0.006273,
+        0.001972,
+        0.339328,
+        0.116463
+      ],
+      "timing": {
+        "xtb_s": 3.3828377462923527,
+        "xtb4stda_s": 0.3763967901468277,
+        "stda_s": 71.79184306040406,
+        "total_s": 75.6062931548804
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001558_OXIBENDAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1558,
+        "name": "OXIBENDAZOLE",
+        "smiles": "CCCOc1ccc2nc(NC(=O)OC)[nH]c2c1",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        4.3912,
+        5.0088,
+        5.0208,
+        5.561,
+        5.5858
+      ],
+      "predicted_oscillator_strengths": [
+        0.298885,
+        0.040833,
+        0.227319,
+        0.115459,
+        0.033106
+      ],
+      "timing": {
+        "xtb_s": 0.6836938969790936,
+        "xtb4stda_s": 0.2948189117014408,
+        "stda_s": 28.4991357922554,
+        "total_s": 29.518665127456188
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001471_NARINGIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1471,
+        "name": "NARINGIN",
+        "smiles": "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]2Oc2cc(O)c3c(c2)O[C@H](c2ccc(O)cc2)CC3=O)[C@H](O)[C@H](O)[C@H]1O",
+        "charge": 0,
+        "total_atoms": 73,
+        "heavy_atoms": 41
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001535_OLOPATADINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1535,
+        "name": "OLOPATADINE HYDROCHLORIDE",
+        "smiles": "CN(C)CC/C=C1/c2ccccc2COc2ccc(CC(=O)O)cc21",
+        "charge": 0,
+        "total_atoms": 48,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.4482,
+        5.0299,
+        5.0358,
+        5.1978,
+        5.5263
+      ],
+      "predicted_oscillator_strengths": [
+        0.142561,
+        0.006566,
+        0.093416,
+        0.08298,
+        0.043604
+      ],
+      "timing": {
+        "xtb_s": 6.060498176142573,
+        "xtb4stda_s": 0.4791769590228796,
+        "stda_s": 253.68031483516097,
+        "total_s": 260.30522152781487
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001561_OXINIACIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1561,
+        "name": "OXINIACIC ACID",
+        "smiles": "O=C(O)c1ccc[n+]([O-])c1",
+        "charge": 0,
+        "total_atoms": 15,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        3.4825,
+        4.0798,
+        4.5763,
+        4.7209,
+        5.4546
+      ],
+      "predicted_oscillator_strengths": [
+        0.067567,
+        2.2e-05,
+        0.000557,
+        0.270411,
+        0.001889
+      ],
+      "timing": {
+        "xtb_s": 0.24429455399513245,
+        "xtb4stda_s": 0.19393107295036316,
+        "stda_s": 0.696425199508667,
+        "total_s": 1.1464364882558584
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001562_OXIRACETAM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1562,
+        "name": "OXIRACETAM",
+        "smiles": "NC(=O)CN1C[C@@H](O)CC1=O",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        5.4672,
+        5.6378,
+        5.8642,
+        6.2577,
+        6.3185
+      ],
+      "predicted_oscillator_strengths": [
+        0.02617,
+        0.018168,
+        0.123156,
+        0.005541,
+        0.017191
+      ],
+      "timing": {
+        "xtb_s": 0.42224785313010216,
+        "xtb4stda_s": 0.2255928609520197,
+        "stda_s": 1.9573737289756536,
+        "total_s": 2.6314262468367815
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001557_OXFENDAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1557,
+        "name": "OXFENDAZOLE",
+        "smiles": "COC(=O)Nc1nc2ccc([S@@](=O)c3ccccc3)cc2[nH]1",
+        "charge": 0,
+        "total_atoms": 35,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.5537,
+        4.9284,
+        5.1243,
+        5.1722,
+        5.2654
+      ],
+      "predicted_oscillator_strengths": [
+        0.334268,
+        0.010227,
+        0.192113,
+        0.067892,
+        0.000815
+      ],
+      "timing": {
+        "xtb_s": 0.9262555446475744,
+        "xtb4stda_s": 0.37143939547240734,
+        "stda_s": 64.92352695763111,
+        "total_s": 66.29182241857052
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001472_NATAMYCIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1472,
+        "name": "NATAMYCIN",
+        "smiles": "CC1C/C=C/C=C/C=C/C=C/C(O[C@H]2O[C@@H](C)[C@H](O)[C@@H](N)[C@H]2O)CC2OC(O)(CC(O)CC3OC3/C=C/C(=O)O1)CC(O)C2C(=O)O",
+        "charge": 0,
+        "total_atoms": 94,
+        "heavy_atoms": 47
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001563_OXOLAMINE_CITRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1563,
+        "name": "OXOLAMINE CITRATE",
+        "smiles": "CCN(CC)CCc1nc(-c2ccccc2)no1",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        4.7722,
+        4.8309,
+        5.1009,
+        5.3285,
+        5.681
+      ],
+      "predicted_oscillator_strengths": [
+        0.024282,
+        0.009036,
+        0.013491,
+        0.45593,
+        0.013785
+      ],
+      "timing": {
+        "xtb_s": 2.145520769059658,
+        "xtb4stda_s": 0.324078481644392,
+        "stda_s": 48.02498736418784,
+        "total_s": 50.54316369071603
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001566_OXTRIPHYLLINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1566,
+        "name": "OXTRIPHYLLINE",
+        "smiles": "Cn1c(=O)c2[nH]cnc2n(C)c1=O",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.4671,
+        5.0007,
+        5.5919,
+        5.8625,
+        5.9241
+      ],
+      "predicted_oscillator_strengths": [
+        0.28555,
+        0.001316,
+        0.072477,
+        0.074901,
+        0.004379
+      ],
+      "timing": {
+        "xtb_s": 0.2945849634706974,
+        "xtb4stda_s": 0.22711925581097603,
+        "stda_s": 2.7862077560275793,
+        "total_s": 3.3284961078315973
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001564_OXOLINIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1564,
+        "name": "OXOLINIC ACID",
+        "smiles": "CCn1cc(C(=O)O)c(=O)c2cc3c(cc21)OCO3",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        3.9925,
+        4.1284,
+        4.8304,
+        5.073,
+        5.0952
+      ],
+      "predicted_oscillator_strengths": [
+        0.173997,
+        0.264924,
+        0.001769,
+        0.584121,
+        0.051707
+      ],
+      "timing": {
+        "xtb_s": 0.7872949279844761,
+        "xtb4stda_s": 0.2989751435816288,
+        "stda_s": 27.924131063744426,
+        "total_s": 29.045023672282696
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001526_OCTOCRYLENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1526,
+        "name": "OCTOCRYLENE",
+        "smiles": "CCCC[C@H](CC)COC(=O)C(C#N)=C(c1ccccc1)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 54,
+        "heavy_atoms": 27
+      },
+      "predicted_excitation_energies_eV": [
+        4.1269,
+        4.484,
+        4.5315,
+        4.603,
+        4.971
+      ],
+      "predicted_oscillator_strengths": [
+        0.464897,
+        0.220138,
+        0.04265,
+        0.052416,
+        0.080524
+      ],
+      "timing": {
+        "xtb_s": 3.64037374407053,
+        "xtb4stda_s": 0.5320711676031351,
+        "stda_s": 420.36856315098703,
+        "total_s": 424.65760620869696
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001549_OSELTAMIVIR_PHOSPHATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1549,
+        "name": "OSELTAMIVIR PHOSPHATE",
+        "smiles": "CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@H](NC(C)=O)[C@@H](N)C1",
+        "charge": 0,
+        "total_atoms": 50,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        5.2028,
+        5.6337,
+        5.8225,
+        5.8892,
+        6.2184
+      ],
+      "predicted_oscillator_strengths": [
+        0.018567,
+        0.373506,
+        0.080236,
+        0.023241,
+        0.01487
+      ],
+      "timing": {
+        "xtb_s": 3.2912116833031178,
+        "xtb4stda_s": 0.4892857242375612,
+        "stda_s": 263.0055187176913,
+        "total_s": 266.9464086201042
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001568_OXYCLOZANIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1568,
+        "name": "OXYCLOZANIDE",
+        "smiles": "O=C(Nc1cc(Cl)cc(Cl)c1O)c1c(O)c(Cl)cc(Cl)c1Cl",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.3955,
+        4.5235,
+        4.8216,
+        5.0723,
+        5.0982
+      ],
+      "predicted_oscillator_strengths": [
+        0.321127,
+        0.035267,
+        0.097692,
+        0.006711,
+        0.01519
+      ],
+      "timing": {
+        "xtb_s": 1.0762810036540031,
+        "xtb4stda_s": 0.32351966947317123,
+        "stda_s": 41.71821354702115,
+        "total_s": 43.15689987875521
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001475_NEFAZODONE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1475,
+        "name": "NEFAZODONE HYDROCHLORIDE",
+        "smiles": "CCc1nn(CCCN2CCN(c3cccc(Cl)c3)CC2)c(=O)n1CCOc1ccccc1",
+        "charge": 0,
+        "total_atoms": 65,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001502_NIMODIPINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1502,
+        "name": "NIMODIPINE",
+        "smiles": "COCCOC(=O)C1=C(C)NC(C)=C(C(=O)OC(C)C)[C@H]1c1cccc([N+](=O)[O-])c1",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        3.1071,
+        3.7512,
+        4.1213,
+        4.2506,
+        4.6719
+      ],
+      "predicted_oscillator_strengths": [
+        0.228705,
+        7.6e-05,
+        0.042913,
+        0.000168,
+        0.026791
+      ],
+      "timing": {
+        "xtb_s": 14.513347137719393,
+        "xtb4stda_s": 0.5832446161657572,
+        "stda_s": 682.219045586884,
+        "total_s": 697.4327801149338
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001573_p-ANISIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1573,
+        "name": "p-ANISIC ACID",
+        "smiles": "COc1ccc(C(=O)O)cc1",
+        "charge": 0,
+        "total_atoms": 19,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        4.7245,
+        4.981,
+        5.5275,
+        6.1034,
+        6.1853
+      ],
+      "predicted_oscillator_strengths": [
+        0.002319,
+        0.449822,
+        0.00079,
+        0.00168,
+        0.412545
+      ],
+      "timing": {
+        "xtb_s": 0.2605153936892748,
+        "xtb4stda_s": 0.1979382447898388,
+        "stda_s": 1.514706203714013,
+        "total_s": 1.9892480075359344
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001551_OXANTEL_PAMOATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1551,
+        "name": "OXANTEL PAMOATE",
+        "smiles": "O=C(O)c1cc2ccccc2c(Cc2c(O)c(C(=O)O)cc3ccccc23)c1O",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        3.431,
+        3.5868,
+        4.2695,
+        4.2989,
+        4.3944
+      ],
+      "predicted_oscillator_strengths": [
+        0.209752,
+        0.057641,
+        0.056959,
+        0.027875,
+        0.001441
+      ],
+      "timing": {
+        "xtb_s": 1.8596966098994017,
+        "xtb4stda_s": 0.49775137938559055,
+        "stda_s": 282.2204541116953,
+        "total_s": 284.65420354157686
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001574_p-FLUOROPHENYLALANINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1574,
+        "name": "p-FLUOROPHENYLALANINE",
+        "smiles": "N[C@@H](Cc1ccc(F)cc1)C(=O)O",
+        "charge": 0,
+        "total_atoms": 23,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        5.0932,
+        5.4942,
+        6.0336,
+        6.2548,
+        6.6163
+      ],
+      "predicted_oscillator_strengths": [
+        0.007477,
+        0.032266,
+        0.080937,
+        0.013335,
+        0.008023
+      ],
+      "timing": {
+        "xtb_s": 0.427419476211071,
+        "xtb4stda_s": 0.22144001349806786,
+        "stda_s": 3.555568238720298,
+        "total_s": 4.228896660730243
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001569_OXYMATRINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1569,
+        "name": "OXYMATRINE",
+        "smiles": "O=C1CCC[C@@H]2[C@H]3CCC[N+]4([O-])CCC[C@@H](CN12)[C@@H]34",
+        "charge": 0,
+        "total_atoms": 43,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        3.8395,
+        3.9161,
+        4.6931,
+        4.7758,
+        4.9025
+      ],
+      "predicted_oscillator_strengths": [
+        0.007941,
+        0.002243,
+        0.004284,
+        0.022608,
+        0.008878
+      ],
+      "timing": {
+        "xtb_s": 1.3198916167020798,
+        "xtb4stda_s": 0.4094856474548578,
+        "stda_s": 70.45859821513295,
+        "total_s": 72.25592159852386
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001577_PAEONOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1577,
+        "name": "PAEONOL",
+        "smiles": "COc1ccc(C(C)=O)c(O)c1",
+        "charge": 0,
+        "total_atoms": 22,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        3.9126,
+        4.2525,
+        4.5623,
+        5.5881,
+        6.1386
+      ],
+      "predicted_oscillator_strengths": [
+        0.14732,
+        0.000191,
+        0.33741,
+        0.122545,
+        0.003236
+      ],
+      "timing": {
+        "xtb_s": 0.27378410287201405,
+        "xtb4stda_s": 0.2248993907123804,
+        "stda_s": 2.4650202449411154,
+        "total_s": 2.984067853540182
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001559_OXICONAZOLE_NITRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1559,
+        "name": "OXICONAZOLE NITRATE",
+        "smiles": "Clc1ccc(CO/N=C(\\Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        4.8964,
+        5.0064,
+        5.2438,
+        5.3527,
+        5.6346
+      ],
+      "predicted_oscillator_strengths": [
+        0.006438,
+        0.002895,
+        0.04802,
+        0.531726,
+        0.010317
+      ],
+      "timing": {
+        "xtb_s": 5.542521953582764,
+        "xtb4stda_s": 0.4185343347489834,
+        "stda_s": 168.03523128665984,
+        "total_s": 174.0617913119495
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001541_ORBIFLOXACIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1541,
+        "name": "ORBIFLOXACIN",
+        "smiles": "C[C@H]1CN(c2c(F)c(F)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C[C@@H](C)N1",
+        "charge": 0,
+        "total_atoms": 48,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        3.7749,
+        4.003,
+        4.3566,
+        4.6597,
+        4.9119
+      ],
+      "predicted_oscillator_strengths": [
+        0.01781,
+        0.095171,
+        1.174474,
+        0.408623,
+        0.02264
+      ],
+      "timing": {
+        "xtb_s": 2.5030658338218927,
+        "xtb4stda_s": 0.48369683139026165,
+        "stda_s": 365.94922942854464,
+        "total_s": 369.1926666665822
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001488_NICERGOLINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1488,
+        "name": "NICERGOLINE",
+        "smiles": "CO[C@@]12C[C@H](COC(=O)c3cncc(Br)c3)CN(C)[C@H]1Cc1cn(C)c3cccc2c13",
+        "charge": 0,
+        "total_atoms": 57,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        4.2642,
+        4.5898,
+        4.7365,
+        5.1648,
+        5.2434
+      ],
+      "predicted_oscillator_strengths": [
+        0.156175,
+        0.02151,
+        0.003364,
+        0.092109,
+        0.001094
+      ],
+      "timing": {
+        "xtb_s": 6.277725772932172,
+        "xtb4stda_s": 0.6259530149400234,
+        "stda_s": 820.7129052411765,
+        "total_s": 828.1799905132502
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001537_OMEGA-3-ACID_ESTERS_EPA_shown_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1537,
+        "name": "OMEGA-3-ACID ESTERS (EPA shown)",
+        "smiles": "CC/C=C\\C/C=C\\C/C=C\\C/C=C\\C/C=C\\CCCC(=O)OCC",
+        "charge": 0,
+        "total_atoms": 58,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        6.1355,
+        6.1457,
+        6.2494,
+        6.309,
+        6.3538
+      ],
+      "predicted_oscillator_strengths": [
+        0.015374,
+        0.005278,
+        0.126674,
+        0.021017,
+        0.013067
+      ],
+      "timing": {
+        "xtb_s": 4.103569759055972,
+        "xtb4stda_s": 0.5095274951308966,
+        "stda_s": 410.9939782079309,
+        "total_s": 415.7257043495774
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001582_PAMABROM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1582,
+        "name": "PAMABROM",
+        "smiles": "Cn1c(=O)c2[nH]c(Br)nc2n(C)c1=O",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        4.1823,
+        4.3712,
+        5.3801,
+        5.4629,
+        5.658
+      ],
+      "predicted_oscillator_strengths": [
+        0.000125,
+        0.272659,
+        0.009547,
+        0.001299,
+        0.146009
+      ],
+      "timing": {
+        "xtb_s": 0.3496628422290087,
+        "xtb4stda_s": 0.23524482734501362,
+        "stda_s": 3.4391925372183323,
+        "total_s": 4.044415131211281
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001478_NEOHESPERIDIN_DIHYDROCHALCONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1478,
+        "name": "NEOHESPERIDIN DIHYDROCHALCONE",
+        "smiles": "COc1ccc(CCC(=O)c2c(O)cc(O[C@H]3O[C@@H](CO)C(O)[C@@H](O)C3O[C@H]3O[C@H](C)[C@@H](O)[C@H](O)[C@@H]3O)cc2O)cc1O",
+        "charge": 0,
+        "total_atoms": 79,
+        "heavy_atoms": 43
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001483_NETILMICIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1483,
+        "name": "NETILMICIN SULFATE",
+        "smiles": "CCN[C@@H]1C[C@H](N)[C@@H](O[C@H]2OC(CN)=CC[C@H]2N)[C@H](O)[C@H]1OC1OC[C@](C)(O)[C@H](NC)[C@H]1O",
+        "charge": 0,
+        "total_atoms": 74,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001585_PANTHENOL_dl_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1585,
+        "name": "PANTHENOL (dl)",
+        "smiles": "CC(C)(CO)[C@H](O)C(=O)NCCCO",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        5.7349,
+        6.3314,
+        6.6171,
+        6.829,
+        7.1723
+      ],
+      "predicted_oscillator_strengths": [
+        0.011569,
+        0.072688,
+        0.141262,
+        0.000894,
+        0.011558
+      ],
+      "timing": {
+        "xtb_s": 1.0748338643461466,
+        "xtb4stda_s": 0.31014722771942616,
+        "stda_s": 13.14655178040266,
+        "total_s": 14.57139021717012
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001575_PACHYRRHIZIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1575,
+        "name": "PACHYRRHIZIN",
+        "smiles": "COc1cc2c(cc1-c1cc3cc4ccoc4cc3oc1=O)OCO2",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        3.3757,
+        3.9206,
+        4.3463,
+        4.3924,
+        4.4565
+      ],
+      "predicted_oscillator_strengths": [
+        0.415109,
+        0.114406,
+        0.073288,
+        0.003268,
+        0.386528
+      ],
+      "timing": {
+        "xtb_s": 1.2163732405751944,
+        "xtb4stda_s": 0.3554900921881199,
+        "stda_s": 96.41942492499948,
+        "total_s": 98.04569653049111
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001587_PANTOTHENIC_ACID_d_Na_salt",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1587,
+        "name": "PANTOTHENIC ACID(d) Na salt",
+        "smiles": "CC(C)(CO)[C@H](O)C(=O)NCCC(=O)O",
+        "charge": 0,
+        "total_atoms": 32,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        5.5165,
+        5.9902,
+        6.2116,
+        6.5444,
+        6.6066
+      ],
+      "predicted_oscillator_strengths": [
+        0.01277,
+        0.00151,
+        0.016363,
+        0.06749,
+        0.080256
+      ],
+      "timing": {
+        "xtb_s": 1.1599340569227934,
+        "xtb4stda_s": 0.31155306100845337,
+        "stda_s": 14.282363876700401,
+        "total_s": 15.799697348847985
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001588_PARAMETHADIONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1588,
+        "name": "PARAMETHADIONE",
+        "smiles": "CC[C@]1(C)OC(=O)N(C)C1=O",
+        "charge": 0,
+        "total_atoms": 22,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        5.6939,
+        6.4915,
+        7.0214,
+        7.1445,
+        7.4999
+      ],
+      "predicted_oscillator_strengths": [
+        0.008686,
+        0.334624,
+        0.013602,
+        0.012217,
+        0.00063
+      ],
+      "timing": {
+        "xtb_s": 0.3617466129362583,
+        "xtb4stda_s": 0.2231385763734579,
+        "stda_s": 2.296093314886093,
+        "total_s": 2.9013963527977467
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001589_PARAXANTHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1589,
+        "name": "PARAXANTHINE",
+        "smiles": "Cn1c(=O)[nH]c2ncn(C)c2c1=O",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.6271,
+        5.4358,
+        5.6003,
+        5.868,
+        5.8732
+      ],
+      "predicted_oscillator_strengths": [
+        0.285038,
+        0.000634,
+        0.078158,
+        0.032691,
+        0.000876
+      ],
+      "timing": {
+        "xtb_s": 0.27356347627937794,
+        "xtb4stda_s": 0.23638617992401123,
+        "stda_s": 2.798009192571044,
+        "total_s": 3.3286390136927366
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001487_NICARDIPINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1487,
+        "name": "NICARDIPINE HYDROCHLORIDE",
+        "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN(C)Cc2ccccc2)[C@H]1c1cccc([N+](=O)[O-])c1",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001583_PANGAMIC_ACID_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1583,
+        "name": "PANGAMIC ACID SODIUM",
+        "smiles": "CN(C)CC(=O)OC[C@H](O)[C@H](O)[C@@H](O)[C@H](O)C(=O)O",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        4.9254,
+        5.5212,
+        5.8022,
+        6.3603,
+        6.4772
+      ],
+      "predicted_oscillator_strengths": [
+        0.014099,
+        0.003492,
+        0.012495,
+        0.004688,
+        0.001082
+      ],
+      "timing": {
+        "xtb_s": 5.940601734444499,
+        "xtb4stda_s": 0.3878606706857681,
+        "stda_s": 73.44870879501104,
+        "total_s": 79.8325002938509
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001592_PAROXYPROPIONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1592,
+        "name": "PAROXYPROPIONE",
+        "smiles": "CCC(=O)c1ccc(O)cc1",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        4.134,
+        4.6952,
+        4.7629,
+        5.8941,
+        6.0127
+      ],
+      "predicted_oscillator_strengths": [
+        0.000734,
+        0.00427,
+        0.431568,
+        0.008072,
+        0.326233
+      ],
+      "timing": {
+        "xtb_s": 0.6357016116380692,
+        "xtb4stda_s": 0.2504616715013981,
+        "stda_s": 1.9048110898584127,
+        "total_s": 2.811834540218115
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001593_PARTHENOLIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1593,
+        "name": "PARTHENOLIDE",
+        "smiles": "C=C1C(=O)O[C@@H]2C3O[C@@]3(C)CC/C=C(\\C)CC[C@@H]12",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        4.9223,
+        6.0338,
+        6.1044,
+        6.4693,
+        6.5842
+      ],
+      "predicted_oscillator_strengths": [
+        0.003235,
+        0.067926,
+        0.320315,
+        0.297605,
+        0.01346
+      ],
+      "timing": {
+        "xtb_s": 3.7849342301487923,
+        "xtb4stda_s": 0.3656388856470585,
+        "stda_s": 58.61525863967836,
+        "total_s": 62.84268003888428
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001594_PASINIAZID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1594,
+        "name": "PASINIAZID",
+        "smiles": "Nc1ccc(C(=O)O)c(O)c1",
+        "charge": 0,
+        "total_atoms": 18,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        4.3297,
+        4.6689,
+        5.1552,
+        5.564,
+        5.6688
+      ],
+      "predicted_oscillator_strengths": [
+        0.134195,
+        0.359053,
+        0.026303,
+        0.330317,
+        0.000412
+      ],
+      "timing": {
+        "xtb_s": 0.49692280404269695,
+        "xtb4stda_s": 0.21734769083559513,
+        "stda_s": 1.2896054964512587,
+        "total_s": 2.024417944252491
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001595_PATULIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1595,
+        "name": "PATULIN",
+        "smiles": "O=C1C=C2C(=CCO[C@@H]2O)O1",
+        "charge": 0,
+        "total_atoms": 17,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        4.4705,
+        4.5343,
+        5.0173,
+        5.4143,
+        5.9926
+      ],
+      "predicted_oscillator_strengths": [
+        0.155081,
+        0.391249,
+        0.155237,
+        0.106294,
+        0.011779
+      ],
+      "timing": {
+        "xtb_s": 0.30459592305123806,
+        "xtb4stda_s": 0.20170729607343674,
+        "stda_s": 1.2735402528196573,
+        "total_s": 1.796528184786439
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001555_OXELAIDIN_CITRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1555,
+        "name": "OXELAIDIN CITRATE",
+        "smiles": "CCN(CC)CCOCCOC(=O)C(CC)(CC)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 57,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        5.1228,
+        5.5618,
+        6.131,
+        6.152,
+        6.3224
+      ],
+      "predicted_oscillator_strengths": [
+        0.000427,
+        0.027888,
+        0.030535,
+        0.030975,
+        0.007137
+      ],
+      "timing": {
+        "xtb_s": 4.02125552482903,
+        "xtb4stda_s": 0.5554367881268263,
+        "stda_s": 407.65669021196663,
+        "total_s": 412.3385366164148
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001570_OXYPHENCYCLIMINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1570,
+        "name": "OXYPHENCYCLIMINE HYDROCHLORIDE",
+        "smiles": "CN1CCCN=C1COC(=O)[C@](O)(c1ccccc1)C1CCCCC1",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.9908,
+        5.1058,
+        5.1411,
+        5.7259,
+        5.9488
+      ],
+      "predicted_oscillator_strengths": [
+        0.018365,
+        0.055829,
+        0.000162,
+        0.203496,
+        0.026842
+      ],
+      "timing": {
+        "xtb_s": 1.9883795473724604,
+        "xtb4stda_s": 0.5273221116513014,
+        "stda_s": 276.36223446018994,
+        "total_s": 278.9871661197394
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001572_OXYTHIAMINE_CHLORIDE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1572,
+        "name": "OXYTHIAMINE CHLORIDE HYDROCHLORIDE",
+        "smiles": "Cc1ncc(C[n+]2csc(CCO)c2C)c(O)n1",
+        "charge": 1,
+        "total_atoms": 34,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        1.6185,
+        2.076,
+        2.2934,
+        2.4131,
+        2.6376
+      ],
+      "predicted_oscillator_strengths": [
+        0.009662,
+        0.002572,
+        0.000418,
+        0.00167,
+        0.061864
+      ],
+      "timing": {
+        "xtb_s": 0.8608305957168341,
+        "xtb4stda_s": 0.33081790804862976,
+        "stda_s": 290.9818286523223,
+        "total_s": 292.2311414387077
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001599_PELLETIERINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1599,
+        "name": "PELLETIERINE HYDROCHLORIDE",
+        "smiles": "CC(=O)C[C@H]1CCCCN1",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        4.4618,
+        5.348,
+        5.8841,
+        6.501,
+        6.7419
+      ],
+      "predicted_oscillator_strengths": [
+        8.2e-05,
+        0.003468,
+        0.009145,
+        0.008916,
+        0.015848
+      ],
+      "timing": {
+        "xtb_s": 0.4480495862662792,
+        "xtb4stda_s": 0.2268140111118555,
+        "stda_s": 2.430905444547534,
+        "total_s": 3.143159344792366
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001548_OSAJIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1548,
+        "name": "OSAJIN",
+        "smiles": "CC(C)=CCc1c2c(c3occ(-c4ccc(O)cc4)c(=O)c3c1O)C=CC(C)(C)O2",
+        "charge": 0,
+        "total_atoms": 54,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        3.5322,
+        4.0209,
+        4.3754,
+        4.5129,
+        4.6753
+      ],
+      "predicted_oscillator_strengths": [
+        0.101976,
+        0.094231,
+        0.118081,
+        0.164159,
+        0.873109
+      ],
+      "timing": {
+        "xtb_s": 2.839438311755657,
+        "xtb4stda_s": 0.5750886108726263,
+        "stda_s": 592.7704643718898,
+        "total_s": 596.2825845759362
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001596_PAZUFLOXACIN_MESYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1596,
+        "name": "PAZUFLOXACIN MESYLATE",
+        "smiles": "C[C@H]1COc2c(C3(N)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        3.9935,
+        4.1453,
+        4.7381,
+        5.1145,
+        5.1667
+      ],
+      "predicted_oscillator_strengths": [
+        0.171087,
+        0.408087,
+        0.000383,
+        0.327937,
+        0.002892
+      ],
+      "timing": {
+        "xtb_s": 1.0368130840361118,
+        "xtb4stda_s": 0.3788211327046156,
+        "stda_s": 90.84243386052549,
+        "total_s": 92.31225304119289
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001601_PEMIROLAST_POTASSIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1601,
+        "name": "PEMIROLAST POTASSIUM",
+        "smiles": "Cc1cccn2c(=O)c(-c3nnn[nH]3)cnc12",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        3.6529,
+        3.9904,
+        5.1282,
+        5.1817,
+        5.5331
+      ],
+      "predicted_oscillator_strengths": [
+        0.442223,
+        0.217341,
+        0.001015,
+        0.4829,
+        0.001809
+      ],
+      "timing": {
+        "xtb_s": 0.36407738737761974,
+        "xtb4stda_s": 0.26966604962944984,
+        "stda_s": 8.758358364924788,
+        "total_s": 9.420248083770275
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001591_PAROXETINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1591,
+        "name": "PAROXETINE HYDROCHLORIDE",
+        "smiles": "Fc1ccc([C@H]2CCNC[C@@H]2COc2ccc3c(c2)OCO3)cc1",
+        "charge": 0,
+        "total_atoms": 44,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        4.3764,
+        4.8347,
+        5.0769,
+        5.2548,
+        5.7614
+      ],
+      "predicted_oscillator_strengths": [
+        0.1365,
+        0.006146,
+        0.006586,
+        0.093983,
+        0.001777
+      ],
+      "timing": {
+        "xtb_s": 1.654082639142871,
+        "xtb4stda_s": 0.4456610605120659,
+        "stda_s": 170.40355268865824,
+        "total_s": 172.60225483216345
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001602_PEMPIDINE_TARTRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1602,
+        "name": "PEMPIDINE TARTRATE",
+        "smiles": "CN1C(C)(C)CCCC1(C)C",
+        "charge": 0,
+        "total_atoms": 32,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        5.3515,
+        5.9993,
+        6.1553,
+        6.3401,
+        7.0681
+      ],
+      "predicted_oscillator_strengths": [
+        0.000553,
+        0.009996,
+        0.000109,
+        0.017486,
+        0.007855
+      ],
+      "timing": {
+        "xtb_s": 0.4779918994754553,
+        "xtb4stda_s": 0.28803740069270134,
+        "stda_s": 6.263479728251696,
+        "total_s": 7.0587177481502295
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001605_PENICILLAMINE_ETHANOLAMINE_SALT",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1605,
+        "name": "PENICILLAMINE ETHANOLAMINE SALT",
+        "smiles": "CC(C)(S)[C@H](N)C(=O)O",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 9
+      },
+      "predicted_excitation_energies_eV": [
+        5.4135,
+        5.8438,
+        6.1946,
+        6.3305,
+        6.7656
+      ],
+      "predicted_oscillator_strengths": [
+        0.018656,
+        0.015563,
+        0.006927,
+        0.014945,
+        0.054905
+      ],
+      "timing": {
+        "xtb_s": 0.791907886043191,
+        "xtb4stda_s": 0.1994775626808405,
+        "stda_s": 1.3150625936686993,
+        "total_s": 2.3244504909962416
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001586_PANTOPRAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1586,
+        "name": "PANTOPRAZOLE",
+        "smiles": "COc1ccnc(C[S@](=O)c2nc3cc(OC(F)F)ccc3[nH]2)c1OC",
+        "charge": 0,
+        "total_atoms": 41,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        4.5349,
+        4.6772,
+        5.089,
+        5.2577,
+        5.3711
+      ],
+      "predicted_oscillator_strengths": [
+        0.243357,
+        0.105831,
+        0.061132,
+        0.06949,
+        0.06239
+      ],
+      "timing": {
+        "xtb_s": 4.1570740304887295,
+        "xtb4stda_s": 0.39278548397123814,
+        "stda_s": 208.1906909737736,
+        "total_s": 212.81596029922366
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001606_PENICILLAMINE_METHYL_ESTER_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1606,
+        "name": "PENICILLAMINE METHYL ESTER HYDROCHLORIDE",
+        "smiles": "COC(=O)[C@@H](N)C(C)(C)S",
+        "charge": 0,
+        "total_atoms": 23,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        5.4287,
+        6.0216,
+        6.2383,
+        6.336,
+        7.0947
+      ],
+      "predicted_oscillator_strengths": [
+        0.008201,
+        0.035187,
+        0.000914,
+        0.006347,
+        0.01086
+      ],
+      "timing": {
+        "xtb_s": 0.467165257781744,
+        "xtb4stda_s": 0.2195924911648035,
+        "stda_s": 2.2652349546551704,
+        "total_s": 2.9731229841709137
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001607_PENTACHLOROPHENOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1607,
+        "name": "PENTACHLOROPHENOL",
+        "smiles": "Oc1c(Cl)c(Cl)c(Cl)c(Cl)c1Cl",
+        "charge": 0,
+        "total_atoms": 13,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        4.5803,
+        5.2955,
+        5.4939,
+        5.7817,
+        6.0213
+      ],
+      "predicted_oscillator_strengths": [
+        0.046599,
+        0.003898,
+        0.034642,
+        0.002314,
+        0.000304
+      ],
+      "timing": {
+        "xtb_s": 0.28020771965384483,
+        "xtb4stda_s": 0.21223732084035873,
+        "stda_s": 1.0810765195637941,
+        "total_s": 1.5866534002125263
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001567_OXYBUTYNIN_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1567,
+        "name": "OXYBUTYNIN CHLORIDE",
+        "smiles": "CCN(CC)CC#CCOC(=O)[C@](O)(c1ccccc1)C1CCCCC1",
+        "charge": 0,
+        "total_atoms": 57,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        5.1134,
+        5.4461,
+        6.0153,
+        6.2757,
+        6.3402
+      ],
+      "predicted_oscillator_strengths": [
+        0.0003,
+        0.016731,
+        0.079297,
+        0.002488,
+        0.032482
+      ],
+      "timing": {
+        "xtb_s": 2.7858394626528025,
+        "xtb4stda_s": 0.5486313588917255,
+        "stda_s": 420.09567176550627,
+        "total_s": 423.5566313471645
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001581_PALMIDROL_5mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1581,
+        "name": "PALMIDROL [5mM]",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)NCCO",
+        "charge": 0,
+        "total_atoms": 58,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        5.8496,
+        6.0316,
+        6.4304,
+        6.9931,
+        7.1952
+      ],
+      "predicted_oscillator_strengths": [
+        0.060223,
+        0.004224,
+        0.101102,
+        0.01516,
+        0.011188
+      ],
+      "timing": {
+        "xtb_s": 4.98506179638207,
+        "xtb4stda_s": 0.5030074957758188,
+        "stda_s": 305.82372196391225,
+        "total_s": 311.4296978190541
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001598_PEFLOXACIN_MESYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1598,
+        "name": "PEFLOXACIN MESYLATE",
+        "smiles": "CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCN(C)CC3)cc21",
+        "charge": 0,
+        "total_atoms": 44,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        3.7082,
+        4.1036,
+        4.5104,
+        4.6889,
+        4.8064
+      ],
+      "predicted_oscillator_strengths": [
+        0.099455,
+        0.02507,
+        1.027096,
+        0.048271,
+        0.035669
+      ],
+      "timing": {
+        "xtb_s": 1.9345092605799437,
+        "xtb4stda_s": 0.4143530000001192,
+        "stda_s": 141.46310377679765,
+        "total_s": 143.88385233841836
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001531_OLEANOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1531,
+        "name": "OLEANOLIC ACID",
+        "smiles": "CC1(C)CC[C@]2(C(=O)O)CC[C@]3(C)C(=CCC4[C@@]5(C)CC[C@@H](O)C(C)(C)C5CC[C@]43C)C2C1",
+        "charge": 0,
+        "total_atoms": 81,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001613_PENTYLENETETRAZOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1613,
+        "name": "PENTYLENETETRAZOL",
+        "smiles": "C1CCc2nnnn2CC1",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        6.1956,
+        6.5441,
+        6.9298,
+        7.0587,
+        7.2588
+      ],
+      "predicted_oscillator_strengths": [
+        0.002127,
+        0.039278,
+        0.02464,
+        0.089754,
+        0.075264
+      ],
+      "timing": {
+        "xtb_s": 0.3007312249392271,
+        "xtb4stda_s": 0.214093167334795,
+        "stda_s": 1.302134482190013,
+        "total_s": 1.831081511452794
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001611_PENTOLINIUM_TARTRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1611,
+        "name": "PENTOLINIUM TARTRATE",
+        "smiles": "C[N+]1(CCCCC[N+]2(C)CCCC2)CCCC1",
+        "charge": 2,
+        "total_atoms": 49,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        0.6089,
+        0.691,
+        0.9079,
+        1.1851,
+        1.4811
+      ],
+      "predicted_oscillator_strengths": [
+        0.250545,
+        0.366367,
+        0.448897,
+        0.021565,
+        0.096454
+      ],
+      "timing": {
+        "xtb_s": 1.188052823767066,
+        "xtb4stda_s": 0.4139992482960224,
+        "stda_s": 87.3518248591572,
+        "total_s": 89.02167684584856
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001612_PENTOXIFYLLINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1612,
+        "name": "PENTOXIFYLLINE",
+        "smiles": "CC(=O)CCCCn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        4.4154,
+        4.5432,
+        5.3551,
+        5.5973,
+        5.9227
+      ],
+      "predicted_oscillator_strengths": [
+        2.7e-05,
+        0.300779,
+        0.000311,
+        0.156694,
+        0.005767
+      ],
+      "timing": {
+        "xtb_s": 0.7894377280026674,
+        "xtb4stda_s": 0.3396034650504589,
+        "stda_s": 65.81975541450083,
+        "total_s": 66.99405145458877
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001615_PEONOL_METHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1615,
+        "name": "PEONOL METHYL ETHER",
+        "smiles": "COc1ccc(C(C)=O)c(OC)c1",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.237,
+        4.3992,
+        4.7573,
+        5.7444,
+        6.0801
+      ],
+      "predicted_oscillator_strengths": [
+        0.138587,
+        0.002396,
+        0.305055,
+        0.322457,
+        0.00161
+      ],
+      "timing": {
+        "xtb_s": 0.5861397311091423,
+        "xtb4stda_s": 0.24089819379150867,
+        "stda_s": 4.525729585438967,
+        "total_s": 5.38344163261354
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001532_OLEANOLIC_ACID_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1532,
+        "name": "OLEANOLIC ACID ACETATE",
+        "smiles": "CC(=O)O[C@@H]1CC[C@@]2(C)C(CC[C@]3(C)C2CC=C2C4CC(C)(C)CC[C@]4(C(=O)O)CC[C@]23C)C1(C)C",
+        "charge": 0,
+        "total_atoms": 86,
+        "heavy_atoms": 36
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001603_PENBUTOLOL_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1603,
+        "name": "PENBUTOLOL SULFATE",
+        "smiles": "CC(C)(C)NC[C@H](O)COc1ccccc1C1CCCC1",
+        "charge": 0,
+        "total_atoms": 50,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        4.8063,
+        5.6655,
+        5.9114,
+        6.1027,
+        6.648
+      ],
+      "predicted_oscillator_strengths": [
+        0.05102,
+        0.105031,
+        0.005738,
+        0.004449,
+        0.081429
+      ],
+      "timing": {
+        "xtb_s": 6.5055519528687,
+        "xtb4stda_s": 0.43599758110940456,
+        "stda_s": 170.4984575510025,
+        "total_s": 177.52902427874506
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001618_PERILLIC_ACID_-_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1618,
+        "name": "PERILLIC ACID (-)",
+        "smiles": "C=C(C)[C@@H]1CC=C(C(=O)O)CC1",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        5.2404,
+        5.5316,
+        6.1503,
+        6.6752,
+        6.8638
+      ],
+      "predicted_oscillator_strengths": [
+        0.007358,
+        0.436146,
+        0.004857,
+        0.006244,
+        0.013501
+      ],
+      "timing": {
+        "xtb_s": 0.4949955940246582,
+        "xtb4stda_s": 0.2746995687484741,
+        "stda_s": 4.0603786036372185,
+        "total_s": 4.8554941806942225
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001619_PERILLYL_ALCOHOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1619,
+        "name": "PERILLYL ALCOHOL",
+        "smiles": "C=C(C)[C@@H]1CC=C(CO)CC1",
+        "charge": 0,
+        "total_atoms": 27,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        5.9828,
+        6.257,
+        6.8309,
+        7.1055,
+        7.1508
+      ],
+      "predicted_oscillator_strengths": [
+        0.011128,
+        0.003784,
+        0.342938,
+        0.00372,
+        0.245003
+      ],
+      "timing": {
+        "xtb_s": 1.1635046899318695,
+        "xtb4stda_s": 0.2665363047271967,
+        "stda_s": 3.6432190500199795,
+        "total_s": 5.098783388733864
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001533_OLMESARTAN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1533,
+        "name": "OLMESARTAN",
+        "smiles": "CCCc1nc(C(C)(C)O)c(C(=O)O)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+        "charge": 0,
+        "total_atoms": 59,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001614_PEONIFLORIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1614,
+        "name": "PEONIFLORIN",
+        "smiles": "C[C@@]12CC[C@@H]3[C@@](COC(=O)c4ccccc4)(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)C(O1)O[C@]3(O)C2",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 34
+      },
+      "error": "RDKit ETKDG embedding failed."
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001534_OLMESARTAN_MEDOXOMIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1534,
+        "name": "OLMESARTAN MEDOXOMIL",
+        "smiles": "CCCc1nc(C(C)(C)O)c(C(=O)OCc2oc(=O)oc2C)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+        "charge": 0,
+        "total_atoms": 71,
+        "heavy_atoms": 41
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001624_PERSEITOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1624,
+        "name": "PERSEITOL",
+        "smiles": "OC[C@H](O)[C@H](O)[C@H](O)[C@@H](O)[C@H](O)CO",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        6.6694,
+        6.8708,
+        7.0721,
+        7.3377,
+        7.4665
+      ],
+      "predicted_oscillator_strengths": [
+        0.003427,
+        0.009672,
+        0.003506,
+        0.004469,
+        0.019475
+      ],
+      "timing": {
+        "xtb_s": 0.47936759889125824,
+        "xtb4stda_s": 0.2606331631541252,
+        "stda_s": 10.701817698776722,
+        "total_s": 11.476039990782738
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001609_PENTAMIDINE_ISETHIONATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1609,
+        "name": "PENTAMIDINE ISETHIONATE",
+        "smiles": "N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.7761,
+        4.7794,
+        5.2047,
+        5.2315,
+        5.2579
+      ],
+      "predicted_oscillator_strengths": [
+        0.025096,
+        0.024201,
+        0.613415,
+        0.051815,
+        0.2303
+      ],
+      "timing": {
+        "xtb_s": 1.0393140353262424,
+        "xtb4stda_s": 0.4580994248390198,
+        "stda_s": 246.17898914963007,
+        "total_s": 247.76680429279804
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001542_ORLISTAT",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1542,
+        "name": "ORLISTAT",
+        "smiles": "CCCCCCCCCCC[C@H](C[C@@H]1OC(=O)[C@@H]1CCCCCC)OC(=O)[C@H](CC(C)C)NC=O",
+        "charge": 0,
+        "total_atoms": 88,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001626_PEUCENIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1626,
+        "name": "PEUCENIN",
+        "smiles": "CC(C)=CCc1c(O)cc2oc(C)cc(=O)c2c1O",
+        "charge": 0,
+        "total_atoms": 35,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        3.856,
+        4.4414,
+        4.5066,
+        5.0773,
+        5.393
+      ],
+      "predicted_oscillator_strengths": [
+        0.098573,
+        0.062889,
+        0.000166,
+        0.424512,
+        0.019622
+      ],
+      "timing": {
+        "xtb_s": 1.1056511532515287,
+        "xtb4stda_s": 0.34707386791706085,
+        "stda_s": 37.94432955980301,
+        "total_s": 39.44431425631046
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001627_PHENACETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1627,
+        "name": "PHENACETIN",
+        "smiles": "CCOc1ccc(NC(C)=O)cc1",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.3957,
+        4.9352,
+        5.2593,
+        5.5517,
+        5.7354
+      ],
+      "predicted_oscillator_strengths": [
+        0.076709,
+        0.614607,
+        0.003092,
+        0.019818,
+        0.000269
+      ],
+      "timing": {
+        "xtb_s": 0.535173075273633,
+        "xtb4stda_s": 0.26287927478551865,
+        "stda_s": 5.363442467525601,
+        "total_s": 6.18688840419054
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001628_PHENACYLAMINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1628,
+        "name": "PHENACYLAMINE HYDROCHLORIDE",
+        "smiles": "NCC(=O)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 19,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        3.783,
+        4.5822,
+        5.1907,
+        5.5544,
+        6.2891
+      ],
+      "predicted_oscillator_strengths": [
+        0.00071,
+        0.033107,
+        0.335128,
+        0.003451,
+        0.020701
+      ],
+      "timing": {
+        "xtb_s": 0.2526651881635189,
+        "xtb4stda_s": 0.22890674695372581,
+        "stda_s": 1.2304718904197216,
+        "total_s": 1.730793610215187
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001616_PERGOLIDE_MESYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1616,
+        "name": "PERGOLIDE MESYLATE",
+        "smiles": "CCCN1C[C@H](CSC)C[C@@H]2c3cccc4[nH]cc(c34)CC21",
+        "charge": 0,
+        "total_atoms": 48,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.4944,
+        4.6563,
+        5.2556,
+        5.2864,
+        5.8189
+      ],
+      "predicted_oscillator_strengths": [
+        0.14311,
+        0.029996,
+        0.000149,
+        0.003221,
+        0.021413
+      ],
+      "timing": {
+        "xtb_s": 1.8760605100542307,
+        "xtb4stda_s": 0.46216549165546894,
+        "stda_s": 145.1071357987821,
+        "total_s": 147.53694192878902
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001630_PHENETHYLAMINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1630,
+        "name": "PHENETHYLAMINE HYDROCHLORIDE",
+        "smiles": "NCCc1ccccc1",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 9
+      },
+      "predicted_excitation_energies_eV": [
+        5.1224,
+        6.1287,
+        6.2091,
+        6.654,
+        6.7934
+      ],
+      "predicted_oscillator_strengths": [
+        0.000493,
+        0.027613,
+        0.020914,
+        0.019967,
+        0.037494
+      ],
+      "timing": {
+        "xtb_s": 0.2648535631597042,
+        "xtb4stda_s": 0.19936377927660942,
+        "stda_s": 1.0546231009066105,
+        "total_s": 1.536298556253314
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001631_PHENFORMIN_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1631,
+        "name": "PHENFORMIN HYDROCHLORIDE",
+        "smiles": "N=C(N)NC(=N)NCCc1ccccc1",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.8712,
+        5.1368,
+        5.5932,
+        5.6099,
+        5.6853
+      ],
+      "predicted_oscillator_strengths": [
+        0.03576,
+        0.000289,
+        0.036968,
+        0.11966,
+        0.134373
+      ],
+      "timing": {
+        "xtb_s": 1.034103948622942,
+        "xtb4stda_s": 0.29103055223822594,
+        "stda_s": 10.576386040076613,
+        "total_s": 11.931598380208015
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001632_PHENOBARBITAL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1632,
+        "name": "PHENOBARBITAL",
+        "smiles": "CCC1(c2ccccc2)C(=O)NC(=O)NC1=O",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        5.1082,
+        5.6224,
+        5.7176,
+        6.0729,
+        6.1666
+      ],
+      "predicted_oscillator_strengths": [
+        0.000622,
+        0.000853,
+        0.100851,
+        0.203414,
+        0.009669
+      ],
+      "timing": {
+        "xtb_s": 0.6338440030813217,
+        "xtb4stda_s": 0.2789926528930664,
+        "stda_s": 13.206787440925837,
+        "total_s": 14.151417318731546
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001634_PHENOTHIAZINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1634,
+        "name": "PHENOTHIAZINE",
+        "smiles": "c1ccc2c(c1)Nc1ccccc1S2",
+        "charge": 0,
+        "total_atoms": 23,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        3.1832,
+        3.5467,
+        3.8136,
+        4.2712,
+        4.8199
+      ],
+      "predicted_oscillator_strengths": [
+        0.034525,
+        0.326481,
+        0.024596,
+        0.007094,
+        0.106564
+      ],
+      "timing": {
+        "xtb_s": 0.34071631729602814,
+        "xtb4stda_s": 0.2582581229507923,
+        "stda_s": 3.5345473885536194,
+        "total_s": 4.160304859280586
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001629_PHENETHYL_CAFFEATE_CAPE_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1629,
+        "name": "PHENETHYL CAFFEATE (CAPE)",
+        "smiles": "O=C(/C=C/c1ccc(O)c(O)c1)OCCc1ccccc1",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        4.0304,
+        4.4848,
+        4.909,
+        5.131,
+        5.2613
+      ],
+      "predicted_oscillator_strengths": [
+        0.369058,
+        0.566147,
+        0.00417,
+        0.000199,
+        0.01235
+      ],
+      "timing": {
+        "xtb_s": 2.7989840880036354,
+        "xtb4stda_s": 0.3456438444554806,
+        "stda_s": 66.76009025797248,
+        "total_s": 69.96519859880209
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001636_PHENSUCCIMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1636,
+        "name": "PHENSUCCIMIDE",
+        "smiles": "CN1C(=O)C[C@H](c2ccccc2)C1=O",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        4.9905,
+        5.1425,
+        5.7117,
+        6.1086,
+        6.1719
+      ],
+      "predicted_oscillator_strengths": [
+        0.013398,
+        0.000444,
+        0.052701,
+        0.289801,
+        0.104064
+      ],
+      "timing": {
+        "xtb_s": 0.5703469850122929,
+        "xtb4stda_s": 0.25580564700067043,
+        "stda_s": 5.967329045757651,
+        "total_s": 6.822385746985674
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001617_PERHEXILINE_MALEATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1617,
+        "name": "PERHEXILINE MALEATE",
+        "smiles": "C1CCC(C(C[C@H]2CCCCN2)C2CCCCC2)CC1",
+        "charge": 0,
+        "total_atoms": 55,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        5.9162,
+        6.6585,
+        6.9309,
+        7.3006,
+        7.9324
+      ],
+      "predicted_oscillator_strengths": [
+        0.008223,
+        0.019558,
+        0.010649,
+        0.00961,
+        0.005946
+      ],
+      "timing": {
+        "xtb_s": 2.113712390884757,
+        "xtb4stda_s": 0.5130203906446695,
+        "stda_s": 219.80590569414198,
+        "total_s": 222.5549469795078
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001638_PHENYLALANINE_L_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1638,
+        "name": "PHENYLALANINE (L) HYDROCHLORIDE",
+        "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+        "charge": 0,
+        "total_atoms": 23,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        5.1447,
+        5.1499,
+        5.905,
+        6.1631,
+        6.6467
+      ],
+      "predicted_oscillator_strengths": [
+        0.00163,
+        0.013389,
+        0.026347,
+        0.034489,
+        0.025257
+      ],
+      "timing": {
+        "xtb_s": 0.7587998788803816,
+        "xtb4stda_s": 0.23324423097074032,
+        "stda_s": 2.897024041041732,
+        "total_s": 3.9126388393342495
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001639_PHENYLBUTYRATE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1639,
+        "name": "PHENYLBUTYRATE SODIUM",
+        "smiles": "CC[C@@H](C(=O)O)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        5.1283,
+        5.8472,
+        6.251,
+        6.6166,
+        6.8424
+      ],
+      "predicted_oscillator_strengths": [
+        0.000355,
+        0.080693,
+        0.001336,
+        0.001007,
+        0.000871
+      ],
+      "timing": {
+        "xtb_s": 0.4819191172719002,
+        "xtb4stda_s": 0.23874746821820736,
+        "stda_s": 3.07800723798573,
+        "total_s": 3.8236714992672205
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001640_PHENYLETHYL_ALCOHOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1640,
+        "name": "PHENYLETHYL ALCOHOL",
+        "smiles": "OCCc1ccccc1",
+        "charge": 0,
+        "total_atoms": 19,
+        "heavy_atoms": 9
+      },
+      "predicted_excitation_energies_eV": [
+        5.1246,
+        6.1237,
+        6.6306,
+        6.7885,
+        6.9183
+      ],
+      "predicted_oscillator_strengths": [
+        0.000392,
+        0.040407,
+        0.028008,
+        0.033423,
+        0.00778
+      ],
+      "timing": {
+        "xtb_s": 0.3328987117856741,
+        "xtb4stda_s": 0.23803208582103252,
+        "stda_s": 1.0103259906172752,
+        "total_s": 1.5979504324495792
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001642_PHLORACETOPHENONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1642,
+        "name": "PHLORACETOPHENONE",
+        "smiles": "CC(=O)c1c(O)cc(O)cc1O",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        3.7367,
+        4.3566,
+        4.4191,
+        5.5018,
+        5.6002
+      ],
+      "predicted_oscillator_strengths": [
+        0.079227,
+        0.349012,
+        0.014625,
+        0.029567,
+        0.028752
+      ],
+      "timing": {
+        "xtb_s": 0.39476622454822063,
+        "xtb4stda_s": 0.23870116844773293,
+        "stda_s": 1.9345235973596573,
+        "total_s": 2.5888975765556097
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001578_PALIPERIDONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1578,
+        "name": "PALIPERIDONE",
+        "smiles": "Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCC[C@@H]2O",
+        "charge": 0,
+        "total_atoms": 58,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        4.4864,
+        4.6868,
+        5.0994,
+        5.2882,
+        5.3308
+      ],
+      "predicted_oscillator_strengths": [
+        0.367158,
+        0.066723,
+        0.006006,
+        0.004662,
+        0.00601
+      ],
+      "timing": {
+        "xtb_s": 4.299735790118575,
+        "xtb4stda_s": 0.5517170485109091,
+        "stda_s": 710.7095001600683,
+        "total_s": 715.6957059223205
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001556_OXETHAZAINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1556,
+        "name": "OXETHAZAINE",
+        "smiles": "CN(C(=O)CN(CCO)CC(=O)N(C)C(C)(C)Cc1ccccc1)C(C)(C)Cc1ccccc1",
+        "charge": 0,
+        "total_atoms": 75,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001643_PHLORETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1643,
+        "name": "PHLORETIN",
+        "smiles": "O=C(CCc1ccc(O)cc1)c1c(O)cc(O)cc1O",
+        "charge": 0,
+        "total_atoms": 34,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        3.9076,
+        4.3869,
+        4.5177,
+        4.8483,
+        5.5478
+      ],
+      "predicted_oscillator_strengths": [
+        0.081366,
+        0.022404,
+        0.343034,
+        0.039712,
+        0.028743
+      ],
+      "timing": {
+        "xtb_s": 2.7023852821439505,
+        "xtb4stda_s": 0.32421076856553555,
+        "stda_s": 44.37882818840444,
+        "total_s": 47.44979040697217
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001621_PERINDOPRILAT",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1621,
+        "name": "PERINDOPRILAT",
+        "smiles": "CCC[C@H](N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCCC[C@@H]21)C(=O)O",
+        "charge": 0,
+        "total_atoms": 52,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        5.5591,
+        5.6866,
+        5.9947,
+        6.0145,
+        6.2654
+      ],
+      "predicted_oscillator_strengths": [
+        0.002867,
+        0.008342,
+        0.032244,
+        0.005525,
+        0.005376
+      ],
+      "timing": {
+        "xtb_s": 2.8732164055109024,
+        "xtb4stda_s": 0.5352920088917017,
+        "stda_s": 254.89049430191517,
+        "total_s": 258.42726018093526
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001610_PENTETIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1610,
+        "name": "PENTETIC ACID",
+        "smiles": "O=C(O)CN(CCN(CC(=O)O)CC(=O)O)CCN(CC(=O)O)CC(=O)O",
+        "charge": 0,
+        "total_atoms": 50,
+        "heavy_atoms": 27
+      },
+      "predicted_excitation_energies_eV": [
+        4.9618,
+        5.0372,
+        5.207,
+        5.3737,
+        5.4334
+      ],
+      "predicted_oscillator_strengths": [
+        0.007662,
+        0.048655,
+        0.010159,
+        0.031704,
+        0.006427
+      ],
+      "timing": {
+        "xtb_s": 4.635483305901289,
+        "xtb4stda_s": 0.4684451427310705,
+        "stda_s": 393.06149029545486,
+        "total_s": 398.24607966281474
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001633_PHENOLSULFONPHTHALEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1633,
+        "name": "PHENOLSULFONPHTHALEIN",
+        "smiles": "O=S1(=O)OC(c2ccc(O)cc2)(c2ccc(O)cc2)c2ccccc21",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.8558,
+        4.8732,
+        5.16,
+        5.6885,
+        5.7615
+      ],
+      "predicted_oscillator_strengths": [
+        0.039323,
+        0.026347,
+        0.001502,
+        0.310316,
+        0.156784
+      ],
+      "timing": {
+        "xtb_s": 2.1225649006664753,
+        "xtb4stda_s": 0.42500023543834686,
+        "stda_s": 136.77699500322342,
+        "total_s": 139.37912560999393
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001622_PERMETHRIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1622,
+        "name": "PERMETHRIN",
+        "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OCc1cccc(Oc2ccccc2)c1",
+        "charge": 0,
+        "total_atoms": 46,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        4.7839,
+        4.8927,
+        5.2732,
+        5.6746,
+        5.78
+      ],
+      "predicted_oscillator_strengths": [
+        0.020206,
+        0.026379,
+        0.404232,
+        0.006865,
+        0.03453
+      ],
+      "timing": {
+        "xtb_s": 8.522250516340137,
+        "xtb4stda_s": 0.4757567271590233,
+        "stda_s": 275.46593700163066,
+        "total_s": 284.5481900665909
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001637_PHENTOLAMINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1637,
+        "name": "PHENTOLAMINE HYDROCHLORIDE",
+        "smiles": "Cc1ccc(N(CC2=NCCN2)c2cccc(O)c2)cc1",
+        "charge": 0,
+        "total_atoms": 40,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        4.007,
+        4.088,
+        4.3716,
+        4.901,
+        4.916
+      ],
+      "predicted_oscillator_strengths": [
+        0.270859,
+        0.24663,
+        0.014109,
+        0.000214,
+        0.00657
+      ],
+      "timing": {
+        "xtb_s": 1.695652436465025,
+        "xtb4stda_s": 0.3777184560894966,
+        "stda_s": 91.41299705579877,
+        "total_s": 93.54938150011003
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001647_PHYSCION",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1647,
+        "name": "PHYSCION",
+        "smiles": "COc1cc(O)c2c(c1)C(=O)c1cc(C)cc(O)c1C2=O",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        2.6483,
+        3.084,
+        3.2162,
+        3.273,
+        3.8926
+      ],
+      "predicted_oscillator_strengths": [
+        0.312269,
+        6.4e-05,
+        0.084213,
+        0.060699,
+        4e-06
+      ],
+      "timing": {
+        "xtb_s": 0.8317981846630573,
+        "xtb4stda_s": 0.3233374357223511,
+        "stda_s": 47.63349368982017,
+        "total_s": 48.827017640694976
+      },
+      "stda_energy_window_eV": 30.0
+    }
+  ]
+}
