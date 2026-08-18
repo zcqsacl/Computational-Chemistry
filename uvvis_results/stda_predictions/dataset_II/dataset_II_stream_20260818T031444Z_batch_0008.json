@@ -1,0 +1,2850 @@
+{
+  "schema_version": 1,
+  "dataset": "dataset_II",
+  "source": "streaming_resume",
+  "batch_number": 8,
+  "record_count": 100,
+  "created_utc": "20260818T031444Z",
+  "records": [
+    {
+      "status": "success",
+      "label": "dataset_II_001041_GALANGIN_TRIMETHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1041,
+        "name": "GALANGIN TRIMETHYL ETHER",
+        "smiles": "COc1cc(OC)c2c(=O)c(OC)c(-c3ccccc3)oc2c1",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        3.6654,
+        4.2599,
+        4.3609,
+        4.7245,
+        4.8456
+      ],
+      "predicted_oscillator_strengths": [
+        0.484688,
+        0.005324,
+        0.032335,
+        0.090775,
+        0.000811
+      ],
+      "timing": {
+        "xtb_s": 1.6066475939005613,
+        "xtb4stda_s": 0.3875557165592909,
+        "stda_s": 116.38776885345578,
+        "total_s": 118.44078565016389
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000988_FINASTERIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 988,
+        "name": "FINASTERIDE",
+        "smiles": "CC(C)(C)NC(=O)[C@@H]1CCC2C3CCC4NC(=O)C=C[C@@]4(C)C3CC[C@]21C",
+        "charge": 0,
+        "total_atoms": 63,
+        "heavy_atoms": 27
+      },
+      "predicted_excitation_energies_eV": [
+        4.5661,
+        4.9217,
+        6.1605,
+        6.3303,
+        6.4253
+      ],
+      "predicted_oscillator_strengths": [
+        0.040631,
+        0.002351,
+        0.004261,
+        0.006083,
+        0.458205
+      ],
+      "timing": {
+        "xtb_s": 3.0936005730181932,
+        "xtb4stda_s": 0.6700667515397072,
+        "stda_s": 715.2357464749366,
+        "total_s": 719.1175080500543
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001042_GALANTAMINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1042,
+        "name": "GALANTAMINE",
+        "smiles": "COc1ccc2c3c1O[C@H]1C[C@@H](O)C=C[C@@]31CCN(C)C2",
+        "charge": 0,
+        "total_atoms": 42,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        4.5247,
+        5.1324,
+        5.2387,
+        5.2923,
+        5.5894
+      ],
+      "predicted_oscillator_strengths": [
+        0.054129,
+        0.046818,
+        0.002444,
+        0.10382,
+        0.04179
+      ],
+      "timing": {
+        "xtb_s": 0.9684081878513098,
+        "xtb4stda_s": 0.43028027564287186,
+        "stda_s": 101.19184737280011,
+        "total_s": 102.66790148429573
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000966_FAST_GREEN_FCF",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 966,
+        "name": "FAST GREEN FCF",
+        "smiles": "CCN(Cc1cccc(S(=O)(=O)O)c1)c1cccc(C(=C2C=CC(=[N+](CC)Cc3cccc(S(=O)(=O)O)c3)C=C2)c2ccc(O)cc2S(=O)(=O)O)c1",
+        "charge": 1,
+        "total_atoms": 89,
+        "heavy_atoms": 52
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001053_GEMCITABINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1053,
+        "name": "GEMCITABINE HYDROCHLORIDE",
+        "smiles": "Nc1ccn([C@H]2O[C@@H](CO)[C@H](O)C2(F)F)c(=O)n1",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        4.5685,
+        4.8954,
+        5.3812,
+        5.387,
+        5.7413
+      ],
+      "predicted_oscillator_strengths": [
+        0.22375,
+        0.001793,
+        0.190992,
+        0.017158,
+        0.005139
+      ],
+      "timing": {
+        "xtb_s": 1.100700469687581,
+        "xtb4stda_s": 0.3214440029114485,
+        "stda_s": 24.967681378126144,
+        "total_s": 26.42714541219175
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001014_FLUPHENAZINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1014,
+        "name": "FLUPHENAZINE HYDROCHLORIDE",
+        "smiles": "OCCN1CCN(CCCN2c3ccccc3Sc3ccc(C(F)(F)F)cc32)CC1",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        3.1065,
+        3.511,
+        3.8367,
+        4.3441,
+        4.822
+      ],
+      "predicted_oscillator_strengths": [
+        0.013292,
+        0.30153,
+        0.054622,
+        0.018193,
+        0.155579
+      ],
+      "timing": {
+        "xtb_s": 6.8670803476125,
+        "xtb4stda_s": 0.6163735371083021,
+        "stda_s": 641.0631279349327,
+        "total_s": 648.6603381130844
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001006_FLUMETHASONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1006,
+        "name": "FLUMETHASONE",
+        "smiles": "C[C@@H]1CC2C3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO",
+        "charge": 0,
+        "total_atoms": 57,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        3.8373,
+        4.513,
+        4.5765,
+        5.2086,
+        6.0485
+      ],
+      "predicted_oscillator_strengths": [
+        0.000267,
+        0.105688,
+        0.005427,
+        0.393421,
+        0.07658
+      ],
+      "timing": {
+        "xtb_s": 4.892065841704607,
+        "xtb4stda_s": 0.6060852333903313,
+        "stda_s": 723.7493528071791,
+        "total_s": 729.3659691102803
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000986_FESOTERODINE_FUMARATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 986,
+        "name": "FESOTERODINE FUMARATE",
+        "smiles": "CC(C)C(=O)Oc1ccc(CO)cc1[C@@H](CCN(C(C)C)C(C)C)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 67,
+        "heavy_atoms": 30
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000987_FEXOFENADINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 987,
+        "name": "FEXOFENADINE HYDROCHLORIDE",
+        "smiles": "CC(C)(C(=O)O)c1ccc([C@@H](O)CCCN2CCC(C(O)(c3ccccc3)c3ccccc3)CC2)cc1",
+        "charge": 0,
+        "total_atoms": 76,
+        "heavy_atoms": 37
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001058_GENTISIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1058,
+        "name": "GENTISIC ACID",
+        "smiles": "O=C(O)c1cc(O)ccc1O",
+        "charge": 0,
+        "total_atoms": 17,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        3.7218,
+        5.2118,
+        5.3228,
+        5.3629,
+        5.8387
+      ],
+      "predicted_oscillator_strengths": [
+        0.176313,
+        0.031079,
+        0.002637,
+        0.000533,
+        0.052524
+      ],
+      "timing": {
+        "xtb_s": 0.2327406406402588,
+        "xtb4stda_s": 0.21380653604865074,
+        "stda_s": 1.2474979925900698,
+        "total_s": 1.7111043594777584
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001021_FOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1021,
+        "name": "FOLIC ACID",
+        "smiles": "Nc1nc(=O)c2nc(CNc3ccc(C(=O)N[C@@H](CCC(=O)O)C(=O)O)cc3)cnc2[nH]1",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 32
+      },
+      "predicted_excitation_energies_eV": [
+        3.7305,
+        3.9985,
+        4.3054,
+        4.4052,
+        4.5203
+      ],
+      "predicted_oscillator_strengths": [
+        0.008288,
+        0.100043,
+        0.018079,
+        0.447091,
+        0.003252
+      ],
+      "timing": {
+        "xtb_s": 8.451823748648167,
+        "xtb4stda_s": 0.5051872078329325,
+        "stda_s": 594.4701290205121,
+        "total_s": 603.5473064575344
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001056_GENISTEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1056,
+        "name": "GENISTEIN",
+        "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        3.9005,
+        4.3726,
+        4.459,
+        4.7074,
+        4.7625
+      ],
+      "predicted_oscillator_strengths": [
+        0.104015,
+        0.05696,
+        0.013719,
+        0.329142,
+        0.158846
+      ],
+      "timing": {
+        "xtb_s": 0.6176224146038294,
+        "xtb4stda_s": 0.3197874613106251,
+        "stda_s": 29.752268126234412,
+        "total_s": 30.72162907011807
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001061_GIBBERELLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1061,
+        "name": "GIBBERELLIC ACID",
+        "smiles": "C=C1C[C@@]23C[C@]1(O)CC[C@@H]2[C@]12C=C[C@@H](O)[C@@](C)(C(=O)O1)[C@@H]2[C@H]3C(=O)O",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 25
+      },
+      "error": "RDKit ETKDG embedding failed."
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000992_FISSINOLIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 992,
+        "name": "FISSINOLIDE",
+        "smiles": "COC(=O)C[C@H]1C(C)(C)[C@@H](OC(C)=O)[C@@H]2CC3=C4CC(=O)O[C@@H](c5ccoc5)[C@]4(C)CCC3[C@@]1(C)C2=O",
+        "charge": 0,
+        "total_atoms": 73,
+        "heavy_atoms": 37
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001007_FLUNARIZINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1007,
+        "name": "FLUNARIZINE HYDROCHLORIDE",
+        "smiles": "Fc1ccc(C(c2ccc(F)cc2)N2CCN(C/C=C/c3ccccc3)CC2)cc1",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.7842,
+        4.9716,
+        5.0645,
+        5.0888,
+        5.1559
+      ],
+      "predicted_oscillator_strengths": [
+        0.002615,
+        0.256207,
+        0.004693,
+        0.005264,
+        0.570936
+      ],
+      "timing": {
+        "xtb_s": 7.62310323305428,
+        "xtb4stda_s": 0.5974479243159294,
+        "stda_s": 791.8040586262941,
+        "total_s": 800.1557766012847
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001049_GARDENIN_B",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1049,
+        "name": "GARDENIN B",
+        "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC)c(OC)c3o2)cc1",
+        "charge": 0,
+        "total_atoms": 44,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        2.8608,
+        3.8311,
+        4.2066,
+        4.5426,
+        4.5883
+      ],
+      "predicted_oscillator_strengths": [
+        0.051782,
+        0.051263,
+        1.247699,
+        0.012916,
+        0.131852
+      ],
+      "timing": {
+        "xtb_s": 3.0005149468779564,
+        "xtb4stda_s": 0.43418465554714203,
+        "stda_s": 275.78704310394824,
+        "total_s": 279.29541054554284
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001047_GANGALEOIDIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1047,
+        "name": "GANGALEOIDIN",
+        "smiles": "COC(=O)c1c(OC)cc2c(c1C)Oc1c(Cl)c(O)c(Cl)c(C)c1C(=O)O2",
+        "charge": 0,
+        "total_atoms": 41,
+        "heavy_atoms": 27
+      },
+      "predicted_excitation_energies_eV": [
+        4.2163,
+        4.4242,
+        4.7369,
+        5.0822,
+        5.3293
+      ],
+      "predicted_oscillator_strengths": [
+        0.049586,
+        0.038786,
+        0.045135,
+        0.178275,
+        0.046392
+      ],
+      "timing": {
+        "xtb_s": 2.323782008141279,
+        "xtb4stda_s": 0.46769656240940094,
+        "stda_s": 291.7806610763073,
+        "total_s": 294.6411718670279
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001019_FLUVASTATIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1019,
+        "name": "FLUVASTATIN SODIUM",
+        "smiles": "CC(C)n1c(/C=C/[C@@H](O)C[C@@H](O)CC(=O)O)c(-c2ccc(F)cc2)c2ccccc21",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        3.8467,
+        4.3643,
+        4.5844,
+        4.7288,
+        5.0202
+      ],
+      "predicted_oscillator_strengths": [
+        0.315183,
+        0.072221,
+        0.026038,
+        0.321755,
+        0.34557
+      ],
+      "timing": {
+        "xtb_s": 3.3734288942068815,
+        "xtb4stda_s": 0.6138705722987652,
+        "stda_s": 748.4702495653182,
+        "total_s": 752.6078528724611
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001032_FUMARPROTOCETRARIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1032,
+        "name": "FUMARPROTOCETRARIC ACID",
+        "smiles": "Cc1cc(O)c(C=O)c2c1C(=O)Oc1c(COC(=O)/C=C/C(=O)O)c(O)c(C(=O)O)c(C)c1O2",
+        "charge": 0,
+        "total_atoms": 50,
+        "heavy_atoms": 34
+      },
+      "predicted_excitation_energies_eV": [
+        3.9011,
+        3.9358,
+        4.0772,
+        4.5037,
+        4.5132
+      ],
+      "predicted_oscillator_strengths": [
+        0.030051,
+        0.117599,
+        0.075298,
+        0.002001,
+        0.010431
+      ],
+      "timing": {
+        "xtb_s": 2.8070988599210978,
+        "xtb4stda_s": 0.5690702628344297,
+        "stda_s": 629.172857504338,
+        "total_s": 632.6533955615014
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001008_FLUNISOLIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1008,
+        "name": "FLUNISOLIDE",
+        "smiles": "CC1(C)O[C@H]2CC3C4C[C@@H](F)C5=CC(=O)C=CC5(C)C4C(O)CC3(C)[C@@]2(C(=O)CO)O1",
+        "charge": 0,
+        "total_atoms": 62,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001060_GESTODENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1060,
+        "name": "GESTODENE",
+        "smiles": "C#C[C@@]1(O)C=CC2[C@H]3CCC4=CC(=O)CC[C@H]4C3CC[C@]21CC",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        3.5651,
+        5.2257,
+        6.7827,
+        6.8127,
+        6.9428
+      ],
+      "predicted_oscillator_strengths": [
+        0.000331,
+        0.555823,
+        0.147086,
+        0.004892,
+        0.092946
+      ],
+      "timing": {
+        "xtb_s": 1.9479159004986286,
+        "xtb4stda_s": 0.5504855643957853,
+        "stda_s": 180.577162604779,
+        "total_s": 183.20785934105515
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000913_ESCIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 913,
+        "name": "ESCIN",
+        "smiles": "C/C=C(/C)C(=O)O[C@@H]1[C@H](OC(C)=O)[C@@]2(CO)C(CC1(C)C)C1=CCC3[C@@]4(C)CC[C@H](O[C@@H]5O[C@H](C(=O)O)[C@@H](O[C@@H]6O[C@H](CO)[C@@H](O)[C@H](O)[C@H]6O)[C@H](O)[C@H]5O[C@@H]5O[C@H](CO)[C@@H](O)[C@H](O)[C@H]5O)[C@](C)(CO)C4CC[C@@]3(C)[C@]1(C)C[C@H]2O",
+        "charge": 0,
+        "total_atoms": 165,
+        "heavy_atoms": 79
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001071_GLUCONOLACTONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1071,
+        "name": "GLUCONOLACTONE",
+        "smiles": "O=C1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 22,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        6.0784,
+        7.0513,
+        7.2299,
+        7.4775,
+        7.5998
+      ],
+      "predicted_oscillator_strengths": [
+        0.009911,
+        0.052364,
+        0.002551,
+        0.004969,
+        0.063598
+      ],
+      "timing": {
+        "xtb_s": 0.5506529863923788,
+        "xtb4stda_s": 0.23643957637250423,
+        "stda_s": 3.456605914980173,
+        "total_s": 4.265650240704417
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001065_GLAUCONIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1065,
+        "name": "GLAUCONIC ACID",
+        "smiles": "CC[C@@H]1/C=C2/C(=O)OC(=O)C2CC2=C(C(=O)OC2=O)[C@@H](O)[C@@H]1CC",
+        "charge": 0,
+        "total_atoms": 42,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        3.7446,
+        4.2158,
+        4.588,
+        4.8596,
+        5.182
+      ],
+      "predicted_oscillator_strengths": [
+        0.000843,
+        0.139183,
+        0.017222,
+        0.01698,
+        0.019875
+      ],
+      "timing": {
+        "xtb_s": 1.6514326184988022,
+        "xtb4stda_s": 0.43927810341119766,
+        "stda_s": 159.2014381494373,
+        "total_s": 161.40176315046847
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001073_GLUTAMINE_D_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1073,
+        "name": "GLUTAMINE (D)",
+        "smiles": "NC(=O)CC[C@H](N)C(=O)O",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        5.6904,
+        5.9866,
+        6.1824,
+        6.2959,
+        6.4284
+      ],
+      "predicted_oscillator_strengths": [
+        0.003421,
+        0.011639,
+        0.017917,
+        0.014656,
+        0.115514
+      ],
+      "timing": {
+        "xtb_s": 0.36329950019717216,
+        "xtb4stda_s": 0.2331892717629671,
+        "stda_s": 1.4801498800516129,
+        "total_s": 2.099698230624199
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001074_GLUTAMINE_L_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1074,
+        "name": "GLUTAMINE (L) HYDROCHLORIDE",
+        "smiles": "NC(=O)CC[C@H](N)C(=O)O",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        5.6904,
+        5.9866,
+        6.1824,
+        6.2959,
+        6.4284
+      ],
+      "predicted_oscillator_strengths": [
+        0.003421,
+        0.011639,
+        0.017917,
+        0.014656,
+        0.115514
+      ],
+      "timing": {
+        "xtb_s": 0.38397574983537197,
+        "xtb4stda_s": 0.24458468705415726,
+        "stda_s": 1.4673796072602272,
+        "total_s": 2.1185857448726892
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001072_GLUCOSAMINIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1072,
+        "name": "GLUCOSAMINIC ACID",
+        "smiles": "N[C@H](C(=O)O)[C@H](O)[C@@H](O)[C@@H](O)CO",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        5.8026,
+        6.5176,
+        6.7481,
+        6.829,
+        6.8674
+      ],
+      "predicted_oscillator_strengths": [
+        0.013143,
+        0.009588,
+        0.005912,
+        0.004743,
+        0.004455
+      ],
+      "timing": {
+        "xtb_s": 0.6048721205443144,
+        "xtb4stda_s": 0.2795592099428177,
+        "stda_s": 5.233440652489662,
+        "total_s": 6.1594175808131695
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001050_GATIFLOXACIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1050,
+        "name": "GATIFLOXACIN",
+        "smiles": "COc1c(N2CCN[C@@H](C)C2)c(F)cc2c(=O)c(C(=O)O)cn(C3CC3)c12",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 27
+      },
+      "predicted_excitation_energies_eV": [
+        3.6055,
+        3.9174,
+        4.2756,
+        4.6233,
+        4.7365
+      ],
+      "predicted_oscillator_strengths": [
+        0.071682,
+        0.079337,
+        0.994473,
+        0.348197,
+        0.010128
+      ],
+      "timing": {
+        "xtb_s": 1.915902379900217,
+        "xtb4stda_s": 0.5290620513260365,
+        "stda_s": 446.97861601784825,
+        "total_s": 449.5154175385833
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001077_GLYCERIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1077,
+        "name": "GLYCERIN",
+        "smiles": "OCC(O)CO",
+        "charge": 0,
+        "total_atoms": 14,
+        "heavy_atoms": 6
+      },
+      "predicted_excitation_energies_eV": [
+        6.8517,
+        7.2776,
+        7.4082,
+        7.8216,
+        7.926
+      ],
+      "predicted_oscillator_strengths": [
+        0.000708,
+        0.004693,
+        0.007474,
+        0.104508,
+        0.015859
+      ],
+      "timing": {
+        "xtb_s": 0.2519198786467314,
+        "xtb4stda_s": 0.20621115155518055,
+        "stda_s": 0.39379238709807396,
+        "total_s": 0.8629243597388268
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001018_FLUTICASONE_PROPIONATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1018,
+        "name": "FLUTICASONE PROPIONATE",
+        "smiles": "CCC(=O)O[C@]1(C(=O)SCF)[C@H](C)CC2C3CC(F)C4=CC(=O)C=C[C@]4(C)C3(F)[C@@H](O)C[C@@]21C",
+        "charge": 0,
+        "total_atoms": 65,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001066_GLICLAZIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1066,
+        "name": "GLICLAZIDE",
+        "smiles": "Cc1ccc(S(=O)(=O)NC(=O)NN2CC3CCCC3C2)cc1",
+        "charge": 0,
+        "total_atoms": 43,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        5.1199,
+        5.5126,
+        5.8282,
+        5.941,
+        6.021
+      ],
+      "predicted_oscillator_strengths": [
+        0.000203,
+        0.016016,
+        0.033292,
+        0.055076,
+        0.159993
+      ],
+      "timing": {
+        "xtb_s": 7.465317662805319,
+        "xtb4stda_s": 0.4105698000639677,
+        "stda_s": 180.33285913988948,
+        "total_s": 188.2757650297135
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001054_GEMIFLOXACIN_MESYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1054,
+        "name": "GEMIFLOXACIN MESYLATE",
+        "smiles": "CO/N=C1\\CN(c2nc3c(cc2F)c(=O)c(C(=O)O)cn3C2CC2)C[C@@H]1CN",
+        "charge": 0,
+        "total_atoms": 48,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        3.8735,
+        4.2526,
+        4.6974,
+        4.8826,
+        4.945
+      ],
+      "predicted_oscillator_strengths": [
+        0.376449,
+        0.011562,
+        0.018205,
+        0.596268,
+        0.580649
+      ],
+      "timing": {
+        "xtb_s": 2.839943002909422,
+        "xtb4stda_s": 0.4727727510035038,
+        "stda_s": 327.1090578008443,
+        "total_s": 330.5242866445333
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001038_GADOTERIDOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1038,
+        "name": "GADOTERIDOL",
+        "smiles": "C[C@H](O)CN1CCN(CC(=O)O)CCN(CC(=O)O)CCN(CC(=O)O)CC1",
+        "charge": 0,
+        "total_atoms": 60,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        4.9347,
+        5.0866,
+        5.1006,
+        5.3889,
+        5.4262
+      ],
+      "predicted_oscillator_strengths": [
+        0.00158,
+        0.014633,
+        0.01698,
+        0.00223,
+        0.008591
+      ],
+      "timing": {
+        "xtb_s": 2.6921475678682327,
+        "xtb4stda_s": 0.613722050562501,
+        "stda_s": 689.1308191902936,
+        "total_s": 692.5608706027269
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001064_GLAFENINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1064,
+        "name": "GLAFENINE",
+        "smiles": "O=C(OC[C@@H](O)CO)c1ccccc1Nc1ccnc2cc(Cl)ccc12",
+        "charge": 0,
+        "total_atoms": 43,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        3.3147,
+        3.7493,
+        4.2036,
+        4.7044,
+        4.8691
+      ],
+      "predicted_oscillator_strengths": [
+        0.546985,
+        0.044172,
+        0.010991,
+        0.027522,
+        0.020881
+      ],
+      "timing": {
+        "xtb_s": 2.351339217275381,
+        "xtb4stda_s": 0.45370547100901604,
+        "stda_s": 271.1869129277766,
+        "total_s": 274.0861073434353
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001082_GOSSYPETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1082,
+        "name": "GOSSYPETIN",
+        "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2c(O)c(O)cc(O)c12",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        3.0729,
+        3.888,
+        4.1233,
+        4.3071,
+        4.7302
+      ],
+      "predicted_oscillator_strengths": [
+        0.367824,
+        0.399719,
+        0.094206,
+        0.022849,
+        0.202077
+      ],
+      "timing": {
+        "xtb_s": 1.2253980077803135,
+        "xtb4stda_s": 0.3452808577567339,
+        "stda_s": 48.56657868437469,
+        "total_s": 50.1835427172482
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001059_GERANYLGERANIOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1059,
+        "name": "GERANYLGERANIOL",
+        "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CO",
+        "charge": 0,
+        "total_atoms": 55,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        5.7044,
+        5.9392,
+        6.1079,
+        6.3176,
+        6.4671
+      ],
+      "predicted_oscillator_strengths": [
+        0.012406,
+        0.03643,
+        0.020891,
+        0.052141,
+        0.050501
+      ],
+      "timing": {
+        "xtb_s": 10.172850791364908,
+        "xtb4stda_s": 0.537394642829895,
+        "stda_s": 336.1775843948126,
+        "total_s": 346.9950627628714
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001029_FRIEDELIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1029,
+        "name": "FRIEDELIN",
+        "smiles": "C[C@H]1C(=O)CCC2[C@]3(C)CC[C@@]4(C)C5CC(C)(C)CC[C@]5(C)CC[C@]4(C)C3CC[C@@]21C",
+        "charge": 0,
+        "total_atoms": 81,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001070_GLUCITOL-4-GLUCOPYANOSIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1070,
+        "name": "GLUCITOL-4-GLUCOPYANOSIDE",
+        "smiles": "OC[C@H](O)[C@H](O[C@H]1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O)[C@@H](O)[C@H](O)CO",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        6.7417,
+        7.0177,
+        7.0816,
+        7.1425,
+        7.2742
+      ],
+      "predicted_oscillator_strengths": [
+        0.03168,
+        0.00826,
+        0.003549,
+        0.028411,
+        0.0133
+      ],
+      "timing": {
+        "xtb_s": 4.605059135705233,
+        "xtb4stda_s": 0.4878910779953003,
+        "stda_s": 179.25307211093605,
+        "total_s": 184.43344401195645
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001028_FOSINOPRIL_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1028,
+        "name": "FOSINOPRIL SODIUM",
+        "smiles": "CCC(=O)O[C@@H](O[P@](=O)(CCCCc1ccccc1)CC(=O)N1C[C@H](C2CCCCC2)C[C@H]1C(=O)O)C(C)C",
+        "charge": 0,
+        "total_atoms": 85,
+        "heavy_atoms": 39
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001088_GUAIACOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1088,
+        "name": "GUAIACOL",
+        "smiles": "COc1ccccc1O",
+        "charge": 0,
+        "total_atoms": 17,
+        "heavy_atoms": 9
+      },
+      "predicted_excitation_energies_eV": [
+        4.6777,
+        5.4652,
+        5.5389,
+        6.0916,
+        6.1256
+      ],
+      "predicted_oscillator_strengths": [
+        0.063821,
+        0.000952,
+        0.112046,
+        0.00033,
+        0.012198
+      ],
+      "timing": {
+        "xtb_s": 0.22368375398218632,
+        "xtb4stda_s": 0.23923812247812748,
+        "stda_s": 0.7517147678881884,
+        "total_s": 1.2294076159596443
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001089_GUAIAZULENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1089,
+        "name": "GUAIAZULENE",
+        "smiles": "Cc1ccc(C(C)C)cc2c(C)ccc1-2",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        1.6299,
+        3.2265,
+        4.4261,
+        5.001,
+        5.3437
+      ],
+      "predicted_oscillator_strengths": [
+        0.017211,
+        0.020121,
+        0.063727,
+        1.582913,
+        0.002327
+      ],
+      "timing": {
+        "xtb_s": 1.242101451382041,
+        "xtb4stda_s": 0.3060905206948519,
+        "stda_s": 16.002838985994458,
+        "total_s": 17.58976574242115
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001090_GUANETHIDINE_MONOSULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1090,
+        "name": "GUANETHIDINE MONOSULFATE",
+        "smiles": "N=C(N)NCCN1CCCCCCC1",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        5.2597,
+        5.524,
+        5.8169,
+        5.9073,
+        6.0215
+      ],
+      "predicted_oscillator_strengths": [
+        0.066035,
+        0.068621,
+        0.024601,
+        0.056598,
+        0.02267
+      ],
+      "timing": {
+        "xtb_s": 1.2180456202477217,
+        "xtb4stda_s": 0.3225192651152611,
+        "stda_s": 18.491317227482796,
+        "total_s": 20.077127411961555
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001091_GUANFACINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1091,
+        "name": "GUANFACINE HYDROCHLORIDE",
+        "smiles": "NC(N)=NC(=O)Cc1c(Cl)cccc1Cl",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.545,
+        4.9517,
+        5.0156,
+        5.223,
+        5.6786
+      ],
+      "predicted_oscillator_strengths": [
+        0.003596,
+        0.310693,
+        0.010367,
+        0.090519,
+        0.033189
+      ],
+      "timing": {
+        "xtb_s": 1.171841511502862,
+        "xtb4stda_s": 0.2895059436559677,
+        "stda_s": 8.37235014885664,
+        "total_s": 9.86286435648799
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001092_GUANIDINE_CARBONATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1092,
+        "name": "GUANIDINE CARBONATE",
+        "smiles": "O=C(O)O",
+        "charge": 0,
+        "total_atoms": 6,
+        "heavy_atoms": 4
+      },
+      "predicted_excitation_energies_eV": [
+        6.8578,
+        6.9143,
+        7.9126,
+        8.1777,
+        8.627
+      ],
+      "predicted_oscillator_strengths": [
+        9e-06,
+        0.031579,
+        0.020584,
+        0.004897,
+        0.174061
+      ],
+      "timing": {
+        "xtb_s": 0.1850482691079378,
+        "xtb4stda_s": 0.15929974801838398,
+        "stda_s": 0.17628638446331024,
+        "total_s": 0.5290184151381254
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001093_GUANIDINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1093,
+        "name": "GUANIDINE HYDROCHLORIDE",
+        "smiles": "N=C(N)N",
+        "charge": 0,
+        "total_atoms": 9,
+        "heavy_atoms": 4
+      },
+      "predicted_excitation_energies_eV": [
+        5.2224,
+        5.4163,
+        5.9394,
+        6.1951,
+        6.2222
+      ],
+      "predicted_oscillator_strengths": [
+        0.128719,
+        0.021526,
+        0.047053,
+        0.116512,
+        0.065838
+      ],
+      "timing": {
+        "xtb_s": 0.19223664328455925,
+        "xtb4stda_s": 0.1772643644362688,
+        "stda_s": 0.2071748822927475,
+        "total_s": 0.5851087141782045
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001094_GYROMITRIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1094,
+        "name": "GYROMITRIN",
+        "smiles": "C/C=N/N(C)C=O",
+        "charge": 0,
+        "total_atoms": 15,
+        "heavy_atoms": 7
+      },
+      "predicted_excitation_energies_eV": [
+        4.9333,
+        5.3839,
+        5.799,
+        6.4012,
+        6.4155
+      ],
+      "predicted_oscillator_strengths": [
+        0.004418,
+        0.393318,
+        0.003707,
+        0.011747,
+        0.001652
+      ],
+      "timing": {
+        "xtb_s": 0.4931991845369339,
+        "xtb4stda_s": 0.21295994333922863,
+        "stda_s": 0.45452957041561604,
+        "total_s": 1.1728320941329002
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001095_HAEMATOMMIC_ACID_ETHYL_ESTER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1095,
+        "name": "HAEMATOMMIC ACID, ETHYL ESTER",
+        "smiles": "CCOC(=O)c1c(C)cc(O)c(C=O)c1O",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        3.8003,
+        4.0974,
+        4.5363,
+        4.8599,
+        5.4811
+      ],
+      "predicted_oscillator_strengths": [
+        0.130988,
+        2e-06,
+        0.103885,
+        0.532222,
+        0.504916
+      ],
+      "timing": {
+        "xtb_s": 0.9760159235447645,
+        "xtb4stda_s": 0.30188614316284657,
+        "stda_s": 14.86132894270122,
+        "total_s": 16.173806719481945
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001037_GADODIAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1037,
+        "name": "GADODIAMIDE",
+        "smiles": "CNC(=O)CN(CCN(CCN(CC(=O)O)CC(=O)NC)CC(=O)O)CC(=O)O",
+        "charge": 0,
+        "total_atoms": 58,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        4.8815,
+        5.1001,
+        5.2373,
+        5.4524,
+        5.5486
+      ],
+      "predicted_oscillator_strengths": [
+        0.020311,
+        0.014064,
+        0.020113,
+        0.018986,
+        0.00805
+      ],
+      "timing": {
+        "xtb_s": 8.16807453520596,
+        "xtb4stda_s": 0.6366457268595695,
+        "stda_s": 897.709142273292,
+        "total_s": 906.623848516494
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001075_GLY-LEU-PHE-OH",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1075,
+        "name": "GLY-LEU-PHE-OH",
+        "smiles": "CC(C)CC(NC(=O)CN)C(=O)NC(Cc1ccccc1)C(=O)O",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        5.1198,
+        5.4688,
+        5.6697,
+        6.0147,
+        6.0343
+      ],
+      "predicted_oscillator_strengths": [
+        0.000539,
+        0.02411,
+        0.020095,
+        0.005247,
+        0.086254
+      ],
+      "timing": {
+        "xtb_s": 3.454460524022579,
+        "xtb4stda_s": 0.5003093611449003,
+        "stda_s": 283.1112187486142,
+        "total_s": 287.1626789160073
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001062_GINKGOLIDE_A",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1062,
+        "name": "GINKGOLIDE A",
+        "smiles": "C[C@H]1C(=O)O[C@@H]2CC34[C@@H]5CC(C(C)(C)C)C36[C@H](OC(=O)[C@H]6O)OC4(C(=O)O5)[C@@]21O",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        5.9234,
+        5.9379,
+        6.3632,
+        7.3015,
+        7.5598
+      ],
+      "predicted_oscillator_strengths": [
+        0.005924,
+        0.014277,
+        0.005196,
+        0.005939,
+        0.017063
+      ],
+      "timing": {
+        "xtb_s": 2.548920549452305,
+        "xtb4stda_s": 0.6037258766591549,
+        "stda_s": 535.576513318345,
+        "total_s": 538.9494126960635
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001086_GRANISETRON_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1086,
+        "name": "GRANISETRON HYDROCHLORIDE",
+        "smiles": "CN1C2CCCC1CC(NC(=O)c1nn(C)c3ccccc13)C2",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        4.2571,
+        4.7199,
+        5.2358,
+        5.248,
+        5.3863
+      ],
+      "predicted_oscillator_strengths": [
+        0.333024,
+        0.01505,
+        0.124365,
+        0.0011,
+        0.012489
+      ],
+      "timing": {
+        "xtb_s": 2.9468712601810694,
+        "xtb4stda_s": 0.462961720302701,
+        "stda_s": 201.03471816144884,
+        "total_s": 204.53448044881225
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001100_HALOTHANE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1100,
+        "name": "HALOTHANE",
+        "smiles": "FC(F)(F)[C@@H](Cl)Br",
+        "charge": 0,
+        "total_atoms": 8,
+        "heavy_atoms": 7
+      },
+      "predicted_excitation_energies_eV": [
+        6.0715,
+        6.2418,
+        6.8006,
+        6.8707,
+        7.7275
+      ],
+      "predicted_oscillator_strengths": [
+        0.003889,
+        0.002113,
+        0.003464,
+        0.034084,
+        0.038187
+      ],
+      "timing": {
+        "xtb_s": 0.19594796933233738,
+        "xtb4stda_s": 0.1872138623148203,
+        "stda_s": 0.28272813744843006,
+        "total_s": 0.6743386350572109
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001097_HAEMATOXYLIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1097,
+        "name": "HAEMATOXYLIN",
+        "smiles": "Oc1cc2c(cc1O)C1c3ccc(O)c(O)c3OCC1(O)C2",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.5409,
+        4.6018,
+        4.8303,
+        5.2823,
+        5.3185
+      ],
+      "predicted_oscillator_strengths": [
+        0.098489,
+        0.017271,
+        0.011257,
+        0.029581,
+        0.022355
+      ],
+      "timing": {
+        "xtb_s": 0.877800852060318,
+        "xtb4stda_s": 0.3899514861404896,
+        "stda_s": 86.19113201461732,
+        "total_s": 87.5034433696419
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001101_HARMALINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1101,
+        "name": "HARMALINE",
+        "smiles": "COc1ccc2c3c([nH]c2c1)C(C)=NCC3",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        3.6576,
+        4.2128,
+        4.8518,
+        4.8955,
+        5.2277
+      ],
+      "predicted_oscillator_strengths": [
+        0.31901,
+        0.122846,
+        0.202712,
+        0.077492,
+        0.010775
+      ],
+      "timing": {
+        "xtb_s": 0.47197049483656883,
+        "xtb4stda_s": 0.2947526518255472,
+        "stda_s": 12.731739088892937,
+        "total_s": 13.531136075034738
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001103_HARMANE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1103,
+        "name": "HARMANE",
+        "smiles": "Cc1nccc2c1[nH]c1ccccc12",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        3.9709,
+        4.65,
+        5.0686,
+        5.2625,
+        5.6077
+      ],
+      "predicted_oscillator_strengths": [
+        0.11559,
+        0.004718,
+        0.494182,
+        0.005145,
+        0.006627
+      ],
+      "timing": {
+        "xtb_s": 0.31510696932673454,
+        "xtb4stda_s": 0.2777936477214098,
+        "stda_s": 3.7775306310504675,
+        "total_s": 4.3976588528603315
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001102_HARMALOL_HYDROCHLORIDE_DIHYDRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1102,
+        "name": "HARMALOL HYDROCHLORIDE DIHYDRATE",
+        "smiles": "CC1=NCCc2c1[nH]c1cc(O)ccc21",
+        "charge": 0,
+        "total_atoms": 27,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        3.6498,
+        4.2219,
+        4.8022,
+        4.8574,
+        5.1727
+      ],
+      "predicted_oscillator_strengths": [
+        0.302931,
+        0.126553,
+        0.116209,
+        0.12075,
+        0.009833
+      ],
+      "timing": {
+        "xtb_s": 0.41377551294863224,
+        "xtb4stda_s": 0.29669792391359806,
+        "stda_s": 7.981003317981958,
+        "total_s": 8.72006605193019
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001105_HARMOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1105,
+        "name": "HARMOL",
+        "smiles": "Cc1nccc2c1[nH]c1cc(O)ccc12",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.0489,
+        4.5178,
+        4.9615,
+        5.3419,
+        5.3942
+      ],
+      "predicted_oscillator_strengths": [
+        0.067841,
+        0.05323,
+        0.526652,
+        0.005327,
+        0.340008
+      ],
+      "timing": {
+        "xtb_s": 0.3390113264322281,
+        "xtb4stda_s": 0.3091277405619621,
+        "stda_s": 6.006133621558547,
+        "total_s": 6.6848196145147085
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001104_HARMINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1104,
+        "name": "HARMINE",
+        "smiles": "COc1ccc2c(c1)[nH]c1c(C)nccc12",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        4.0254,
+        4.4738,
+        4.9702,
+        5.3379,
+        5.3745
+      ],
+      "predicted_oscillator_strengths": [
+        0.068973,
+        0.076283,
+        0.533547,
+        0.005339,
+        0.540766
+      ],
+      "timing": {
+        "xtb_s": 0.3518862519413233,
+        "xtb4stda_s": 0.2921901158988476,
+        "stda_s": 9.094159789383411,
+        "total_s": 9.772600581869483
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001044_GAMBOGIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1044,
+        "name": "GAMBOGIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4=O)C3=O",
+        "charge": 0,
+        "total_atoms": 90,
+        "heavy_atoms": 46
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001052_GEFITINIB",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1052,
+        "name": "GEFITINIB",
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+        "charge": 0,
+        "total_atoms": 55,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        3.8143,
+        4.3985,
+        4.438,
+        4.6488,
+        4.8255
+      ],
+      "predicted_oscillator_strengths": [
+        0.710942,
+        0.151404,
+        0.052267,
+        0.009334,
+        0.313767
+      ],
+      "timing": {
+        "xtb_s": 4.416754323989153,
+        "xtb4stda_s": 0.5989944059401751,
+        "stda_s": 830.6963650044054,
+        "total_s": 835.8284000921994
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001109_HELENINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1109,
+        "name": "HELENINE",
+        "smiles": "C=C1C(=O)O[C@H]2C[C@]3(C)CCC[C@@H](C)C3=C[C@@H]12",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        5.0605,
+        5.8683,
+        6.0895,
+        6.1458,
+        6.8361
+      ],
+      "predicted_oscillator_strengths": [
+        0.002644,
+        0.043545,
+        0.195988,
+        0.121012,
+        0.379472
+      ],
+      "timing": {
+        "xtb_s": 0.6176974661648273,
+        "xtb4stda_s": 0.3900254853069782,
+        "stda_s": 37.89234245195985,
+        "total_s": 39.220417346805334
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001048_GARCINOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1048,
+        "name": "GARCINOLIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CCCC1C(C)(C)O[C@]2(C/C=C(\\C)C(=O)O)C(=O)O)C3=O",
+        "charge": 0,
+        "total_atoms": 93,
+        "heavy_atoms": 47
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001051_GEDUNOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1051,
+        "name": "GEDUNOL",
+        "smiles": "CC(=O)O[C@@H]1CC2C(C)(C)[C@H](O)CC[C@]2(C)C2CC[C@@]3(C)[C@H](c4ccoc4)OC(=O)C4OC43[C@@]21C",
+        "charge": 0,
+        "total_atoms": 73,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001110_HELICIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1110,
+        "name": "HELICIN",
+        "smiles": "O=Cc1ccccc1O[C@H]1O[C@@H](CO)[C@@H](O)[C@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        4.0142,
+        4.0303,
+        5.1625,
+        6.0012,
+        6.1208
+      ],
+      "predicted_oscillator_strengths": [
+        0.003094,
+        0.157665,
+        0.099566,
+        0.366691,
+        0.003055
+      ],
+      "timing": {
+        "xtb_s": 2.927263244986534,
+        "xtb4stda_s": 0.3778252713382244,
+        "stda_s": 51.000167947262526,
+        "total_s": 54.3767661601305
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001111_HEMATEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1111,
+        "name": "HEMATEIN",
+        "smiles": "O=C1C=C2C[C@]3(O)COc4c(ccc(O)c4O)C3=C2C=C1O",
+        "charge": 0,
+        "total_atoms": 34,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        2.9728,
+        3.2291,
+        3.5092,
+        4.0781,
+        4.3024
+      ],
+      "predicted_oscillator_strengths": [
+        0.626638,
+        0.030396,
+        0.665472,
+        0.004652,
+        0.164996
+      ],
+      "timing": {
+        "xtb_s": 0.98627158254385,
+        "xtb4stda_s": 0.38216047920286655,
+        "stda_s": 60.01934368908405,
+        "total_s": 61.43716337904334
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001114_HEPTAMINOL_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1114,
+        "name": "HEPTAMINOL HYDROCHLORIDE",
+        "smiles": "C[C@H](N)CCCC(C)(C)O",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        6.227,
+        7.2185,
+        7.3518,
+        7.4328,
+        7.5467
+      ],
+      "predicted_oscillator_strengths": [
+        0.013529,
+        0.014393,
+        0.008873,
+        0.018139,
+        0.06597
+      ],
+      "timing": {
+        "xtb_s": 0.46500433050096035,
+        "xtb4stda_s": 0.2870198581367731,
+        "stda_s": 4.02851870842278,
+        "total_s": 4.823490846902132
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001115_HESPERETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1115,
+        "name": "HESPERETIN",
+        "smiles": "COc1ccc([C@@H]2CC(=O)c3c(O)cc(O)cc3O2)cc1O",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        3.785,
+        4.3505,
+        4.3797,
+        4.5797,
+        5.0182
+      ],
+      "predicted_oscillator_strengths": [
+        0.074858,
+        0.297737,
+        0.000424,
+        0.083881,
+        0.009556
+      ],
+      "timing": {
+        "xtb_s": 0.9353918619453907,
+        "xtb4stda_s": 0.3750461768358946,
+        "stda_s": 68.8243937715888,
+        "total_s": 70.19041341170669
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001055_GENETICIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1055,
+        "name": "GENETICIN",
+        "smiles": "CN[C@@H]1[C@@H](O)C(OC2[C@@H](N)C[C@@H](N)[C@H](O[C@H]3O[C@H](C(C)O)[C@@H](O)[C@H](O)[C@H]3N)[C@H]2O)OC[C@]1(C)O",
+        "charge": 0,
+        "total_atoms": 74,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001057_GENTAMICIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1057,
+        "name": "GENTAMICIN SULFATE",
+        "smiles": "CNC(C)[C@@H]1CC[C@@H](N)[C@@H](OC2[C@@H](N)C[C@@H](N)[C@H](OC3OC[C@](C)(O)[C@H](NC)[C@H]3O)[C@H]2O)O1",
+        "charge": 0,
+        "total_atoms": 76,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001063_GITOXIGENIN_DIACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1063,
+        "name": "GITOXIGENIN DIACETATE",
+        "smiles": "CC(=O)OC1CC[C@@]2(C)C(CCC3C2CC[C@]2(C)C(C4=CC(=O)OC4)C(OC(C)=O)CC32O)C1",
+        "charge": 0,
+        "total_atoms": 72,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001117_HETEROPEUCENIN_METHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1117,
+        "name": "HETEROPEUCENIN, METHYL ETHER",
+        "smiles": "COc1cc(O)c2c(=O)cc(C)oc2c1CC=C(C)C",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        3.8206,
+        4.4201,
+        4.5324,
+        5.1245,
+        5.4434
+      ],
+      "predicted_oscillator_strengths": [
+        0.122995,
+        0.022674,
+        2.8e-05,
+        0.53256,
+        0.096331
+      ],
+      "timing": {
+        "xtb_s": 1.365134697407484,
+        "xtb4stda_s": 0.39324695244431496,
+        "stda_s": 75.92844741977751,
+        "total_s": 77.73003483191133
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001120_HEXYLENE_GLYCOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1120,
+        "name": "HEXYLENE GLYCOL",
+        "smiles": "C[C@H](O)CC(C)(C)O",
+        "charge": 0,
+        "total_atoms": 22,
+        "heavy_atoms": 8
+      },
+      "predicted_excitation_energies_eV": [
+        7.3206,
+        7.4333,
+        8.3362,
+        8.516,
+        8.6116
+      ],
+      "predicted_oscillator_strengths": [
+        0.005693,
+        0.013695,
+        0.028032,
+        0.027057,
+        0.056384
+      ],
+      "timing": {
+        "xtb_s": 0.6068904679268599,
+        "xtb4stda_s": 0.23590048402547836,
+        "stda_s": 1.3796248119324446,
+        "total_s": 2.241047352552414
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001118_HEXAMETHONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1118,
+        "name": "HEXAMETHONIUM BROMIDE",
+        "smiles": "C[N+](C)(C)CCCCCC[N+](C)(C)C",
+        "charge": 2,
+        "total_atoms": 44,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        0.2333,
+        0.4123,
+        0.445,
+        0.8818,
+        0.9252
+      ],
+      "predicted_oscillator_strengths": [
+        0.102429,
+        0.236953,
+        0.229172,
+        0.04579,
+        0.012204
+      ],
+      "timing": {
+        "xtb_s": 0.906372195109725,
+        "xtb4stda_s": 0.3731155525892973,
+        "stda_s": 56.417598033323884,
+        "total_s": 57.75944158062339
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001121_HIERACIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1121,
+        "name": "HIERACIN",
+        "smiles": "O=c1cc(-c2cc(O)c(O)c(O)c2)oc2cc(O)cc(O)c12",
+        "charge": 0,
+        "total_atoms": 32,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        4.0269,
+        4.1729,
+        4.3,
+        4.5001,
+        4.58
+      ],
+      "predicted_oscillator_strengths": [
+        0.682782,
+        0.025936,
+        0.076581,
+        0.002243,
+        0.028595
+      ],
+      "timing": {
+        "xtb_s": 1.141053332015872,
+        "xtb4stda_s": 0.3449655417352915,
+        "stda_s": 56.58808156847954,
+        "total_s": 58.11807047016919
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001067_GLIMEPIRIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1067,
+        "name": "GLIMEPIRIDE",
+        "smiles": "CCC1=C(C)CN(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)N[C@H]3CC[C@H](C)CC3)cc2)C1=O",
+        "charge": 0,
+        "total_atoms": 68,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001068_GLIPIZIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1068,
+        "name": "GLIPIZIDE",
+        "smiles": "Cc1cnc(C(=O)NCCc2ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc2)cn1",
+        "charge": 0,
+        "total_atoms": 58,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001069_GLIQUIDONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1069,
+        "name": "GLIQUIDONE",
+        "smiles": "COc1ccc2c(c1)C(=O)N(CCc1ccc(S(=O)(=O)NC(=O)NC3CCCCC3)cc1)C(=O)C2(C)C",
+        "charge": 0,
+        "total_atoms": 70,
+        "heavy_atoms": 37
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001124_HOMOSALATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1124,
+        "name": "HOMOSALATE",
+        "smiles": "CC1CC(OC(=O)c2ccccc2O)CC(C)(C)C1",
+        "charge": 0,
+        "total_atoms": 41,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        4.2287,
+        5.3527,
+        5.4697,
+        6.1953,
+        6.3111
+      ],
+      "predicted_oscillator_strengths": [
+        0.164916,
+        0.107572,
+        0.002862,
+        0.001831,
+        0.839239
+      ],
+      "timing": {
+        "xtb_s": 0.8350682109594345,
+        "xtb4stda_s": 0.4118851348757744,
+        "stda_s": 72.92508447542787,
+        "total_s": 74.22862283885479
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001127_HYDRALAZINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1127,
+        "name": "HYDRALAZINE HYDROCHLORIDE",
+        "smiles": "NNc1nncc2ccccc12",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        4.0516,
+        4.1456,
+        4.2981,
+        4.4877,
+        5.2305
+      ],
+      "predicted_oscillator_strengths": [
+        0.17137,
+        0.049513,
+        0.178235,
+        0.008411,
+        0.091317
+      ],
+      "timing": {
+        "xtb_s": 0.4525757469236851,
+        "xtb4stda_s": 0.2647360898554325,
+        "stda_s": 1.919784888625145,
+        "total_s": 2.6569640655070543
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001123_HOMOPTEROCARPIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1123,
+        "name": "HOMOPTEROCARPIN",
+        "smiles": "COc1ccc2c(c1)O[C@@H]1c3ccc(OC)cc3OC[C@H]21",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        4.6752,
+        4.7227,
+        5.201,
+        5.4874,
+        5.5745
+      ],
+      "predicted_oscillator_strengths": [
+        0.064548,
+        0.041536,
+        0.011583,
+        0.028911,
+        0.103663
+      ],
+      "timing": {
+        "xtb_s": 1.0398034192621708,
+        "xtb4stda_s": 0.3915978241711855,
+        "stda_s": 83.39559832774103,
+        "total_s": 84.89096746779978
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001129_HYDRASTININE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1129,
+        "name": "HYDRASTININE HYDROCHLORIDE",
+        "smiles": "CN1CCc2cc3c(cc2[C@@H]1O)OCO3",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.5109,
+        4.9787,
+        5.1772,
+        5.6634,
+        6.0456
+      ],
+      "predicted_oscillator_strengths": [
+        0.091612,
+        0.003332,
+        0.128341,
+        0.010945,
+        0.011727
+      ],
+      "timing": {
+        "xtb_s": 0.6268929783254862,
+        "xtb4stda_s": 0.282627135515213,
+        "stda_s": 8.245216203853488,
+        "total_s": 9.184543885290623
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001125_HUPERZINE_A",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1125,
+        "name": "HUPERZINE A",
+        "smiles": "C/C=C1\\[C@@H]2C=C(C)C[C@@]1(N)c1ccc(=O)[nH]c1C2",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        4.1156,
+        5.4031,
+        5.414,
+        5.6926,
+        6.0311
+      ],
+      "predicted_oscillator_strengths": [
+        0.214575,
+        0.005981,
+        0.001457,
+        0.198349,
+        0.007577
+      ],
+      "timing": {
+        "xtb_s": 0.8922360986471176,
+        "xtb4stda_s": 0.366920767351985,
+        "stda_s": 43.63881656341255,
+        "total_s": 44.964646292850375
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001076_GLYBURIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1076,
+        "name": "GLYBURIDE",
+        "smiles": "COc1ccc(Cl)cc1C(=O)NCCc1ccc(S(=O)(=O)NC(=O)NC2CCCCC2)cc1",
+        "charge": 0,
+        "total_atoms": 61,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001078_GLYCOCHOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1078,
+        "name": "GLYCOCHOLIC ACID",
+        "smiles": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CCC2C3C(C[C@H](O)[C@@]21C)[C@@]1(C)CC[C@@H](O)CC1C[C@H]3O",
+        "charge": 0,
+        "total_atoms": 76,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001079_GLYCOPYRROLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1079,
+        "name": "GLYCOPYRROLATE",
+        "smiles": "C[N+]1(C)CCC(OC(=O)C(O)(c2ccccc2)C2CCCC2)C1",
+        "charge": 1,
+        "total_atoms": 51,
+        "heavy_atoms": 23
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001134_HYDROQUINONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1134,
+        "name": "HYDROQUINONE",
+        "smiles": "Oc1ccc(O)cc1",
+        "charge": 0,
+        "total_atoms": 14,
+        "heavy_atoms": 8
+      },
+      "predicted_excitation_energies_eV": [
+        4.491,
+        5.1734,
+        5.5035,
+        5.5199,
+        6.4057
+      ],
+      "predicted_oscillator_strengths": [
+        0.099382,
+        0.0,
+        0.15896,
+        0.009613,
+        0.002599
+      ],
+      "timing": {
+        "xtb_s": 0.23772264458239079,
+        "xtb4stda_s": 0.2034296840429306,
+        "stda_s": 0.47800364904105663,
+        "total_s": 0.9302237164229155
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001080_GLYCYRRHIZIC_ACID_AMMONIUM_SALT",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1080,
+        "name": "GLYCYRRHIZIC ACID, AMMONIUM SALT",
+        "smiles": "CC1(C)C2CC[C@@]3(C)C4CC[C@@]5(C)CC[C@](C)(C(=O)O)C[C@H]5C4=CC(=O)C3[C@@]2(C)CC[C@@H]1O[C@@H]1O[C@H](C(=O)O)[C@@H](O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O",
+        "charge": 0,
+        "total_atoms": 117,
+        "heavy_atoms": 57
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001083_GOSSYPIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1083,
+        "name": "GOSSYPIN",
+        "smiles": "O=c1c(O)c(-c2ccc(O)c(O)c2)oc2c(O[C@H]3O[C@@H](CO)[C@@H](O)[C@H](O)[C@@H]3O)c(O)cc(O)c12",
+        "charge": 0,
+        "total_atoms": 54,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001081_GLYCYRRHIZIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1081,
+        "name": "GLYCYRRHIZIN",
+        "smiles": "CC1(C)[C@@H](O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)CC[C@@]2(C)[C@H]1CC[C@]1(C)[C@@H]2C(=O)C=C2C3C[C@@](C)(C(=O)O)CC[C@]3(C)CC[C@]21C",
+        "charge": 0,
+        "total_atoms": 120,
+        "heavy_atoms": 58
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001084_GOSSYPOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1084,
+        "name": "GOSSYPOL",
+        "smiles": "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O",
+        "charge": 0,
+        "total_atoms": 68,
+        "heavy_atoms": 38
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001137_HYDROXYTACRINE_MALEATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1137,
+        "name": "HYDROXYTACRINE MALEATE",
+        "smiles": "Nc1c2c(nc3ccccc13)CCC[C@@H]2O",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        4.0222,
+        4.2007,
+        4.868,
+        5.3143,
+        5.4604
+      ],
+      "predicted_oscillator_strengths": [
+        0.240305,
+        0.010712,
+        0.005576,
+        0.362238,
+        0.048231
+      ],
+      "timing": {
+        "xtb_s": 1.0132153499871492,
+        "xtb4stda_s": 0.3274477440863848,
+        "stda_s": 11.992977710440755,
+        "total_s": 13.366237469017506
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001138_HYDROXYTOLUIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1138,
+        "name": "HYDROXYTOLUIC ACID",
+        "smiles": "Cc1cccc(C(=O)O)c1O",
+        "charge": 0,
+        "total_atoms": 19,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        4.232,
+        5.2982,
+        5.6875,
+        6.2321,
+        6.2374
+      ],
+      "predicted_oscillator_strengths": [
+        0.148736,
+        0.120957,
+        0.00059,
+        0.010668,
+        0.717088
+      ],
+      "timing": {
+        "xtb_s": 0.2901431992650032,
+        "xtb4stda_s": 0.2540751304477453,
+        "stda_s": 1.559795793145895,
+        "total_s": 2.122492231428623
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001141_HYMECHROME",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1141,
+        "name": "HYMECHROME",
+        "smiles": "Cc1cc(=O)oc2cc(O)ccc12",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.1651,
+        4.5929,
+        5.3128,
+        5.4092,
+        5.8389
+      ],
+      "predicted_oscillator_strengths": [
+        0.343511,
+        0.17872,
+        0.000862,
+        0.130966,
+        0.005697
+      ],
+      "timing": {
+        "xtb_s": 0.34130512177944183,
+        "xtb4stda_s": 0.2614492028951645,
+        "stda_s": 2.684233335778117,
+        "total_s": 3.3062507677823305
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001085_GOSSYPOL-ACETIC_ACID_COMPLEX",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1085,
+        "name": "GOSSYPOL-ACETIC ACID COMPLEX",
+        "smiles": "Cc1cc2c(C(C)C)c(O)c(O)c(C=O)c2c(O)c1-c1c(C)cc2c(C(C)C)c(O)c(O)c(C=O)c2c1O",
+        "charge": 0,
+        "total_atoms": 68,
+        "heavy_atoms": 38
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001143_HYPOXANTHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1143,
+        "name": "HYPOXANTHINE",
+        "smiles": "O=c1[nH]cnc2nc[nH]c12",
+        "charge": 0,
+        "total_atoms": 14,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        4.7449,
+        5.2896,
+        5.5005,
+        5.7676,
+        5.7691
+      ],
+      "predicted_oscillator_strengths": [
+        0.155053,
+        0.238958,
+        0.003066,
+        0.006068,
+        0.000596
+      ],
+      "timing": {
+        "xtb_s": 0.2321571707725525,
+        "xtb4stda_s": 0.21544316783547401,
+        "stda_s": 0.619164215400815,
+        "total_s": 1.0794273000210524
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001142_HYMECROMONE_METHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1142,
+        "name": "HYMECROMONE METHYL ETHER",
+        "smiles": "COc1ccc2c(C)cc(=O)oc2c1",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        4.1415,
+        4.5409,
+        5.308,
+        5.3645,
+        5.9936
+      ],
+      "predicted_oscillator_strengths": [
+        0.39133,
+        0.171756,
+        0.00084,
+        0.133521,
+        0.128983
+      ],
+      "timing": {
+        "xtb_s": 0.3481001630425453,
+        "xtb4stda_s": 0.2791634853929281,
+        "stda_s": 3.983135648071766,
+        "total_s": 4.633210778236389
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001087_GRAYANOTOXIN_I",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1087,
+        "name": "GRAYANOTOXIN I",
+        "smiles": "CC(=O)O[C@@H]1C2CC[C@@H]3C1(C[C@@H](O)[C@@]1(O)[C@@H](C[C@H](O)C1(C)C)[C@]3(C)O)C[C@@]2(C)O",
+        "charge": 0,
+        "total_atoms": 65,
+        "heavy_atoms": 29
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001146_IDAZOXAN_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1146,
+        "name": "IDAZOXAN HYDROCHLORIDE",
+        "smiles": "c1ccc2c(c1)OC[C@@H](C1=NCCN1)O2",
+        "charge": 0,
+        "total_atoms": 27,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.6858,
+        4.7527,
+        5.1591,
+        5.362,
+        5.542
+      ],
+      "predicted_oscillator_strengths": [
+        0.056619,
+        0.006709,
+        0.007707,
+        0.087967,
+        0.067668
+      ],
+      "timing": {
+        "xtb_s": 0.92140157148242,
+        "xtb4stda_s": 0.2901728190481663,
+        "stda_s": 7.842529971152544,
+        "total_s": 9.083032593131065
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001126_HYCANTHONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1126,
+        "name": "HYCANTHONE",
+        "smiles": "CCN(CC)CCNc1ccc(CO)c2sc3ccccc3c(=O)c12",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        2.9445,
+        3.9074,
+        4.1951,
+        4.3152,
+        4.7494
+      ],
+      "predicted_oscillator_strengths": [
+        0.261979,
+        0.088858,
+        0.011349,
+        0.034686,
+        0.007493
+      ],
+      "timing": {
+        "xtb_s": 4.909292126074433,
+        "xtb4stda_s": 0.5086480751633644,
+        "stda_s": 270.966507460922,
+        "total_s": 276.46091216802597
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001148_IDOXURIDINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1148,
+        "name": "IDOXURIDINE",
+        "smiles": "O=c1[nH]c(=O)n([C@@H]2C[C@@H](O)C(CO)O2)cc1I",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        4.0723,
+        4.8512,
+        5.8059,
+        5.935,
+        5.9849
+      ],
+      "predicted_oscillator_strengths": [
+        0.005154,
+        0.267225,
+        0.073566,
+        0.013241,
+        0.004207
+      ],
+      "timing": {
+        "xtb_s": 1.2977796718478203,
+        "xtb4stda_s": 0.33054172433912754,
+        "stda_s": 18.602720577269793,
+        "total_s": 20.26729741692543
+      },
+      "stda_energy_window_eV": 30.0
+    }
+  ]
+}
