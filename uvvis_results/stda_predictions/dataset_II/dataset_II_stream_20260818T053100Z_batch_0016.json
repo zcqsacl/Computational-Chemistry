@@ -1,0 +1,1890 @@
+{
+  "schema_version": 1,
+  "dataset": "dataset_II",
+  "source": "streaming_resume",
+  "batch_number": 16,
+  "record_count": 100,
+  "created_utc": "20260818T053100Z",
+  "records": [
+    {
+      "status": "failed",
+      "label": "dataset_II_001792_RAMIPRIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1792,
+        "name": "RAMIPRIL",
+        "smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N1[C@H](C(=O)O)C[C@@H]2CCC[C@@H]21",
+        "charge": 0,
+        "total_atoms": 62,
+        "heavy_atoms": 30
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001794_RANOLAZINE_DIHYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1794,
+        "name": "RANOLAZINE DIHYDROCHLORIDE",
+        "smiles": "COc1ccccc1OC[C@@H](O)CN1CCN(CC(=O)Nc2c(C)cccc2C)CC1",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001855_SALSOLIDINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1855,
+        "name": "SALSOLIDINE",
+        "smiles": "COc1cc2c(cc1OC)[C@H](C)NCC2",
+        "charge": 0,
+        "total_atoms": 32,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.5106,
+        4.986,
+        5.321,
+        5.6753,
+        5.924
+      ],
+      "predicted_oscillator_strengths": [
+        0.079032,
+        0.005104,
+        0.155044,
+        0.010541,
+        0.004102
+      ],
+      "timing": {
+        "xtb_s": 1.0451525170356035,
+        "xtb4stda_s": 0.31949763000011444,
+        "stda_s": 12.117722235620022,
+        "total_s": 13.521042732521892
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001848_SALICIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1848,
+        "name": "SALICIN",
+        "smiles": "OCc1ccccc1O[C@H]1O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        4.8294,
+        5.7992,
+        6.1578,
+        6.6402,
+        6.6645
+      ],
+      "predicted_oscillator_strengths": [
+        0.047387,
+        0.087552,
+        0.004847,
+        0.005363,
+        0.204635
+      ],
+      "timing": {
+        "xtb_s": 1.3113570492714643,
+        "xtb4stda_s": 0.37953566014766693,
+        "stda_s": 82.0622285399586,
+        "total_s": 83.80807474069297
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001856_SALSOLINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1856,
+        "name": "SALSOLINE",
+        "smiles": "COc1cc2c(cc1O)CCN[C@H]2C",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        4.5864,
+        5.0929,
+        5.4447,
+        5.9818,
+        6.0069
+      ],
+      "predicted_oscillator_strengths": [
+        0.070472,
+        0.003482,
+        0.130913,
+        0.016462,
+        0.014587
+      ],
+      "timing": {
+        "xtb_s": 0.42280069179832935,
+        "xtb4stda_s": 0.28077193908393383,
+        "stda_s": 8.084017287939787,
+        "total_s": 8.826945211738348
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001857_SALVINORIN_A",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1857,
+        "name": "SALVINORIN A",
+        "smiles": "COC(=O)[C@@H]1C[C@H](OC(C)=O)C(=O)[C@H]2[C@@]1(C)CC[C@H]1C(=O)O[C@H](c3ccoc3)C[C@]21C",
+        "charge": 0,
+        "total_atoms": 59,
+        "heavy_atoms": 31
+      },
+      "error": "xTB failed (return=38):  0000000000464238  Unknown               Unknown  Unknown\nxtb                00000000004A40BB  Unknown               Unknown  Unknown\nxtb                000000000115E6E4  mctc_io_write_xyz          52  xyz.f90\nxtb                00000000006A7511  xtb_io_writer_mp_          77  writer.f90\nxtb                0000000000B23660  xtb_optimizer_mp_         795  optimizer.f90\nxtb                0000000000B1A7BB  xtb_optimizer_mp_         539  optimizer.f90\nxtb                0000000000A2754E  xtb_geoopt_mp_geo         147  geoopt_driver.f90\nxtb                0000000000438FAC  xtb_prog_main_mp_         832  main.F90\nxtb                0000000000450EA2  MAIN__                     57  primary.f90\nxtb                0000000000401E42  Unknown               Unknown  Unknown\nxtb                0000000002D1298A  Unknown               Unknown  Unknown\nxtb                0000000002D14227  Unknown               Unknown  Unknown\nxtb                0000000000401D05  Unknown               Unknown  Unknown\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001816_RIFAPENTINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1816,
+        "name": "RIFAPENTINE",
+        "smiles": "CO[C@@H]1/C=C/O[C@]2(C)Oc3c(C)c(O)c4c(O)c(c(/C=N/N5CCN(C6CCCC6)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@@H](C)[C@@H](O)[C@H](C)[C@H](O)[C@H](C)[C@@H](OC(C)=O)[C@H]1C",
+        "charge": 0,
+        "total_atoms": 127,
+        "heavy_atoms": 63
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_p6q7jjhu/wfn.xtb' -> '/tmp/datasetII_sTDA_p6q7jjhu/stda_50eV/wfn.xtb'"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001813_RIBOFLAVIN_5-PHOSPHATE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1813,
+        "name": "RIBOFLAVIN 5-PHOSPHATE SODIUM",
+        "smiles": "Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)COP(=O)(O)O)c2cc1C",
+        "charge": 0,
+        "total_atoms": 52,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        3.0596,
+        3.385,
+        4.0934,
+        4.5516,
+        4.69
+      ],
+      "predicted_oscillator_strengths": [
+        0.280092,
+        0.023601,
+        0.139468,
+        0.004364,
+        0.205776
+      ],
+      "timing": {
+        "xtb_s": 6.304258584976196,
+        "xtb4stda_s": 0.5294154714792967,
+        "stda_s": 695.0126992613077,
+        "total_s": 701.9666445702314
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001861_SAXAGLIPTIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1861,
+        "name": "SAXAGLIPTIN",
+        "smiles": "N#C[C@@H]1C[C@@H]2C[C@@H]2N1C(=O)[C@@H](N)[C@]12CC3CC(C[C@@](O)(C3)C1)C2",
+        "charge": 0,
+        "total_atoms": 48,
+        "heavy_atoms": 23
+      },
+      "error": "RDKit ETKDG embedding failed."
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001796_REPAGLINIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1796,
+        "name": "REPAGLINIDE",
+        "smiles": "CCOc1cc(CC(=O)N[C@@H](CC(C)C)c2ccccc2N2CCCCC2)ccc1C(=O)O",
+        "charge": 0,
+        "total_atoms": 69,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001853_SALIDROSIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1853,
+        "name": "SALIDROSIDE",
+        "smiles": "OC[C@@H]1O[C@H](OCCc2ccc(O)cc2)[C@@H](O)[C@H](O)[C@H]1O",
+        "charge": 0,
+        "total_atoms": 41,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        4.8284,
+        5.6241,
+        5.8118,
+        6.532,
+        6.6265
+      ],
+      "predicted_oscillator_strengths": [
+        0.041618,
+        0.080427,
+        0.100432,
+        0.00979,
+        0.004483
+      ],
+      "timing": {
+        "xtb_s": 1.1813148241490126,
+        "xtb4stda_s": 0.4065333567559719,
+        "stda_s": 100.90853265300393,
+        "total_s": 102.63566157408059
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001858_SANTONIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1858,
+        "name": "SANTONIN",
+        "smiles": "CC1=C2[C@H]3OC(=O)C(C)[C@@H]3CC[C@@]2(C)C=CC1=O",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        3.8792,
+        4.2045,
+        5.2214,
+        6.2053,
+        6.4406
+      ],
+      "predicted_oscillator_strengths": [
+        0.002661,
+        0.138373,
+        0.25103,
+        0.006075,
+        0.064937
+      ],
+      "timing": {
+        "xtb_s": 0.764090858399868,
+        "xtb4stda_s": 0.3719764556735754,
+        "stda_s": 35.1673446521163,
+        "total_s": 36.36553337983787
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001797_RESERPINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1797,
+        "name": "RESERPINE",
+        "smiles": "COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC",
+        "charge": 0,
+        "total_atoms": 84,
+        "heavy_atoms": 44
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001865_SECNIDAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1865,
+        "name": "SECNIDAZOLE",
+        "smiles": "Cc1ncc([N+](=O)[O-])n1C[C@H](C)O",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        3.8022,
+        4.178,
+        4.6905,
+        4.9705,
+        5.3805
+      ],
+      "predicted_oscillator_strengths": [
+        0.339442,
+        0.011564,
+        0.025217,
+        0.046144,
+        0.00536
+      ],
+      "timing": {
+        "xtb_s": 0.5332275740802288,
+        "xtb4stda_s": 0.2615920063108206,
+        "stda_s": 3.848097164183855,
+        "total_s": 4.6672530844807625
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001836_ROTENONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1836,
+        "name": "ROTENONE",
+        "smiles": "C=C(C)[C@@H]1Cc2c(ccc3c2O[C@H]2COc4cc(OC)c(OC)cc4[C@H]2C3=O)O1",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        3.8795,
+        4.1108,
+        4.3629,
+        4.5253,
+        4.605
+      ],
+      "predicted_oscillator_strengths": [
+        0.032173,
+        0.083609,
+        0.296097,
+        0.250622,
+        0.002139
+      ],
+      "timing": {
+        "xtb_s": 5.7316233441233635,
+        "xtb4stda_s": 0.5267034843564034,
+        "stda_s": 429.1123854480684,
+        "total_s": 435.4691642355174
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001839_ROXATIDINE_ACETATE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1839,
+        "name": "ROXATIDINE ACETATE HYDROCHLORIDE",
+        "smiles": "CC(=O)OCC(=O)NCCCOc1cccc(CN2CCCCC2)c1",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.8264,
+        5.3606,
+        5.6698,
+        5.7408,
+        5.7975
+      ],
+      "predicted_oscillator_strengths": [
+        0.038615,
+        0.009561,
+        0.021251,
+        0.002274,
+        0.062782
+      ],
+      "timing": {
+        "xtb_s": 6.7684802655130625,
+        "xtb4stda_s": 0.5051862206310034,
+        "stda_s": 332.47228231839836,
+        "total_s": 339.8507031984627
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001863_SCLAREOLIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1863,
+        "name": "SCLAREOLIDE",
+        "smiles": "CC1(C)CCC[C@@]2(C)[C@@H]3CC(=O)O[C@@]3(C)CC[C@H]12",
+        "charge": 0,
+        "total_atoms": 44,
+        "heavy_atoms": 18
+      },
+      "error": "RDKit ETKDG embedding failed."
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001870_SELENOMETHIONINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1870,
+        "name": "SELENOMETHIONINE",
+        "smiles": "C[Se]CC[C@H](N)C(=O)O",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 9
+      },
+      "predicted_excitation_energies_eV": [
+        4.5446,
+        5.3683,
+        5.6401,
+        5.903,
+        6.0734
+      ],
+      "predicted_oscillator_strengths": [
+        0.002338,
+        0.009576,
+        0.017614,
+        0.00789,
+        0.008317
+      ],
+      "timing": {
+        "xtb_s": 0.838097719475627,
+        "xtb4stda_s": 0.2334768045693636,
+        "stda_s": 1.367328317835927,
+        "total_s": 2.454892972484231
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001866_SECURININE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1866,
+        "name": "SECURININE",
+        "smiles": "O=C1C=C2C=C[C@H]3C[C@]2(O1)[C@@H]1CCCCN13",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        3.8969,
+        4.9752,
+        5.2352,
+        5.4389,
+        5.7186
+      ],
+      "predicted_oscillator_strengths": [
+        0.002159,
+        0.766387,
+        0.01925,
+        0.010975,
+        0.054485
+      ],
+      "timing": {
+        "xtb_s": 0.8260337188839912,
+        "xtb4stda_s": 0.34277207404375076,
+        "stda_s": 14.32523414120078,
+        "total_s": 15.542226366698742
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001867_SEDANOIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1867,
+        "name": "SEDANOIC ACID",
+        "smiles": "CCCCC(=O)[C@@H]1CCCC=C1C(=O)O",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 15
+      },
+      "predicted_excitation_energies_eV": [
+        4.3699,
+        5.2723,
+        5.3099,
+        5.9292,
+        6.5554
+      ],
+      "predicted_oscillator_strengths": [
+        0.017017,
+        0.000844,
+        0.227897,
+        0.176227,
+        0.049554
+      ],
+      "timing": {
+        "xtb_s": 0.8981055207550526,
+        "xtb4stda_s": 0.32088486663997173,
+        "stda_s": 16.232115352526307,
+        "total_s": 17.49178070574999
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001873_SERINE_L_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1873,
+        "name": "SERINE (L)",
+        "smiles": "N[C@@H](CO)C(=O)O",
+        "charge": 0,
+        "total_atoms": 14,
+        "heavy_atoms": 7
+      },
+      "predicted_excitation_energies_eV": [
+        5.8328,
+        6.1483,
+        6.5932,
+        6.9432,
+        7.1082
+      ],
+      "predicted_oscillator_strengths": [
+        0.019455,
+        0.00693,
+        0.030396,
+        0.005376,
+        0.005539
+      ],
+      "timing": {
+        "xtb_s": 0.22927428036928177,
+        "xtb4stda_s": 0.1695581115782261,
+        "stda_s": 0.4426594153046608,
+        "total_s": 0.8529035970568657
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001869_SELEGILINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1869,
+        "name": "SELEGILINE HYDROCHLORIDE",
+        "smiles": "C#CCN(C)[C@@H](C)Cc1ccccc1",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        5.1144,
+        5.4278,
+        5.9959,
+        6.3504,
+        6.4466
+      ],
+      "predicted_oscillator_strengths": [
+        0.000767,
+        0.027452,
+        0.115507,
+        0.009982,
+        0.047517
+      ],
+      "timing": {
+        "xtb_s": 0.7540183197706938,
+        "xtb4stda_s": 0.280409075319767,
+        "stda_s": 9.372452875599265,
+        "total_s": 10.443917408585548
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001874_SEROTONIN_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1874,
+        "name": "SEROTONIN HYDROCHLORIDE",
+        "smiles": "NCCc1c[nH]c2ccc(O)cc12",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.2438,
+        4.692,
+        5.169,
+        5.3742,
+        5.7625
+      ],
+      "predicted_oscillator_strengths": [
+        0.11884,
+        0.05432,
+        0.000956,
+        0.011178,
+        0.004882
+      ],
+      "timing": {
+        "xtb_s": 0.4160582572221756,
+        "xtb4stda_s": 0.25202412717044353,
+        "stda_s": 4.199360119178891,
+        "total_s": 4.888325858861208
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001876_SEVOFLURANE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1876,
+        "name": "SEVOFLURANE",
+        "smiles": "FCOC(C(F)(F)F)C(F)(F)F",
+        "charge": 0,
+        "total_atoms": 15,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        7.7151,
+        7.9788,
+        8.9732,
+        9.1613,
+        9.6074
+      ],
+      "predicted_oscillator_strengths": [
+        0.003575,
+        0.018316,
+        0.025514,
+        0.048727,
+        0.005029
+      ],
+      "timing": {
+        "xtb_s": 0.535285459831357,
+        "xtb4stda_s": 0.20149937458336353,
+        "stda_s": 1.7678096387535334,
+        "total_s": 2.51638862863183
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001877_SHIKIMIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1877,
+        "name": "SHIKIMIC ACID",
+        "smiles": "O=C(O)C1=C[C@@H](O)[C@@H](O)[C@H](O)C1",
+        "charge": 0,
+        "total_atoms": 22,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        5.2127,
+        5.6943,
+        6.161,
+        6.8106,
+        7.0803
+      ],
+      "predicted_oscillator_strengths": [
+        0.009192,
+        0.365748,
+        0.006105,
+        0.005916,
+        0.01503
+      ],
+      "timing": {
+        "xtb_s": 0.3631185982376337,
+        "xtb4stda_s": 0.2391678635030985,
+        "stda_s": 2.783116200938821,
+        "total_s": 3.41098658926785
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001804_RETINYL_PALMITATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1804,
+        "name": "RETINYL PALMITATE",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)OC/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C",
+        "charge": 0,
+        "total_atoms": 98,
+        "heavy_atoms": 38
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001859_SAPPANONE_A_DIMETHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1859,
+        "name": "SAPPANONE A DIMETHYL ETHER",
+        "smiles": "COc1ccc2c(c1)OC/C(=C\\c1ccc(OC)c(O)c1)C2=O",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        3.6342,
+        3.9242,
+        3.9978,
+        4.324,
+        4.5143
+      ],
+      "predicted_oscillator_strengths": [
+        0.732112,
+        0.08745,
+        0.036776,
+        0.136027,
+        0.090531
+      ],
+      "timing": {
+        "xtb_s": 2.5882787480950356,
+        "xtb4stda_s": 0.3843929786235094,
+        "stda_s": 112.73062890768051,
+        "total_s": 115.75254170037806
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001875_SERTRALINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1875,
+        "name": "SERTRALINE HYDROCHLORIDE",
+        "smiles": "CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21",
+        "charge": 0,
+        "total_atoms": 37,
+        "heavy_atoms": 20
+      },
+      "predicted_excitation_energies_eV": [
+        5.0175,
+        5.1039,
+        5.6222,
+        5.7761,
+        5.9079
+      ],
+      "predicted_oscillator_strengths": [
+        0.001896,
+        0.001001,
+        0.000554,
+        0.038626,
+        0.006634
+      ],
+      "timing": {
+        "xtb_s": 0.8913133572787046,
+        "xtb4stda_s": 0.3954095710068941,
+        "stda_s": 60.34540557488799,
+        "total_s": 61.69021992944181
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001881_SINAPIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1881,
+        "name": "SINAPIC ACID",
+        "smiles": "COc1cc(/C=C/C(=O)O)cc(OC)c1O",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        3.7988,
+        3.9317,
+        5.1196,
+        5.219,
+        5.3886
+      ],
+      "predicted_oscillator_strengths": [
+        0.252498,
+        0.548445,
+        0.000562,
+        0.263019,
+        0.00028
+      ],
+      "timing": {
+        "xtb_s": 0.9356694798916578,
+        "xtb4stda_s": 0.2816846910864115,
+        "stda_s": 11.0374636631459,
+        "total_s": 12.289234906435013
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001882_SINAPIC_ACID_METHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1882,
+        "name": "SINAPIC ACID METHYL ETHER",
+        "smiles": "COc1cc(/C=C/C(=O)O)cc(OC)c1OC",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        3.7824,
+        3.8069,
+        5.0997,
+        5.2291,
+        5.4492
+      ],
+      "predicted_oscillator_strengths": [
+        0.126235,
+        0.723708,
+        0.203174,
+        0.000873,
+        0.403113
+      ],
+      "timing": {
+        "xtb_s": 1.919981075450778,
+        "xtb4stda_s": 0.3029176089912653,
+        "stda_s": 25.135682050138712,
+        "total_s": 27.39931165240705
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001821_RISPERIDONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1821,
+        "name": "RISPERIDONE",
+        "smiles": "Cc1nc2n(c(=O)c1CCN1CCC(c3noc4cc(F)ccc34)CC1)CCCC2",
+        "charge": 0,
+        "total_atoms": 57,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.4393,
+        4.6873,
+        4.9968,
+        5.3317,
+        5.3981
+      ],
+      "predicted_oscillator_strengths": [
+        0.247778,
+        0.082496,
+        0.019544,
+        0.01165,
+        0.146054
+      ],
+      "timing": {
+        "xtb_s": 10.08969352953136,
+        "xtb4stda_s": 0.6403860095888376,
+        "stda_s": 727.2392433658242,
+        "total_s": 738.130120024085
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001864_SCOPOLAMINE_HYDROBROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1864,
+        "name": "SCOPOLAMINE HYDROBROMIDE",
+        "smiles": "CN1C2C[C@H](OC(=O)[C@H](CO)c3ccccc3)C[C@H]1[C@H]1OC21",
+        "charge": 0,
+        "total_atoms": 43,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        5.1393,
+        5.5059,
+        6.0674,
+        6.3068,
+        6.4533
+      ],
+      "predicted_oscillator_strengths": [
+        0.000388,
+        0.003696,
+        0.06462,
+        0.003305,
+        0.001043
+      ],
+      "timing": {
+        "xtb_s": 2.00625804066658,
+        "xtb4stda_s": 0.43862233124673367,
+        "stda_s": 137.71116000041366,
+        "total_s": 140.25604485161602
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001810_RHOIFOLIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1810,
+        "name": "RHOIFOLIN",
+        "smiles": "C[C@H]1O[C@H](O[C@@H]2[C@@H](Oc3cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc4c3)O[C@@H](CO)[C@H](O)[C@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 71,
+        "heavy_atoms": 41
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001814_RIBOSTAMYCIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1814,
+        "name": "RIBOSTAMYCIN SULFATE",
+        "smiles": "NC[C@H]1O[C@H](O[C@H]2C(O[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](N)C[C@@H]2N)[C@H](N)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 65,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001860_SARAFLOXACIN_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1860,
+        "name": "SARAFLOXACIN HYDROCHLORIDE",
+        "smiles": "O=C(O)c1cn(-c2ccc(F)cc2)c2cc(N3CCNCC3)c(F)cc2c1=O",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        3.8243,
+        4.0207,
+        4.4868,
+        4.6107,
+        4.7868
+      ],
+      "predicted_oscillator_strengths": [
+        0.094136,
+        0.125642,
+        0.882169,
+        0.257534,
+        0.321682
+      ],
+      "timing": {
+        "xtb_s": 2.8228213880211115,
+        "xtb4stda_s": 0.4822127390652895,
+        "stda_s": 274.56579339690506,
+        "total_s": 277.94893924333155
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001888_SITOSTERYL_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1888,
+        "name": "SITOSTERYL ACETATE",
+        "smiles": "CCC(CCC(C)[C@@H]1CCC2C3CC=C4C[C@H](OC(C)=O)CC[C@@]4(C)C3CC[C@]21C)C(C)C",
+        "charge": 0,
+        "total_atoms": 85,
+        "heavy_atoms": 33
+      },
+      "error": "xTB failed (return=38):  0000000000464238  Unknown               Unknown  Unknown\nxtb                00000000004A40BB  Unknown               Unknown  Unknown\nxtb                000000000115E6E4  mctc_io_write_xyz          52  xyz.f90\nxtb                00000000006A7511  xtb_io_writer_mp_          77  writer.f90\nxtb                0000000000B23660  xtb_optimizer_mp_         795  optimizer.f90\nxtb                0000000000B1A7BB  xtb_optimizer_mp_         539  optimizer.f90\nxtb                0000000000A2754E  xtb_geoopt_mp_geo         147  geoopt_driver.f90\nxtb                0000000000438FAC  xtb_prog_main_mp_         832  main.F90\nxtb                0000000000450EA2  MAIN__                     57  primary.f90\nxtb                0000000000401E42  Unknown               Unknown  Unknown\nxtb                0000000002D1298A  Unknown               Unknown  Unknown\nxtb                0000000002D14227  Unknown               Unknown  Unknown\nxtb                0000000000401D05  Unknown               Unknown  Unknown\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001889_SKATOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1889,
+        "name": "SKATOLE",
+        "smiles": "Cc1c[nH]c2ccccc12",
+        "charge": 0,
+        "total_atoms": 19,
+        "heavy_atoms": 10
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_xrn9hlfw'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001890_SKYRIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1890,
+        "name": "SKYRIN",
+        "smiles": "Cc1cc(O)c2c(c1)C(=O)c1c(c(O)cc(O)c1-c1c(O)cc(O)c3c1C(=O)c1cc(C)cc(O)c1C3=O)C2=O",
+        "charge": 0,
+        "total_atoms": 58,
+        "heavy_atoms": 40
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_we1x_bgg'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001891_SMILAGENIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1891,
+        "name": "SMILAGENIN",
+        "smiles": "CC1CC[C@@]2(OC1)O[C@H]1CC3C4CC[C@@H]5C[C@@H](O)CC[C@]5(C)C4CC[C@]3(C)[C@H]1[C@@H]2C",
+        "charge": 0,
+        "total_atoms": 74,
+        "heavy_atoms": 30
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_lyrro1ef'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001892_SMILAGENIN_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1892,
+        "name": "SMILAGENIN ACETATE",
+        "smiles": "CC(=O)O[C@H]1CC[C@]2(C)C3CC[C@@]4(C)C(CC5O[C@@]6(CCC(C)CO6)[C@@H](C)C54)C3CC[C@@H]2C1",
+        "charge": 0,
+        "total_atoms": 79,
+        "heavy_atoms": 33
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_69v_tq8u'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001893_SODIUM_CYCLAMATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1893,
+        "name": "SODIUM CYCLAMATE",
+        "smiles": "O=S(=O)(O)NC1CCCCC1",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 11
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_4py0g0xd'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001894_SODIUM_FLUOROACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1894,
+        "name": "SODIUM FLUOROACETATE",
+        "smiles": "O=C(O)CF",
+        "charge": 0,
+        "total_atoms": 8,
+        "heavy_atoms": 5
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_6zg53sbu'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001895_SODIUM_GLUCONATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1895,
+        "name": "SODIUM GLUCONATE",
+        "smiles": "O=C(O)[C@@H](O)[C@H](O)[C@@H](O)[C@@H](O)CO",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 13
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_1z277vs3'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001896_SODIUM_LACTATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1896,
+        "name": "SODIUM LACTATE",
+        "smiles": "C[C@H](O)C(=O)O",
+        "charge": 0,
+        "total_atoms": 12,
+        "heavy_atoms": 6
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_4d1mlhdl'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001897_SODIUM_MONOFLUOROPHOSPHATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1897,
+        "name": "SODIUM MONOFLUOROPHOSPHATE",
+        "smiles": "O=P(O)(O)F",
+        "charge": 0,
+        "total_atoms": 7,
+        "heavy_atoms": 5
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_rnm1eyr7'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001898_SODIUM_PHENYLACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1898,
+        "name": "SODIUM PHENYLACETATE",
+        "smiles": "O=C(O)Cc1ccccc1",
+        "charge": 0,
+        "total_atoms": 18,
+        "heavy_atoms": 10
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_f00kyvy5'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001899_SODIUM_PHENYLBUTYRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1899,
+        "name": "SODIUM PHENYLBUTYRATE",
+        "smiles": "O=C(O)CCCc1ccccc1",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 12
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_efpuij8c'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001900_SODIUM_SALICYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1900,
+        "name": "SODIUM SALICYLATE",
+        "smiles": "O=C(O)c1ccccc1O",
+        "charge": 0,
+        "total_atoms": 16,
+        "heavy_atoms": 10
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_zn53vzd_'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001901_SODIUM_TETRADECYL_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1901,
+        "name": "SODIUM TETRADECYL SULFATE",
+        "smiles": "CCCCC(CC)CCC(CC(C)C)OS(=O)(=O)O",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 19
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_5_j_vt4j'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001902_SOLANESOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1902,
+        "name": "SOLANESOL",
+        "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CO",
+        "charge": 0,
+        "total_atoms": 120,
+        "heavy_atoms": 46
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_vj9xer03'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001903_SOLANESYL_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1903,
+        "name": "SOLANESYL ACETATE",
+        "smiles": "CC(=O)OC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C",
+        "charge": 0,
+        "total_atoms": 125,
+        "heavy_atoms": 49
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_jx0d02hk'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001904_SOLASODINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1904,
+        "name": "SOLASODINE",
+        "smiles": "C[C@H]1CC[C@]2(NC1)O[C@@H]1C[C@@H]3C4CC=C5C[C@H](O)CC[C@@]5(C)C4CC[C@@]3(C)C1[C@H]2C",
+        "charge": 0,
+        "total_atoms": 73,
+        "heavy_atoms": 30
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_md6_7fw6'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001905_SOLIDAGENONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1905,
+        "name": "SOLIDAGENONE",
+        "smiles": "CC1=CC(=O)C2C(C)(C)CCC[C@]2(C)[C@@]1(O)CCc1ccoc1",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 23
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_kp7s0am9'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001906_SOLIFENACIN_SUCCINATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1906,
+        "name": "SOLIFENACIN SUCCINATE",
+        "smiles": "O=C(O[C@H]1CN2CCC1CC2)N1CCc2ccccc2[C@@H]1c1ccccc1",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 27
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_k5yv5sy1'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001907_SORBITOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1907,
+        "name": "SORBITOL",
+        "smiles": "OC[C@@H](O)[C@H](O)[C@@H](O)[C@H](O)CO",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 12
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_226aah0z'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001908_SORBITOL_HEXAACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1908,
+        "name": "SORBITOL HEXAACETATE",
+        "smiles": "CC(=O)OC[C@@H](OC(C)=O)[C@H](OC(C)=O)[C@@H](OC(C)=O)[C@@H](COC(C)=O)OC(C)=O",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_htnjdtgl'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001909_SOTALOL_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1909,
+        "name": "SOTALOL HYDROCHLORIDE",
+        "smiles": "CC(C)NC[C@H](O)c1ccc(NS(C)(=O)=O)cc1",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 18
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA__ekz911z'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001910_SPARASSOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1910,
+        "name": "SPARASSOL",
+        "smiles": "COC(=O)c1c(C)cc(OC)cc1O",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 14
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_u0dbcfvb'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001911_SPARFLOXACIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1911,
+        "name": "SPARFLOXACIN",
+        "smiles": "CC1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C[C@H](C)N1",
+        "charge": 0,
+        "total_atoms": 50,
+        "heavy_atoms": 28
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_ilethqsc'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001912_SPECTINOMYCIN_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1912,
+        "name": "SPECTINOMYCIN HYDROCHLORIDE",
+        "smiles": "CN[C@@H]1[C@@H](O)[C@@H]2O[C@H]3O[C@@H](C)CC(=O)[C@@]3(O)O[C@H]2[C@H](NC)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 23
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_f3xrscdl'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001913_SPERMIDINE_TRIHYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1913,
+        "name": "SPERMIDINE TRIHYDROCHLORIDE",
+        "smiles": "NCCCCNCCCN",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 10
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_2c9ee5me'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001914_SPERMINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1914,
+        "name": "SPERMINE",
+        "smiles": "NCCCNCCCCNCCCN",
+        "charge": 0,
+        "total_atoms": 40,
+        "heavy_atoms": 14
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_2qkxpym3'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001915_SPHONDIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1915,
+        "name": "SPHONDIN",
+        "smiles": "COc1cc2ccc(=O)oc2c2ccoc12",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 16
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_zb25y4ns'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001916_SPICULISPORIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1916,
+        "name": "SPICULISPORIC ACID",
+        "smiles": "CCCCCCCCCC[C@@H](C(=O)O)[C@]1(C(=O)O)CCC(=O)O1",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 23
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_w6odqwaa'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001917_SPIRAMYCIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1917,
+        "name": "SPIRAMYCIN",
+        "smiles": "CO[C@@H]1[C@@H](O)CC(=O)O[C@H](C)C/C=C/C=C/[C@@H](O[C@@H]2CC[C@@H](N(C)C)[C@H](C)O2)[C@@H](C)C[C@@H](CC=O)[C@H]1O[C@H]1O[C@@H](C)[C@H](O[C@@H]2C[C@](C)(O)[C@@H](O)[C@@H](C)O2)[C@@H](N(C)C)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 133,
+        "heavy_atoms": 59
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_v1ut8red'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001918_SPIRONOLACTONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1918,
+        "name": "SPIRONOLACTONE",
+        "smiles": "CC(=O)S[C@H]1CC2=CC(=O)CC[C@@]2(C)[C@@H]2CC[C@]3(C)[C@H](CC[C@]34CCC(=O)O4)C12",
+        "charge": 0,
+        "total_atoms": 61,
+        "heavy_atoms": 29
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_2sjiky0p'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001919_SQUALENE_thiourea_clathrate",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1919,
+        "name": "SQUALENE thiourea clathrate",
+        "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C=C(\\C)CC/C=C(\\C)CCC=C(C)C",
+        "charge": 0,
+        "total_atoms": 80,
+        "heavy_atoms": 30
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_76uu6gp2'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001920_SR-2640",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1920,
+        "name": "SR-2640",
+        "smiles": "O=C(O)c1ccccc1Nc1cccc(OCc2ccc3ccccc3n2)c1",
+        "charge": 0,
+        "total_atoms": 46,
+        "heavy_atoms": 28
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_2dlypf4b'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001921_STAVUDINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1921,
+        "name": "STAVUDINE",
+        "smiles": "Cc1cn([C@@H]2C=C[C@H](CO)O2)c(=O)[nH]c1=O",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 16
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_jgeb3k3o'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001922_STIGMASTA-4_22-DIEN-3-ONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1922,
+        "name": "STIGMASTA-4,22-DIEN-3-ONE",
+        "smiles": "CC[C@@H](/C=C/C(C)C1CCC2C3CCC4=CC(=O)CC[C@@]4(C)C3CC[C@@]12C)C(C)C",
+        "charge": 0,
+        "total_atoms": 76,
+        "heavy_atoms": 30
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_6ihox7ck'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001923_STIGMASTEROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1923,
+        "name": "STIGMASTEROL",
+        "smiles": "CCC(/C=C/[C@H](C)[C@@H]1CCC2C3CC=C4C[C@H](O)CC[C@@]4(C)C3CC[C@]21C)C(C)C",
+        "charge": 0,
+        "total_atoms": 78,
+        "heavy_atoms": 30
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_8_fvkfj9'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001924_STREPTOMYCIN_SULFATE_5mM_10_aq_DMSO_5mM_ethanolamine_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1924,
+        "name": "STREPTOMYCIN SULFATE [5mM; 10% aq DMSO + 5mM ethanolamine]",
+        "smiles": "CN[C@H]1[C@@H](OC2[C@@H](O[C@@H]3[C@@H](O)[C@H](O)[C@@H](NC(=N)N)[C@H](O)[C@H]3NC(=N)N)O[C@H](C)[C@@]2(O)C=O)O[C@H](CO)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 79,
+        "heavy_atoms": 40
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_s2eaobz9'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001925_STREPTOZOSIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1925,
+        "name": "STREPTOZOSIN",
+        "smiles": "CN(N=O)C(=O)N[C@H]1[C@@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 18
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_56deixvr'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001926_STROPHANTHIDIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1926,
+        "name": "STROPHANTHIDIN",
+        "smiles": "C[C@]12CCC3C(CC[C@]4(O)C[C@@H](O)CC[C@]34C=O)[C@@]1(O)CCC2C1=CC(=O)OC1",
+        "charge": 0,
+        "total_atoms": 61,
+        "heavy_atoms": 29
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_i64dctla'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001927_STROPHANTHIDIN_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1927,
+        "name": "STROPHANTHIDIN ACETATE",
+        "smiles": "CC(=O)OC1CCC2(C=O)C3CCC4(C)C(C5=CC(=O)OC5)CCC4(O)C3CCC2(O)C1",
+        "charge": 0,
+        "total_atoms": 66,
+        "heavy_atoms": 32
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_98ebj_i9'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001928_STRYCHNINE_METHIODIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1928,
+        "name": "STRYCHNINE METHIODIDE",
+        "smiles": "C[N+]12CC[C@]34c5ccccc5N5C(=O)CC6OCC=C(C1)[C@@H](CC32)[C@H]6C54",
+        "charge": 1,
+        "total_atoms": 51,
+        "heavy_atoms": 26
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_zql03biz'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001929_STRYCHNINE_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1929,
+        "name": "STRYCHNINE SULFATE",
+        "smiles": "O=C1CC2OCC=C3CN4CC[C@@]56c7ccccc7N1C5[C@@H]2[C@@H]3CC46",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 25
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_ekfz_wew'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001930_SUBERIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1930,
+        "name": "SUBERIC ACID",
+        "smiles": "O=C(O)CCCCCCC(=O)O",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 12
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_jlqm9lv1'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001931_SUCCIMER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1931,
+        "name": "SUCCIMER",
+        "smiles": "O=C(O)[C@H](S)[C@H](S)C(=O)O",
+        "charge": 0,
+        "total_atoms": 16,
+        "heavy_atoms": 10
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_a_wb798c'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001932_SUCCINYLACETONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1932,
+        "name": "SUCCINYLACETONE",
+        "smiles": "CC(=O)CC(=O)CCC(=O)O",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 11
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_pau37jks'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001933_SUCCINYLSULFATHIAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1933,
+        "name": "SUCCINYLSULFATHIAZOLE",
+        "smiles": "O=C(O)CCC(=O)Nc1ccc(S(=O)(=O)Nc2nccs2)cc1",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 23
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_4xcdiyym'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001935_SUCRALOSE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1935,
+        "name": "SUCRALOSE",
+        "smiles": "OC[C@@H]1O[C@@H](O[C@@]2(CCl)O[C@@H](CCl)[C@H](O)[C@H]2O)[C@@H](O)[C@H](O)[C@@H]1Cl",
+        "charge": 0,
+        "total_atoms": 42,
+        "heavy_atoms": 23
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_u674xluf'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001936_SULBACTAM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1936,
+        "name": "SULBACTAM",
+        "smiles": "CC1(C)C(C(=O)O)N2C(=O)C[C@@H]2S1(=O)=O",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 15
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_mje2231y'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001937_SULBENTINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1937,
+        "name": "SULBENTINE",
+        "smiles": "S=C1SCN(Cc2ccccc2)CN1Cc1ccccc1",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 21
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_mkueehmd'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001938_SULCONAZOLE_NITRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1938,
+        "name": "SULCONAZOLE NITRATE",
+        "smiles": "Clc1ccc(CS[C@@H](Cn2ccnc2)c2ccc(Cl)cc2Cl)cc1",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 24
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_q10mkyl_'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001939_SULFABENZAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1939,
+        "name": "SULFABENZAMIDE",
+        "smiles": "Nc1ccc(S(=O)(=O)NC(=O)c2ccccc2)cc1",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_03uyejq9'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001940_SULFACARBAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1940,
+        "name": "SULFACARBAMIDE",
+        "smiles": "NC(=O)NS(=O)(=O)c1ccc(N)cc1",
+        "charge": 0,
+        "total_atoms": 23,
+        "heavy_atoms": 14
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_2oyayqoy'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001941_SULFACETAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1941,
+        "name": "SULFACETAMIDE",
+        "smiles": "CC(=O)NS(=O)(=O)c1ccc(N)cc1",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 14
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_vm2uzcck'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001942_SULFACHLORPYRIDAZINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1942,
+        "name": "SULFACHLORPYRIDAZINE",
+        "smiles": "Nc1ccc(S(=O)(=O)Nc2ccc(Cl)nn2)cc1",
+        "charge": 0,
+        "total_atoms": 27,
+        "heavy_atoms": 18
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_k8xc7eag'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001943_SULFADIAZINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1943,
+        "name": "SULFADIAZINE",
+        "smiles": "Nc1ccc(S(=O)(=O)Nc2ncccn2)cc1",
+        "charge": 0,
+        "total_atoms": 27,
+        "heavy_atoms": 17
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_g9lknqze'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001944_SULFADIMETHOXINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1944,
+        "name": "SULFADIMETHOXINE",
+        "smiles": "COc1cc(NS(=O)(=O)c2ccc(N)cc2)nc(OC)n1",
+        "charge": 0,
+        "total_atoms": 35,
+        "heavy_atoms": 21
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_ydifm6t2'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001945_SULFADOXINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1945,
+        "name": "SULFADOXINE",
+        "smiles": "COc1ncnc(NS(=O)(=O)c2ccc(N)cc2)c1OC",
+        "charge": 0,
+        "total_atoms": 35,
+        "heavy_atoms": 21
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_9_rs6tw0'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001946_SULFAGUANIDINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1946,
+        "name": "SULFAGUANIDINE",
+        "smiles": "N=C(N)NS(=O)(=O)c1ccc(N)cc1",
+        "charge": 0,
+        "total_atoms": 24,
+        "heavy_atoms": 14
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_ib4pz1ze'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001947_SULFAMERAZINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1947,
+        "name": "SULFAMERAZINE",
+        "smiles": "Cc1ccnc(NS(=O)(=O)c2ccc(N)cc2)n1",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 18
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_vgh3sbvm'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001948_SULFAMETER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1948,
+        "name": "SULFAMETER",
+        "smiles": "COc1cnc(NS(=O)(=O)c2ccc(N)cc2)nc1",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_fri089og'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001949_SULFAMETHAZINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1949,
+        "name": "SULFAMETHAZINE",
+        "smiles": "Cc1cc(C)nc(NS(=O)(=O)c2ccc(N)cc2)n1",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 19
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_b3smr1za'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001950_SULFAMETHIZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1950,
+        "name": "SULFAMETHIZOLE",
+        "smiles": "Cc1nnc(NS(=O)(=O)c2ccc(N)cc2)s1",
+        "charge": 0,
+        "total_atoms": 27,
+        "heavy_atoms": 17
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_fbydy5bo'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001951_SULFAMETHOXAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1951,
+        "name": "SULFAMETHOXAZOLE",
+        "smiles": "Cc1cc(NS(=O)(=O)c2ccc(N)cc2)no1",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 17
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_bhdplgvr'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001952_SULFAMETHOXYPYRIDAZINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1952,
+        "name": "SULFAMETHOXYPYRIDAZINE",
+        "smiles": "COc1ccc(NS(=O)(=O)c2ccc(N)cc2)nn1",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_t23p6rys'"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001953_SULFAMONOMETHOXINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1953,
+        "name": "SULFAMONOMETHOXINE",
+        "smiles": "COc1cc(NS(=O)(=O)c2ccc(N)cc2)ncn1",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_wvexlsh_'"
+    }
+  ]
+}
