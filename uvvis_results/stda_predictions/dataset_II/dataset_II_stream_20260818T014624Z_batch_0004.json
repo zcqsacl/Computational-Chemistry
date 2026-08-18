@@ -1,0 +1,1990 @@
+{
+  "schema_version": 1,
+  "dataset": "dataset_II",
+  "source": "streaming_resume",
+  "batch_number": 4,
+  "record_count": 100,
+  "created_utc": "20260818T014624Z",
+  "records": [
+    {
+      "status": "failed",
+      "label": "dataset_II_000487_CABAZITAXEL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 487,
+        "name": "CABAZITAXEL",
+        "smiles": "CO[C@@H]1C(=O)[C@]2(C)C([C@@H](OC(=O)c3ccccc3)[C@@]3(O)C[C@@H](OC(=O)[C@@H](O)[C@H](NC(=O)OC(C)(C)C)c4ccccc4)C(C)=C1C3(C)C)[C@@]1(OC(C)=O)CO[C@H]1C[C@H]2OC",
+        "charge": 0,
+        "total_atoms": 117,
+        "heavy_atoms": 60
+      },
+      "error": "[Errno 28] No space left on device: '/tmp/datasetII_sTDA_oo7dp3jz/stda_50eV'"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000469_BUCLADESINE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 469,
+        "name": "BUCLADESINE SODIUM",
+        "smiles": "CCCC(=O)Nc1ncnc2c1ncn2C1O[C@H]2COP(=O)(O)O[C@@H]2[C@@H]1OC(=O)CCC",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 32
+      },
+      "predicted_excitation_energies_eV": [
+        4.6751,
+        4.8212,
+        5.2779,
+        5.5489,
+        5.8486
+      ],
+      "predicted_oscillator_strengths": [
+        0.000616,
+        0.731888,
+        0.042504,
+        0.000112,
+        0.006025
+      ],
+      "timing": {
+        "xtb_s": 7.222141224890947,
+        "xtb4stda_s": 0.5803396943956614,
+        "stda_s": 704.4208636246622,
+        "total_s": 712.404748942703
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000410_BERBERINE_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 410,
+        "name": "BERBERINE CHLORIDE",
+        "smiles": "COc1ccc2cc3[n+](cc2c1OC)CCc1cc2c(cc1-3)OCO2",
+        "charge": 1,
+        "total_atoms": 43,
+        "heavy_atoms": 25
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000433_BIAPENEM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 433,
+        "name": "BIAPENEM",
+        "smiles": "C[C@H](O)[C@@H]1C(=O)N2C(C(=O)O)=C(SC3Cn4cnc[n+]4C3)[C@@H](C)[C@@H]12",
+        "charge": 1,
+        "total_atoms": 43,
+        "heavy_atoms": 24
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000470_BUDESONIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 470,
+        "name": "BUDESONIDE",
+        "smiles": "CCCC1O[C@H]2CC3C4CCC5=CC(=O)C=CC5(C)C4[C@H](O)CC3(C)[C@@]2(C(=O)CO)O1",
+        "charge": 0,
+        "total_atoms": 65,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000414_beta-AMYRIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 414,
+        "name": "beta-AMYRIN",
+        "smiles": "CC1(C)CC[C@]2(C)CC[C@]3(C)C(=CCC4[C@@]5(C)CC[C@H](O)C(C)(C)C5CC[C@]43C)C2C1",
+        "charge": 0,
+        "total_atoms": 81,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000427_BETAMETHASONE_VALERATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 427,
+        "name": "BETAMETHASONE VALERATE",
+        "smiles": "CCCCC(=O)O[C@]1(C(=O)CO)[C@@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)C(O)C[C@@]21C",
+        "charge": 0,
+        "total_atoms": 71,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000426_BETAMETHASONE_SODIUM_PHOSPHATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 426,
+        "name": "BETAMETHASONE SODIUM PHOSPHATE",
+        "smiles": "C[C@H]1CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)COP(=O)(O)O",
+        "charge": 0,
+        "total_atoms": 62,
+        "heavy_atoms": 32
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000409_BERBAMINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 409,
+        "name": "BERBAMINE HYDROCHLORIDE",
+        "smiles": "COc1cc2c3cc1Oc1c(OC)c(OC)cc4c1[C@H](Cc1cccc(c1)Oc1ccc(c(O)c1)C[C@H]3N(C)CC2)N(C)CC4",
+        "charge": 0,
+        "total_atoms": 85,
+        "heavy_atoms": 45
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000390_BENZALKONIUM_CHLORIDE_HYDRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 390,
+        "name": "BENZALKONIUM CHLORIDE HYDRATE",
+        "smiles": "CCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1",
+        "charge": 1,
+        "total_atoms": 63,
+        "heavy_atoms": 23
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000416_beta-AMYRIN_BENZOATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 416,
+        "name": "beta-AMYRIN BENZOATE",
+        "smiles": "CC1(C)CC[C@]2(C)CC[C@]3(C)C(=CCC4[C@@]5(C)CC[C@H](OC(=O)c6ccccc6)C(C)(C)C5CC[C@]43C)C2C1",
+        "charge": 0,
+        "total_atoms": 93,
+        "heavy_atoms": 39
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000430_BETULINIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 430,
+        "name": "BETULINIC ACID",
+        "smiles": "C=C(C)[C@H]1CC[C@@]2(C(=O)O)CC[C@@]3(C)[C@@H](CCC4[C@]5(C)CC[C@@H](O)C(C)(C)C5CC[C@@]43C)[C@H]12",
+        "charge": 0,
+        "total_atoms": 81,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000429_BETULIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 429,
+        "name": "BETULIN",
+        "smiles": "C=C(C)[C@H]1CC[C@@]2(CO)CC[C@@]3(C)[C@@H](CCC4[C@]5(C)CC[C@@H](O)C(C)(C)C5CC[C@@]43C)C12",
+        "charge": 0,
+        "total_atoms": 82,
+        "heavy_atoms": 32
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000421_beta-SITOSTEROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 421,
+        "name": "beta-SITOSTEROL",
+        "smiles": "CCC(CCC(C)[C@@H]1CCC2C3CC=C4C[C@H](O)CC[C@@]4(C)C3CC[C@]21C)C(C)C",
+        "charge": 0,
+        "total_atoms": 80,
+        "heavy_atoms": 30
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000425_BETAMETHASONE_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 425,
+        "name": "BETAMETHASONE ACETATE",
+        "smiles": "CC(=O)OCC(=O)[C@@]1(O)[C@@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
+        "charge": 0,
+        "total_atoms": 62,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000437_BILIRUBIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 437,
+        "name": "BILIRUBIN",
+        "smiles": "C=CC1=C(C)/C(=C/c2[nH]c(Cc3[nH]c(/C=C4\\NC(=O)C(C)=C4C=C)c(C)c3CCC(=O)O)c(CCC(=O)O)c2C)NC1=O",
+        "charge": 0,
+        "total_atoms": 79,
+        "heavy_atoms": 43
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000444_BISOCTRIZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 444,
+        "name": "BISOCTRIZOLE",
+        "smiles": "CC(C)(C)CC(C)(C)c1cc(Cc2cc(C(C)(C)CC(C)(C)C)cc(-n3nc4ccccc4n3)c2O)c(O)c(-n2nc3ccccc3n2)c1",
+        "charge": 0,
+        "total_atoms": 99,
+        "heavy_atoms": 49
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000491_CALCEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 491,
+        "name": "CALCEIN",
+        "smiles": "O=C(O)CN(CC(=O)O)Cc1cc2c(cc1O)Oc1cc(O)c(CN(CC(=O)O)CC(=O)O)cc1C21OC(=O)c2ccccc21",
+        "charge": 0,
+        "total_atoms": 71,
+        "heavy_atoms": 45
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000415_beta-AMYRIN_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 415,
+        "name": "beta-AMYRIN ACETATE",
+        "smiles": "CC(=O)O[C@H]1CC[C@@]2(C)C(CC[C@]3(C)C2CC=C2C4CC(C)(C)CC[C@]4(C)CC[C@]23C)C1(C)C",
+        "charge": 0,
+        "total_atoms": 86,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000396_BENZONATATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 396,
+        "name": "BENZONATATE",
+        "smiles": "CCCCNc1ccc(C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC)cc1",
+        "charge": 0,
+        "total_atoms": 95,
+        "heavy_atoms": 42
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000424_BETAMETHASONE_17_21-DIPROPIONATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 424,
+        "name": "BETAMETHASONE 17,21-DIPROPIONATE",
+        "smiles": "CCC(=O)OCC(=O)[C@@]1(OC(=O)CC)[C@@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)C3(F)[C@@H](O)C[C@@]21C",
+        "charge": 0,
+        "total_atoms": 73,
+        "heavy_atoms": 36
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000478_BUSSEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 478,
+        "name": "BUSSEIN",
+        "smiles": "COC(=O)C[C@@H]1C2(C)CC34OC5(C)O[C@@]6(C7/C(=C(/O)C(C)C)C(=O)O[C@H](c8ccoc8)[C@@]7(C)C(OC(C)=O)[C@H](OC(C)=O)[C@@]6(O5)[C@@]13C)[C@@H](OC(C)=O)[C@]4(O)C2OC(=O)C(C)C",
+        "charge": 0,
+        "total_atoms": 115,
+        "heavy_atoms": 61
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000417_beta-CAROTENE_2mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 417,
+        "name": "beta-CAROTENE [2mM]",
+        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)C(C)(C)CCC1",
+        "charge": 0,
+        "total_atoms": 96,
+        "heavy_atoms": 40
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000449_BLEOMYCIN_bleomycin_B2_shown_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 449,
+        "name": "BLEOMYCIN (bleomycin B2 shown)",
+        "smiles": "CC[C@@H]1OC(OC(c2c[nH]cn2)C(NC(=O)c2nc(C(CC(N)=O)NCC(N)C(N)=O)nc(N)c2C)C(=O)NC(C)C(O)C(C)C(=O)NC(C(=O)NCCc2nc(-c3nc(C(=O)NCCCCNC(=N)N)cs3)cs2)C(C)O)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](OC(N)=O)[C@@H]2O)[C@@H](C)[C@@H]1C",
+        "charge": 0,
+        "total_atoms": 188,
+        "heavy_atoms": 98
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000498_CANDESARTAN_CILEXTIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 498,
+        "name": "CANDESARTAN CILEXTIL",
+        "smiles": "CCOc1nc2cccc(C(=O)O[C@H](C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1",
+        "charge": 0,
+        "total_atoms": 79,
+        "heavy_atoms": 45
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000513_CARAPIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 513,
+        "name": "CARAPIN",
+        "smiles": "COC(=O)C[C@H]1C(C)(C)C(=O)[C@@H]2CC3C4=CC(=O)O[C@@H](c5ccoc5)[C@]4(C)CCC3[C@@]1(C)C2=O",
+        "charge": 0,
+        "total_atoms": 66,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000507_CAPRYILIDENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 507,
+        "name": "CAPRYILIDENE",
+        "smiles": "CCCCCCCC(=O)OCC(COC(=O)CCCCCCC)OC(=O)CCCCCCC",
+        "charge": 0,
+        "total_atoms": 83,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000514_CARAPIN-8_9_-ENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 514,
+        "name": "CARAPIN-8(9)-ENE",
+        "smiles": "COC(=O)C[C@H]1C(C)(C)C(=O)[C@@H]2CC3=C(CC[C@]4(C)C3=CC(=O)O[C@H]4c3ccoc3)[C@@]1(C)C2=O",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 34
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000549_CEFEPIME_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 549,
+        "name": "CEFEPIME HYDROCHLORIDE",
+        "smiles": "CO/N=C(/C(=O)NC1C(=O)N2C(C(=O)O)=C(C[N+]3(C)CCCC3)CSC12)c1csc(N)n1",
+        "charge": 1,
+        "total_atoms": 57,
+        "heavy_atoms": 32
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000543_CEFALONIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 543,
+        "name": "CEFALONIUM",
+        "smiles": "NC(=O)c1cc[n+](CC2=C(C(=O)O)N3C(=O)[C@H](NC(=O)Cc4cccs4)[C@@H]3SC2)cc1",
+        "charge": 1,
+        "total_atoms": 50,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000536_CASANTHRANOL_cascaroside_A_shown_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 536,
+        "name": "CASANTHRANOL [cascaroside A shown]",
+        "smiles": "O=C1c2c(O)cc(CO)cc2[C@@H](O[C@H]2O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]2O)c2cccc(O[C@H]3O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]3O)c21",
+        "charge": 0,
+        "total_atoms": 74,
+        "heavy_atoms": 42
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000503_CANTHAXANTHIN_euglenanone_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 503,
+        "name": "CANTHAXANTHIN (euglenanone)",
+        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)CCC2(C)C)C(C)(C)CCC1=O",
+        "charge": 0,
+        "total_atoms": 94,
+        "heavy_atoms": 42
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000520_CARBENOXOLONE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 520,
+        "name": "CARBENOXOLONE SODIUM",
+        "smiles": "CC1(C)C2CC[C@]3(C)C(C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@]43C)[C@@]2(C)CC[C@@H]1OC(=O)CCC(=O)O",
+        "charge": 0,
+        "total_atoms": 91,
+        "heavy_atoms": 41
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000555_CEFOTETAN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 555,
+        "name": "CEFOTETAN",
+        "smiles": "CO[C@]1(NC(=O)C2SC(C(C(N)=O)C(=O)O)S2)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CSC21",
+        "charge": 0,
+        "total_atoms": 55,
+        "heavy_atoms": 36
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000546_CEFCAPENE_PIVOXIL_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 546,
+        "name": "CEFCAPENE PIVOXIL HYDROCHLORIDE",
+        "smiles": "CC/C=C(/C(=O)N[C@H]1C(=O)N2C(C(=O)OCOC(=O)C(C)(C)C)=C(COC(N)=O)CS[C@@H]12)c1csc(N)n1",
+        "charge": 0,
+        "total_atoms": 67,
+        "heavy_atoms": 38
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000506_CAPREOMYCIN_SULFATE_4mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 506,
+        "name": "CAPREOMYCIN SULFATE [4mM]",
+        "smiles": "N=C1NCCC(C2NC(=O)/C(=C\\NC(N)=O)NC(=O)C(CNC(=O)CC(N)CCCN)NC(=O)C(CO)NC(=O)C(N)CNC2=O)N1",
+        "charge": 0,
+        "total_atoms": 91,
+        "heavy_atoms": 47
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000553_CEFOPERAZONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 553,
+        "name": "CEFOPERAZONE",
+        "smiles": "CCN1CCN(C(=O)NC(C(=O)NC2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CSC23)c2ccc(O)cc2)C(=O)C1=O",
+        "charge": 0,
+        "total_atoms": 71,
+        "heavy_atoms": 44
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000558_CEFPODOXIME_PROXETIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 558,
+        "name": "CEFPODOXIME PROXETIL",
+        "smiles": "COCC1=C(C(=O)OC(C)OC(=O)OC(C)C)N2C(=O)[C@H](NC(=O)/C(=N/OC)c3csc(N)n3)[C@@H]2SC1",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 37
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000554_CEFORANIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 554,
+        "name": "CEFORANIDE",
+        "smiles": "NCc1ccccc1CC(=O)NC1C(=O)N2C(C(=O)O)=C(CSc3nnnn3CC(=O)O)CSC12",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000552_CEFONICID_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 552,
+        "name": "CEFONICID SODIUM",
+        "smiles": "O=C(O)C1=C(CSc2nnnn2CS(=O)(=O)O)CS[C@H]2C(NC(=O)[C@@H](O)c3ccccc3)C(=O)N12",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000561_CEFTAZIDIME",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 561,
+        "name": "CEFTAZIDIME",
+        "smiles": "CC(C)(O/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(C[n+]3ccccc3)CSC12)c1csc(N)n1)C(=O)O",
+        "charge": 1,
+        "total_atoms": 60,
+        "heavy_atoms": 37
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000560_CEFSULODIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 560,
+        "name": "CEFSULODIN SODIUM",
+        "smiles": "NC(=O)c1cc[n+](CC2=C(C(=O)O)N3C(=O)C(NC(=O)C(c4ccccc4)S(=O)(=O)O)C3SC2)cc1",
+        "charge": 1,
+        "total_atoms": 57,
+        "heavy_atoms": 36
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000509_CAPSANTHIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 509,
+        "name": "CAPSANTHIN",
+        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(=O)[C@@]2(C)C[C@H](O)CC2(C)C)C(C)(C)C[C@@H](O)C1",
+        "charge": 0,
+        "total_atoms": 99,
+        "heavy_atoms": 43
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000557_CEFPIRAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 557,
+        "name": "CEFPIRAMIDE",
+        "smiles": "Cc1cc(O)c(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CSC23)c2ccc(O)cc2)cn1",
+        "charge": 0,
+        "total_atoms": 66,
+        "heavy_atoms": 42
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000565_CEFTRIAXONE_SODIUM_TRIHYDRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 565,
+        "name": "CEFTRIAXONE SODIUM TRIHYDRATE",
+        "smiles": "CO/N=C(/C(=O)N[C@H]1C(=O)N2C(C(=O)O)=C(CSc3nc(=O)c(O)nn3C)CS[C@@H]12)c1csc(N)n1",
+        "charge": 0,
+        "total_atoms": 54,
+        "heavy_atoms": 36
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000548_CEFDITORIN_PIVOXIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 548,
+        "name": "CEFDITORIN PIVOXIL",
+        "smiles": "CO/N=C(\\C(=O)NC1C(=O)N2C(C(=O)OCOC(=O)C(C)(C)C)=C(/C=C\\c3scnc3C)CSC12)c1csc(N)n1",
+        "charge": 0,
+        "total_atoms": 69,
+        "heavy_atoms": 41
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000499_CANDICIDIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 499,
+        "name": "CANDICIDIN",
+        "smiles": "CC1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(OC2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)CC(O)C(C(=O)O)C(O)CC(=O)CC(O)CC(O)CC(O)CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(O)CC(=O)c1ccc(N)cc1",
+        "charge": 0,
+        "total_atoms": 163,
+        "heavy_atoms": 79
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000566_CEFUROXIME_AXETIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 566,
+        "name": "CEFUROXIME AXETIL",
+        "smiles": "CO/N=C(/C(=O)NC1C(=O)N2C(C(=O)OC(C)OC(C)=O)=C(COC(N)=O)CSC12)c1ccco1",
+        "charge": 0,
+        "total_atoms": 57,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000568_CELASTROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 568,
+        "name": "CELASTROL",
+        "smiles": "CC1=C(O)C(=O)C=C2C1=CC=C1[C@]2(C)CC[C@]2(C)[C@H]3C[C@@](C)(C(=O)O)CC[C@@]3(C)CC[C@@]12C",
+        "charge": 0,
+        "total_atoms": 71,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000576_CETILISAT",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 576,
+        "name": "CETILISAT",
+        "smiles": "CCCCCCCCCCCCCCCCOc1nc2ccc(C)cc2c(=O)o1",
+        "charge": 0,
+        "total_atoms": 68,
+        "heavy_atoms": 29
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000574_CEPHARANTHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 574,
+        "name": "CEPHARANTHINE",
+        "smiles": "COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3c(cc4c(c3Oc3cc5c(cc3OC)CCN(C)[C@@H]5C2)OCO4)CCN1C",
+        "charge": 0,
+        "total_atoms": 83,
+        "heavy_atoms": 45
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000578_CETRIMONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 578,
+        "name": "CETRIMONIUM BROMIDE",
+        "smiles": "CCCCCCCCCCCCCCCC[N+](C)(C)C",
+        "charge": 1,
+        "total_atoms": 62,
+        "heavy_atoms": 20
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000575_CETALKONIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 575,
+        "name": "CETALKONIUM CHLORIDE",
+        "smiles": "CCCCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1",
+        "charge": 1,
+        "total_atoms": 72,
+        "heavy_atoms": 26
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000580_CHENODIOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 580,
+        "name": "CHENODIOL",
+        "smiles": "C[C@H](CCC(=O)O)[C@H]1CCC2C3C(CC[C@@]21C)[C@@]1(C)CC[C@@H](O)C[C@H]1C[C@H]3O",
+        "charge": 0,
+        "total_atoms": 68,
+        "heavy_atoms": 28
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000603_CHOLECALCIFEROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 603,
+        "name": "CHOLECALCIFEROL",
+        "smiles": "C=C1CC[C@H](O)C/C1=C/C=C1\\CCCC2(C)C1CCC2C(C)CCCC(C)C",
+        "charge": 0,
+        "total_atoms": 72,
+        "heavy_atoms": 28
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000605_CHOLESTAN-3-ONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 605,
+        "name": "CHOLESTAN-3-ONE",
+        "smiles": "CC(C)CCCC(C)C1CCC2C3CC[C@H]4CC(=O)CC[C@]4(C)C3CC[C@]12C",
+        "charge": 0,
+        "total_atoms": 74,
+        "heavy_atoms": 28
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000604_CHOLEST-5-EN-3-ONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 604,
+        "name": "CHOLEST-5-EN-3-ONE",
+        "smiles": "CC(C)CCCC(C)[C@@H]1CCC2C3CC=C4CC(=O)CC[C@@]4(C)C3CC[C@]21C",
+        "charge": 0,
+        "total_atoms": 72,
+        "heavy_atoms": 28
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000607_CHOLESTEROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 607,
+        "name": "CHOLESTEROL",
+        "smiles": "CC(C)CCCC(C)[C@@H]1CCC2C3CC=C4C[C@H](O)CC[C@@]4(C)C3CC[C@]21C",
+        "charge": 0,
+        "total_atoms": 74,
+        "heavy_atoms": 28
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000606_CHOLESTAN-3beta_5alpha_6beta-TRIOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 606,
+        "name": "CHOLESTAN-3beta,5alpha,6beta-TRIOL",
+        "smiles": "CC(C)CCCC(C)C1CCC2C3C[C@@H](O)[C@@]4(O)C[C@@H](O)CC[C@]4(C)C3CC[C@]12C",
+        "charge": 0,
+        "total_atoms": 78,
+        "heavy_atoms": 30
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000610_CHOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 610,
+        "name": "CHOLIC ACID",
+        "smiles": "CC(CCC(=O)O)C1CC[C@H]2C3[C@H](C[C@H](O)C12C)C1(C)CC[C@@H](O)C[C@H]1C[C@H]3O",
+        "charge": 0,
+        "total_atoms": 69,
+        "heavy_atoms": 29
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000608_CHOLESTERYL_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 608,
+        "name": "CHOLESTERYL ACETATE",
+        "smiles": "CC(=O)O[C@@H]1CC[C@]2(C)C(=CCC3C2CC[C@]2(C)C3CC[C@H]2C(C)CCCC(C)C)C1",
+        "charge": 0,
+        "total_atoms": 79,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000653_CLOBETASOL_PROPIONATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 653,
+        "name": "CLOBETASOL PROPIONATE",
+        "smiles": "CCC(=O)O[C@]1(C(=O)CCl)[C@@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 32
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000621_CILNIDIPINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 621,
+        "name": "CILNIDIPINE",
+        "smiles": "COCCOC(=O)C1=C(C)NC(C)=C(C(=O)OC/C=C/c2ccccc2)[C@H]1c1cccc([N+](=O)[O-])c1",
+        "charge": 0,
+        "total_atoms": 64,
+        "heavy_atoms": 36
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000609_CHOLESTERYL_HEMISUCCINATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 609,
+        "name": "CHOLESTERYL HEMISUCCINATE",
+        "smiles": "CC(C)CCCC(C)[C@@H]1CCC2C3CC=C4C[C@H](OC(=O)CCC(=O)O)CC[C@@]4(C)C3CC[C@]21C",
+        "charge": 0,
+        "total_atoms": 85,
+        "heavy_atoms": 35
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000624_CIMICIFUGOSIDE_H1",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 624,
+        "name": "CIMICIFUGOSIDE H1",
+        "smiles": "C[C@@H](CC(=O)C1OC1(C)C)[C@@H]1C(=O)C[C@]2(C)C3=CCC4C(C)(C)[C@H](O[C@H]5OC[C@H](O)[C@@H](O)[C@@H]5O)CC[C@]45C[C@]35[C@H](O)C[C@@]12C",
+        "charge": 0,
+        "total_atoms": 96,
+        "heavy_atoms": 44
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000581_CHICAGO_SKY_BLUE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 581,
+        "name": "CHICAGO SKY BLUE",
+        "smiles": "COc1cc(-c2ccc(/N=N/c3ccc4c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c4c3O)c(OC)c2)ccc1/N=N/c1ccc2c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c2c1O",
+        "charge": 0,
+        "total_atoms": 88,
+        "heavy_atoms": 60
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000654_CLOFAZIMINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 654,
+        "name": "CLOFAZIMINE",
+        "smiles": "CC(C)/N=c1\\cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1",
+        "charge": 0,
+        "total_atoms": 55,
+        "heavy_atoms": 33
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000715_d-LIMONENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 715,
+        "name": "d-LIMONENE",
+        "smiles": "C=C(C)[C@@H]1CC=C(C)CC1",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        5.7315,
+        6.1648,
+        6.6426,
+        6.8483,
+        6.9906
+      ],
+      "predicted_oscillator_strengths": [
+        0.016053,
+        0.015693,
+        0.006887,
+        0.316224,
+        0.154727
+      ],
+      "timing": {
+        "xtb_s": 0.726755341514945,
+        "xtb4stda_s": 0.27194323763251305,
+        "stda_s": 2.545917809009552,
+        "total_s": 3.5743900034576654
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000717_d_l-threo-3-HYDROXYASPARTIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 717,
+        "name": "d,l-threo-3-HYDROXYASPARTIC ACID",
+        "smiles": "NC(C(=O)O)C(O)C(=O)O",
+        "charge": 0,
+        "total_atoms": 17,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        5.6845,
+        6.142,
+        6.4673,
+        6.7345,
+        7.0579
+      ],
+      "predicted_oscillator_strengths": [
+        0.010676,
+        0.009719,
+        0.009085,
+        0.024455,
+        0.005873
+      ],
+      "timing": {
+        "xtb_s": 0.47250594571232796,
+        "xtb4stda_s": 0.2052596416324377,
+        "stda_s": 1.1602474935352802,
+        "total_s": 1.85471130348742
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000716_D-PHENYLALANINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 716,
+        "name": "D-PHENYLALANINE",
+        "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+        "charge": 0,
+        "total_atoms": 23,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        5.1447,
+        5.1499,
+        5.905,
+        6.1631,
+        6.6467
+      ],
+      "predicted_oscillator_strengths": [
+        0.00163,
+        0.013389,
+        0.026347,
+        0.034489,
+        0.025257
+      ],
+      "timing": {
+        "xtb_s": 0.7755003403872252,
+        "xtb4stda_s": 0.24901658482849598,
+        "stda_s": 2.940275978296995,
+        "total_s": 3.9877595342695713
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000637_CITICOLINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 637,
+        "name": "CITICOLINE",
+        "smiles": "C[N+](C)(C)CCOP(=O)(O)OP(=O)(O)OC[C@@H]1OC(n2ccc(N)nc2=O)[C@@H](O)[C@H]1O",
+        "charge": 1,
+        "total_atoms": 58,
+        "heavy_atoms": 31
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000651_CLINDAMYCIN_PALMITATE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 651,
+        "name": "CLINDAMYCIN PALMITATE HYDROCHLORIDE",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)O[C@@H]1[C@H](SC)OC([C@@H](NC(=O)[C@H]2C[C@H](CCC)CN2C)[C@@H](C)Cl)[C@@H](O)[C@H]1O",
+        "charge": 0,
+        "total_atoms": 107,
+        "heavy_atoms": 44
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000720_DAIDZEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 720,
+        "name": "DAIDZEIN",
+        "smiles": "O=c1c(-c2ccc(O)cc2)coc2cc(O)ccc12",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        4.2066,
+        4.3703,
+        4.5727,
+        4.7146,
+        4.9169
+      ],
+      "predicted_oscillator_strengths": [
+        0.105687,
+        0.012156,
+        0.015585,
+        0.040192,
+        1.13588
+      ],
+      "timing": {
+        "xtb_s": 0.7319014798849821,
+        "xtb4stda_s": 0.28560142032802105,
+        "stda_s": 18.604512203484774,
+        "total_s": 19.65302781201899
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000644_CLARITHROMYCIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 644,
+        "name": "CLARITHROMYCIN",
+        "smiles": "CC[C@@H]1OC(=O)[C@@H](C)[C@H](O[C@@H]2C[C@](C)(OC)[C@H](O)[C@@H](C)O2)[C@@H](C)[C@H](O[C@H]2O[C@@H](C)C[C@@H](N(C)C)[C@@H]2O)[C@@](C)(OC)C[C@H](C)C(=O)[C@@H](C)[C@H](O)[C@@]1(C)O",
+        "charge": 0,
+        "total_atoms": 121,
+        "heavy_atoms": 52
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000721_DALBERGIONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 721,
+        "name": "DALBERGIONE",
+        "smiles": "C=C[C@H](C1=CC(=O)C=CC1=O)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 29,
+        "heavy_atoms": 17
+      },
+      "predicted_excitation_energies_eV": [
+        2.031,
+        2.7469,
+        3.2106,
+        3.5948,
+        3.8834
+      ],
+      "predicted_oscillator_strengths": [
+        0.000194,
+        0.007796,
+        0.001272,
+        0.01184,
+        0.001833
+      ],
+      "timing": {
+        "xtb_s": 1.3522496707737446,
+        "xtb4stda_s": 0.2893963288515806,
+        "stda_s": 13.591988442465663,
+        "total_s": 15.264921916648746
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000669_COLFORSIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 669,
+        "name": "COLFORSIN",
+        "smiles": "C=C[C@@]1(C)CC(=O)[C@@]2(O)[C@](C)(O1)[C@@H](OC(C)=O)[C@@H](O)C1C(C)(C)CC[C@H](O)[C@@]12C",
+        "charge": 0,
+        "total_atoms": 63,
+        "heavy_atoms": 29
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000722_DANTROLENE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 722,
+        "name": "DANTROLENE SODIUM",
+        "smiles": "O=C1CN(/N=C/c2ccc(-c3ccc([N+](=O)[O-])cc3)o2)C(=O)N1",
+        "charge": 0,
+        "total_atoms": 33,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        3.3539,
+        4.2258,
+        4.2897,
+        4.3545,
+        4.6938
+      ],
+      "predicted_oscillator_strengths": [
+        1.828584,
+        0.000246,
+        0.01127,
+        0.21464,
+        0.0
+      ],
+      "timing": {
+        "xtb_s": 1.118023844435811,
+        "xtb4stda_s": 0.33276087790727615,
+        "stda_s": 51.023555647581816,
+        "total_s": 52.516579296439886
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000701_CYPROHEPTADINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 701,
+        "name": "CYPROHEPTADINE HYDROCHLORIDE",
+        "smiles": "CN1CCC(=C2c3ccccc3C=Cc3ccccc32)CC1",
+        "charge": 0,
+        "total_atoms": 43,
+        "heavy_atoms": 22
+      },
+      "predicted_excitation_energies_eV": [
+        3.9268,
+        4.5029,
+        4.6669,
+        5.0232,
+        5.209
+      ],
+      "predicted_oscillator_strengths": [
+        0.143656,
+        0.019225,
+        0.229178,
+        0.20426,
+        0.387757
+      ],
+      "timing": {
+        "xtb_s": 0.7846985943615437,
+        "xtb4stda_s": 0.4480464421212673,
+        "stda_s": 102.47793292626739,
+        "total_s": 103.77625710703433
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000698_CYCLOTHIAZIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 698,
+        "name": "CYCLOTHIAZIDE",
+        "smiles": "NS(=O)(=O)c1cc2c(cc1Cl)NC(C1CC3C=CC1C3)NS2(=O)=O",
+        "charge": 0,
+        "total_atoms": 40,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        4.0979,
+        4.8466,
+        4.8864,
+        5.7053,
+        5.7705
+      ],
+      "predicted_oscillator_strengths": [
+        0.089174,
+        0.315479,
+        0.098177,
+        0.004248,
+        0.005404
+      ],
+      "timing": {
+        "xtb_s": 3.048859490081668,
+        "xtb4stda_s": 0.45633877627551556,
+        "stda_s": 141.12084244191647,
+        "total_s": 144.68594904057682
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000712_D-_-MALTOSE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 712,
+        "name": "D-(+)-MALTOSE",
+        "smiles": "OC[C@H]1O[C@H](O[C@@H]2[C@@H](CO)O[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        6.2794,
+        6.5275,
+        6.6167,
+        6.9406,
+        7.0717
+      ],
+      "predicted_oscillator_strengths": [
+        0.011891,
+        0.035715,
+        0.004369,
+        0.015582,
+        0.012488
+      ],
+      "timing": {
+        "xtb_s": 1.3662540949881077,
+        "xtb4stda_s": 0.4829074367880821,
+        "stda_s": 185.26888455078006,
+        "total_s": 187.37067296542227
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000729_DEBRISOQUIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 729,
+        "name": "DEBRISOQUIN SULFATE",
+        "smiles": "N=C(N)N1CCc2ccccc2C1",
+        "charge": 0,
+        "total_atoms": 26,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        5.0413,
+        5.2353,
+        5.3836,
+        5.6057,
+        5.7351
+      ],
+      "predicted_oscillator_strengths": [
+        0.001148,
+        0.029095,
+        0.062765,
+        0.063395,
+        0.016917
+      ],
+      "timing": {
+        "xtb_s": 0.9708144515752792,
+        "xtb4stda_s": 0.3010439872741699,
+        "stda_s": 4.264756975695491,
+        "total_s": 5.568484257906675
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000724_DAPOXETINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 724,
+        "name": "DAPOXETINE HYDROCHLORIDE",
+        "smiles": "CN(C)[C@@H](CCOc1cccc2ccccc12)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 46,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        4.2134,
+        4.2606,
+        5.1259,
+        5.5628,
+        5.7231
+      ],
+      "predicted_oscillator_strengths": [
+        0.184422,
+        0.063003,
+        8e-06,
+        0.013645,
+        0.266768
+      ],
+      "timing": {
+        "xtb_s": 2.1433091294020414,
+        "xtb4stda_s": 0.42505279928445816,
+        "stda_s": 157.11803656443954,
+        "total_s": 159.76826111786067
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000714_D-LACTITOL_MONOHYDRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 714,
+        "name": "D-LACTITOL MONOHYDRATE",
+        "smiles": "OC[C@H](O)C(O[C@H]1O[C@@H](CO)[C@@H](O)[C@@H](O)[C@@H]1O)[C@@H](O)[C@H](O)CO",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 23
+      },
+      "predicted_excitation_energies_eV": [
+        6.6509,
+        6.9563,
+        7.2072,
+        7.2443,
+        7.3579
+      ],
+      "predicted_oscillator_strengths": [
+        0.07092,
+        0.010901,
+        0.003948,
+        0.050931,
+        0.005738
+      ],
+      "timing": {
+        "xtb_s": 4.6735245659947395,
+        "xtb4stda_s": 0.46936583146452904,
+        "stda_s": 221.78461258113384,
+        "total_s": 227.0640879292041
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000732_DEFERIPRONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 732,
+        "name": "DEFERIPRONE",
+        "smiles": "Cc1c(O)c(=O)ccn1C",
+        "charge": 0,
+        "total_atoms": 19,
+        "heavy_atoms": 10
+      },
+      "predicted_excitation_energies_eV": [
+        4.4288,
+        4.6857,
+        4.7879,
+        5.3976,
+        5.4365
+      ],
+      "predicted_oscillator_strengths": [
+        0.271283,
+        0.12413,
+        0.0016,
+        1.9e-05,
+        0.000697
+      ],
+      "timing": {
+        "xtb_s": 0.26592352241277695,
+        "xtb4stda_s": 0.20727587677538395,
+        "stda_s": 1.3020170014351606,
+        "total_s": 1.793511040508747
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000685_CURCUMIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 685,
+        "name": "CURCUMIN",
+        "smiles": "COc1cc(/C=C/C(=O)/C=C(O)/C=C/c2ccc(O)c(OC)c2)ccc1O",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 27
+      },
+      "predicted_excitation_energies_eV": [
+        3.3139,
+        3.9841,
+        4.0991,
+        4.1314,
+        4.3254
+      ],
+      "predicted_oscillator_strengths": [
+        1.109092,
+        0.430318,
+        0.019227,
+        0.024195,
+        0.019777
+      ],
+      "timing": {
+        "xtb_s": 5.04142558760941,
+        "xtb4stda_s": 0.47347390092909336,
+        "stda_s": 288.4298056010157,
+        "total_s": 294.0292920060456
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000734_DEHYDROACETIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 734,
+        "name": "DEHYDROACETIC ACID",
+        "smiles": "CC(=O)[C@H]1C(=O)C=C(C)OC1=O",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        4.0642,
+        4.487,
+        4.8021,
+        5.2753,
+        5.7074
+      ],
+      "predicted_oscillator_strengths": [
+        0.01637,
+        0.030443,
+        0.238102,
+        0.025882,
+        0.021186
+      ],
+      "timing": {
+        "xtb_s": 0.5493491850793362,
+        "xtb4stda_s": 0.2369133960455656,
+        "stda_s": 2.144668783992529,
+        "total_s": 2.951324984431267
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000687_CYANIDIN_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 687,
+        "name": "CYANIDIN CHLORIDE",
+        "smiles": "Oc1cc(O)c2cc(O)c(-c3ccc(O)c(O)c3)[o+]c2c1",
+        "charge": 1,
+        "total_atoms": 32,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        2.2964,
+        2.8987,
+        3.3797,
+        3.6255,
+        3.7006
+      ],
+      "predicted_oscillator_strengths": [
+        0.024747,
+        0.001772,
+        0.239211,
+        0.38733,
+        0.188832
+      ],
+      "timing": {
+        "xtb_s": 0.9938716161996126,
+        "xtb4stda_s": 0.32184391655027866,
+        "stda_s": 318.89088762924075,
+        "total_s": 320.26434729620814
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000700_CYPERMETHRIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 700,
+        "name": "CYPERMETHRIN",
+        "smiles": "CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        4.758,
+        4.9219,
+        5.2936,
+        5.4379,
+        5.9024
+      ],
+      "predicted_oscillator_strengths": [
+        0.042549,
+        0.018754,
+        0.42254,
+        0.003793,
+        0.006299
+      ],
+      "timing": {
+        "xtb_s": 3.9802556689828634,
+        "xtb4stda_s": 0.4893450289964676,
+        "stda_s": 330.3241798784584,
+        "total_s": 334.87598160654306
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000672_CORTEXOLONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 672,
+        "name": "CORTEXOLONE",
+        "smiles": "C[C@@]12CCC(=O)C=C1CCC1C2CC[C@]2(C)C1CC[C@@]2(O)C(=O)CO",
+        "charge": 0,
+        "total_atoms": 55,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.0289,
+        4.4221,
+        5.3211,
+        5.9506,
+        6.6911
+      ],
+      "predicted_oscillator_strengths": [
+        0.000163,
+        0.001134,
+        0.563532,
+        0.067941,
+        0.004069
+      ],
+      "timing": {
+        "xtb_s": 1.5670710876584053,
+        "xtb4stda_s": 0.5706276893615723,
+        "stda_s": 354.4929534625262,
+        "total_s": 356.8247016184032
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000674_CORYNANTHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 674,
+        "name": "CORYNANTHINE",
+        "smiles": "COC(=O)[C@@H]1C(O)CC[C@H]2CN3CCc4c([nH]c5ccccc45)[C@@H]3C[C@H]12",
+        "charge": 0,
+        "total_atoms": 52,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        4.4121,
+        4.6233,
+        5.1951,
+        5.5792,
+        5.6927
+      ],
+      "predicted_oscillator_strengths": [
+        0.13921,
+        0.027168,
+        0.007799,
+        0.12238,
+        0.084412
+      ],
+      "timing": {
+        "xtb_s": 1.6423916965723038,
+        "xtb4stda_s": 0.5406151916831732,
+        "stda_s": 348.4030369129032,
+        "total_s": 350.7400858402252
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000673_CORTISONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 673,
+        "name": "CORTISONE",
+        "smiles": "C[C@@]12CCC(=O)C=C1CCC1C2C(=O)C[C@]2(C)C1CC[C@@]2(O)C(=O)CO",
+        "charge": 0,
+        "total_atoms": 54,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        3.6987,
+        4.5044,
+        4.6176,
+        5.2582,
+        5.9299
+      ],
+      "predicted_oscillator_strengths": [
+        0.000199,
+        0.001474,
+        0.003483,
+        0.515865,
+        0.004021
+      ],
+      "timing": {
+        "xtb_s": 2.6105229146778584,
+        "xtb4stda_s": 0.5798147637397051,
+        "stda_s": 352.5426143966615,
+        "total_s": 355.9248569905758
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000702_CYPROTERONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 702,
+        "name": "CYPROTERONE",
+        "smiles": "CC(=O)[C@]1(O)CCC2C3C=C(Cl)C4=CC(=O)[C@H]5CC5[C@@]4(C)C3CC[C@]21C",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        4.1571,
+        4.184,
+        4.402,
+        5.4491,
+        5.7182
+      ],
+      "predicted_oscillator_strengths": [
+        0.001895,
+        0.008301,
+        0.712039,
+        0.036117,
+        0.119465
+      ],
+      "timing": {
+        "xtb_s": 2.6002706587314606,
+        "xtb4stda_s": 0.6049680430442095,
+        "stda_s": 349.4168309569359,
+        "total_s": 352.8140142541379
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000671_CONESSINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 671,
+        "name": "CONESSINE",
+        "smiles": "C[C@@H]1[C@@H]2CCC3C4CC=C5C[C@H](N(C)C)CC[C@@]5(C)C4CC[C@]32CN1C",
+        "charge": 0,
+        "total_atoms": 66,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        5.2229,
+        5.5711,
+        6.1255,
+        6.3309,
+        6.3337
+      ],
+      "predicted_oscillator_strengths": [
+        0.010841,
+        0.028598,
+        0.024859,
+        0.009201,
+        0.01958
+      ],
+      "timing": {
+        "xtb_s": 2.882083524018526,
+        "xtb4stda_s": 0.7012269161641598,
+        "stda_s": 700.646765017882,
+        "total_s": 704.6548660453409
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000709_CYTIDINE_TRIPHOSPHATE_DISODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 709,
+        "name": "CYTIDINE TRIPHOSPHATE DISODIUM",
+        "smiles": "Nc1ccn(C2O[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@H](O)[C@@H]2O)c(=O)n1",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 29
+      },
+      "predicted_excitation_energies_eV": [
+        4.5356,
+        5.1006,
+        5.3663,
+        5.423,
+        6.0062
+      ],
+      "predicted_oscillator_strengths": [
+        0.255642,
+        0.015674,
+        0.015354,
+        0.111005,
+        0.474115
+      ],
+      "timing": {
+        "xtb_s": 15.045173907652497,
+        "xtb4stda_s": 0.5085027851164341,
+        "stda_s": 369.1132116559893,
+        "total_s": 384.74139610119164
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000739_DEHYDROVARIABILIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 739,
+        "name": "DEHYDROVARIABILIN",
+        "smiles": "COc1ccc2c(c1)OCc1c-2oc2cc(OC)ccc12",
+        "charge": 0,
+        "total_atoms": 35,
+        "heavy_atoms": 21
+      },
+      "predicted_excitation_energies_eV": [
+        3.7257,
+        4.3284,
+        4.4292,
+        5.0032,
+        5.1756
+      ],
+      "predicted_oscillator_strengths": [
+        0.889354,
+        0.001994,
+        0.08321,
+        0.003984,
+        0.102477
+      ],
+      "timing": {
+        "xtb_s": 0.6749663110822439,
+        "xtb4stda_s": 0.403329499065876,
+        "stda_s": 54.26262683980167,
+        "total_s": 55.386996092274785
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000730_DECAMETHONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 730,
+        "name": "DECAMETHONIUM BROMIDE",
+        "smiles": "C[N+](C)(C)CCCCCCCCCC[N+](C)(C)C",
+        "charge": 2,
+        "total_atoms": 56,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        0.5463,
+        0.6045,
+        0.8519,
+        1.1598,
+        1.2378
+      ],
+      "predicted_oscillator_strengths": [
+        0.23948,
+        0.279838,
+        0.341967,
+        0.154499,
+        0.034876
+      ],
+      "timing": {
+        "xtb_s": 1.5526784025132656,
+        "xtb4stda_s": 0.5049914587289095,
+        "stda_s": 193.32657378353179,
+        "total_s": 195.49323048442602
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000743_DEOXYADENOSINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 743,
+        "name": "DEOXYADENOSINE",
+        "smiles": "Nc1ncnc2c1ncn2C1C[C@H](O)[C@@H](CO)O1",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 18
+      },
+      "predicted_excitation_energies_eV": [
+        4.8057,
+        5.1011,
+        5.1963,
+        5.4684,
+        5.8366
+      ],
+      "predicted_oscillator_strengths": [
+        0.421103,
+        0.068596,
+        0.008917,
+        0.014753,
+        0.002897
+      ],
+      "timing": {
+        "xtb_s": 1.2086106520146132,
+        "xtb4stda_s": 0.37877964600920677,
+        "stda_s": 25.740911439061165,
+        "total_s": 27.36994779109955
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000670_COLISTIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 670,
+        "name": "COLISTIN SULFATE",
+        "smiles": "CCC(C)C1NC(=O)C(CCN)NC(=O)C(NC(=O)C(CCN)NC(=O)C(NC(=O)C(CCN)NC(=O)CCCCC(C)C)C(C)O)CCNC(=O)C(C(C)O)NC(=O)C(CCN)NC(=O)C(CCN)NC(=O)C(C(C)CC)NC1=O",
+        "charge": 0,
+        "total_atoms": 179,
+        "heavy_atoms": 81
+      },
+      "error": "TIMEOUT after 900 seconds: Command '['/root/opt/xtb4stda/exe/stda', '-xtb', '-e', '30.0']' timed out after 900 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000747_DEOXYPEGANINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 747,
+        "name": "DEOXYPEGANINE HYDROCHLORIDE",
+        "smiles": "c1ccc2c(c1)CN1CCCC1=N2",
+        "charge": 0,
+        "total_atoms": 25,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        3.9593,
+        4.2846,
+        4.6281,
+        5.2324,
+        5.395
+      ],
+      "predicted_oscillator_strengths": [
+        0.239342,
+        0.133512,
+        0.014347,
+        0.007684,
+        0.006846
+      ],
+      "timing": {
+        "xtb_s": 0.5360264275223017,
+        "xtb4stda_s": 0.3340917117893696,
+        "stda_s": 4.857973329722881,
+        "total_s": 5.752570228651166
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000723_DAPAGLIFLOZIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 723,
+        "name": "DAPAGLIFLOZIN",
+        "smiles": "CCOc1ccc(Cc2cc([C@H]3O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]3O)ccc2Cl)cc1",
+        "charge": 0,
+        "total_atoms": 53,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        4.8133,
+        5.0245,
+        5.6671,
+        5.7069,
+        5.9054
+      ],
+      "predicted_oscillator_strengths": [
+        0.041268,
+        0.001265,
+        0.298117,
+        0.003176,
+        0.082777
+      ],
+      "timing": {
+        "xtb_s": 4.432051038369536,
+        "xtb4stda_s": 0.5231128595769405,
+        "stda_s": 478.61299550160766,
+        "total_s": 483.73096764460206
+      },
+      "stda_energy_window_eV": 30.0
+    }
+  ]
+}
