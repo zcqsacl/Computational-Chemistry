@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 45,
+  "n_records": 46,
   "records": [
     {
       "status": "success",
@@ -1465,6 +1465,39 @@
         "xtb4stda_s": 1.2795851714909077,
         "stda_s": 6320.097059190273,
         "total_s": 6327.138499720022
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000306_ANTIMYCIN_A_A1_shown_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 306,
+        "name": "ANTIMYCIN A (A1 shown)",
+        "smiles": "CCCCC[C@H]1C(=O)O[C@H](C)[C@H](NC(=O)c2cccc(NC=O)c2O)C(=O)O[C@@H](C)[C@@H]1OC(=O)CC(C)C",
+        "total_atoms": 76,
+        "heavy_atoms": 38
+      },
+      "energies_eV": [
+        3.9528,
+        4.9229,
+        5.2909,
+        5.4232,
+        5.4886
+      ],
+      "oscillator_strengths": [
+        0.217282,
+        0.022085,
+        0.68353,
+        0.358299,
+        0.004976
+      ],
+      "timing": {
+        "xtb_opt_s": 17.0990982465446,
+        "xtb4stda_s": 1.5549681223928928,
+        "stda_s": 3787.5170131511986,
+        "total_s": 3806.171079520136
       },
       "stda_energy_window_eV": 30.0
     }
