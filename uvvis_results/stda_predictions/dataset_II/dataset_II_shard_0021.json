@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 88,
+  "n_records": 94,
   "records": [
     {
       "status": "success",
@@ -2764,6 +2764,204 @@
         "xtb4stda_s": 1.7905762512236834,
         "stda_s": 7465.36047529988,
         "total_s": 7487.670562393963
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000574_CEPHARANTHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 574,
+        "name": "CEPHARANTHINE",
+        "smiles": "COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3c(cc4c(c3Oc3cc5c(cc3OC)CCN(C)[C@@H]5C2)OCO4)CCN1C",
+        "total_atoms": 83,
+        "heavy_atoms": 45
+      },
+      "energies_eV": [
+        4.4889,
+        4.6419,
+        4.7271,
+        4.7551,
+        5.0071
+      ],
+      "oscillator_strengths": [
+        0.046661,
+        0.080402,
+        0.010578,
+        0.07492,
+        0.016837
+      ],
+      "timing": {
+        "xtb_opt_s": 26.534561356529593,
+        "xtb4stda_s": 1.8332118578255177,
+        "stda_s": 8422.496122356504,
+        "total_s": 8450.86389557086
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000182_ACETOXOLONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 182,
+        "name": "ACETOXOLONE",
+        "smiles": "CC(=O)O[C@H]1CC[C@@]2(C)C(CC[C@]3(C)C2C(=O)C=C2[C@@H]4C[C@@](C)(C(=O)O)CC[C@]4(C)CC[C@]23C)C1(C)C",
+        "total_atoms": 85,
+        "heavy_atoms": 37
+      },
+      "energies_eV": [
+        4.0229,
+        5.082,
+        6.1796,
+        6.2598,
+        6.3419
+      ],
+      "oscillator_strengths": [
+        0.000657,
+        0.462442,
+        0.003796,
+        0.006505,
+        0.002101
+      ],
+      "timing": {
+        "xtb_opt_s": 6.951814215630293,
+        "xtb4stda_s": 1.9623793680220842,
+        "stda_s": 4773.303394861519,
+        "total_s": 4782.217588445172
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000014_11_12_-EPOXY-URSOLOLACTONE_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 14,
+        "name": "11(12)-EPOXY-URSOLOLACTONE ACETATE",
+        "smiles": "CC(=O)OC1CC[C@]2(C)C(CC[C@@]3(C)C2C2OC2[C@@]24OC(=O)[C@]5(CCC(C)C(C)C52)CC[C@]34C)C1(C)C",
+        "total_atoms": 85,
+        "heavy_atoms": 37
+      },
+      "energies_eV": [
+        6.2094,
+        6.2471,
+        7.439,
+        7.6692,
+        7.7304
+      ],
+      "oscillator_strengths": [
+        0.006478,
+        0.005875,
+        0.012309,
+        0.013342,
+        0.005995
+      ],
+      "timing": {
+        "xtb_opt_s": 11.286388324573636,
+        "xtb4stda_s": 2.051607009023428,
+        "stda_s": 5321.523338912055,
+        "total_s": 5334.861334245652
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001888_SITOSTERYL_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1888,
+        "name": "SITOSTERYL ACETATE",
+        "smiles": "CCC(CCC(C)[C@@H]1CCC2C3CC=C4C[C@H](OC(C)=O)CC[C@@]4(C)C3CC[C@]21C)C(C)C",
+        "total_atoms": 85,
+        "heavy_atoms": 33
+      },
+      "energies_eV": [
+        6.1753,
+        6.2264,
+        7.0743,
+        7.2881,
+        7.3118
+      ],
+      "oscillator_strengths": [
+        0.018182,
+        0.006075,
+        0.32396,
+        0.148762,
+        0.143693
+      ],
+      "timing": {
+        "xtb_opt_s": 6.750056076794863,
+        "xtb4stda_s": 1.7764159385114908,
+        "stda_s": 3689.925276696682,
+        "total_s": 3698.4517487119883
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_002026_THEAFLAVIN_MONOGALLATES",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2026,
+        "name": "THEAFLAVIN MONOGALLATES",
+        "smiles": "O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(=O)c2c(O)c(O)cc([C@H]3Oc4cc(O)cc(O)c4C[C@H]3O)c2c1)c1cc(O)c(O)c(O)c1",
+        "total_atoms": 80,
+        "heavy_atoms": 52
+      },
+      "energies_eV": [
+        3.1212,
+        3.6452,
+        4.0809,
+        4.1872,
+        4.4133
+      ],
+      "oscillator_strengths": [
+        0.14625,
+        0.276179,
+        0.099899,
+        0.029508,
+        0.028804
+      ],
+      "timing": {
+        "xtb_opt_s": 9.54040077328682,
+        "xtb4stda_s": 1.8765975385904312,
+        "stda_s": 9967.463584894314,
+        "total_s": 9978.880583206192
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000415_beta-AMYRIN_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 415,
+        "name": "beta-AMYRIN ACETATE",
+        "smiles": "CC(=O)O[C@H]1CC[C@@]2(C)C(CC[C@]3(C)C2CC=C2C4CC(C)(C)CC[C@]4(C)CC[C@]23C)C1(C)C",
+        "total_atoms": 86,
+        "heavy_atoms": 34
+      },
+      "energies_eV": [
+        6.0946,
+        6.267,
+        6.7395,
+        6.9309,
+        7.0855
+      ],
+      "oscillator_strengths": [
+        0.082983,
+        0.005403,
+        0.263047,
+        0.033352,
+        0.012432
+      ],
+      "timing": {
+        "xtb_opt_s": 7.322963112965226,
+        "xtb4stda_s": 1.7878541480749846,
+        "stda_s": 3527.0169875994325,
+        "total_s": 3536.1278048604727
       },
       "stda_energy_window_eV": 30.0
     }
