@@ -4,202 +4,109 @@
   "n_records": 100,
   "records": [
     {
-      "status": "failed",
-      "label": "dataset_II_000428_BETAMIPRON",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 428,
-        "name": "BETAMIPRON",
-        "smiles": "O=C(O)CCNC(=O)c1ccccc1",
-        "total_atoms": 25,
-        "heavy_atoms": 14
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000429_BETULIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 429,
-        "name": "BETULIN",
-        "smiles": "C=C(C)[C@H]1CC[C@@]2(CO)CC[C@@]3(C)[C@@H](CCC4[C@]5(C)CC[C@@H](O)C(C)(C)C5CC[C@@]43C)C12",
-        "total_atoms": 82,
-        "heavy_atoms": 32
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000430_BETULINIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 430,
-        "name": "BETULINIC ACID",
-        "smiles": "C=C(C)[C@H]1CC[C@@]2(C(=O)O)CC[C@@]3(C)[C@@H](CCC4[C@]5(C)CC[C@@H](O)C(C)(C)C5CC[C@@]43C)[C@H]12",
-        "total_atoms": 81,
-        "heavy_atoms": 33
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000431_BEXAROTENE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 431,
-        "name": "BEXAROTENE",
-        "smiles": "C=C(c1ccc(C(=O)O)cc1)c1cc2c(cc1C)C(C)(C)CCC2(C)C",
-        "total_atoms": 54,
-        "heavy_atoms": 26
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000432_BEZAFIBRATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 432,
-        "name": "BEZAFIBRATE",
-        "smiles": "CC(C)(Oc1ccc(CCNC(=O)c2ccc(Cl)cc2)cc1)C(=O)O",
-        "total_atoms": 45,
-        "heavy_atoms": 25
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000433_BIAPENEM",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 433,
-        "name": "BIAPENEM",
-        "smiles": "C[C@H](O)[C@@H]1C(=O)N2C(C(=O)O)=C(SC3Cn4cnc[n+]4C3)[C@@H](C)[C@@H]12",
-        "total_atoms": 43,
-        "heavy_atoms": 24
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000434_BICALUTAMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 434,
-        "name": "BICALUTAMIDE",
-        "smiles": "C[C@](O)(CS(=O)(=O)c1ccc(F)cc1)C(=O)Nc1ccc(C#N)c(C(F)(F)F)c1",
-        "total_atoms": 43,
-        "heavy_atoms": 29
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000435_BICUCULLINE_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 435,
-        "name": "BICUCULLINE (+)",
-        "smiles": "CN1CCc2cc3c(cc2[C@@H]1C1OC(=O)c2c1ccc1c2OCO1)OCO3",
-        "total_atoms": 44,
-        "heavy_atoms": 27
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000436_BIFONAZOLE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 436,
-        "name": "BIFONAZOLE",
-        "smiles": "c1ccc(-c2ccc([C@H](c3ccccc3)n3ccnc3)cc2)cc1",
-        "total_atoms": 42,
-        "heavy_atoms": 24
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000437_BILIRUBIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 437,
-        "name": "BILIRUBIN",
-        "smiles": "C=CC1=C(C)/C(=C/c2[nH]c(Cc3[nH]c(/C=C4\\NC(=O)C(C)=C4C=C)c(C)c3CCC(=O)O)c(CCC(=O)O)c2C)NC1=O",
-        "total_atoms": 79,
-        "heavy_atoms": 43
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000438_BIOCHANIN_A",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 438,
-        "name": "BIOCHANIN A",
-        "smiles": "COc1ccc(-c2coc3cc(O)cc(O)c3c2=O)cc1",
-        "total_atoms": 33,
-        "heavy_atoms": 21
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000439_BIOCHANIN_A_DIACETATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 439,
-        "name": "BIOCHANIN A DIACETATE",
-        "smiles": "COc1ccc(-c2coc3cc(OC(C)=O)cc(OC(C)=O)c3c2=O)cc1",
-        "total_atoms": 43,
-        "heavy_atoms": 27
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000440_BIOCHANIN_A_7-METHYL_ETHER",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 440,
         "name": "BIOCHANIN A, 7-METHYL ETHER",
         "smiles": "COc1ccc(-c2coc3cc(OC)cc(O)c3c2=O)cc1",
+        "charge": 0,
         "total_atoms": 36,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9057,
+        4.3574,
+        4.4479,
+        4.6995,
+        4.7406
+      ],
+      "predicted_oscillator_strengths": [
+        0.096927,
+        0.063637,
+        0.032591,
+        0.344695,
+        0.274592
+      ],
+      "timing": {
+        "xtb_s": 1.0421359185129404,
+        "xtb4stda_s": 0.5794009566307068,
+        "stda_s": 69.88823512941599,
+        "total_s": 71.60446267388761
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000441_BIOTIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 441,
         "name": "BIOTIN",
         "smiles": "O=C(O)CCCCC1SCC2NC(=O)NC21",
+        "charge": 0,
         "total_atoms": 32,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.3759,
+        5.4009,
+        6.1317,
+        6.1578,
+        6.2668
+      ],
+      "predicted_oscillator_strengths": [
+        0.010037,
+        0.002644,
+        0.098786,
+        0.003821,
+        0.014048
+      ],
+      "timing": {
+        "xtb_s": 1.3644688837230206,
+        "xtb4stda_s": 0.5230871364474297,
+        "stda_s": 22.6980343721807,
+        "total_s": 24.66378428786993
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000442_BISABOLOL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 442,
         "name": "BISABOLOL",
         "smiles": "CC(C)=CCC[C@](C)(O)C1CC=C(C)CC1",
+        "charge": 0,
         "total_atoms": 42,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.8938,
+        6.0368,
+        6.8423,
+        6.9035,
+        6.9852
+      ],
+      "predicted_oscillator_strengths": [
+        0.012326,
+        0.025577,
+        0.139117,
+        0.498819,
+        0.398019
+      ],
+      "timing": {
+        "xtb_s": 2.669845363125205,
+        "xtb4stda_s": 0.6296240221709013,
+        "stda_s": 48.94298054277897,
+        "total_s": 52.34388232976198
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000443_BISMUTH_SUBSALICYLATE",
       "metadata": {
         "dataset": "dataset_II",
@@ -209,335 +116,812 @@
         "total_atoms": 17,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000444_BISOCTRIZOLE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 444,
-        "name": "BISOCTRIZOLE",
-        "smiles": "CC(C)(C)CC(C)(C)c1cc(Cc2cc(C(C)(C)CC(C)(C)C)cc(-n3nc4ccccc4n3)c2O)c(O)c(-n2nc3ccccc3n2)c1",
-        "total_atoms": 99,
-        "heavy_atoms": 49
+      "energies_eV": [
+        4.4038,
+        4.7527,
+        5.2533,
+        5.5815,
+        5.8048
+      ],
+      "oscillator_strengths": [
+        0.082452,
+        0.075702,
+        0.005849,
+        0.086671,
+        0.018524
+      ],
+      "timing": {
+        "xtb_opt_s": 0.8681399915367365,
+        "xtb4stda_s": 0.3468442391604185,
+        "stda_s": 1.631921799853444,
+        "total_s": 2.846906030550599
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000445_BISOPROLOL_FUMARATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 445,
         "name": "BISOPROLOL FUMARATE",
         "smiles": "CC(C)NC[C@H](O)COc1ccc(COCCOC(C)C)cc1",
+        "charge": 0,
         "total_atoms": 54,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.8307,
+        5.6217,
+        5.9261,
+        6.0739,
+        6.4805
+      ],
+      "predicted_oscillator_strengths": [
+        0.035726,
+        0.245643,
+        0.019745,
+        0.004951,
+        0.000629
+      ],
+      "timing": {
+        "xtb_s": 3.336791669949889,
+        "xtb4stda_s": 0.8000260461121798,
+        "stda_s": 345.9161150213331,
+        "total_s": 350.238910343498
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000446_BISSALICYL_FUMARATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 446,
         "name": "BISSALICYL FUMARATE",
         "smiles": "O=C(/C=C/C(=O)Oc1ccccc1C(=O)O)Oc1ccccc1C(=O)O",
+        "charge": 0,
         "total_atoms": 38,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.4631,
+        4.7007,
+        4.7165,
+        5.1411,
+        5.3022
+      ],
+      "predicted_oscillator_strengths": [
+        0.002834,
+        0.119402,
+        0.002264,
+        0.106578,
+        0.03685
+      ],
+      "timing": {
+        "xtb_s": 4.082597291097045,
+        "xtb4stda_s": 0.6329765822738409,
+        "stda_s": 156.79073888994753,
+        "total_s": 161.6096088886261
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000447_BITOSCANATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 447,
         "name": "BITOSCANATE",
         "smiles": "S=C=Nc1ccc(N=C=S)cc1",
+        "charge": 0,
         "total_atoms": 16,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.4697,
+        4.4703,
+        4.6702,
+        4.8748,
+        5.1157
+      ],
+      "predicted_oscillator_strengths": [
+        0.079561,
+        1.123257,
+        4e-06,
+        0.001066,
+        0.000158
+      ],
+      "timing": {
+        "xtb_s": 1.8582308981567621,
+        "xtb4stda_s": 0.39028666354715824,
+        "stda_s": 1.3204790223389864,
+        "total_s": 3.643596015870571
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000448_BIXIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 448,
         "name": "BIXIN",
         "smiles": "COC(=O)/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(=O)O",
+        "charge": 0,
         "total_atoms": 59,
         "heavy_atoms": 29
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000449_BLEOMYCIN_bleomycin_B2_shown_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 449,
-        "name": "BLEOMYCIN (bleomycin B2 shown)",
-        "smiles": "CC[C@@H]1OC(OC(c2c[nH]cn2)C(NC(=O)c2nc(C(CC(N)=O)NCC(N)C(N)=O)nc(N)c2C)C(=O)NC(C)C(O)C(C)C(=O)NC(C(=O)NCCc2nc(-c3nc(C(=O)NCCCCNC(=N)N)cs3)cs2)C(C)O)[C@@H](O[C@H]2O[C@H](CO)[C@@H](O)[C@H](OC(N)=O)[C@@H]2O)[C@@H](C)[C@@H]1C",
-        "total_atoms": 188,
-        "heavy_atoms": 98
+      "predicted_excitation_energies_eV": [
+        2.9806,
+        3.4805,
+        4.168,
+        4.2263,
+        4.9456
+      ],
+      "predicted_oscillator_strengths": [
+        7.805116,
+        0.00102,
+        0.002065,
+        0.102585,
+        0.40172
+      ],
+      "timing": {
+        "xtb_s": 1.3952816873788834,
+        "xtb4stda_s": 0.805034538730979,
+        "stda_s": 793.022580685094,
+        "total_s": 795.5653637684882
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000450_BOLDINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 450,
         "name": "BOLDINE",
         "smiles": "COc1cc2c(cc1O)C[C@H]1c3c(cc(O)c(OC)c3-2)CCN1C",
+        "charge": 0,
         "total_atoms": 45,
         "heavy_atoms": 24
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.1856,
+        4.281,
+        4.5406,
+        5.2145,
+        5.2608
+      ],
+      "predicted_oscillator_strengths": [
+        0.26082,
+        0.128371,
+        0.092174,
+        0.027561,
+        0.014857
+      ],
+      "timing": {
+        "xtb_s": 3.0061874222010374,
+        "xtb4stda_s": 0.6855236887931824,
+        "stda_s": 194.52632457390428,
+        "total_s": 199.62985628284514
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000451_BORNYL_ACETATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 451,
         "name": "BORNYL ACETATE",
         "smiles": "CC(=O)OC1CC2CCC1(C)C2(C)C",
+        "charge": 0,
         "total_atoms": 34,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        6.1608,
+        7.857,
+        7.9272,
+        8.0863,
+        8.4409
+      ],
+      "predicted_oscillator_strengths": [
+        0.004076,
+        0.007385,
+        0.139616,
+        0.008245,
+        0.00205
+      ],
+      "timing": {
+        "xtb_s": 1.7338480968028307,
+        "xtb4stda_s": 0.47999939881265163,
+        "stda_s": 17.67726576887071,
+        "total_s": 19.964076038450003
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000452_BOVINOCIDIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 452,
         "name": "BOVINOCIDIN",
         "smiles": "O=C(O)CC[N+](=O)[O-]",
+        "charge": 0,
         "total_atoms": 13,
         "heavy_atoms": 8
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.4365,
+        5.1841,
+        6.1767,
+        7.2426,
+        7.4738
+      ],
+      "predicted_oscillator_strengths": [
+        0.001694,
+        6.1e-05,
+        0.002197,
+        0.026872,
+        0.012866
+      ],
+      "timing": {
+        "xtb_s": 0.5199724119156599,
+        "xtb4stda_s": 0.34535275027155876,
+        "stda_s": 0.5430005695670843,
+        "total_s": 1.5315412729978561
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000453_BRAZILEIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 453,
         "name": "BRAZILEIN",
         "smiles": "O=C1C=C2C[C@]3(O)COc4cc(O)ccc4C3=C2C=C1O",
+        "charge": 0,
         "total_atoms": 33,
         "heavy_atoms": 21
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        2.8446,
+        3.338,
+        3.8145,
+        4.3225,
+        4.3597
+      ],
+      "predicted_oscillator_strengths": [
+        0.580615,
+        0.363855,
+        0.417328,
+        0.044104,
+        0.024456
+      ],
+      "timing": {
+        "xtb_s": 1.0645192470401525,
+        "xtb4stda_s": 0.5712726525962353,
+        "stda_s": 57.5824873726815,
+        "total_s": 59.303669137880206
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000454_BRAZILIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 454,
         "name": "BRAZILIN",
         "smiles": "Oc1ccc2c(c1)OCC1(O)Cc3cc(O)c(O)cc3C21",
+        "charge": 0,
         "total_atoms": 35,
         "heavy_atoms": 21
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.5455,
+        4.7103,
+        5.1097,
+        5.3715,
+        5.5114
+      ],
+      "predicted_oscillator_strengths": [
+        0.109912,
+        0.03004,
+        0.011618,
+        0.069049,
+        0.066244
+      ],
+      "timing": {
+        "xtb_s": 0.9871302004903555,
+        "xtb4stda_s": 0.6006313972175121,
+        "stda_s": 59.70919571444392,
+        "total_s": 61.40093296393752
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000455_BRETYLIUM_TOSYLATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 455,
         "name": "BRETYLIUM TOSYLATE",
         "smiles": "CC[N+](C)(C)Cc1ccc(Br)cc1",
+        "charge": 1,
         "total_atoms": 30,
         "heavy_atoms": 13
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        0.2217,
+        1.6794,
+        1.8585,
+        2.3934,
+        2.5907
+      ],
+      "predicted_oscillator_strengths": [
+        3.9e-05,
+        0.294703,
+        0.239041,
+        0.168111,
+        0.028466
+      ],
+      "timing": {
+        "xtb_s": 0.5793040711432695,
+        "xtb4stda_s": 0.46475667133927345,
+        "stda_s": 98.84481069073081,
+        "total_s": 99.97591470368207
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000456_BRIMONIDINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 456,
         "name": "BRIMONIDINE",
         "smiles": "Brc1c(NC2=NCCN2)ccc2nccnc12",
+        "charge": 0,
         "total_atoms": 27,
         "heavy_atoms": 17
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.4795,
+        3.7169,
+        4.2859,
+        4.8116,
+        4.8557
+      ],
+      "predicted_oscillator_strengths": [
+        0.236467,
+        0.008093,
+        0.02739,
+        0.022665,
+        0.01719
+      ],
+      "timing": {
+        "xtb_s": 0.8323826268315315,
+        "xtb4stda_s": 0.44011139683425426,
+        "stda_s": 12.28749311156571,
+        "total_s": 13.631372598931193
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000457_BRINZOLAMIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 457,
         "name": "BRINZOLAMIDE",
         "smiles": "CCN[C@H]1CN(CCCOC)S(=O)(=O)c2sc(S(N)(=O)=O)cc21",
+        "charge": 0,
         "total_atoms": 44,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.0808,
+        5.3197,
+        5.4056,
+        5.6588,
+        5.7382
+      ],
+      "predicted_oscillator_strengths": [
+        0.07587,
+        0.05514,
+        0.006991,
+        0.140978,
+        0.253335
+      ],
+      "timing": {
+        "xtb_s": 2.7106612268835306,
+        "xtb4stda_s": 0.723027290776372,
+        "stda_s": 146.28740169852972,
+        "total_s": 149.8677843119949
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000458_BRIVUDINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 458,
         "name": "BRIVUDINE",
         "smiles": "O=c1[nH]c(=O)n(C2C[C@H](O)[C@@H](CO)O2)cc1/C=C/Br",
+        "charge": 0,
         "total_atoms": 32,
         "heavy_atoms": 19
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.3512,
+        4.8439,
+        5.3499,
+        5.8202,
+        5.9657
+      ],
+      "predicted_oscillator_strengths": [
+        0.525483,
+        0.005919,
+        0.372401,
+        0.001177,
+        0.009672
+      ],
+      "timing": {
+        "xtb_s": 6.199422238394618,
+        "xtb4stda_s": 0.5246177315711975,
+        "stda_s": 41.333242857828736,
+        "total_s": 48.147382175549865
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000459_BROMHEXINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 459,
         "name": "BROMHEXINE HYDROCHLORIDE",
         "smiles": "CN(Cc1cc(Br)cc(Br)c1N)C1CCCCC1",
+        "charge": 0,
         "total_atoms": 38,
         "heavy_atoms": 18
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9308,
+        4.2409,
+        4.8652,
+        5.2004,
+        5.2062
+      ],
+      "predicted_oscillator_strengths": [
+        0.00303,
+        0.090771,
+        0.173418,
+        0.073184,
+        0.025206
+      ],
+      "timing": {
+        "xtb_s": 1.7488951552659273,
+        "xtb4stda_s": 0.5880105420947075,
+        "stda_s": 47.047642359510064,
+        "total_s": 49.484150720760226
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000460_BROMINDIONE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 460,
         "name": "BROMINDIONE",
         "smiles": "O=C1c2ccccc2C(=O)C1c1ccc(Br)cc1",
+        "charge": 0,
         "total_atoms": 27,
         "heavy_atoms": 18
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.3792,
+        4.027,
+        4.3369,
+        4.825,
+        5.0126
+      ],
+      "predicted_oscillator_strengths": [
+        0.001485,
+        0.002851,
+        0.064261,
+        0.154183,
+        0.007126
+      ],
+      "timing": {
+        "xtb_s": 2.424059545621276,
+        "xtb4stda_s": 0.48085929080843925,
+        "stda_s": 14.931157372891903,
+        "total_s": 17.91657044738531
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000461_BROMOPRIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 461,
         "name": "BROMOPRIDE",
         "smiles": "CCN(CC)CCNC(=O)c1cc(Br)c(N)cc1OC",
+        "charge": 0,
         "total_atoms": 42,
         "heavy_atoms": 20
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.3035,
+        4.5089,
+        4.7851,
+        5.1655,
+        5.3368
+      ],
+      "predicted_oscillator_strengths": [
+        0.171108,
+        0.010884,
+        0.357785,
+        0.011653,
+        0.009686
+      ],
+      "timing": {
+        "xtb_s": 2.9429029542952776,
+        "xtb4stda_s": 0.6915824972093105,
+        "stda_s": 110.37847893498838,
+        "total_s": 114.11456623114645
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000462_BROMPERIDOL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 462,
         "name": "BROMPERIDOL",
         "smiles": "O=C(CCCN1CCC(O)(c2ccc(Br)cc2)CC1)c1ccc(F)cc1",
+        "charge": 0,
         "total_atoms": 49,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.7789,
+        4.6828,
+        5.1039,
+        5.1248,
+        5.4066
+      ],
+      "predicted_oscillator_strengths": [
+        0.000417,
+        0.018156,
+        0.35395,
+        0.001588,
+        0.013534
+      ],
+      "timing": {
+        "xtb_s": 4.38051294349134,
+        "xtb4stda_s": 0.801390890032053,
+        "stda_s": 264.3682021331042,
+        "total_s": 269.6950203962624
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000463_BROMPHENIRAMINE_MALEATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 463,
         "name": "BROMPHENIRAMINE MALEATE",
         "smiles": "CN(C)CC[C@@H](c1ccc(Br)cc1)c1ccccn1",
+        "charge": 0,
         "total_atoms": 38,
         "heavy_atoms": 19
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.0123,
+        5.1417,
+        5.2403,
+        5.4336,
+        5.5997
+      ],
+      "predicted_oscillator_strengths": [
+        0.013634,
+        0.000916,
+        0.001679,
+        0.076737,
+        0.002815
+      ],
+      "timing": {
+        "xtb_s": 1.625685729086399,
+        "xtb4stda_s": 0.5874901078641415,
+        "stda_s": 50.8933015819639,
+        "total_s": 53.2269230466336
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000464_BRONOPOL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 464,
         "name": "BRONOPOL",
         "smiles": "O=[N+]([O-])C(Br)(CO)CO",
+        "charge": 0,
         "total_atoms": 15,
         "heavy_atoms": 9
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9876,
+        4.9526,
+        5.1458,
+        5.3636,
+        5.7982
+      ],
+      "predicted_oscillator_strengths": [
+        0.002095,
+        0.000307,
+        0.007554,
+        0.008448,
+        0.003883
+      ],
+      "timing": {
+        "xtb_s": 0.45613085106015205,
+        "xtb4stda_s": 0.30626910366117954,
+        "stda_s": 0.9485397040843964,
+        "total_s": 1.7577455639839172
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000465_BROXALDINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 465,
         "name": "BROXALDINE",
         "smiles": "Cc1ccc2c(Br)cc(Br)c(OC(=O)c3ccccc3)c2n1",
+        "charge": 0,
         "total_atoms": 33,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.2975,
+        4.3621,
+        4.5767,
+        4.8256,
+        4.9648
+      ],
+      "predicted_oscillator_strengths": [
+        0.030322,
+        0.26598,
+        0.00594,
+        0.023938,
+        0.002185
+      ],
+      "timing": {
+        "xtb_s": 2.4166327361017466,
+        "xtb4stda_s": 1.754494370892644,
+        "stda_s": 52.59280149638653,
+        "total_s": 56.8619318716228
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000466_BROXYQUINOLINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 466,
         "name": "BROXYQUINOLINE",
         "smiles": "Oc1c(Br)cc(Br)c2cccnc12",
+        "charge": 0,
         "total_atoms": 18,
         "heavy_atoms": 13
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9017,
+        4.2239,
+        4.5818,
+        4.9437,
+        5.5655
+      ],
+      "predicted_oscillator_strengths": [
+        0.13306,
+        0.004046,
+        0.000506,
+        0.008592,
+        1.020647
+      ],
+      "timing": {
+        "xtb_s": 0.3510613236576319,
+        "xtb4stda_s": 0.4134572111070156,
+        "stda_s": 2.3260052110999823,
+        "total_s": 3.168103341013193
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000467_BRUCINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 467,
         "name": "BRUCINE",
         "smiles": "COc1cc2c(cc1OC)[C@]13CCN4CC5=CCOC6CC(=O)N2C1[C@@H]6[C@@H]5C[C@@H]43",
+        "charge": 0,
         "total_atoms": 55,
         "heavy_atoms": 29
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.2399,
+        4.6974,
+        4.9778,
+        5.3137,
+        5.4968
+      ],
+      "predicted_oscillator_strengths": [
+        0.148823,
+        0.435913,
+        0.002495,
+        0.010775,
+        0.027864
+      ],
+      "timing": {
+        "xtb_s": 2.5284144654870033,
+        "xtb4stda_s": 0.8765176348388195,
+        "stda_s": 427.42358011193573,
+        "total_s": 431.0139859095216
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000468_BUCETIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 468,
         "name": "BUCETIN",
         "smiles": "CCOc1ccc(NC(=O)C[C@H](C)O)cc1",
+        "charge": 0,
         "total_atoms": 33,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.417,
+        4.9223,
+        5.3014,
+        5.6237,
+        5.8029
+      ],
+      "predicted_oscillator_strengths": [
+        0.075064,
+        0.663426,
+        0.006589,
+        0.012465,
+        0.003855
+      ],
+      "timing": {
+        "xtb_s": 1.277055835351348,
+        "xtb4stda_s": 0.4752859640866518,
+        "stda_s": 24.455094769597054,
+        "total_s": 26.292876401916146
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000469_BUCLADESINE_SODIUM",
       "metadata": {
         "dataset": "dataset_II",
@@ -547,10 +931,30 @@
         "total_atoms": 56,
         "heavy_atoms": 32
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.6751,
+        4.8212,
+        5.2779,
+        5.5489,
+        5.8486
+      ],
+      "oscillator_strengths": [
+        0.000616,
+        0.731888,
+        0.042504,
+        0.000112,
+        0.006025
+      ],
+      "timing": {
+        "xtb_opt_s": 8.056255977600813,
+        "xtb4stda_s": 0.07729735970497131,
+        "stda_s": 1092.5775624047965,
+        "total_s": 1100.7111157421023
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000470_BUDESONIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -560,556 +964,1118 @@
         "total_atoms": 65,
         "heavy_atoms": 31
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.3892,
+        3.9172,
+        4.3256,
+        5.127,
+        6.0422
+      ],
+      "oscillator_strengths": [
+        0.000679,
+        0.001415,
+        0.091604,
+        0.337021,
+        0.000922
+      ],
+      "timing": {
+        "xtb_opt_s": 4.997531168162823,
+        "xtb4stda_s": 0.10067419707775116,
+        "stda_s": 1358.9794931802899,
+        "total_s": 1364.0776985455304
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000471_BUFEXAMAC",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 471,
         "name": "BUFEXAMAC",
         "smiles": "CCCCOc1ccc(CC(=O)NO)cc1",
+        "charge": 0,
         "total_atoms": 33,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.7553,
+        5.254,
+        5.4694,
+        5.7331,
+        5.7837
+      ],
+      "predicted_oscillator_strengths": [
+        0.041387,
+        0.06758,
+        0.185498,
+        0.04153,
+        0.04495
+      ],
+      "timing": {
+        "xtb_s": 1.8113785553723574,
+        "xtb4stda_s": 0.4721434786915779,
+        "stda_s": 18.768258403986692,
+        "total_s": 21.14292150363326
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000472_BUFLOMEDIL_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 472,
         "name": "BUFLOMEDIL HYDROCHLORIDE",
         "smiles": "COc1cc(OC)c(C(=O)CCCN2CCCC2)c(OC)c1",
+        "charge": 0,
         "total_atoms": 47,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.3383,
+        4.4299,
+        4.6366,
+        4.862,
+        5.0349
+      ],
+      "predicted_oscillator_strengths": [
+        0.120504,
+        0.024587,
+        0.012364,
+        0.004743,
+        0.003565
+      ],
+      "timing": {
+        "xtb_s": 3.719427490606904,
+        "xtb4stda_s": 0.7027615401893854,
+        "stda_s": 189.7453058846295,
+        "total_s": 194.2827846314758
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000473_BUMETANIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 473,
         "name": "BUMETANIDE",
         "smiles": "CCCCNc1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1",
+        "charge": 0,
         "total_atoms": 45,
         "heavy_atoms": 25
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.37,
+        4.5465,
+        4.9799,
+        5.078,
+        5.2301
+      ],
+      "predicted_oscillator_strengths": [
+        0.185185,
+        0.153926,
+        0.024106,
+        0.309547,
+        0.154653
+      ],
+      "timing": {
+        "xtb_s": 4.374792147427797,
+        "xtb4stda_s": 0.7318447809666395,
+        "stda_s": 272.7298872489482,
+        "total_s": 277.96092163585126
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000474_BUPIVACAINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 474,
         "name": "BUPIVACAINE HYDROCHLORIDE",
         "smiles": "CCCCN1CCCC[C@H]1C(=O)Nc1c(C)cccc1C",
+        "charge": 0,
         "total_atoms": 49,
         "heavy_atoms": 21
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.8131,
+        5.3053,
+        5.5874,
+        5.8617,
+        6.0428
+      ],
+      "predicted_oscillator_strengths": [
+        0.012122,
+        0.242917,
+        0.02176,
+        9e-05,
+        0.012804
+      ],
+      "timing": {
+        "xtb_s": 1.6982302591204643,
+        "xtb4stda_s": 0.7121664509177208,
+        "stda_s": 171.37899949029088,
+        "total_s": 173.93412227369845
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000475_BUPROPION",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 475,
         "name": "BUPROPION",
         "smiles": "C[C@H](NC(C)(C)C)C(=O)c1cccc(Cl)c1",
+        "charge": 0,
         "total_atoms": 34,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.614,
+        4.5148,
+        4.576,
+        5.1887,
+        5.7636
+      ],
+      "predicted_oscillator_strengths": [
+        0.000349,
+        0.039178,
+        0.006925,
+        0.277079,
+        0.017422
+      ],
+      "timing": {
+        "xtb_s": 0.8739056326448917,
+        "xtb4stda_s": 0.5071951188147068,
+        "stda_s": 23.17721559293568,
+        "total_s": 24.643769277259707
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000476_BURAMATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 476,
         "name": "BURAMATE",
         "smiles": "O=C(NCc1ccccc1)OCCO",
+        "charge": 0,
         "total_atoms": 27,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.1206,
+        5.8075,
+        6.1695,
+        6.2682,
+        6.4318
+      ],
+      "predicted_oscillator_strengths": [
+        0.000183,
+        0.04527,
+        0.037043,
+        0.01842,
+        0.015471
+      ],
+      "timing": {
+        "xtb_s": 1.8453422170132399,
+        "xtb4stda_s": 0.44362188689410686,
+        "stda_s": 7.2404179479926825,
+        "total_s": 10.187396168708801
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000477_BUSPIRONE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 477,
         "name": "BUSPIRONE HYDROCHLORIDE",
         "smiles": "O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(c2ncccn2)CC1",
+        "charge": 0,
         "total_atoms": 59,
         "heavy_atoms": 28
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000478_BUSSEIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 478,
-        "name": "BUSSEIN",
-        "smiles": "COC(=O)C[C@@H]1C2(C)CC34OC5(C)O[C@@]6(C7/C(=C(/O)C(C)C)C(=O)O[C@H](c8ccoc8)[C@@]7(C)C(OC(C)=O)[C@H](OC(C)=O)[C@@]6(O5)[C@@]13C)[C@@H](OC(C)=O)[C@]4(O)C2OC(=O)C(C)C",
-        "total_atoms": 115,
-        "heavy_atoms": 61
+      "predicted_excitation_energies_eV": [
+        4.1502,
+        4.7061,
+        5.1765,
+        5.2829,
+        5.4121
+      ],
+      "predicted_oscillator_strengths": [
+        0.084189,
+        0.010713,
+        0.110546,
+        0.381416,
+        0.042013
+      ],
+      "timing": {
+        "xtb_s": 3.5269238855689764,
+        "xtb4stda_s": 0.9088735394179821,
+        "stda_s": 693.1318571213633,
+        "total_s": 697.7303522527218
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000479_BUTACAINE_SULFATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 479,
         "name": "BUTACAINE SULFATE",
         "smiles": "CCCCN(CCCC)CCCOC(=O)c1ccc(N)cc1",
+        "charge": 0,
         "total_atoms": 52,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.4943,
+        4.5621,
+        5.176,
+        5.5731,
+        5.6663
+      ],
+      "predicted_oscillator_strengths": [
+        0.019509,
+        0.60455,
+        0.027611,
+        0.017959,
+        0.002123
+      ],
+      "timing": {
+        "xtb_s": 5.815482934936881,
+        "xtb4stda_s": 2.0334526263177395,
+        "stda_s": 242.38109684549272,
+        "total_s": 250.36986867524683
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000480_BUTAMBEN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 480,
         "name": "BUTAMBEN",
         "smiles": "CCCCOC(=O)c1ccc(N)cc1",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.49,
+        4.555,
+        5.1739,
+        5.6779,
+        5.8733
+      ],
+      "predicted_oscillator_strengths": [
+        0.01919,
+        0.593834,
+        0.025817,
+        0.002087,
+        0.285911
+      ],
+      "timing": {
+        "xtb_s": 0.4896737914532423,
+        "xtb4stda_s": 0.45343499071896076,
+        "stda_s": 8.40231729671359,
+        "total_s": 9.427085096016526
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000481_BUTENAFINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 481,
         "name": "BUTENAFINE HYDROCHLORIDE",
         "smiles": "CN(Cc1ccc(C(C)(C)C)cc1)Cc1cccc2ccccc12",
+        "charge": 0,
         "total_atoms": 51,
         "heavy_atoms": 24
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.3251,
+        4.4482,
+        5.0006,
+        5.0996,
+        5.6524
+      ],
+      "predicted_oscillator_strengths": [
+        0.002095,
+        0.196986,
+        0.007868,
+        0.000491,
+        0.018242
+      ],
+      "timing": {
+        "xtb_s": 2.537817221134901,
+        "xtb4stda_s": 2.042241146788001,
+        "stda_s": 200.5469593834132,
+        "total_s": 205.27489457279444
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000482_BUTOCONAZOLE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 482,
         "name": "BUTOCONAZOLE",
         "smiles": "Clc1ccc(CC[C@@H](Cn2ccnc2)Sc2c(Cl)cccc2Cl)cc1",
+        "charge": 0,
         "total_atoms": 42,
         "heavy_atoms": 25
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.8544,
+        5.0914,
+        5.1417,
+        5.4338,
+        5.5057
+      ],
+      "predicted_oscillator_strengths": [
+        0.004477,
+        0.002865,
+        0.064025,
+        0.038759,
+        0.001121
+      ],
+      "timing": {
+        "xtb_s": 2.941525436937809,
+        "xtb4stda_s": 0.7024513985961676,
+        "stda_s": 197.60959366336465,
+        "total_s": 201.42188381776214
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000483_BUTOPYRONOXYL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 483,
         "name": "BUTOPYRONOXYL",
         "smiles": "CCCCOC(=O)C1=CC(=O)CC(C)(C)O1",
+        "charge": 0,
         "total_atoms": 34,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9051,
+        4.2152,
+        5.2609,
+        6.2334,
+        6.4866
+      ],
+      "predicted_oscillator_strengths": [
+        0.052442,
+        0.288039,
+        0.010907,
+        0.007243,
+        0.0042
+      ],
+      "timing": {
+        "xtb_s": 0.8533678408712149,
+        "xtb4stda_s": 0.5137419048696756,
+        "stda_s": 22.47028815560043,
+        "total_s": 23.928245596587658
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000484_BUTYL_PARABEN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 484,
         "name": "BUTYL PARABEN",
         "smiles": "CCCCOC(=O)c1ccc(O)cc1",
+        "charge": 0,
         "total_atoms": 28,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.7609,
+        5.0908,
+        5.6438,
+        5.9091,
+        6.2846
+      ],
+      "predicted_oscillator_strengths": [
+        0.002864,
+        0.422643,
+        0.002415,
+        0.005819,
+        0.424985
+      ],
+      "timing": {
+        "xtb_s": 0.596283221617341,
+        "xtb4stda_s": 0.4355871081352234,
+        "stda_s": 7.217932105064392,
+        "total_s": 8.406627299264073
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000485_BUTYLATED_HYDROXYANISOLE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 485,
         "name": "BUTYLATED HYDROXYANISOLE",
         "smiles": "COc1ccc(O)c(C(C)(C)C)c1",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 13
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.4514,
+        5.2156,
+        5.4778,
+        5.6834,
+        6.4956
+      ],
+      "predicted_oscillator_strengths": [
+        0.10821,
+        0.004184,
+        0.156287,
+        0.000162,
+        7e-06
+      ],
+      "timing": {
+        "xtb_s": 0.45784786343574524,
+        "xtb4stda_s": 0.48070041835308075,
+        "stda_s": 7.1577482260763645,
+        "total_s": 8.179230874404311
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000486_BUTYLATED_HYDROXYTOLUENE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 486,
         "name": "BUTYLATED HYDROXYTOLUENE",
         "smiles": "Cc1cc(C(C)(C)C)c(O)c(C(C)(C)C)c1",
+        "charge": 0,
         "total_atoms": 40,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000487_CABAZITAXEL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 487,
-        "name": "CABAZITAXEL",
-        "smiles": "CO[C@@H]1C(=O)[C@]2(C)C([C@@H](OC(=O)c3ccccc3)[C@@]3(O)C[C@@H](OC(=O)[C@@H](O)[C@H](NC(=O)OC(C)(C)C)c4ccccc4)C(C)=C1C3(C)C)[C@@]1(OC(C)=O)CO[C@H]1C[C@H]2OC",
-        "total_atoms": 117,
-        "heavy_atoms": 60
+      "predicted_excitation_energies_eV": [
+        4.7038,
+        5.5773,
+        6.0788,
+        6.3996,
+        6.6206
+      ],
+      "predicted_oscillator_strengths": [
+        0.058713,
+        0.105096,
+        0.001875,
+        0.008076,
+        0.784994
+      ],
+      "timing": {
+        "xtb_s": 2.9857184663414955,
+        "xtb4stda_s": 0.6002815552055836,
+        "stda_s": 38.83079974912107,
+        "total_s": 42.5083084423095
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000488_CACODYLIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 488,
         "name": "CACODYLIC ACID",
         "smiles": "C[As](C)(=O)O",
+        "charge": 0,
         "total_atoms": 12,
         "heavy_atoms": 5
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.2311,
+        5.8026,
+        7.1719,
+        7.2742,
+        7.4027
+      ],
+      "predicted_oscillator_strengths": [
+        0.047749,
+        0.034097,
+        6e-05,
+        0.0004,
+        0.015174
+      ],
+      "timing": {
+        "xtb_s": 0.3673730418086052,
+        "xtb4stda_s": 0.2921804077923298,
+        "stda_s": 1.5910662524402142,
+        "total_s": 2.302873520180583
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000489_CADAVERINE_TARTRATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 489,
         "name": "CADAVERINE TARTRATE",
         "smiles": "O=C(O)C(O)C(O)C(=O)O",
+        "charge": 0,
         "total_atoms": 16,
         "heavy_atoms": 10
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.4849,
+        6.0202,
+        6.4631,
+        6.8906,
+        7.0396
+      ],
+      "predicted_oscillator_strengths": [
+        0.069087,
+        0.001637,
+        0.002936,
+        0.152701,
+        0.063502
+      ],
+      "timing": {
+        "xtb_s": 0.6379940453916788,
+        "xtb4stda_s": 0.3118597995489836,
+        "stda_s": 1.294652046635747,
+        "total_s": 2.3279939275234938
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000490_CAFFEIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 490,
         "name": "CAFFEIC ACID",
         "smiles": "O=C(O)/C=C/c1ccc(O)c(O)c1",
+        "charge": 0,
         "total_atoms": 21,
         "heavy_atoms": 13
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000491_CALCEIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 491,
-        "name": "CALCEIN",
-        "smiles": "O=C(O)CN(CC(=O)O)Cc1cc2c(cc1O)Oc1cc(O)c(CN(CC(=O)O)CC(=O)O)cc1C21OC(=O)c2ccccc21",
-        "total_atoms": 71,
-        "heavy_atoms": 45
+      "predicted_excitation_energies_eV": [
+        3.9803,
+        4.4517,
+        5.1953,
+        5.2769,
+        5.2854
+      ],
+      "predicted_oscillator_strengths": [
+        0.331953,
+        0.596466,
+        0.001962,
+        0.012048,
+        0.283311
+      ],
+      "timing": {
+        "xtb_s": 0.661434831097722,
+        "xtb4stda_s": 0.40689011849462986,
+        "stda_s": 2.886182762682438,
+        "total_s": 4.027076788246632
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
-      "label": "dataset_II_000492_CALCIUM_CHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 492,
-        "name": "CALCIUM CHLORIDE",
-        "smiles": "[Ca+2]",
-        "total_atoms": 1,
-        "heavy_atoms": 1
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000493_CALCIUM_GLUCEPTATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 493,
         "name": "CALCIUM GLUCEPTATE",
         "smiles": "O=C(O)C(O)[C@@H](O)[C@@H](O)[C@@H](O)[C@@H](O)CO",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 15
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.8761,
+        6.8061,
+        6.9832,
+        7.158,
+        7.3383
+      ],
+      "predicted_oscillator_strengths": [
+        0.008435,
+        0.009178,
+        0.04616,
+        0.066282,
+        0.002786
+      ],
+      "timing": {
+        "xtb_s": 2.9260724559426308,
+        "xtb4stda_s": 0.4813605397939682,
+        "stda_s": 11.349763546139002,
+        "total_s": 14.831034598872066
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000494_CAMPTOTHECIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 494,
         "name": "CAMPTOTHECIN",
         "smiles": "CC[C@@]1(O)C(=O)OCc2c1cc1n(c2=O)Cc2cc3ccccc3nc2-1",
+        "charge": 0,
         "total_atoms": 42,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.504,
+        4.1606,
+        4.4268,
+        4.4551,
+        4.6313
+      ],
+      "predicted_oscillator_strengths": [
+        0.628188,
+        0.00623,
+        0.084219,
+        0.005012,
+        0.018926
+      ],
+      "timing": {
+        "xtb_s": 1.4063478223979473,
+        "xtb4stda_s": 0.7134808022528887,
+        "stda_s": 194.75815176591277,
+        "total_s": 197.06355892680585
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000495_CAMYLOFINE_DIHYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 495,
         "name": "CAMYLOFINE DIHYDROCHLORIDE",
         "smiles": "CCN(CC)CCN[C@@H](C(=O)OCCC(C)C)c1ccccc1",
+        "charge": 0,
         "total_atoms": 55,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.1448,
+        5.1858,
+        5.1951,
+        5.9378,
+        6.0768
+      ],
+      "predicted_oscillator_strengths": [
+        0.003618,
+        0.05508,
+        0.001896,
+        0.016883,
+        0.024332
+      ],
+      "timing": {
+        "xtb_s": 2.59144614264369,
+        "xtb4stda_s": 0.775076363235712,
+        "stda_s": 258.70464180223644,
+        "total_s": 262.225545167923
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000496_CANAVANINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 496,
         "name": "CANAVANINE",
         "smiles": "N=C(N)NOCC[C@H](N)C(=O)O",
+        "charge": 0,
         "total_atoms": 24,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.9634,
+        5.6813,
+        5.6929,
+        5.944,
+        6.1
+      ],
+      "predicted_oscillator_strengths": [
+        0.045786,
+        0.020338,
+        0.021947,
+        0.135274,
+        0.002899
+      ],
+      "timing": {
+        "xtb_s": 0.5706272926181555,
+        "xtb4stda_s": 0.3619083669036627,
+        "stda_s": 3.7293521519750357,
+        "total_s": 4.73075001873076
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000497_CANDESARTAN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 497,
         "name": "CANDESARTAN",
         "smiles": "CCOc1nc2cccc(C(=O)O)c2n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1",
+        "charge": 0,
         "total_atoms": 53,
         "heavy_atoms": 33
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000498_CANDESARTAN_CILEXTIL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 498,
-        "name": "CANDESARTAN CILEXTIL",
-        "smiles": "CCOc1nc2cccc(C(=O)O[C@H](C)OC(=O)OC3CCCCC3)c2n1Cc1ccc(-c2ccccc2-c2nnn[nH]2)cc1",
-        "total_atoms": 79,
-        "heavy_atoms": 45
+      "predicted_excitation_energies_eV": [
+        4.1948,
+        4.6298,
+        4.8123,
+        5.0943,
+        5.1935
+      ],
+      "predicted_oscillator_strengths": [
+        0.176571,
+        0.175561,
+        0.066591,
+        0.008077,
+        0.218101
+      ],
+      "timing": {
+        "xtb_s": 4.432005612179637,
+        "xtb4stda_s": 0.9141232892870903,
+        "stda_s": 557.5658410638571,
+        "total_s": 564.2051669526845
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
-      "label": "dataset_II_000499_CANDICIDIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 499,
-        "name": "CANDICIDIN",
-        "smiles": "CC1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/C(OC2O[C@H](C)[C@@H](O)[C@H](N)[C@@H]2O)CC(O)C(C(=O)O)C(O)CC(=O)CC(O)CC(O)CC(O)CC(=O)CCCC(=O)CC(=O)OC1C(C)CC(C)C(O)CC(=O)c1ccc(N)cc1",
-        "total_atoms": 163,
-        "heavy_atoms": 79
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000500_CANRENOIC_ACID_POTASSIUM_SALT",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 500,
         "name": "CANRENOIC ACID, POTASSIUM SALT",
         "smiles": "C[C@@]12CCC(=O)C=C1C=CC1C2CC[C@]2(C)C1CC[C@]2(O)CCC(=O)O",
+        "charge": 0,
         "total_atoms": 56,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.8824,
+        4.5111,
+        5.7191,
+        6.0641,
+        6.1389
+      ],
+      "predicted_oscillator_strengths": [
+        0.031879,
+        0.785187,
+        0.016333,
+        0.002108,
+        0.005063
+      ],
+      "timing": {
+        "xtb_s": 1.9795275069773197,
+        "xtb4stda_s": 0.9036132860928774,
+        "stda_s": 458.7474892716855,
+        "total_s": 461.86267043836415
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000501_CANRENONE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 501,
         "name": "CANRENONE",
         "smiles": "C[C@@]12CCC(=O)C=C1C=CC1C2CC[C@]2(C)C1CC[C@]21CCC(=O)O1",
+        "charge": 0,
         "total_atoms": 53,
         "heavy_atoms": 25
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9066,
+        4.542,
+        5.7777,
+        6.0964,
+        6.1837
+      ],
+      "predicted_oscillator_strengths": [
+        0.003109,
+        0.998972,
+        0.005401,
+        0.003504,
+        0.003799
+      ],
+      "timing": {
+        "xtb_s": 1.519552668556571,
+        "xtb4stda_s": 0.8493678458034992,
+        "stda_s": 359.8253306224942,
+        "total_s": 362.3756562527269
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000502_CANTHARIDIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 502,
         "name": "CANTHARIDIN",
         "smiles": "C[C@]12C(=O)OC(=O)[C@@]1(C)C1CCC2O1",
+        "charge": 0,
         "total_atoms": 26,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000503_CANTHAXANTHIN_euglenanone_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 503,
-        "name": "CANTHAXANTHIN (euglenanone)",
-        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)CCC2(C)C)C(C)(C)CCC1=O",
-        "total_atoms": 94,
-        "heavy_atoms": 42
+      "predicted_excitation_energies_eV": [
+        5.8424,
+        6.1513,
+        7.1006,
+        7.4321,
+        7.7502
+      ],
+      "predicted_oscillator_strengths": [
+        0.019615,
+        2e-06,
+        0.001349,
+        0.007545,
+        0.002395
+      ],
+      "timing": {
+        "xtb_s": 0.4396027736365795,
+        "xtb4stda_s": 0.48505838587880135,
+        "stda_s": 6.355537593364716,
+        "total_s": 7.3502725921571255
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000504_CAPECITABINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 504,
         "name": "CAPECITABINE",
         "smiles": "CCCCCOC(=O)Nc1nc(=O)n(C2O[C@@H](C)[C@H](O)[C@@H]2O)cc1F",
+        "charge": 0,
         "total_atoms": 47,
         "heavy_atoms": 25
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.0957,
+        4.7907,
+        5.4249,
+        5.5444,
+        6.0874
+      ],
+      "predicted_oscillator_strengths": [
+        0.285078,
+        0.003145,
+        0.178058,
+        0.054739,
+        0.329996
+      ],
+      "timing": {
+        "xtb_s": 3.945084372535348,
+        "xtb4stda_s": 0.7135196384042501,
+        "stda_s": 237.35048109292984,
+        "total_s": 242.1507412213832
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000505_CAPOBENIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 505,
         "name": "CAPOBENIC ACID",
         "smiles": "COc1cc(C(=O)NCCCCCC(=O)O)cc(OC)c1OC",
+        "charge": 0,
         "total_atoms": 46,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000506_CAPREOMYCIN_SULFATE_4mM_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 506,
-        "name": "CAPREOMYCIN SULFATE [4mM]",
-        "smiles": "N=C1NCCC(C2NC(=O)/C(=C\\NC(N)=O)NC(=O)C(CNC(=O)CC(N)CCCN)NC(=O)C(CO)NC(=O)C(N)CNC2=O)N1",
-        "total_atoms": 91,
-        "heavy_atoms": 47
+      "predicted_excitation_energies_eV": [
+        4.2568,
+        4.8421,
+        5.1938,
+        5.778,
+        5.8823
+      ],
+      "predicted_oscillator_strengths": [
+        0.029021,
+        0.210623,
+        0.026548,
+        0.355867,
+        0.016651
+      ],
+      "timing": {
+        "xtb_s": 4.26427093334496,
+        "xtb4stda_s": 0.7166978642344475,
+        "stda_s": 215.79138495214283,
+        "total_s": 220.91418164223433
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
-      "label": "dataset_II_000507_CAPRYILIDENE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 507,
-        "name": "CAPRYILIDENE",
-        "smiles": "CCCCCCCC(=O)OCC(COC(=O)CCCCCCC)OC(=O)CCCCCCC",
-        "total_atoms": 83,
-        "heavy_atoms": 33
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000508_CAPSAICIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 508,
         "name": "CAPSAICIN",
         "smiles": "COc1cc(CNC(=O)CCCC/C=C/C(C)C)ccc1O",
+        "charge": 0,
         "total_atoms": 49,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000509_CAPSANTHIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 509,
-        "name": "CAPSANTHIN",
-        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C(=O)[C@@]2(C)C[C@H](O)CC2(C)C)C(C)(C)C[C@@H](O)C1",
-        "total_atoms": 99,
-        "heavy_atoms": 43
+      "predicted_excitation_energies_eV": [
+        4.64,
+        5.2986,
+        5.5144,
+        6.0427,
+        6.0924
+      ],
+      "predicted_oscillator_strengths": [
+        0.082814,
+        0.039894,
+        0.094757,
+        0.009486,
+        0.017878
+      ],
+      "timing": {
+        "xtb_s": 3.7435117680579424,
+        "xtb4stda_s": 0.7075340077280998,
+        "stda_s": 228.35544503480196,
+        "total_s": 232.94870579056442
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000510_CAPTAMINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 510,
         "name": "CAPTAMINE",
         "smiles": "CN(C)CCS",
+        "charge": 0,
         "total_atoms": 17,
         "heavy_atoms": 6
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.338,
+        5.6052,
+        6.1989,
+        6.3556,
+        6.641
+      ],
+      "predicted_oscillator_strengths": [
+        0.017614,
+        0.017515,
+        0.01694,
+        0.006935,
+        0.111803
+      ],
+      "timing": {
+        "xtb_s": 0.3590033557265997,
+        "xtb4stda_s": 0.3379782885313034,
+        "stda_s": 0.650464840233326,
+        "total_s": 1.4000304229557514
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000511_CAPTAN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 511,
         "name": "CAPTAN",
         "smiles": "O=C1C2CC=CCC2C(=O)N1SC(Cl)(Cl)Cl",
+        "charge": 0,
         "total_atoms": 24,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.929,
+        5.328,
+        5.6161,
+        5.9024,
+        6.0909
+      ],
+      "predicted_oscillator_strengths": [
+        0.000729,
+        0.000354,
+        0.069803,
+        0.075082,
+        0.015505
+      ],
+      "timing": {
+        "xtb_s": 0.9177293796092272,
+        "xtb4stda_s": 0.47685412503778934,
+        "stda_s": 9.767480228096247,
+        "total_s": 11.229494322091341
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000512_CAPTOPRIL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 512,
         "name": "CAPTOPRIL",
         "smiles": "C[C@H](CS)C(=O)N1CCC[C@H]1C(=O)O",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.4361,
+        5.6987,
+        5.8386,
+        6.2268,
+        6.4118
+      ],
+      "predicted_oscillator_strengths": [
+        0.012843,
+        0.014024,
+        0.002924,
+        0.061867,
+        0.009278
+      ],
+      "timing": {
+        "xtb_s": 1.5355800651013851,
+        "xtb4stda_s": 0.49925663881003857,
+        "stda_s": 9.56880647689104,
+        "total_s": 11.688418447971344
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000513_CARAPIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -1119,10 +2085,30 @@
         "total_atoms": 66,
         "heavy_atoms": 34
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.6413,
+        4.6958,
+        4.8639,
+        5.4414,
+        5.7133
+      ],
+      "oscillator_strengths": [
+        0.00117,
+        0.00016,
+        0.014452,
+        0.066048,
+        0.010448
+      ],
+      "timing": {
+        "xtb_opt_s": 7.283065104857087,
+        "xtb4stda_s": 0.1304879728704691,
+        "stda_s": 1863.0297322124243,
+        "total_s": 1870.4432852901518
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000514_CARAPIN-8_9_-ENE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1132,176 +2118,1279 @@
         "total_atoms": 64,
         "heavy_atoms": 34
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.5255,
+        4.7206,
+        4.7405,
+        5.044,
+        5.1772
+      ],
+      "oscillator_strengths": [
+        0.758218,
+        0.006231,
+        0.003563,
+        0.051015,
+        0.010525
+      ],
+      "timing": {
+        "xtb_opt_s": 3.512546805664897,
+        "xtb4stda_s": 0.10019991174340248,
+        "stda_s": 1780.0860309842974,
+        "total_s": 1783.6987777017057
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000515_CARAZOLOL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 515,
         "name": "CARAZOLOL",
         "smiles": "CC(C)NC[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+        "charge": 0,
         "total_atoms": 44,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.0237,
+        4.6202,
+        5.102,
+        5.2563,
+        5.4978
+      ],
+      "predicted_oscillator_strengths": [
+        0.076916,
+        0.00765,
+        0.398432,
+        0.003224,
+        0.144528
+      ],
+      "timing": {
+        "xtb_s": 2.3602616358548403,
+        "xtb4stda_s": 0.6714850794523954,
+        "stda_s": 144.76488165557384,
+        "total_s": 147.93001835606992
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000516_CARBADOX",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 516,
         "name": "CARBADOX",
         "smiles": "COC(=O)N/N=C/c1c[n+]([O-])c2ccccc2[n+]1[O-]",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 19
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.3726,
+        3.5955,
+        4.3667,
+        4.5431,
+        4.8552
+      ],
+      "predicted_oscillator_strengths": [
+        0.223096,
+        0.220263,
+        1.246731,
+        0.000382,
+        0.000233
+      ],
+      "timing": {
+        "xtb_s": 1.3124812729656696,
+        "xtb4stda_s": 0.4544340316206217,
+        "stda_s": 27.29550369642675,
+        "total_s": 29.149867400527
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000517_CARBARIL",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 517,
         "name": "CARBARIL",
         "smiles": "CNC(=O)Oc1cccc2ccccc12",
+        "charge": 0,
         "total_atoms": 26,
         "heavy_atoms": 15
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.3075,
+        4.379,
+        5.799,
+        5.8682,
+        5.9796
+      ],
+      "predicted_oscillator_strengths": [
+        0.003115,
+        0.229842,
+        0.09625,
+        0.034519,
+        0.705335
+      ],
+      "timing": {
+        "xtb_s": 1.180930808186531,
+        "xtb4stda_s": 1.1880711391568184,
+        "stda_s": 6.257362302392721,
+        "total_s": 8.692746570333838
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000518_CARBARSONE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 518,
         "name": "CARBARSONE",
         "smiles": "NC(=O)Nc1ccc([As](=O)(O)O)cc1",
+        "charge": 0,
         "total_atoms": 23,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.6436,
+        5.0471,
+        5.1005,
+        5.4245,
+        5.6014
+      ],
+      "predicted_oscillator_strengths": [
+        0.042801,
+        0.004428,
+        0.634979,
+        0.012888,
+        0.001908
+      ],
+      "timing": {
+        "xtb_s": 1.0777761116623878,
+        "xtb4stda_s": 0.3925269544124603,
+        "stda_s": 5.259718159213662,
+        "total_s": 6.8099538534879684
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000519_CARBAZOCHROME",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 519,
         "name": "CARBAZOCHROME",
         "smiles": "CN1C[C@H](O)C2=C/C(=N/NC(N)=O)C(=O)C=C21",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 17
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000520_CARBENOXOLONE_SODIUM",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 520,
-        "name": "CARBENOXOLONE SODIUM",
-        "smiles": "CC1(C)C2CC[C@]3(C)C(C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@]43C)[C@@]2(C)CC[C@@H]1OC(=O)CCC(=O)O",
-        "total_atoms": 91,
-        "heavy_atoms": 41
+      "predicted_excitation_energies_eV": [
+        2.7027,
+        2.9146,
+        3.6561,
+        4.7132,
+        5.0104
+      ],
+      "predicted_oscillator_strengths": [
+        0.078431,
+        0.001083,
+        1.137081,
+        0.045477,
+        0.201649
+      ],
+      "timing": {
+        "xtb_s": 1.1064120680093765,
+        "xtb4stda_s": 0.46679859794676304,
+        "stda_s": 14.97098951973021,
+        "total_s": 16.622665839269757
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000521_CARBETAPENTANE_CITRATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 521,
         "name": "CARBETAPENTANE CITRATE",
         "smiles": "CCN(CC)CCOCCOC(=O)C1(c2ccccc2)CCCC1",
+        "charge": 0,
         "total_atoms": 55,
         "heavy_atoms": 24
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.12,
+        5.1777,
+        5.9335,
+        6.0482,
+        6.1228
+      ],
+      "predicted_oscillator_strengths": [
+        0.000504,
+        0.006922,
+        0.013911,
+        0.002675,
+        0.044326
+      ],
+      "timing": {
+        "xtb_s": 4.252449015155435,
+        "xtb4stda_s": 0.7805035654455423,
+        "stda_s": 395.8953024931252,
+        "total_s": 401.08286089263856
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000522_CARBIDOPA",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 522,
         "name": "CARBIDOPA",
         "smiles": "C[C@@](Cc1ccc(O)c(O)c1)(NN)C(=O)O",
+        "charge": 0,
         "total_atoms": 30,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.5908,
+        5.0215,
+        5.3252,
+        5.4555,
+        5.6005
+      ],
+      "predicted_oscillator_strengths": [
+        0.093894,
+        0.016467,
+        0.017184,
+        0.077026,
+        0.002425
+      ],
+      "timing": {
+        "xtb_s": 0.9747057352215052,
+        "xtb4stda_s": 0.4838041886687279,
+        "stda_s": 14.921137625351548,
+        "total_s": 16.45943057909608
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000523_CARBIMAZOLE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 523,
         "name": "CARBIMAZOLE",
         "smiles": "CCOC(=O)n1ccn(C)c1=S",
+        "charge": 0,
         "total_atoms": 22,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9108,
+        4.1644,
+        4.6765,
+        5.0223,
+        5.4112
+      ],
+      "predicted_oscillator_strengths": [
+        0.265512,
+        0.000238,
+        0.010937,
+        0.148923,
+        0.003832
+      ],
+      "timing": {
+        "xtb_s": 0.8005842007696629,
+        "xtb4stda_s": 0.38503333553671837,
+        "stda_s": 2.909002363681793,
+        "total_s": 4.154152920469642
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000524_CARGLUMIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 524,
         "name": "CARGLUMIC ACID",
         "smiles": "NC(=O)N[C@@H](CCC(=O)O)C(=O)O",
+        "charge": 0,
         "total_atoms": 23,
         "heavy_atoms": 13
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.839,
+        5.9114,
+        6.0746,
+        6.2097,
+        6.3307
+      ],
+      "predicted_oscillator_strengths": [
+        0.005603,
+        0.012086,
+        0.002498,
+        0.142574,
+        0.021939
+      ],
+      "timing": {
+        "xtb_s": 0.830093564465642,
+        "xtb4stda_s": 0.40183608792722225,
+        "stda_s": 4.2755618412047625,
+        "total_s": 5.573637517169118
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000525_CARMINIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 525,
         "name": "CARMINIC ACID",
         "smiles": "Cc1c(C(=O)O)c(O)cc2c1C(=O)c1c(O)c(C3O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]3O)c(O)c(O)c1C2=O",
+        "charge": 0,
         "total_atoms": 55,
         "heavy_atoms": 35
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        2.4753,
+        3.0302,
+        3.2126,
+        3.6912,
+        3.9464
+      ],
+      "predicted_oscillator_strengths": [
+        0.389226,
+        0.038654,
+        0.000203,
+        0.170407,
+        0.000639
+      ],
+      "timing": {
+        "xtb_s": 3.931238666176796,
+        "xtb4stda_s": 0.904900137335062,
+        "stda_s": 799.1805189643055,
+        "total_s": 804.2520214188844
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000526_CARMOFUR",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 526,
         "name": "CARMOFUR",
         "smiles": "CCCCCCNC(=O)n1cc(F)c(=O)[nH]c1=O",
+        "charge": 0,
         "total_atoms": 34,
         "heavy_atoms": 18
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.8606,
+        5.6772,
+        5.8,
+        6.2628,
+        6.4586
+      ],
+      "predicted_oscillator_strengths": [
+        0.396829,
+        0.096556,
+        0.003979,
+        0.179042,
+        0.02402
+      ],
+      "timing": {
+        "xtb_s": 2.8579678013920784,
+        "xtb4stda_s": 1.3272334802895784,
+        "stda_s": 41.5878239069134,
+        "total_s": 45.891134694218636
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000527_CARMUSTINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 527,
         "name": "CARMUSTINE",
         "smiles": "O=NN(CCCl)C(=O)NCCCl",
+        "charge": 0,
         "total_atoms": 21,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        2.5971,
+        4.4693,
+        5.6408,
+        5.9946,
+        6.1601
+      ],
+      "predicted_oscillator_strengths": [
+        0.003966,
+        0.058182,
+        0.161929,
+        0.135411,
+        0.014281
+      ],
+      "timing": {
+        "xtb_s": 2.0786580964922905,
+        "xtb4stda_s": 0.3917603548616171,
+        "stda_s": 3.0699090640991926,
+        "total_s": 5.598127078264952
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000528_CARNITINE_dl_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 528,
+        "name": "CARNITINE (dl) HYDROCHLORIDE",
+        "smiles": "C[N+](C)(C)C[C@@H](O)CC(=O)O",
+        "charge": 1,
+        "total_atoms": 27,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        1.1258,
+        1.6345,
+        1.904,
+        2.2464,
+        2.4619
+      ],
+      "predicted_oscillator_strengths": [
+        0.05398,
+        0.022898,
+        0.061289,
+        0.100092,
+        0.107591
+      ],
+      "timing": {
+        "xtb_s": 0.4892040714621544,
+        "xtb4stda_s": 0.5783045962452888,
+        "stda_s": 38.62110072001815,
+        "total_s": 39.98021078109741
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000529_CARNOSINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 529,
+        "name": "CARNOSINE",
+        "smiles": "NCCC(=O)N[C@@H](Cc1c[nH]cn1)C(=O)O",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        5.2229,
+        5.6862,
+        6.0508,
+        6.055,
+        6.1
+      ],
+      "predicted_oscillator_strengths": [
+        0.00183,
+        0.012703,
+        0.008092,
+        0.010522,
+        0.010665
+      ],
+      "timing": {
+        "xtb_s": 1.4582799524068832,
+        "xtb4stda_s": 0.5111395698040724,
+        "stda_s": 16.57262558862567,
+        "total_s": 18.632721062749624
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000530_CARPROFEN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 530,
+        "name": "CARPROFEN",
+        "smiles": "C[C@@H](C(=O)O)c1ccc2c(c1)[nH]c1ccc(Cl)cc12",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        3.9783,
+        4.5545,
+        5.0362,
+        5.4072,
+        5.451
+      ],
+      "predicted_oscillator_strengths": [
+        0.061173,
+        0.03948,
+        0.590621,
+        0.04931,
+        0.085104
+      ],
+      "timing": {
+        "xtb_s": 0.9924343284219503,
+        "xtb4stda_s": 1.6864015255123377,
+        "stda_s": 26.974445648491383,
+        "total_s": 29.731587247923017
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000531_CARSALAM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 531,
+        "name": "CARSALAM",
+        "smiles": "O=c1[nH]c(=O)c2ccccc2o1",
+        "charge": 0,
+        "total_atoms": 17,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        4.6048,
+        5.4584,
+        5.4593,
+        6.2743,
+        6.4494
+      ],
+      "predicted_oscillator_strengths": [
+        0.070179,
+        0.091261,
+        0.001534,
+        0.033481,
+        1.045477
+      ],
+      "timing": {
+        "xtb_s": 0.3013034425675869,
+        "xtb4stda_s": 0.3679458051919937,
+        "stda_s": 1.582331582903862,
+        "total_s": 2.3034716062247753
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000532_CARVEDILOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 532,
+        "name": "CARVEDILOL",
+        "smiles": "COc1ccccc1OCCNC[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.0294,
+        4.6249,
+        4.6394,
+        5.0813,
+        5.322
+      ],
+      "predicted_oscillator_strengths": [
+        0.07444,
+        0.007187,
+        0.069856,
+        0.365869,
+        0.086016
+      ],
+      "timing": {
+        "xtb_s": 8.376437349244952,
+        "xtb4stda_s": 0.844874793663621,
+        "stda_s": 564.8666765466332,
+        "total_s": 574.2690205313265
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000533_CARVEDILOL_PHOSPHATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 533,
+        "name": "CARVEDILOL PHOSPHATE",
+        "smiles": "COc1ccccc1OCCNC[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.0294,
+        4.6249,
+        4.6394,
+        5.0813,
+        5.322
+      ],
+      "predicted_oscillator_strengths": [
+        0.07444,
+        0.007187,
+        0.069856,
+        0.365869,
+        0.086016
+      ],
+      "timing": {
+        "xtb_s": 8.521556679159403,
+        "xtb4stda_s": 0.8548521157354116,
+        "stda_s": 668.4521775878966,
+        "total_s": 678.8518509082496
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000535_CARZENIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 535,
+        "name": "CARZENIDE",
+        "smiles": "NS(=O)(=O)c1ccc(C(=O)O)cc1",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.8332,
+        5.3067,
+        5.5354,
+        5.5543,
+        5.7461
+      ],
+      "predicted_oscillator_strengths": [
+        0.022291,
+        0.007184,
+        0.132094,
+        0.21892,
+        0.013084
+      ],
+      "timing": {
+        "xtb_s": 0.43916964158415794,
+        "xtb4stda_s": 0.35543943010270596,
+        "stda_s": 2.7872893568128347,
+        "total_s": 3.6335127279162407
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000537_CATECHIN_TETRAMETHYLETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 537,
+        "name": "CATECHIN TETRAMETHYLETHER",
+        "smiles": "COc1cc(OC)c2c(c1)O[C@H](c1ccc(OC)c(OC)c1)[C@@H](O)C2",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.5846,
+        4.6559,
+        5.3088,
+        5.4303,
+        5.5198
+      ],
+      "predicted_oscillator_strengths": [
+        0.104563,
+        0.001292,
+        0.110902,
+        0.078082,
+        0.013493
+      ],
+      "timing": {
+        "xtb_s": 2.482037665322423,
+        "xtb4stda_s": 0.6958906725049019,
+        "stda_s": 266.54714837670326,
+        "total_s": 269.8534090090543
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000538_CEAROIN_3-METHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 538,
+        "name": "CEAROIN 3-METHYL ETHER",
+        "smiles": "COc1cccc(C(=O)c2ccccc2)c1",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        3.9267,
+        4.0103,
+        4.6565,
+        4.8237,
+        5.1961
+      ],
+      "predicted_oscillator_strengths": [
+        0.013007,
+        0.05471,
+        0.036149,
+        0.3526,
+        0.122652
+      ],
+      "timing": {
+        "xtb_s": 0.5149529166519642,
+        "xtb4stda_s": 0.44855685718357563,
+        "stda_s": 8.69029857777059,
+        "total_s": 9.722491597756743
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000539_CEDRELONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 539,
+        "name": "CEDRELONE",
+        "smiles": "CC1(C)C(=O)C=C[C@@]2(C)C1=C(O)C(=O)[C@]1(C)C2CC[C@@]2(C)[C@H](c3ccoc3)C[C@H]3O[C@]321",
+        "charge": 0,
+        "total_atoms": 61,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        3.7627,
+        3.9572,
+        4.1716,
+        4.3822,
+        5.3422
+      ],
+      "predicted_oscillator_strengths": [
+        0.246639,
+        0.029088,
+        0.022715,
+        0.01421,
+        0.001581
+      ],
+      "timing": {
+        "xtb_s": 3.677114924415946,
+        "xtb4stda_s": 0.992438867688179,
+        "stda_s": 892.7029631175101,
+        "total_s": 897.7199877351522
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000540_CEDROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 540,
+        "name": "CEDROL",
+        "smiles": "C[C@H]1CC[C@@H]2C(C)(C)C3CC12CC[C@]3(C)O",
+        "charge": 0,
+        "total_atoms": 42,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        7.4924,
+        8.2573,
+        8.4302,
+        8.5367,
+        8.6353
+      ],
+      "predicted_oscillator_strengths": [
+        0.010101,
+        0.00818,
+        0.01694,
+        0.001251,
+        0.005218
+      ],
+      "timing": {
+        "xtb_s": 0.7142692524939775,
+        "xtb4stda_s": 0.5696218144148588,
+        "stda_s": 42.777667904272676,
+        "total_s": 44.16192023269832
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000541_CEDRYL_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 541,
+        "name": "CEDRYL ACETATE",
+        "smiles": "CC(=O)O[C@@]1(C)CC[C@]23CC1C(C)(C)[C@H]2CC[C@@H]3C",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        6.0857,
+        7.7298,
+        8.0054,
+        8.3351,
+        8.5233
+      ],
+      "predicted_oscillator_strengths": [
+        0.005195,
+        0.015769,
+        0.095601,
+        0.005167,
+        0.017067
+      ],
+      "timing": {
+        "xtb_s": 1.1287212800234556,
+        "xtb4stda_s": 0.697949007153511,
+        "stda_s": 121.32160012796521,
+        "total_s": 123.26938909105957
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000542_CEFACLOR",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 542,
+        "name": "CEFACLOR",
+        "smiles": "N[C@H](C(=O)N[C@H]1C(=O)N2C(C(=O)O)=C(Cl)CS[C@@H]12)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        4.2466,
+        4.643,
+        5.0599,
+        5.1146,
+        5.2232
+      ],
+      "predicted_oscillator_strengths": [
+        0.194698,
+        0.062614,
+        0.010382,
+        0.001102,
+        0.094689
+      ],
+      "timing": {
+        "xtb_s": 4.12279874458909,
+        "xtb4stda_s": 0.6438540406525135,
+        "stda_s": 137.8107950873673,
+        "total_s": 142.68432307615876
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000544_CEFAMANDOLE_NAFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 544,
+        "name": "CEFAMANDOLE NAFATE",
+        "smiles": "Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)C(NC(=O)C(OC=O)c3ccccc3)C2SC1",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 33
+      },
+      "predicted_excitation_energies_eV": [
+        4.5256,
+        5.0626,
+        5.1294,
+        5.2457,
+        5.4817
+      ],
+      "predicted_oscillator_strengths": [
+        0.460481,
+        0.009847,
+        0.000115,
+        0.002636,
+        0.078637
+      ],
+      "timing": {
+        "xtb_s": 12.145642768591642,
+        "xtb4stda_s": 0.7674023564904928,
+        "stda_s": 782.7308967318386,
+        "total_s": 795.7933045569807
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000545_CEFAMANDOLE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 545,
+        "name": "CEFAMANDOLE SODIUM",
+        "smiles": "Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)C(NC(=O)C(O)c3ccccc3)C2SC1",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        3.6901,
+        4.1508,
+        4.8008,
+        5.0402,
+        5.1263
+      ],
+      "predicted_oscillator_strengths": [
+        0.170882,
+        0.078072,
+        0.003277,
+        0.051071,
+        0.001493
+      ],
+      "timing": {
+        "xtb_s": 11.149907803162932,
+        "xtb4stda_s": 0.8610433768481016,
+        "stda_s": 605.2489231824875,
+        "total_s": 617.4041737355292
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000546_CEFCAPENE_PIVOXIL_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 546,
+        "name": "CEFCAPENE PIVOXIL HYDROCHLORIDE",
+        "smiles": "CC/C=C(/C(=O)N[C@H]1C(=O)N2C(C(=O)OCOC(=O)C(C)(C)C)=C(COC(N)=O)CS[C@@H]12)c1csc(N)n1",
+        "total_atoms": 67,
+        "heavy_atoms": 38
+      },
+      "energies_eV": [
+        3.8923,
+        4.0923,
+        4.161,
+        4.2671,
+        4.7552
+      ],
+      "oscillator_strengths": [
+        0.056129,
+        0.088328,
+        0.105332,
+        0.060095,
+        0.159531
+      ],
+      "timing": {
+        "xtb_opt_s": 28.523821711540222,
+        "xtb4stda_s": 0.16381904669106007,
+        "stda_s": 2840.272329101339,
+        "total_s": 2868.9599698595703
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000547_CEFDINIR",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 547,
+        "name": "CEFDINIR",
+        "smiles": "C=CC1=C(C(=O)O)N2C(=O)[C@H](NC(=O)/C(=N\\O)c3csc(N)n3)[C@@H]2SC1",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        3.9257,
+        4.1041,
+        4.1906,
+        4.5509,
+        4.8089
+      ],
+      "predicted_oscillator_strengths": [
+        0.57468,
+        0.088366,
+        0.133959,
+        0.07979,
+        0.22825
+      ],
+      "timing": {
+        "xtb_s": 3.564716588705778,
+        "xtb4stda_s": 0.6364945769309998,
+        "stda_s": 196.33985213935375,
+        "total_s": 200.65750813484192
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000550_CEFIXIME",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 550,
+        "name": "CEFIXIME",
+        "smiles": "C=CC1=C(C(=O)O)N2C(=O)C(NC(=O)/C(=N/OCC(=O)O)c3csc(N)n3)C2SC1",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        3.6229,
+        3.7915,
+        4.1409,
+        4.3681,
+        4.423
+      ],
+      "predicted_oscillator_strengths": [
+        0.171147,
+        0.595978,
+        0.032775,
+        0.037707,
+        0.07414
+      ],
+      "timing": {
+        "xtb_s": 9.301916478201747,
+        "xtb4stda_s": 0.8169495929032564,
+        "stda_s": 468.13420219160616,
+        "total_s": 478.3877751789987
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000551_CEFMETAZOLE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 551,
+        "name": "CEFMETAZOLE SODIUM",
+        "smiles": "CO[C@]1(NC(=O)CSCC#N)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CSC21",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.0392,
+        4.5264,
+        5.1969,
+        5.2246,
+        5.2401
+      ],
+      "predicted_oscillator_strengths": [
+        0.319879,
+        0.053518,
+        0.172555,
+        0.051125,
+        0.012111
+      ],
+      "timing": {
+        "xtb_s": 5.603571847081184,
+        "xtb4stda_s": 0.7644432168453932,
+        "stda_s": 408.6617735493928,
+        "total_s": 415.16415600664914
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000552_CEFONICID_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 552,
+        "name": "CEFONICID SODIUM",
+        "smiles": "O=C(O)C1=C(CSc2nnnn2CS(=O)(=O)O)CS[C@H]2C(NC(=O)[C@@H](O)c3ccccc3)C(=O)N12",
+        "total_atoms": 53,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        3.9053,
+        4.3341,
+        4.7606,
+        4.9586,
+        5.093
+      ],
+      "oscillator_strengths": [
+        0.186193,
+        0.068559,
+        0.168581,
+        0.005595,
+        0.00033
+      ],
+      "timing": {
+        "xtb_opt_s": 11.774719163775444,
+        "xtb4stda_s": 0.07337926886975765,
+        "stda_s": 1304.2441346868873,
+        "total_s": 1316.0922331195325
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000554_CEFORANIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 554,
+        "name": "CEFORANIDE",
+        "smiles": "NCc1ccccc1CC(=O)NC1C(=O)N2C(C(=O)O)=C(CSc3nnnn3CC(=O)O)CSC12",
+        "total_atoms": 56,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        4.0077,
+        4.6307,
+        5.0729,
+        5.1213,
+        5.2303
+      ],
+      "oscillator_strengths": [
+        0.163593,
+        0.005546,
+        0.0002,
+        0.030381,
+        0.079419
+      ],
+      "timing": {
+        "xtb_opt_s": 28.88851614482701,
+        "xtb4stda_s": 0.08100187219679356,
+        "stda_s": 1228.0495039522648,
+        "total_s": 1257.0190219692886
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000555_CEFOTETAN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 555,
+        "name": "CEFOTETAN",
+        "smiles": "CO[C@]1(NC(=O)C2SC(C(C(N)=O)C(=O)O)S2)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CSC21",
+        "total_atoms": 55,
+        "heavy_atoms": 36
+      },
+      "energies_eV": [
+        4.1362,
+        4.5721,
+        5.0654,
+        5.3874,
+        5.4376
+      ],
+      "oscillator_strengths": [
+        0.34087,
+        0.069273,
+        0.316606,
+        0.049268,
+        0.024216
+      ],
+      "timing": {
+        "xtb_opt_s": 20.687817316502333,
+        "xtb4stda_s": 0.07827785052359104,
+        "stda_s": 1637.6813051477075,
+        "total_s": 1658.4474003147334
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000556_CEFOXITIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 556,
+        "name": "CEFOXITIN SODIUM",
+        "smiles": "CO[C@]1(NC(=O)Cc2cccs2)C(=O)N2C(C(=O)O)=C(COC(N)=O)CS[C@H]21",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        4.3588,
+        4.7141,
+        4.9418,
+        5.2944,
+        5.3261
+      ],
+      "predicted_oscillator_strengths": [
+        0.196336,
+        0.021116,
+        0.061861,
+        0.096381,
+        0.201558
+      ],
+      "timing": {
+        "xtb_s": 3.1310522314161062,
+        "xtb4stda_s": 0.7372663468122482,
+        "stda_s": 325.11662871204317,
+        "total_s": 329.13812641240656
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000557_CEFPIRAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 557,
+        "name": "CEFPIRAMIDE",
+        "smiles": "Cc1cc(O)c(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CSC23)c2ccc(O)cc2)cn1",
+        "total_atoms": 66,
+        "heavy_atoms": 42
+      },
+      "energies_eV": [
+        3.9893,
+        4.6354,
+        4.6388,
+        4.8542,
+        4.8845
+      ],
+      "oscillator_strengths": [
+        0.232529,
+        0.138944,
+        0.046193,
+        0.012727,
+        0.04532
+      ],
+      "timing": {
+        "xtb_opt_s": 24.117760226130486,
+        "xtb4stda_s": 0.11446252092719078,
+        "stda_s": 3166.6606046408415,
+        "total_s": 3190.892827387899
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000558_CEFPODOXIME_PROXETIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 558,
+        "name": "CEFPODOXIME PROXETIL",
+        "smiles": "COCC1=C(C(=O)OC(C)OC(=O)OC(C)C)N2C(=O)[C@H](NC(=O)/C(=N/OC)c3csc(N)n3)[C@@H]2SC1",
+        "total_atoms": 64,
+        "heavy_atoms": 37
+      },
+      "energies_eV": [
+        3.9575,
+        3.9786,
+        4.0212,
+        4.2574,
+        4.5511
+      ],
+      "oscillator_strengths": [
+        0.154757,
+        0.143929,
+        0.011954,
+        0.019321,
+        0.012769
+      ],
+      "timing": {
+        "xtb_opt_s": 18.66757899709046,
+        "xtb4stda_s": 0.10293855331838131,
+        "stda_s": 2503.797231057659,
+        "total_s": 2522.5677486080676
+      },
+      "stda_energy_window_eV": 30.0
     }
   ]
 }
