@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_I",
   "shard_index": 10,
-  "n_records": 48,
+  "n_records": 47,
   "records": [
     {
       "status": "success",
@@ -1489,20 +1489,40 @@
       "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
-      "label": "dataset_I_000621_SRI-0000660.txt",
+      "status": "success",
+      "label": "dataset_I_000034_SRI-1053290-001.txt",
       "metadata": {
         "dataset": "dataset_I",
-        "dataset_row": 621,
-        "name": "SRI-0000660.txt",
-        "smiles": "CNC(=O)NCC1OC(COC(C)=O)(OC2OC(CNC(C)=O)C(O)C(OC(C)=O)C2OC(C)=O)C(OC(C)=O)C1OC(C)=O",
-        "total_atoms": 84,
-        "heavy_atoms": 45
+        "dataset_row": 34,
+        "name": "SRI-1053290-001.txt",
+        "smiles": "C[C@H](NC(=O)N1C[C@@H]2C[C@@H](C1)c1cccc(=O)n1C2)C(O)=O",
+        "total_atoms": 41,
+        "heavy_atoms": 22
       },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 3600 seconds"
+      "energies_eV": [
+        4.1548,
+        5.3442,
+        5.3613,
+        5.4981,
+        5.5327
+      ],
+      "oscillator_strengths": [
+        0.281251,
+        0.001481,
+        0.002533,
+        0.003559,
+        0.006584
+      ],
+      "timing": {
+        "xtb_opt_s": 3.5656412206590176,
+        "xtb4stda_s": 0.8615432940423489,
+        "stda_s": 94.06712136417627,
+        "total_s": 98.49430587887764
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_I_000936_SRI-0000648.txt",
       "metadata": {
         "dataset": "dataset_I",
@@ -1512,20 +1532,27 @@
         "total_atoms": 79,
         "heavy_atoms": 45
       },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 3600 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_I_000827_SRI-0000643.txt",
-      "metadata": {
-        "dataset": "dataset_I",
-        "dataset_row": 827,
-        "name": "SRI-0000643.txt",
-        "smiles": "CC(C)COC(=O)OCC1OC(COC(C)=O)(OC2OC(COC(=O)OCC(C)C)C(OC(C)=O)C(OC(C)=O)C2OC(C)=O)C(OC(C)=O)C1OC(C)=O",
-        "total_atoms": 105,
-        "heavy_atoms": 55
+      "energies_eV": [
+        5.1143,
+        5.1503,
+        5.1602,
+        5.7858,
+        5.8787
+      ],
+      "oscillator_strengths": [
+        0.000245,
+        7.1e-05,
+        6.4e-05,
+        0.00889,
+        0.009662
+      ],
+      "timing": {
+        "xtb_opt_s": 18.21524415537715,
+        "xtb4stda_s": 1.5748958606272936,
+        "stda_s": 4839.579200016335,
+        "total_s": 4859.369340032339
       },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 3600 seconds"
+      "stda_energy_window_eV": 30.0
     }
   ]
 }
