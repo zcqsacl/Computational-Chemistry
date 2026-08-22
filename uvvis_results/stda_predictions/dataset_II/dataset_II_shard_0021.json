@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 29,
+  "n_records": 45,
   "records": [
     {
       "status": "success",
@@ -937,6 +937,534 @@
         "xtb4stda_s": 1.4410555716603994,
         "stda_s": 3979.1134610436857,
         "total_s": 3989.881117168814
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001534_OLMESARTAN_MEDOXOMIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1534,
+        "name": "OLMESARTAN MEDOXOMIL",
+        "smiles": "CCCc1nc(C(C)(C)O)c(C(=O)OCc2oc(=O)oc2C)n1Cc1ccc(-c2ccccc2-c2nn[nH]n2)cc1",
+        "total_atoms": 71,
+        "heavy_atoms": 41
+      },
+      "energies_eV": [
+        4.5161,
+        4.7751,
+        5.058,
+        5.0838,
+        5.1586
+      ],
+      "oscillator_strengths": [
+        0.324585,
+        0.036063,
+        0.189115,
+        0.052767,
+        0.025589
+      ],
+      "timing": {
+        "xtb_opt_s": 9.956633927300572,
+        "xtb4stda_s": 1.3504048716276884,
+        "stda_s": 4171.1535930633545,
+        "total_s": 4182.460631862283
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001671_PIPENZOLATE_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1671,
+        "name": "PIPENZOLATE BROMIDE",
+        "smiles": "CC[N+]1(C)CCCC(OC(=O)C(O)(c2ccccc2)c2ccccc2)C1",
+        "total_atoms": 54,
+        "heavy_atoms": 26
+      },
+      "energies_eV": [
+        0.347,
+        0.9209,
+        1.4741,
+        1.8183,
+        2.5093
+      ],
+      "oscillator_strengths": [
+        0.002176,
+        0.128825,
+        0.000476,
+        0.148607,
+        0.000404
+      ],
+      "timing": {
+        "xtb_opt_s": 3.7296771220862865,
+        "xtb4stda_s": 1.010602056980133,
+        "stda_s": 4355.303322646767,
+        "total_s": 4360.043601825833
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000332_ARTHONOIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 332,
+        "name": "ARTHONOIC ACID",
+        "smiles": "CCCCCC(=O)Cc1cc(O)cc(O)c1C(=O)Oc1cc(CC(=O)CCCCC)c(C(=O)O)c(OC)c1",
+        "total_atoms": 74,
+        "heavy_atoms": 38
+      },
+      "energies_eV": [
+        4.1717,
+        4.3569,
+        4.5206,
+        4.623,
+        4.7712
+      ],
+      "oscillator_strengths": [
+        0.278323,
+        0.134529,
+        0.002839,
+        0.003898,
+        0.343888
+      ],
+      "timing": {
+        "xtb_opt_s": 19.157548248767853,
+        "xtb4stda_s": 1.2977229841053486,
+        "stda_s": 4397.602010654286,
+        "total_s": 4418.057281887159
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000390_BENZALKONIUM_CHLORIDE_HYDRATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 390,
+        "name": "BENZALKONIUM CHLORIDE HYDRATE",
+        "smiles": "CCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1",
+        "total_atoms": 63,
+        "heavy_atoms": 23
+      },
+      "energies_eV": [
+        1.1049,
+        2.0093,
+        2.0768,
+        2.5027,
+        2.9407
+      ],
+      "oscillator_strengths": [
+        0.00381,
+        0.046569,
+        0.01177,
+        0.016307,
+        0.040321
+      ],
+      "timing": {
+        "xtb_opt_s": 2.0641796607524157,
+        "xtb4stda_s": 1.1551547702401876,
+        "stda_s": 4610.327883480117,
+        "total_s": 4613.547217911109
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000536_CASANTHRANOL_cascaroside_A_shown_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 536,
+        "name": "CASANTHRANOL [cascaroside A shown]",
+        "smiles": "O=C1c2c(O)cc(CO)cc2[C@@H](O[C@H]2O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]2O)c2cccc(O[C@H]3O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]3O)c21",
+        "total_atoms": 74,
+        "heavy_atoms": 42
+      },
+      "energies_eV": [
+        3.3769,
+        3.588,
+        3.8379,
+        4.4689,
+        4.9876
+      ],
+      "oscillator_strengths": [
+        0.243981,
+        0.085002,
+        0.153631,
+        0.054404,
+        0.070513
+      ],
+      "timing": {
+        "xtb_opt_s": 14.416405759751797,
+        "xtb4stda_s": 1.3149958159774542,
+        "stda_s": 4723.9661253765225,
+        "total_s": 4739.697526952252
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000950_ETOPOSIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 950,
+        "name": "ETOPOSIDE",
+        "smiles": "COc1cc([C@H]2c3cc4c(cc3C(OC3O[C@H]5COC(C)O[C@@H]5[C@@H](O)[C@@H]3O)C3COC(=O)[C@H]32)OCO4)cc(OC)c1O",
+        "total_atoms": 74,
+        "heavy_atoms": 42
+      },
+      "energies_eV": [
+        4.5252,
+        4.5735,
+        4.8863,
+        5.0882,
+        5.2616
+      ],
+      "oscillator_strengths": [
+        0.090415,
+        0.020854,
+        0.003814,
+        0.181874,
+        0.076322
+      ],
+      "timing": {
+        "xtb_opt_s": 27.328826462849975,
+        "xtb4stda_s": 1.49057275056839,
+        "stda_s": 4715.760585499927,
+        "total_s": 4744.579984713346
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000548_CEFDITORIN_PIVOXIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 548,
+        "name": "CEFDITORIN PIVOXIL",
+        "smiles": "CO/N=C(\\C(=O)NC1C(=O)N2C(C(=O)OCOC(=O)C(C)(C)C)=C(/C=C\\c3scnc3C)CSC12)c1csc(N)n1",
+        "total_atoms": 69,
+        "heavy_atoms": 41
+      },
+      "energies_eV": [
+        3.3083,
+        4.1554,
+        4.2638,
+        4.4064,
+        4.4287
+      ],
+      "oscillator_strengths": [
+        0.269576,
+        0.036812,
+        0.242266,
+        0.157132,
+        0.016167
+      ],
+      "timing": {
+        "xtb_opt_s": 33.53954029455781,
+        "xtb4stda_s": 1.3968419712036848,
+        "stda_s": 4738.064751626924,
+        "total_s": 4773.001133892685
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001560_OXIGLUTATIONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1560,
+        "name": "OXIGLUTATIONE",
+        "smiles": "N[C@@H](CCC(=O)N[C@@H](CSSC[C@H](NC(=O)CC[C@H](N)C(=O)O)C(=O)NCC(=O)O)C(=O)NCC(=O)O)C(=O)O",
+        "total_atoms": 72,
+        "heavy_atoms": 40
+      },
+      "energies_eV": [
+        5.4952,
+        5.5632,
+        5.6416,
+        5.6769,
+        5.7767
+      ],
+      "oscillator_strengths": [
+        0.004007,
+        0.004377,
+        0.004293,
+        0.010728,
+        0.004462
+      ],
+      "timing": {
+        "xtb_opt_s": 21.546302910894156,
+        "xtb4stda_s": 1.2727810349315405,
+        "stda_s": 4833.661694096401,
+        "total_s": 4856.480778042227
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000491_CALCEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 491,
+        "name": "CALCEIN",
+        "smiles": "O=C(O)CN(CC(=O)O)Cc1cc2c(cc1O)Oc1cc(O)c(CN(CC(=O)O)CC(=O)O)cc1C21OC(=O)c2ccccc21",
+        "total_atoms": 71,
+        "heavy_atoms": 45
+      },
+      "energies_eV": [
+        4.7004,
+        4.7262,
+        4.8735,
+        4.8871,
+        5.0403
+      ],
+      "oscillator_strengths": [
+        0.009717,
+        0.224364,
+        0.038074,
+        0.011226,
+        0.004036
+      ],
+      "timing": {
+        "xtb_opt_s": 13.954940170049667,
+        "xtb4stda_s": 1.3962570689618587,
+        "stda_s": 5038.713797420263,
+        "total_s": 5054.064994659275
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001471_NARINGIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1471,
+        "name": "NARINGIN",
+        "smiles": "C[C@@H]1O[C@@H](O[C@@H]2[C@@H](O)[C@H](O)[C@@H](CO)O[C@@H]2Oc2cc(O)c3c(c2)O[C@H](c2ccc(O)cc2)CC3=O)[C@H](O)[C@H](O)[C@H]1O",
+        "total_atoms": 73,
+        "heavy_atoms": 41
+      },
+      "energies_eV": [
+        4.0069,
+        4.4172,
+        4.5716,
+        4.8959,
+        5.569
+      ],
+      "oscillator_strengths": [
+        0.061629,
+        0.004988,
+        0.308937,
+        0.032301,
+        0.138477
+      ],
+      "timing": {
+        "xtb_opt_s": 9.829158000648022,
+        "xtb4stda_s": 1.394197704270482,
+        "stda_s": 5050.615029385313,
+        "total_s": 5061.838385090232
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001571_OXYPHENONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1571,
+        "name": "OXYPHENONIUM BROMIDE",
+        "smiles": "CC[N+](C)(CC)CCOC(=O)[C@](O)(c1ccccc1)C1CCCCC1",
+        "total_atoms": 59,
+        "heavy_atoms": 25
+      },
+      "energies_eV": [
+        0.9783,
+        1.3219,
+        2.1237,
+        2.3319,
+        2.69
+      ],
+      "oscillator_strengths": [
+        0.007688,
+        0.048837,
+        0.001276,
+        0.006119,
+        0.001835
+      ],
+      "timing": {
+        "xtb_opt_s": 3.8642303682863712,
+        "xtb4stda_s": 1.039504051208496,
+        "stda_s": 5126.767432341352,
+        "total_s": 5131.671166760847
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000543_CEFALONIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 543,
+        "name": "CEFALONIUM",
+        "smiles": "NC(=O)c1cc[n+](CC2=C(C(=O)O)N3C(=O)[C@H](NC(=O)Cc4cccs4)[C@@H]3SC2)cc1",
+        "total_atoms": 50,
+        "heavy_atoms": 31
+      },
+      "energies_eV": [
+        0.7214,
+        1.441,
+        2.511,
+        2.6571,
+        3.1259
+      ],
+      "oscillator_strengths": [
+        0.000429,
+        0.02017,
+        0.001176,
+        0.073834,
+        0.060906
+      ],
+      "timing": {
+        "xtb_opt_s": 11.592923130840063,
+        "xtb4stda_s": 1.0857898965477943,
+        "stda_s": 5170.87147314474,
+        "total_s": 5183.550186172128
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001726_PROPANTHELINE_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1726,
+        "name": "PROPANTHELINE BROMIDE",
+        "smiles": "CC(C)[N+](C)(CCOC(=O)C1c2ccccc2Oc2ccccc21)C(C)C",
+        "total_atoms": 57,
+        "heavy_atoms": 27
+      },
+      "energies_eV": [
+        0.1233,
+        1.0493,
+        1.2136,
+        1.4781,
+        1.6737
+      ],
+      "oscillator_strengths": [
+        0.000316,
+        0.014443,
+        0.087617,
+        0.017969,
+        0.130591
+      ],
+      "timing": {
+        "xtb_opt_s": 12.746630396693945,
+        "xtb4stda_s": 1.2208400666713715,
+        "stda_s": 5381.194033520296,
+        "total_s": 5395.1615039836615
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001844_RUTIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1844,
+        "name": "RUTIN",
+        "smiles": "C[C@H]1O[C@H](OC[C@@H]2OC(Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@@H](O)[C@H](O)[C@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+        "total_atoms": 73,
+        "heavy_atoms": 43
+      },
+      "energies_eV": [
+        3.7267,
+        4.1431,
+        4.3718,
+        4.4671,
+        4.6003
+      ],
+      "oscillator_strengths": [
+        0.485325,
+        0.133747,
+        0.014032,
+        0.015223,
+        0.102757
+      ],
+      "timing": {
+        "xtb_opt_s": 21.90700974687934,
+        "xtb4stda_s": 1.4460922870784998,
+        "stda_s": 5476.449656799436,
+        "total_s": 5499.802758833393
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000553_CEFOPERAZONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 553,
+        "name": "CEFOPERAZONE",
+        "smiles": "CCN1CCN(C(=O)NC(C(=O)NC2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CSC23)c2ccc(O)cc2)C(=O)C1=O",
+        "total_atoms": 71,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        4.1785,
+        4.4011,
+        4.6047,
+        4.857,
+        4.9544
+      ],
+      "oscillator_strengths": [
+        0.236267,
+        0.005659,
+        0.085096,
+        0.031346,
+        0.092921
+      ],
+      "timing": {
+        "xtb_opt_s": 10.049466935917735,
+        "xtb4stda_s": 1.3698422126471996,
+        "stda_s": 5696.724850725383,
+        "total_s": 5708.1441598739475
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_002139_TROSPIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2139,
+        "name": "TROSPIUM CHLORIDE",
+        "smiles": "O=C(OC1CC2CCC(C1)[N+]21CCCC1)C(O)(c1ccccc1)c1ccccc1",
+        "total_atoms": 59,
+        "heavy_atoms": 29
+      },
+      "energies_eV": [
+        0.9238,
+        1.1507,
+        1.3341,
+        1.8381,
+        2.2318
+      ],
+      "oscillator_strengths": [
+        0.052541,
+        0.007787,
+        0.055617,
+        0.026585,
+        0.000488
+      ],
+      "timing": {
+        "xtb_opt_s": 5.76185535825789,
+        "xtb4stda_s": 1.2795851714909077,
+        "stda_s": 6320.097059190273,
+        "total_s": 6327.138499720022
       },
       "stda_energy_window_eV": 30.0
     }
