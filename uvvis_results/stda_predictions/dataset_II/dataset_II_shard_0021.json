@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 70,
+  "n_records": 76,
   "records": [
     {
       "status": "success",
@@ -2212,6 +2212,164 @@
         "total_s": 8044.1388992108405
       },
       "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000437_BILIRUBIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 437,
+        "name": "BILIRUBIN",
+        "smiles": "C=CC1=C(C)/C(=C/c2[nH]c(Cc3[nH]c(/C=C4\\NC(=O)C(C)=C4C=C)c(C)c3CCC(=O)O)c(CCC(=O)O)c2C)NC1=O",
+        "total_atoms": 79,
+        "heavy_atoms": 43
+      },
+      "energies_eV": [
+        2.84,
+        3.0674,
+        3.6612,
+        3.7443,
+        4.1228
+      ],
+      "oscillator_strengths": [
+        0.494285,
+        1.026621,
+        0.288825,
+        0.428864,
+        0.009872
+      ],
+      "timing": {
+        "xtb_opt_s": 15.550259796902537,
+        "xtb4stda_s": 1.658546218648553,
+        "stda_s": 6280.461515575647,
+        "total_s": 6297.670321591198
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000507_CAPRYILIDENE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 507,
+        "name": "CAPRYILIDENE",
+        "smiles": "CCCCCCCC(=O)OCC(COC(=O)CCCCCCC)OC(=O)CCCCCCC",
+        "total_atoms": 83,
+        "heavy_atoms": 33
+      },
+      "energies_eV": [
+        6.2215,
+        6.2467,
+        6.2865,
+        7.8158,
+        7.9502
+      ],
+      "oscillator_strengths": [
+        0.004692,
+        0.006695,
+        0.006418,
+        0.026121,
+        0.057671
+      ],
+      "timing": {
+        "xtb_opt_s": 25.97872439213097,
+        "xtb4stda_s": 1.5594316702336073,
+        "stda_s": 3977.7743495479226,
+        "total_s": 4005.312505610287
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001393_METHYLBENZETHONIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1393,
+        "name": "METHYLBENZETHONIUM CHLORIDE",
+        "smiles": "Cc1cc(C(C)(C)CC(C)(C)C)ccc1OCCOCC[N+](C)(C)Cc1ccccc1",
+        "total_atoms": 75,
+        "heavy_atoms": 31
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001924_STREPTOMYCIN_SULFATE_5mM_10_aq_DMSO_5mM_ethanolamine_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1924,
+        "name": "STREPTOMYCIN SULFATE [5mM; 10% aq DMSO + 5mM ethanolamine]",
+        "smiles": "CN[C@H]1[C@@H](OC2[C@@H](O[C@@H]3[C@@H](O)[C@H](O)[C@@H](NC(=N)N)[C@H](O)[C@H]3NC(=N)N)O[C@H](C)[C@@]2(O)C=O)O[C@H](CO)[C@@H](O)[C@@H]1O",
+        "total_atoms": 79,
+        "heavy_atoms": 40
+      },
+      "energies_eV": [
+        4.3179,
+        4.9083,
+        5.2005,
+        5.5179,
+        5.6444
+      ],
+      "oscillator_strengths": [
+        0.002588,
+        0.08244,
+        0.079237,
+        0.0701,
+        0.046729
+      ],
+      "timing": {
+        "xtb_opt_s": 15.40040073171258,
+        "xtb4stda_s": 1.7876906972378492,
+        "stda_s": 6079.808762777597,
+        "total_s": 6096.996854206547
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000801_DIHYDROCELASTRYL_DIACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 801,
+        "name": "DIHYDROCELASTRYL DIACETATE",
+        "smiles": "CC(=O)Oc1cc2c(c(C)c1OC(C)=O)CC=C1[C@]2(C)CC[C@]2(C)C3C[C@@](C)(C(=O)O)CC[C@@]3(C)CC[C@@]12C",
+        "total_atoms": 83,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        4.7454,
+        5.3411,
+        5.8623,
+        5.9507,
+        6.044
+      ],
+      "oscillator_strengths": [
+        0.012067,
+        0.05191,
+        0.285979,
+        0.026458,
+        0.054284
+      ],
+      "timing": {
+        "xtb_opt_s": 13.599345788359642,
+        "xtb4stda_s": 1.785282053053379,
+        "stda_s": 4939.563263149932,
+        "total_s": 4954.947890991345
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000869_ELAIDYLPHOSPHOCHOLINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 869,
+        "name": "ELAIDYLPHOSPHOCHOLINE",
+        "smiles": "CCCCCCCC/C=C/CCCCCCCCO[P@@](=O)(O)OCC[N+](C)(C)C",
+        "total_atoms": 78,
+        "heavy_atoms": 29
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
     }
   ]
 }
