@@ -4,540 +4,7 @@
   "n_records": 100,
   "records": [
     {
-      "status": "failed",
-      "label": "dataset_II_000628_CINCHOPHEN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 628,
-        "name": "CINCHOPHEN",
-        "smiles": "O=C(O)c1cc(-c2ccccc2)nc2ccccc12",
-        "total_atoms": 30,
-        "heavy_atoms": 19
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000629_CINNARAZINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 629,
-        "name": "CINNARAZINE",
-        "smiles": "C(=C/N1CCN(C(c2ccccc2)c2ccccc2)CC1)\\Cc1ccccc1",
-        "total_atoms": 56,
-        "heavy_atoms": 28
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000630_CINOCTRAMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 630,
-        "name": "CINOCTRAMIDE",
-        "smiles": "COc1cc(/C=C/C(=O)N2CCCCCCC2)cc(OC)c1OC",
-        "total_atoms": 51,
-        "heavy_atoms": 24
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000631_CINROMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 631,
-        "name": "CINROMIDE",
-        "smiles": "CCNC(=O)/C=C/c1cccc(Br)c1",
-        "total_atoms": 26,
-        "heavy_atoms": 14
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000632_CINTRIAMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 632,
-        "name": "CINTRIAMIDE",
-        "smiles": "COc1cc(/C=C/C(N)=O)cc(OC)c1OC",
-        "total_atoms": 32,
-        "heavy_atoms": 17
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000633_CIPROFIBRATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 633,
-        "name": "CIPROFIBRATE",
-        "smiles": "CC(C)(Oc1ccc([C@H]2CC2(Cl)Cl)cc1)C(=O)O",
-        "total_atoms": 32,
-        "heavy_atoms": 18
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000634_CIPROFLOXACIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 634,
-        "name": "CIPROFLOXACIN",
-        "smiles": "O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
-        "total_atoms": 42,
-        "heavy_atoms": 24
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000635_CISPLATIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 635,
-        "name": "CISPLATIN",
-        "smiles": "Cl[Pt]Cl",
-        "total_atoms": 3,
-        "heavy_atoms": 3
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000636_CITALOPRAM_HYDROBROMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 636,
-        "name": "CITALOPRAM HYDROBROMIDE",
-        "smiles": "CN(C)CCC[C@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
-        "total_atoms": 45,
-        "heavy_atoms": 24
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000637_CITICOLINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 637,
-        "name": "CITICOLINE",
-        "smiles": "C[N+](C)(C)CCOP(=O)(O)OP(=O)(O)OC[C@@H]1OC(n2ccc(N)nc2=O)[C@@H](O)[C@H]1O",
-        "total_atoms": 58,
-        "heavy_atoms": 31
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000638_CITIOLONE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 638,
-        "name": "CITIOLONE",
-        "smiles": "CC(=O)N[C@H]1CCSC1=O",
-        "total_atoms": 19,
-        "heavy_atoms": 10
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000639_CITRIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 639,
-        "name": "CITRIC ACID",
-        "smiles": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
-        "total_atoms": 21,
-        "heavy_atoms": 13
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000640_CITRININ",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 640,
-        "name": "CITRININ",
-        "smiles": "CC1=C2C(=CO[C@@H](C)[C@@H]2C)C(O)=C(C(=O)O)C1=O",
-        "total_atoms": 32,
-        "heavy_atoms": 18
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000641_CITRONELLAL_R_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 641,
-        "name": "CITRONELLAL (R+)",
-        "smiles": "CC(C)=CCC[C@H](C)CC=O",
-        "total_atoms": 29,
-        "heavy_atoms": 11
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000642_CITROPTEN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 642,
-        "name": "CITROPTEN",
-        "smiles": "COc1cc(OC)c2ccc(=O)oc2c1",
-        "total_atoms": 25,
-        "heavy_atoms": 15
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000643_CITRULLINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 643,
-        "name": "CITRULLINE",
-        "smiles": "NC(=O)NCCC[C@H](N)C(=O)O",
-        "total_atoms": 25,
-        "heavy_atoms": 12
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000644_CLARITHROMYCIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 644,
-        "name": "CLARITHROMYCIN",
-        "smiles": "CC[C@@H]1OC(=O)[C@@H](C)[C@H](O[C@@H]2C[C@](C)(OC)[C@H](O)[C@@H](C)O2)[C@@H](C)[C@H](O[C@H]2O[C@@H](C)C[C@@H](N(C)C)[C@@H]2O)[C@@](C)(OC)C[C@H](C)C(=O)[C@@H](C)[C@H](O)[C@@]1(C)O",
-        "total_atoms": 121,
-        "heavy_atoms": 52
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000645_CLAVULANATE_LITHIUM",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 645,
-        "name": "CLAVULANATE LITHIUM",
-        "smiles": "O=C(O)[C@H]1/C(=C/CO)O[C@@H]2CC(=O)N21",
-        "total_atoms": 23,
-        "heavy_atoms": 14
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000646_CLEMIZOLE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 646,
-        "name": "CLEMIZOLE HYDROCHLORIDE",
-        "smiles": "Clc1ccc(Cn2c(CN3CCCC3)nc3ccccc32)cc1",
-        "total_atoms": 43,
-        "heavy_atoms": 23
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000647_CLENBUTEROL_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 647,
-        "name": "CLENBUTEROL HYDROCHLORIDE",
-        "smiles": "CC(C)(C)NC[C@H](O)c1cc(Cl)c(N)c(Cl)c1",
-        "total_atoms": 35,
-        "heavy_atoms": 17
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000648_CLEROCIDIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 648,
-        "name": "CLEROCIDIN",
-        "smiles": "C[C@@H]1CC[C@]2(C)C(C=O)=CCC[C@H]2[C@]1(C)CC1OC(O)C(=O)C12CO2",
-        "total_atoms": 53,
-        "heavy_atoms": 25
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000649_CLIMBAZOLE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 649,
-        "name": "CLIMBAZOLE",
-        "smiles": "CC(C)(C)C(=O)[C@H](Oc1ccc(Cl)cc1)n1ccnc1",
-        "total_atoms": 37,
-        "heavy_atoms": 20
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000650_CLINAFOXACIN_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 650,
-        "name": "CLINAFOXACIN HYDROCHLORIDE",
-        "smiles": "N[C@H]1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)C1",
-        "total_atoms": 42,
-        "heavy_atoms": 25
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000651_CLINDAMYCIN_PALMITATE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 651,
-        "name": "CLINDAMYCIN PALMITATE HYDROCHLORIDE",
-        "smiles": "CCCCCCCCCCCCCCCC(=O)O[C@@H]1[C@H](SC)OC([C@@H](NC(=O)[C@H]2C[C@H](CCC)CN2C)[C@@H](C)Cl)[C@@H](O)[C@H]1O",
-        "total_atoms": 107,
-        "heavy_atoms": 44
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000652_CLIOQUINOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 652,
-        "name": "CLIOQUINOL",
-        "smiles": "Oc1c(I)cc(Cl)c2cccnc12",
-        "total_atoms": 18,
-        "heavy_atoms": 13
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000653_CLOBETASOL_PROPIONATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 653,
-        "name": "CLOBETASOL PROPIONATE",
-        "smiles": "CCC(=O)O[C@]1(C(=O)CCl)[C@@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
-        "total_atoms": 64,
-        "heavy_atoms": 32
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000654_CLOFAZIMINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 654,
-        "name": "CLOFAZIMINE",
-        "smiles": "CC(C)/N=c1\\cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1",
-        "total_atoms": 55,
-        "heavy_atoms": 33
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000655_CLOFIBRATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 655,
-        "name": "CLOFIBRATE",
-        "smiles": "CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1",
-        "total_atoms": 31,
-        "heavy_atoms": 16
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000656_CLOFIBRIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 656,
-        "name": "CLOFIBRIC ACID",
-        "smiles": "CC(C)(Oc1ccc(Cl)cc1)C(=O)O",
-        "total_atoms": 25,
-        "heavy_atoms": 14
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000657_CLOFOCTOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 657,
-        "name": "CLOFOCTOL",
-        "smiles": "CC(C)(C)CC(C)(C)c1ccc(O)c(Cc2ccc(Cl)cc2Cl)c1",
-        "total_atoms": 50,
-        "heavy_atoms": 24
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000658_CLOMIPRAMINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 658,
-        "name": "CLOMIPRAMINE HYDROCHLORIDE",
-        "smiles": "CN(C)CCCN1c2ccccc2CCc2ccc(Cl)cc21",
-        "total_atoms": 45,
-        "heavy_atoms": 22
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000659_CLONIXIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 659,
-        "name": "CLONIXIN",
-        "smiles": "Cc1c(Cl)cccc1Nc1ncccc1C(=O)O",
-        "total_atoms": 29,
-        "heavy_atoms": 18
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000660_CLOPERASTINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 660,
-        "name": "CLOPERASTINE HYDROCHLORIDE",
-        "smiles": "Clc1ccc([C@@H](OCCN2CCCCC2)c2ccccc2)cc1",
-        "total_atoms": 47,
-        "heavy_atoms": 23
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000661_CLOPIDOGREL_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 661,
-        "name": "CLOPIDOGREL SULFATE",
-        "smiles": "COC(=O)[C@@H](c1ccccc1Cl)N1CCc2sccc2C1",
-        "total_atoms": 37,
-        "heavy_atoms": 21
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000662_CLOPIDOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 662,
-        "name": "CLOPIDOL",
-        "smiles": "Cc1nc(C)c(Cl)c(O)c1Cl",
-        "total_atoms": 18,
-        "heavy_atoms": 11
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000663_CLORGILINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 663,
-        "name": "CLORGILINE HYDROCHLORIDE",
-        "smiles": "C#CCN(C)CCCOc1ccc(Cl)cc1Cl",
-        "total_atoms": 32,
-        "heavy_atoms": 17
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000664_CLORSULON",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 664,
-        "name": "CLORSULON",
-        "smiles": "Nc1cc(C(Cl)=C(Cl)Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O",
-        "total_atoms": 28,
-        "heavy_atoms": 20
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000665_CLOSANTEL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 665,
-        "name": "CLOSANTEL",
-        "smiles": "Cc1cc([C@@H](C#N)c2ccc(Cl)cc2)c(Cl)cc1NC(=O)c1cc(I)cc(I)c1O",
-        "total_atoms": 44,
-        "heavy_atoms": 30
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000666_CLOZAPINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 666,
-        "name": "CLOZAPINE",
-        "smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1",
-        "total_atoms": 42,
-        "heavy_atoms": 23
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000667_COLCHICEINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 667,
-        "name": "COLCHICEINE",
-        "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(O)c(=O)cc1[C@@H](NC(C)=O)CC2",
-        "total_atoms": 51,
-        "heavy_atoms": 28
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000668_COLESEVALAM_HYDROCHLORIDE_high_mol_wt_copolymer_5mg_ml_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 668,
-        "name": "COLESEVALAM HYDROCHLORIDE (high mol wt copolymer @ 5mg/ml)",
-        "smiles": "CCCNCCCCCC[N+](C)(C)C",
-        "total_atoms": 43,
-        "heavy_atoms": 14
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000669_COLFORSIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -547,23 +14,30 @@
         "total_atoms": 63,
         "heavy_atoms": 29
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000670_COLISTIN_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 670,
-        "name": "COLISTIN SULFATE",
-        "smiles": "CCC(C)C1NC(=O)C(CCN)NC(=O)C(NC(=O)C(CCN)NC(=O)C(NC(=O)C(CCN)NC(=O)CCCCC(C)C)C(C)O)CCNC(=O)C(C(C)O)NC(=O)C(CCN)NC(=O)C(CCN)NC(=O)C(C(C)CC)NC1=O",
-        "total_atoms": 179,
-        "heavy_atoms": 81
+      "energies_eV": [
+        4.2132,
+        6.2041,
+        6.2757,
+        6.6578,
+        6.905
+      ],
+      "oscillator_strengths": [
+        0.001258,
+        0.005319,
+        0.049893,
+        0.045867,
+        0.007485
+      ],
+      "timing": {
+        "xtb_opt_s": 3.695014238357544,
+        "xtb4stda_s": 0.10146991163492203,
+        "stda_s": 1096.7991428896785,
+        "total_s": 1100.595627039671
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000671_CONESSINE",
       "metadata": {
         "dataset": "dataset_II",
@@ -573,10 +47,30 @@
         "total_atoms": 66,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        5.2229,
+        5.5711,
+        6.1255,
+        6.3309,
+        6.3337
+      ],
+      "oscillator_strengths": [
+        0.010841,
+        0.028598,
+        0.024859,
+        0.009201,
+        0.01958
+      ],
+      "timing": {
+        "xtb_opt_s": 4.001597695052624,
+        "xtb4stda_s": 0.1916403491050005,
+        "stda_s": 1023.7240941990167,
+        "total_s": 1027.9173322431743
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000672_CORTEXOLONE",
       "metadata": {
         "dataset": "dataset_II",
@@ -586,10 +80,30 @@
         "total_atoms": 55,
         "heavy_atoms": 25
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.0289,
+        4.4221,
+        5.3211,
+        5.9506,
+        6.6911
+      ],
+      "oscillator_strengths": [
+        0.000163,
+        0.001134,
+        0.563532,
+        0.067941,
+        0.004069
+      ],
+      "timing": {
+        "xtb_opt_s": 3.0279024057090282,
+        "xtb4stda_s": 0.08722804300487041,
+        "stda_s": 420.825308021158,
+        "total_s": 423.9404384698719
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000673_CORTISONE",
       "metadata": {
         "dataset": "dataset_II",
@@ -599,10 +113,30 @@
         "total_atoms": 54,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.6987,
+        4.5044,
+        4.6176,
+        5.2582,
+        5.9299
+      ],
+      "oscillator_strengths": [
+        0.000199,
+        0.001474,
+        0.003483,
+        0.515865,
+        0.004021
+      ],
+      "timing": {
+        "xtb_opt_s": 2.4756900873035192,
+        "xtb4stda_s": 0.08308683335781097,
+        "stda_s": 488.439808588475,
+        "total_s": 490.9985855091363
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000674_CORYNANTHINE",
       "metadata": {
         "dataset": "dataset_II",
@@ -612,88 +146,234 @@
         "total_atoms": 52,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.4121,
+        4.6233,
+        5.1951,
+        5.5792,
+        5.6927
+      ],
+      "oscillator_strengths": [
+        0.13921,
+        0.027168,
+        0.007799,
+        0.12238,
+        0.084412
+      ],
+      "timing": {
+        "xtb_opt_s": 2.4605132415890694,
+        "xtb4stda_s": 0.08979997225105762,
+        "stda_s": 434.8152166400105,
+        "total_s": 437.3655298538506
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000675_COTARNINE_CHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 675,
         "name": "COTARNINE CHLORIDE",
         "smiles": "COc1c2c(cc3c1OCO3)CC[N+](C)=C2",
+        "charge": 1,
         "total_atoms": 30,
         "heavy_atoms": 16
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        2.2987,
+        2.3916,
+        2.7611,
+        3.1011,
+        3.2136
+      ],
+      "predicted_oscillator_strengths": [
+        0.004445,
+        0.014307,
+        0.020331,
+        0.011631,
+        0.024273
+      ],
+      "timing": {
+        "xtb_s": 0.4246913269162178,
+        "xtb4stda_s": 0.5143974479287863,
+        "stda_s": 153.43970871530473,
+        "total_s": 154.473531126976
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000676_COUMARIN",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 676,
         "name": "COUMARIN",
         "smiles": "O=c1ccc2ccccc2o1",
+        "charge": 0,
         "total_atoms": 17,
         "heavy_atoms": 11
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.174,
+        4.8541,
+        5.1561,
+        5.7801,
+        6.1191
+      ],
+      "predicted_oscillator_strengths": [
+        0.190182,
+        0.291982,
+        0.000981,
+        0.067887,
+        0.479067
+      ],
+      "timing": {
+        "xtb_s": 0.29235114715993404,
+        "xtb4stda_s": 1.4328770451247692,
+        "stda_s": 1.211881298571825,
+        "total_s": 2.999536845833063
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000677_COUMOPHOS",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 677,
         "name": "COUMOPHOS",
         "smiles": "CCOP(=S)(OCC)Oc1ccc2c(C)c(Cl)c(=O)oc2c1",
+        "charge": 0,
         "total_atoms": 38,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.1299,
+        4.5632,
+        5.2164,
+        5.2697,
+        5.4109
+      ],
+      "predicted_oscillator_strengths": [
+        0.428988,
+        0.150248,
+        0.015857,
+        0.003849,
+        0.168408
+      ],
+      "timing": {
+        "xtb_s": 3.6673156823962927,
+        "xtb4stda_s": 0.6420484092086554,
+        "stda_s": 102.26640931144357,
+        "total_s": 106.67727738060057
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000678_CREATININE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 678,
         "name": "CREATININE",
         "smiles": "CN1CC(=O)NC1=N",
+        "charge": 0,
         "total_atoms": 15,
         "heavy_atoms": 8
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.6819,
+        4.8877,
+        5.4486,
+        5.7856,
+        6.0214
+      ],
+      "predicted_oscillator_strengths": [
+        0.077184,
+        0.024731,
+        0.057933,
+        0.015934,
+        0.015744
+      ],
+      "timing": {
+        "xtb_s": 0.3556110840290785,
+        "xtb4stda_s": 0.28926687128841877,
+        "stda_s": 0.6177280861884356,
+        "total_s": 1.3124189637601376
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000679_CRESOPIRINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 679,
         "name": "CRESOPIRINE",
         "smiles": "CC(=O)Oc1c(C)cccc1C(=O)O",
+        "charge": 0,
         "total_atoms": 24,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.5969,
+        5.4006,
+        5.4319,
+        6.0136,
+        6.3729
+      ],
+      "predicted_oscillator_strengths": [
+        0.05086,
+        0.003441,
+        0.069722,
+        0.166909,
+        0.396506
+      ],
+      "timing": {
+        "xtb_s": 0.7380327880382538,
+        "xtb4stda_s": 0.395716467872262,
+        "stda_s": 5.908135261386633,
+        "total_s": 7.113892089575529
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000680_CROTAMITON",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 680,
         "name": "CROTAMITON",
         "smiles": "C/C=C/C(=O)N(CC)c1ccccc1C",
+        "charge": 0,
         "total_atoms": 32,
         "heavy_atoms": 15
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.6673,
+        4.7419,
+        4.8157,
+        5.2581,
+        5.682
+      ],
+      "predicted_oscillator_strengths": [
+        0.306608,
+        0.039446,
+        0.006464,
+        0.038732,
+        0.030456
+      ],
+      "timing": {
+        "xtb_s": 1.005618678405881,
+        "xtb4stda_s": 0.49874354526400566,
+        "stda_s": 13.316577464342117,
+        "total_s": 15.569584818556905
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000681_CRUSTECDYSONE",
       "metadata": {
         "dataset": "dataset_II",
@@ -703,49 +383,132 @@
         "total_atoms": 78,
         "heavy_atoms": 34
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.9346,
+        5.1929,
+        5.9124,
+        6.4105,
+        6.5425
+      ],
+      "oscillator_strengths": [
+        0.002672,
+        0.435333,
+        0.016363,
+        0.0041,
+        0.073824
+      ],
+      "timing": {
+        "xtb_opt_s": 6.79426759108901,
+        "xtb4stda_s": 1.4964215364307165,
+        "stda_s": 2815.2299388237298,
+        "total_s": 2823.5206279512495
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000682_CRYOFLURANE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 682,
         "name": "CRYOFLURANE",
         "smiles": "FC(F)(Cl)C(F)(F)Cl",
+        "charge": 0,
         "total_atoms": 8,
         "heavy_atoms": 8
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        7.8136,
+        8.2378,
+        8.2801,
+        8.299,
+        8.8507
+      ],
+      "predicted_oscillator_strengths": [
+        0.013013,
+        0.009576,
+        0.016142,
+        0.007429,
+        0.010099
+      ],
+      "timing": {
+        "xtb_s": 0.7441660296171904,
+        "xtb4stda_s": 0.32647740095853806,
+        "stda_s": 1.4406052213162184,
+        "total_s": 2.558507513254881
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000683_CRYPTOTANSHINONE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 683,
         "name": "CRYPTOTANSHINONE",
         "smiles": "C[C@H]1COC2=C1C(=O)C(=O)c1c2ccc2c1CCCC2(C)C",
+        "charge": 0,
         "total_atoms": 42,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        1.8865,
+        2.3817,
+        3.4837,
+        4.1892,
+        4.7234
+      ],
+      "predicted_oscillator_strengths": [
+        0.012863,
+        0.05095,
+        0.107775,
+        0.18781,
+        0.094023
+      ],
+      "timing": {
+        "xtb_s": 1.61755215190351,
+        "xtb4stda_s": 0.6112999841570854,
+        "stda_s": 114.28652030788362,
+        "total_s": 117.3920904379338
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000684_CUELURE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 684,
         "name": "CUELURE",
         "smiles": "CC(=O)CCc1ccc(OC(C)=O)cc1",
+        "charge": 0,
         "total_atoms": 29,
         "heavy_atoms": 15
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.5744,
+        5.0064,
+        5.7304,
+        6.0428,
+        6.107
+      ],
+      "predicted_oscillator_strengths": [
+        0.000481,
+        0.008418,
+        0.25582,
+        0.006804,
+        0.011879
+      ],
+      "timing": {
+        "xtb_s": 1.0540922600775957,
+        "xtb4stda_s": 0.4310523606836796,
+        "stda_s": 9.601570256054401,
+        "total_s": 11.200765315443277
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000685_CURCUMIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -755,23 +518,64 @@
         "total_atoms": 47,
         "heavy_atoms": 27
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.3139,
+        3.9841,
+        4.0991,
+        4.1314,
+        4.3254
+      ],
+      "oscillator_strengths": [
+        1.109092,
+        0.430318,
+        0.019227,
+        0.024195,
+        0.019777
+      ],
+      "timing": {
+        "xtb_opt_s": 5.332533264532685,
+        "xtb4stda_s": 0.06278779543936253,
+        "stda_s": 250.57176588475704,
+        "total_s": 255.9670869447291
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000686_CYACETACIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 686,
         "name": "CYACETACIDE",
         "smiles": "N#CCC(=O)NN",
+        "charge": 0,
         "total_atoms": 12,
         "heavy_atoms": 7
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.3655,
+        5.7845,
+        5.9254,
+        6.355,
+        6.8195
+      ],
+      "predicted_oscillator_strengths": [
+        0.039466,
+        0.087037,
+        0.013835,
+        0.013814,
+        0.004027
+      ],
+      "timing": {
+        "xtb_s": 0.39346114359796047,
+        "xtb4stda_s": 0.27542334236204624,
+        "stda_s": 0.4566113483160734,
+        "total_s": 1.1706339213997126
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000687_CYANIDIN_CHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -781,101 +585,234 @@
         "total_atoms": 32,
         "heavy_atoms": 21
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000688_CYANOCOBALAMIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 688,
-        "name": "CYANOCOBALAMIN",
-        "smiles": "C/C1=C2/N=C(/C=C3\\N=C(/C(C)=C4\\N=C(C(CC(N)=O)C4(C)CCC(=O)NCC(C)OP(=O)(O)O[C@H]4[C@H](CO)OC(n5c[n+]([Co]C#N)c6cc(C)c(C)cc65)[C@H]4O)C4(C)N=C1C(CCC(N)=O)C4(C)CC(N)=O)C(CCC(N)=O)C3(C)C)C(CCC(N)=O)C2(C)CC(N)=O",
-        "total_atoms": 181,
-        "heavy_atoms": 93
+      "energies_eV": [
+        2.2964,
+        2.8987,
+        3.3797,
+        3.6255,
+        3.7006
+      ],
+      "oscillator_strengths": [
+        0.024747,
+        0.001772,
+        0.239211,
+        0.38733,
+        0.188832
+      ],
+      "timing": {
+        "xtb_opt_s": 1.3826005775481462,
+        "xtb4stda_s": 0.06919657625257969,
+        "stda_s": 306.32863269001245,
+        "total_s": 307.7804298438132
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000689_CYCLAMIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 689,
         "name": "CYCLAMIC ACID",
         "smiles": "O=S(=O)(O)NC1CCCCC1",
+        "charge": 0,
         "total_atoms": 24,
         "heavy_atoms": 11
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        6.4631,
+        7.216,
+        7.4057,
+        7.4999,
+        7.9534
+      ],
+      "predicted_oscillator_strengths": [
+        0.024925,
+        0.010151,
+        0.001904,
+        0.074266,
+        0.007466
+      ],
+      "timing": {
+        "xtb_s": 0.9089841190725565,
+        "xtb4stda_s": 0.4144236221909523,
+        "stda_s": 3.1216866802424192,
+        "total_s": 4.507346557453275
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000690_CYCLANDELATE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 690,
         "name": "CYCLANDELATE",
         "smiles": "CC1CC(OC(=O)C(O)c2ccccc2)CC(C)(C)C1",
+        "charge": 0,
         "total_atoms": 44,
         "heavy_atoms": 20
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.1012,
+        5.5609,
+        6.1413,
+        6.7308,
+        6.7995
+      ],
+      "predicted_oscillator_strengths": [
+        0.00011,
+        0.096686,
+        0.01275,
+        0.024839,
+        0.02493
+      ],
+      "timing": {
+        "xtb_s": 1.341494245454669,
+        "xtb4stda_s": 1.3171649109572172,
+        "stda_s": 105.00797073356807,
+        "total_s": 107.78145876899362
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000691_CYCLOBENZAPRINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 691,
         "name": "CYCLOBENZAPRINE HYDROCHLORIDE",
         "smiles": "CN(C)CCC=C1c2ccccc2C=Cc2ccccc21",
+        "charge": 0,
         "total_atoms": 42,
         "heavy_atoms": 21
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        3.9162,
+        4.4672,
+        4.6619,
+        5.2459,
+        5.2566
+      ],
+      "predicted_oscillator_strengths": [
+        0.202221,
+        0.025736,
+        0.109821,
+        0.326961,
+        0.402928
+      ],
+      "timing": {
+        "xtb_s": 2.0694421231746674,
+        "xtb4stda_s": 3.320118922740221,
+        "stda_s": 111.37515608407557,
+        "total_s": 116.87290619313717
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000692_CYCLOCREATINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 692,
         "name": "CYCLOCREATINE",
         "smiles": "N=C1NCCN1CC(=O)O",
+        "charge": 0,
         "total_atoms": 19,
         "heavy_atoms": 10
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.9016,
+        5.0603,
+        5.3497,
+        5.5107,
+        5.7926
+      ],
+      "predicted_oscillator_strengths": [
+        0.03352,
+        0.004731,
+        0.01369,
+        0.053561,
+        0.034619
+      ],
+      "timing": {
+        "xtb_s": 0.4758216682821512,
+        "xtb4stda_s": 0.4005635716021061,
+        "stda_s": 1.5862857308238745,
+        "total_s": 2.8677817545831203
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000693_CYCLOHEXIMIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 693,
         "name": "CYCLOHEXIMIDE",
         "smiles": "C[C@H]1C[C@H](C)C(=O)[C@H]([C@H](O)CC2CC(=O)NC(=O)C2)C1",
+        "charge": 0,
         "total_atoms": 43,
         "heavy_atoms": 20
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.6187,
+        5.5352,
+        5.9148,
+        6.4886,
+        6.9887
+      ],
+      "predicted_oscillator_strengths": [
+        0.000997,
+        0.004833,
+        2.5e-05,
+        0.443449,
+        0.009172
+      ],
+      "timing": {
+        "xtb_s": 2.564299223944545,
+        "xtb4stda_s": 0.6353614591062069,
+        "stda_s": 104.89829008094966,
+        "total_s": 108.25098176673055
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000694_CYCLOLEUCINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 694,
         "name": "CYCLOLEUCINE",
         "smiles": "NC1(C(=O)O)CCCC1",
+        "charge": 0,
         "total_atoms": 20,
         "heavy_atoms": 9
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.5041,
+        5.9806,
+        6.9005,
+        7.2625,
+        7.2734
+      ],
+      "predicted_oscillator_strengths": [
+        0.005639,
+        0.004392,
+        0.041136,
+        0.000199,
+        0.030483
+      ],
+      "timing": {
+        "xtb_s": 0.4085610080510378,
+        "xtb4stda_s": 0.349359093233943,
+        "stda_s": 1.2993908151984215,
+        "total_s": 2.118476938456297
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000695_CYCLOPAMINE",
       "metadata": {
         "dataset": "dataset_II",
@@ -885,36 +822,64 @@
         "total_atoms": 71,
         "heavy_atoms": 30
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        6.0309,
+        6.0914,
+        6.1503,
+        6.6323,
+        6.9402
+      ],
+      "oscillator_strengths": [
+        0.023099,
+        0.053223,
+        0.012573,
+        0.412552,
+        0.188222
+      ],
+      "timing": {
+        "xtb_opt_s": 7.677929857745767,
+        "xtb4stda_s": 0.14314724691212177,
+        "stda_s": 1875.11984439753,
+        "total_s": 1882.9409215021878
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000696_CYCLOSERINE_L_",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 696,
         "name": "CYCLOSERINE (L)",
         "smiles": "N[C@H]1CONC1=O",
+        "charge": 0,
         "total_atoms": 13,
         "heavy_atoms": 7
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000697_CYCLOSPORINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 697,
-        "name": "CYCLOSPORINE",
-        "smiles": "C/C=C/CC(C)C(O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1C",
-        "total_atoms": 196,
-        "heavy_atoms": 85
+      "predicted_excitation_energies_eV": [
+        4.6715,
+        5.1579,
+        5.6356,
+        5.9879,
+        6.2175
+      ],
+      "predicted_oscillator_strengths": [
+        0.014737,
+        0.008815,
+        0.110667,
+        0.035897,
+        0.029112
+      ],
+      "timing": {
+        "xtb_s": 0.3385421112179756,
+        "xtb4stda_s": 0.36602184921503067,
+        "stda_s": 0.516562033444643,
+        "total_s": 1.281417390331626
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000698_CYCLOTHIAZIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -924,10 +889,30 @@
         "total_atoms": 40,
         "heavy_atoms": 24
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.0979,
+        4.8466,
+        4.8864,
+        5.7053,
+        5.7705
+      ],
+      "oscillator_strengths": [
+        0.089174,
+        0.315479,
+        0.098177,
+        0.004248,
+        0.005404
+      ],
+      "timing": {
+        "xtb_opt_s": 1.743904024362564,
+        "xtb4stda_s": 0.07395769096910954,
+        "stda_s": 128.61677724123,
+        "total_s": 130.43463895656168
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000699_CYCLOVERATRYLENE",
       "metadata": {
         "dataset": "dataset_II",
@@ -937,10 +922,30 @@
         "total_atoms": 63,
         "heavy_atoms": 33
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.5441,
+        4.5652,
+        4.6205,
+        5.1932,
+        5.2513
+      ],
+      "oscillator_strengths": [
+        0.182267,
+        0.012698,
+        0.114192,
+        0.002054,
+        0.018066
+      ],
+      "timing": {
+        "xtb_opt_s": 6.104865064844489,
+        "xtb4stda_s": 0.24573247134685516,
+        "stda_s": 1483.1457783803344,
+        "total_s": 1489.4963759165257
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000700_CYPERMETHRIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -950,10 +955,30 @@
         "total_atoms": 47,
         "heavy_atoms": 28
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.758,
+        4.9219,
+        5.2936,
+        5.4379,
+        5.9024
+      ],
+      "oscillator_strengths": [
+        0.042549,
+        0.018754,
+        0.42254,
+        0.003793,
+        0.006299
+      ],
+      "timing": {
+        "xtb_opt_s": 7.494224226102233,
+        "xtb4stda_s": 0.08351392298936844,
+        "stda_s": 297.689718933776,
+        "total_s": 305.2674570828676
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000701_CYPROHEPTADINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -963,10 +988,30 @@
         "total_atoms": 43,
         "heavy_atoms": 22
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.9268,
+        4.5029,
+        4.6669,
+        5.0232,
+        5.209
+      ],
+      "oscillator_strengths": [
+        0.143656,
+        0.019225,
+        0.229178,
+        0.20426,
+        0.387757
+      ],
+      "timing": {
+        "xtb_opt_s": 0.9851701371371746,
+        "xtb4stda_s": 0.06940209120512009,
+        "stda_s": 104.1837457511574,
+        "total_s": 105.2383179794997
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000702_CYPROTERONE",
       "metadata": {
         "dataset": "dataset_II",
@@ -976,88 +1021,234 @@
         "total_atoms": 53,
         "heavy_atoms": 26
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.1571,
+        4.184,
+        4.402,
+        5.4491,
+        5.7182
+      ],
+      "oscillator_strengths": [
+        0.001895,
+        0.008301,
+        0.712039,
+        0.036117,
+        0.119465
+      ],
+      "timing": {
+        "xtb_opt_s": 2.2214646469801664,
+        "xtb4stda_s": 0.07490360364317894,
+        "stda_s": 455.45244094729424,
+        "total_s": 457.7488091979176
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000703_CYROMAZINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 703,
         "name": "CYROMAZINE",
         "smiles": "Nc1nc(N)nc(NC2CC2)n1",
+        "charge": 0,
         "total_atoms": 22,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.0566,
+        5.3583,
+        5.3863,
+        5.4833,
+        5.5049
+      ],
+      "predicted_oscillator_strengths": [
+        0.010522,
+        0.019911,
+        0.042461,
+        0.061931,
+        0.446158
+      ],
+      "timing": {
+        "xtb_s": 0.7562058679759502,
+        "xtb4stda_s": 0.34083961695432663,
+        "stda_s": 2.845573829486966,
+        "total_s": 4.009183892980218
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000704_CYSTAMINE_DIHYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 704,
         "name": "CYSTAMINE DIHYDROCHLORIDE",
         "smiles": "NCCSSCCN",
+        "charge": 0,
         "total_atoms": 20,
         "heavy_atoms": 8
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.3821,
+        5.6048,
+        6.1046,
+        6.2666,
+        6.5627
+      ],
+      "predicted_oscillator_strengths": [
+        0.0011,
+        0.012368,
+        0.018949,
+        0.018991,
+        0.023468
+      ],
+      "timing": {
+        "xtb_s": 0.40780549496412277,
+        "xtb4stda_s": 0.3944948073476553,
+        "stda_s": 1.2982671912759542,
+        "total_s": 2.153134237974882
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000705_CYSTEAMINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 705,
         "name": "CYSTEAMINE HYDROCHLORIDE",
         "smiles": "NCCS",
+        "charge": 0,
         "total_atoms": 11,
         "heavy_atoms": 4
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.5041,
+        5.9842,
+        6.763,
+        6.8258,
+        6.9783
+      ],
+      "predicted_oscillator_strengths": [
+        0.017416,
+        0.015699,
+        0.014687,
+        0.006489,
+        0.007488
+      ],
+      "timing": {
+        "xtb_s": 0.2454265095293522,
+        "xtb4stda_s": 0.3022819682955742,
+        "stda_s": 0.35607303865253925,
+        "total_s": 0.9962174389511347
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000706_CYSTEINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 706,
         "name": "CYSTEINE HYDROCHLORIDE",
         "smiles": "N[C@@H](CS)C(=O)O",
+        "charge": 0,
         "total_atoms": 14,
         "heavy_atoms": 7
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.3386,
+        5.4066,
+        5.8707,
+        6.1027,
+        6.8223
+      ],
+      "predicted_oscillator_strengths": [
+        0.01127,
+        0.006471,
+        0.000721,
+        0.006273,
+        0.013866
+      ],
+      "timing": {
+        "xtb_s": 0.32818288914859295,
+        "xtb4stda_s": 0.29108177311718464,
+        "stda_s": 1.1784952282905579,
+        "total_s": 1.8443746473640203
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000707_CYSTINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 707,
         "name": "CYSTINE",
         "smiles": "NC(CSSCC(N)C(=O)O)C(=O)O",
+        "charge": 0,
         "total_atoms": 26,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        5.4359,
+        5.5419,
+        5.6363,
+        5.7249,
+        5.8562
+      ],
+      "predicted_oscillator_strengths": [
+        0.000569,
+        0.000643,
+        0.024934,
+        0.017421,
+        0.002092
+      ],
+      "timing": {
+        "xtb_s": 1.6666054893285036,
+        "xtb4stda_s": 0.42981123365461826,
+        "stda_s": 7.669274054467678,
+        "total_s": 9.833352029323578
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000708_CYTIDINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 708,
         "name": "CYTIDINE",
         "smiles": "Nc1ccn(C2O[C@@H](CO)[C@H](O)[C@@H]2O)c(=O)n1",
+        "charge": 0,
         "total_atoms": 30,
         "heavy_atoms": 17
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.5312,
+        5.0248,
+        5.3599,
+        5.4226,
+        5.8513
+      ],
+      "predicted_oscillator_strengths": [
+        0.253398,
+        0.0041,
+        0.005463,
+        0.138699,
+        0.023752
+      ],
+      "timing": {
+        "xtb_s": 1.0754137858748436,
+        "xtb4stda_s": 0.462640093639493,
+        "stda_s": 21.18660236336291,
+        "total_s": 22.802858961746097
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000709_CYTIDINE_TRIPHOSPHATE_DISODIUM",
       "metadata": {
         "dataset": "dataset_II",
@@ -1067,36 +1258,98 @@
         "total_atoms": 45,
         "heavy_atoms": 29
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.5356,
+        5.1006,
+        5.3663,
+        5.423,
+        6.0062
+      ],
+      "oscillator_strengths": [
+        0.255642,
+        0.015674,
+        0.015354,
+        0.111005,
+        0.474115
+      ],
+      "timing": {
+        "xtb_opt_s": 10.435397308319807,
+        "xtb4stda_s": 0.07880673184990883,
+        "stda_s": 421.00304499454796,
+        "total_s": 431.5172490347177
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000710_CYTISINE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 710,
         "name": "CYTISINE",
         "smiles": "O=c1cccc2n1C[C@@H]1CNCC2C1",
+        "charge": 0,
         "total_atoms": 28,
         "heavy_atoms": 14
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.1695,
+        5.1452,
+        5.4694,
+        5.5114,
+        5.6112
+      ],
+      "predicted_oscillator_strengths": [
+        0.249852,
+        0.000231,
+        0.006049,
+        0.015961,
+        0.178059
+      ],
+      "timing": {
+        "xtb_s": 0.5987239200621843,
+        "xtb4stda_s": 0.3929072506725788,
+        "stda_s": 6.257934004068375,
+        "total_s": 7.382612302899361
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000711_D-_-_-FRUCTOSE",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 711,
         "name": "D-(-)-FRUCTOSE",
         "smiles": "OC[C@@H]1O[C@@](O)(CO)[C@H](O)[C@H]1O",
+        "charge": 0,
         "total_atoms": 24,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        7.0134,
+        7.1446,
+        7.3937,
+        7.5224,
+        7.797
+      ],
+      "predicted_oscillator_strengths": [
+        0.001667,
+        0.003745,
+        0.005485,
+        0.025017,
+        0.034638
+      ],
+      "timing": {
+        "xtb_s": 1.245720176026225,
+        "xtb4stda_s": 0.35789213329553604,
+        "stda_s": 6.8706814758479595,
+        "total_s": 8.534070827066898
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000712_D-_-MALTOSE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1106,23 +1359,64 @@
         "total_atoms": 45,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        6.2794,
+        6.5275,
+        6.6167,
+        6.9406,
+        7.0717
+      ],
+      "oscillator_strengths": [
+        0.011891,
+        0.035715,
+        0.004369,
+        0.015582,
+        0.012488
+      ],
+      "timing": {
+        "xtb_opt_s": 3.9601684100925922,
+        "xtb4stda_s": 0.06661553867161274,
+        "stda_s": 163.58599846623838,
+        "total_s": 167.61278241500258
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000713_D-ERYTHOBIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
         "dataset_row": 713,
         "name": "D-ERYTHOBIC ACID",
         "smiles": "O=C1O[C@@H]([C@@H](O)CO)C(O)=C1O",
+        "charge": 0,
         "total_atoms": 20,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "predicted_excitation_energies_eV": [
+        4.5746,
+        4.7474,
+        5.7371,
+        5.7776,
+        6.2006
+      ],
+      "predicted_oscillator_strengths": [
+        0.296691,
+        0.065893,
+        0.000843,
+        0.000508,
+        0.012106
+      ],
+      "timing": {
+        "xtb_s": 0.39408278092741966,
+        "xtb4stda_s": 0.3293763119727373,
+        "stda_s": 2.375985711812973,
+        "total_s": 3.1577934250235558
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000714_D-LACTITOL_MONOHYDRATE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1132,10 +1426,30 @@
         "total_atoms": 47,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        6.6509,
+        6.9563,
+        7.2072,
+        7.2443,
+        7.3579
+      ],
+      "oscillator_strengths": [
+        0.07092,
+        0.010901,
+        0.003948,
+        0.050931,
+        0.005738
+      ],
+      "timing": {
+        "xtb_opt_s": 5.040024155750871,
+        "xtb4stda_s": 0.08612660132348537,
+        "stda_s": 234.51013449020684,
+        "total_s": 239.6362852472812
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000715_d-LIMONENE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1145,10 +1459,30 @@
         "total_atoms": 26,
         "heavy_atoms": 10
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        5.7906,
+        6.4585,
+        6.8637,
+        6.9628,
+        7.0195
+      ],
+      "oscillator_strengths": [
+        0.015413,
+        0.006204,
+        0.479054,
+        0.024217,
+        0.037962
+      ],
+      "timing": {
+        "xtb_opt_s": 0.7418110929429531,
+        "xtb4stda_s": 0.4691382646560669,
+        "stda_s": 3.107398197054863,
+        "total_s": 4.318347554653883
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000716_D-PHENYLALANINE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1158,10 +1492,30 @@
         "total_atoms": 23,
         "heavy_atoms": 12
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        5.1142,
+        6.0091,
+        6.0988,
+        6.3848,
+        6.683
+      ],
+      "oscillator_strengths": [
+        0.000465,
+        0.093313,
+        0.014592,
+        0.018937,
+        0.000299
+      ],
+      "timing": {
+        "xtb_opt_s": 0.9252530001103878,
+        "xtb4stda_s": 0.4349181056022644,
+        "stda_s": 3.4000267293304205,
+        "total_s": 4.760197835043073
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000717_d_l-threo-3-HYDROXYASPARTIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
@@ -1171,36 +1525,30 @@
         "total_atoms": 17,
         "heavy_atoms": 10
       },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000718_DABIGATRAN_ETEXILATE_MESYLATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 718,
-        "name": "DABIGATRAN ETEXILATE MESYLATE",
-        "smiles": "CCCCCCOC(=O)/N=C(\\N)c1ccc(NCc2nc3cc(C(=O)N(CCC(=O)OCC)c4ccccn4)ccc3n2C)cc1",
-        "total_atoms": 87,
-        "heavy_atoms": 46
+      "energies_eV": [
+        5.7065,
+        5.9238,
+        6.3705,
+        6.7126,
+        6.9391
+      ],
+      "oscillator_strengths": [
+        0.008561,
+        0.013223,
+        0.006613,
+        0.012397,
+        0.058402
+      ],
+      "timing": {
+        "xtb_opt_s": 0.5712373852729797,
+        "xtb4stda_s": 0.3550743982195854,
+        "stda_s": 1.4942887220531702,
+        "total_s": 2.4206005055457354
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
-      "label": "dataset_II_000719_DACTINOMYCIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 719,
-        "name": "DACTINOMYCIN",
-        "smiles": "Cc1c2oc3c(C)ccc(C(=O)OC(C)C4NC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C5CCCN5C(=O)C(C(C)C)NC4=O)c3nc-2c(C(=O)OC(C)C2NC(=O)C(C(C)C)N(C)C(=O)CN(C)C(=O)C3CCCN3C(=O)C(C(C)C)NC2=O)c(N)c1=O",
-        "total_atoms": 176,
-        "heavy_atoms": 90
-      },
-      "error": "[Errno 122] Disk quota exceeded"
-    },
-    {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000720_DAIDZEIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -1210,10 +1558,30 @@
         "total_atoms": 29,
         "heavy_atoms": 19
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.2066,
+        4.3703,
+        4.5727,
+        4.7146,
+        4.9169
+      ],
+      "oscillator_strengths": [
+        0.105684,
+        0.012157,
+        0.015585,
+        0.040191,
+        1.135886
+      ],
+      "timing": {
+        "xtb_opt_s": 1.0404437575489283,
+        "xtb4stda_s": 0.6230091396719217,
+        "stda_s": 31.43293011188507,
+        "total_s": 33.09638300910592
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000721_DALBERGIONE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1223,10 +1591,30 @@
         "total_atoms": 29,
         "heavy_atoms": 17
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        2.0417,
+        2.7382,
+        3.07,
+        3.5057,
+        3.7102
+      ],
+      "oscillator_strengths": [
+        0.000185,
+        0.007944,
+        6e-06,
+        0.005074,
+        0.010646
+      ],
+      "timing": {
+        "xtb_opt_s": 0.9433685280382633,
+        "xtb4stda_s": 0.5983950328081846,
+        "stda_s": 22.30649808049202,
+        "total_s": 23.848261641338468
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000722_DANTROLENE_SODIUM",
       "metadata": {
         "dataset": "dataset_II",
@@ -1236,10 +1624,30 @@
         "total_atoms": 33,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.3418,
+        4.2251,
+        4.2839,
+        4.3314,
+        4.6935
+      ],
+      "oscillator_strengths": [
+        1.745559,
+        0.000247,
+        0.003434,
+        0.239605,
+        1e-06
+      ],
+      "timing": {
+        "xtb_opt_s": 1.6006860323250294,
+        "xtb4stda_s": 0.6301017869263887,
+        "stda_s": 70.13348641619086,
+        "total_s": 72.36427423544228
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000723_DAPAGLIFLOZIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -1249,10 +1657,30 @@
         "total_atoms": 53,
         "heavy_atoms": 28
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.8146,
+        5.0027,
+        5.5845,
+        5.7864,
+        5.9094
+      ],
+      "oscillator_strengths": [
+        0.043483,
+        0.000469,
+        0.188867,
+        0.117858,
+        0.035542
+      ],
+      "timing": {
+        "xtb_opt_s": 1.8579316437244415,
+        "xtb4stda_s": 1.0355077609419823,
+        "stda_s": 790.364262836054,
+        "total_s": 793.2577022407204
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000724_DAPOXETINE_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1262,10 +1690,30 @@
         "total_atoms": 46,
         "heavy_atoms": 23
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.2177,
+        4.2626,
+        5.1277,
+        5.536,
+        5.7359
+      ],
+      "oscillator_strengths": [
+        0.187713,
+        0.054923,
+        2e-06,
+        0.011929,
+        0.272761
+      ],
+      "timing": {
+        "xtb_opt_s": 1.6611218452453613,
+        "xtb4stda_s": 0.9146407227963209,
+        "stda_s": 238.10501033999026,
+        "total_s": 240.68077290803194
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000725_DARIFENACIN_HYDROBROMIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1275,10 +1723,30 @@
         "total_atoms": 62,
         "heavy_atoms": 32
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.6615,
+        5.0461,
+        5.1163,
+        5.3177,
+        5.5279
+      ],
+      "oscillator_strengths": [
+        0.071486,
+        0.00129,
+        0.000101,
+        0.082705,
+        0.038868
+      ],
+      "timing": {
+        "xtb_opt_s": 7.4436169266700745,
+        "xtb4stda_s": 1.2247348073869944,
+        "stda_s": 1199.5940157175064,
+        "total_s": 1208.2623674515635
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000726_DEACETOXY-7-OXOGEDUNIN",
       "metadata": {
         "dataset": "dataset_II",
@@ -1288,10 +1756,30 @@
         "total_atoms": 62,
         "heavy_atoms": 32
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        3.9972,
+        4.6131,
+        5.5285,
+        5.7425,
+        5.9124
+      ],
+      "oscillator_strengths": [
+        0.00014,
+        0.000342,
+        0.322131,
+        0.001313,
+        0.009756
+      ],
+      "timing": {
+        "xtb_opt_s": 3.634159095585346,
+        "xtb4stda_s": 1.2490335926413536,
+        "stda_s": 1437.8672825489193,
+        "total_s": 1442.750475237146
+      },
+      "stda_energy_window_eV": 30.0
     },
     {
-      "status": "failed",
+      "status": "success",
       "label": "dataset_II_000727_DEACETOXY_7_-7-OXOKHIVORINIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
@@ -1301,7 +1789,1545 @@
         "total_atoms": 73,
         "heavy_atoms": 37
       },
-      "error": "[Errno 122] Disk quota exceeded"
+      "energies_eV": [
+        4.5688,
+        5.8548,
+        6.1313,
+        6.2213,
+        6.2416
+      ],
+      "oscillator_strengths": [
+        0.000729,
+        0.025679,
+        0.004272,
+        0.006065,
+        0.00387
+      ],
+      "timing": {
+        "xtb_opt_s": 11.78758967667818,
+        "xtb4stda_s": 1.5347024705260992,
+        "stda_s": 3185.9917861837894,
+        "total_s": 3199.3140783309937
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000728_DEACETYLGEDUNIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 728,
+        "name": "DEACETYLGEDUNIN",
+        "smiles": "CC1(C)C(=O)C=C[C@]2(C)C1C[C@H](O)[C@@]1(C)C2CC[C@]2(C)[C@@H](c3ccoc3)OC(=O)[C@@H]3O[C@@]321",
+        "total_atoms": 64,
+        "heavy_atoms": 32
+      },
+      "energies_eV": [
+        4.0375,
+        5.4254,
+        5.7677,
+        5.8268,
+        5.9338
+      ],
+      "oscillator_strengths": [
+        0.00017,
+        0.289784,
+        0.009685,
+        0.0096,
+        0.224749
+      ],
+      "timing": {
+        "xtb_opt_s": 3.786506136879325,
+        "xtb4stda_s": 1.2077659908682108,
+        "stda_s": 1602.189668878913,
+        "total_s": 1607.1839410066605
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000729_DEBRISOQUIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 729,
+        "name": "DEBRISOQUIN SULFATE",
+        "smiles": "N=C(N)N1CCc2ccccc2C1",
+        "total_atoms": 26,
+        "heavy_atoms": 13
+      },
+      "energies_eV": [
+        4.9906,
+        5.0468,
+        5.4502,
+        5.6391,
+        5.7185
+      ],
+      "oscillator_strengths": [
+        0.057689,
+        0.000407,
+        0.128374,
+        0.045377,
+        0.075347
+      ],
+      "timing": {
+        "xtb_opt_s": 0.7344211973249912,
+        "xtb4stda_s": 0.5242962669581175,
+        "stda_s": 6.407396163791418,
+        "total_s": 7.666113628074527
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000730_DECAMETHONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 730,
+        "name": "DECAMETHONIUM BROMIDE",
+        "smiles": "C[N+](C)(C)CCCCCCCCCC[N+](C)(C)C",
+        "total_atoms": 56,
+        "heavy_atoms": 18
+      },
+      "energies_eV": [
+        0.4975,
+        0.5364,
+        0.7819,
+        1.0864,
+        1.1589
+      ],
+      "oscillator_strengths": [
+        0.247089,
+        0.238312,
+        0.345677,
+        0.124585,
+        0.016699
+      ],
+      "timing": {
+        "xtb_opt_s": 3.083149440586567,
+        "xtb4stda_s": 0.9661640655249357,
+        "stda_s": 288.7557583153248,
+        "total_s": 292.8050718214363
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000731_DECOQUINATE_5mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 731,
+        "name": "DECOQUINATE [5mM]",
+        "smiles": "CCCCCCCCCCOc1cc2c(O)c(C(=O)OCC)cnc2cc1OCC",
+        "total_atoms": 65,
+        "heavy_atoms": 30
+      },
+      "energies_eV": [
+        3.8386,
+        4.2735,
+        5.0538,
+        5.2027,
+        5.2398
+      ],
+      "oscillator_strengths": [
+        0.047459,
+        0.022748,
+        1.328911,
+        0.031156,
+        0.664155
+      ],
+      "timing": {
+        "xtb_opt_s": 6.908515516668558,
+        "xtb4stda_s": 1.228574849665165,
+        "stda_s": 1570.3004691004753,
+        "total_s": 1578.437559466809
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000732_DEFERIPRONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 732,
+        "name": "DEFERIPRONE",
+        "smiles": "Cc1c(O)c(=O)ccn1C",
+        "total_atoms": 19,
+        "heavy_atoms": 10
+      },
+      "energies_eV": [
+        4.4288,
+        4.6857,
+        4.7879,
+        5.3976,
+        5.4365
+      ],
+      "oscillator_strengths": [
+        0.271285,
+        0.124128,
+        0.0016,
+        1.9e-05,
+        0.000697
+      ],
+      "timing": {
+        "xtb_opt_s": 0.3411456346511841,
+        "xtb4stda_s": 0.34039030969142914,
+        "stda_s": 1.4819587487727404,
+        "total_s": 2.1634946931153536
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000733_DEGUELIN_-_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 733,
+        "name": "DEGUELIN(-)",
+        "smiles": "COc1cc2c(cc1OC)[C@H]1C(=O)c3ccc4c(c3O[C@H]1CO2)C=CC(C)(C)O4",
+        "total_atoms": 51,
+        "heavy_atoms": 29
+      },
+      "energies_eV": [
+        3.8228,
+        3.9117,
+        4.0441,
+        4.3702,
+        4.5972
+      ],
+      "oscillator_strengths": [
+        0.040903,
+        0.027856,
+        0.049044,
+        0.294481,
+        0.076132
+      ],
+      "timing": {
+        "xtb_opt_s": 1.9913590122014284,
+        "xtb4stda_s": 0.9933330118656158,
+        "stda_s": 528.0340110938996,
+        "total_s": 531.0187031179667
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000734_DEHYDROACETIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 734,
+        "name": "DEHYDROACETIC ACID",
+        "smiles": "CC(=O)[C@H]1C(=O)C=C(C)OC1=O",
+        "total_atoms": 20,
+        "heavy_atoms": 12
+      },
+      "energies_eV": [
+        4.0642,
+        4.487,
+        4.8021,
+        5.2752,
+        5.7074
+      ],
+      "oscillator_strengths": [
+        0.016368,
+        0.030442,
+        0.238107,
+        0.025882,
+        0.021185
+      ],
+      "timing": {
+        "xtb_opt_s": 0.8984284177422523,
+        "xtb4stda_s": 0.4045412838459015,
+        "stda_s": 2.441692505031824,
+        "total_s": 3.744662206619978
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000735_DEHYDROCHOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 735,
+        "name": "DEHYDROCHOLIC ACID",
+        "smiles": "CC(CCC(=O)O)[C@H]1CCC2C3C(=O)C[C@@H]4CC(=O)CC[C@]4(C)C3CC(=O)[C@@]21C",
+        "total_atoms": 63,
+        "heavy_atoms": 29
+      },
+      "energies_eV": [
+        4.5986,
+        4.6077,
+        4.699,
+        6.1555,
+        6.6229
+      ],
+      "oscillator_strengths": [
+        4e-06,
+        7e-05,
+        0.000419,
+        0.003619,
+        0.00413
+      ],
+      "timing": {
+        "xtb_opt_s": 3.004441052675247,
+        "xtb4stda_s": 1.1487650163471699,
+        "stda_s": 1142.1189186424017,
+        "total_s": 1146.272124711424
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000736_DEHYDRODEGUELIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 736,
+        "name": "DEHYDRODEGUELIN",
+        "smiles": "COc1cc2c(cc1OC)-c1c(oc3c4c(ccc3c1=O)OC(C)(C)C=C4)CO2",
+        "total_atoms": 49,
+        "heavy_atoms": 29
+      },
+      "energies_eV": [
+        3.2972,
+        3.8787,
+        3.9618,
+        4.1921,
+        4.2856
+      ],
+      "oscillator_strengths": [
+        0.172166,
+        0.158985,
+        0.177152,
+        0.056285,
+        0.115316
+      ],
+      "timing": {
+        "xtb_opt_s": 3.8364773765206337,
+        "xtb4stda_s": 1.016570271924138,
+        "stda_s": 521.4770302008837,
+        "total_s": 526.3300778493285
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000737_DEHYDRODIHYDROROTENONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 737,
+        "name": "DEHYDRODIHYDROROTENONE",
+        "smiles": "COc1cc2c(cc1OC)-c1c(oc3c4c(ccc3c1=O)O[C@H](C(C)C)C4)CO2",
+        "total_atoms": 51,
+        "heavy_atoms": 29
+      },
+      "energies_eV": [
+        3.3017,
+        4.0018,
+        4.293,
+        4.3781,
+        4.5155
+      ],
+      "oscillator_strengths": [
+        0.106641,
+        0.352477,
+        0.043089,
+        0.012324,
+        0.126296
+      ],
+      "timing": {
+        "xtb_opt_s": 4.5482300110161304,
+        "xtb4stda_s": 0.9232404325157404,
+        "stda_s": 582.0382062997669,
+        "total_s": 587.5096767432988
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000738_DEHYDROROTENONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 738,
+        "name": "DEHYDROROTENONE",
+        "smiles": "C=C(C)[C@@H]1Cc2c(ccc3c(=O)c4c(oc23)COc2cc(OC)c(OC)cc2-4)O1",
+        "total_atoms": 49,
+        "heavy_atoms": 29
+      },
+      "energies_eV": [
+        3.2934,
+        3.9947,
+        4.309,
+        4.3916,
+        4.5167
+      ],
+      "oscillator_strengths": [
+        0.107758,
+        0.369278,
+        0.032271,
+        0.012287,
+        0.058439
+      ],
+      "timing": {
+        "xtb_opt_s": 6.407166847959161,
+        "xtb4stda_s": 0.920236125588417,
+        "stda_s": 517.2613212075084,
+        "total_s": 524.588724181056
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000739_DEHYDROVARIABILIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 739,
+        "name": "DEHYDROVARIABILIN",
+        "smiles": "COc1ccc2c(c1)OCc1c-2oc2cc(OC)ccc12",
+        "total_atoms": 35,
+        "heavy_atoms": 21
+      },
+      "energies_eV": [
+        3.7382,
+        4.3279,
+        4.4509,
+        5.0499,
+        5.188
+      ],
+      "oscillator_strengths": [
+        0.888118,
+        0.006359,
+        0.100449,
+        0.00407,
+        0.063458
+      ],
+      "timing": {
+        "xtb_opt_s": 0.935281828045845,
+        "xtb4stda_s": 0.6765023414045572,
+        "stda_s": 67.0763598177582,
+        "total_s": 68.6881439872086
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000740_DELAPRIL_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 740,
+        "name": "DELAPRIL HYDROCHLORIDE",
+        "smiles": "CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N(CC(=O)O)C1Cc2ccccc2C1",
+        "total_atoms": 65,
+        "heavy_atoms": 33
+      },
+      "energies_eV": [
+        5.0419,
+        5.1529,
+        5.4664,
+        5.5479,
+        5.8908
+      ],
+      "oscillator_strengths": [
+        0.004709,
+        0.000449,
+        0.007473,
+        0.022249,
+        0.016537
+      ],
+      "timing": {
+        "xtb_opt_s": 6.771192081272602,
+        "xtb4stda_s": 1.195887191221118,
+        "stda_s": 1967.8847814183682,
+        "total_s": 1975.851860690862
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000741_DEMETHYLNOBILETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 741,
+        "name": "DEMETHYLNOBILETIN",
+        "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(OC)c(OC)c3o2)cc1OC",
+        "total_atoms": 48,
+        "heavy_atoms": 28
+      },
+      "energies_eV": [
+        3.2426,
+        3.8526,
+        4.0623,
+        4.3984,
+        4.4838
+      ],
+      "oscillator_strengths": [
+        0.09477,
+        0.499123,
+        0.175474,
+        0.450234,
+        0.01767
+      ],
+      "timing": {
+        "xtb_opt_s": 4.715431721881032,
+        "xtb4stda_s": 0.9135523848235607,
+        "stda_s": 403.73049831576645,
+        "total_s": 409.35948242247105
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000742_DENATONIUM_BENZOATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 742,
+        "name": "DENATONIUM BENZOATE",
+        "smiles": "CC[N+](CC)(CC(=O)Nc1c(C)cccc1C)Cc1ccccc1",
+        "total_atoms": 53,
+        "heavy_atoms": 24
+      },
+      "energies_eV": [
+        1.2086,
+        2.0996,
+        2.2157,
+        2.5802,
+        2.7206
+      ],
+      "oscillator_strengths": [
+        0.001166,
+        0.015565,
+        0.02178,
+        0.087612,
+        0.012458
+      ],
+      "timing": {
+        "xtb_opt_s": 3.16117362678051,
+        "xtb4stda_s": 1.1629599332809448,
+        "stda_s": 2435.6447493936867,
+        "total_s": 2439.968882953748
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000743_DEOXYADENOSINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 743,
+        "name": "DEOXYADENOSINE",
+        "smiles": "Nc1ncnc2c1ncn2C1C[C@H](O)[C@@H](CO)O1",
+        "total_atoms": 31,
+        "heavy_atoms": 18
+      },
+      "energies_eV": [
+        4.8041,
+        5.0802,
+        5.2064,
+        5.4404,
+        5.816
+      ],
+      "oscillator_strengths": [
+        0.417443,
+        0.087836,
+        0.005806,
+        0.014066,
+        0.003225
+      ],
+      "timing": {
+        "xtb_opt_s": 2.981800554320216,
+        "xtb4stda_s": 0.5350475050508976,
+        "stda_s": 37.80058942362666,
+        "total_s": 41.317437482997775
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000744_DEOXYCHOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 744,
+        "name": "DEOXYCHOLIC ACID",
+        "smiles": "CC(CCC(=O)O)[C@H]1CCC2C3CC[C@@H]4C[C@H](O)CC[C@]4(C)C3C[C@H](O)[C@@]21C",
+        "total_atoms": 68,
+        "heavy_atoms": 28
+      },
+      "energies_eV": [
+        6.0566,
+        7.2835,
+        7.371,
+        7.6059,
+        8.0825
+      ],
+      "oscillator_strengths": [
+        0.002475,
+        0.050811,
+        0.003939,
+        0.019527,
+        0.001107
+      ],
+      "timing": {
+        "xtb_opt_s": 2.8173889480531216,
+        "xtb4stda_s": 1.3446797579526901,
+        "stda_s": 1467.74840339832,
+        "total_s": 1471.910472104326
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000745_DEOXYGEDUNIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 745,
+        "name": "DEOXYGEDUNIN",
+        "smiles": "CC(=O)O[C@@H]1CC2C(C)(C)C(=O)C=C[C@]2(C)C2CC[C@]3(C)C(=CC(=O)O[C@H]3c3ccoc3)[C@@]21C",
+        "total_atoms": 68,
+        "heavy_atoms": 34
+      },
+      "energies_eV": [
+        4.008,
+        4.7097,
+        5.4729,
+        5.5523,
+        5.7934
+      ],
+      "oscillator_strengths": [
+        0.000388,
+        0.034825,
+        0.17981,
+        0.281884,
+        0.031271
+      ],
+      "timing": {
+        "xtb_opt_s": 6.317698523402214,
+        "xtb4stda_s": 1.4167858883738518,
+        "stda_s": 2240.8175095431507,
+        "total_s": 2248.5519939549267
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000747_DEOXYPEGANINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 747,
+        "name": "DEOXYPEGANINE HYDROCHLORIDE",
+        "smiles": "c1ccc2c(c1)CN1CCCC1=N2",
+        "total_atoms": 25,
+        "heavy_atoms": 13
+      },
+      "energies_eV": [
+        3.9593,
+        4.2846,
+        4.6281,
+        5.2325,
+        5.395
+      ],
+      "oscillator_strengths": [
+        0.239342,
+        0.133513,
+        0.014346,
+        0.007684,
+        0.006846
+      ],
+      "timing": {
+        "xtb_opt_s": 0.6299320999532938,
+        "xtb4stda_s": 0.4275203347206116,
+        "stda_s": 5.084174143150449,
+        "total_s": 6.141626577824354
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000748_DEOXYSAPPANONE_B_7_4_-DIMETHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 748,
+        "name": "DEOXYSAPPANONE B 7,4'-DIMETHYL ETHER",
+        "smiles": "COc1ccc2c(c1)OC[C@H](Cc1ccc(OC)c(O)c1)C2=O",
+        "total_atoms": 41,
+        "heavy_atoms": 23
+      },
+      "energies_eV": [
+        4.0553,
+        4.3673,
+        4.6591,
+        4.7053,
+        5.3115
+      ],
+      "oscillator_strengths": [
+        0.138031,
+        0.000209,
+        0.265415,
+        0.111938,
+        0.011461
+      ],
+      "timing": {
+        "xtb_opt_s": 1.9588189087808132,
+        "xtb4stda_s": 0.8368505071848631,
+        "stda_s": 171.46578370407224,
+        "total_s": 174.2614531200379
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000749_DEOXYSAPPANONE_B_TRIMETHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 749,
+        "name": "DEOXYSAPPANONE B TRIMETHYL ETHER",
+        "smiles": "COc1ccc2c(c1)OC[C@H](Cc1ccc(OC)c(OC)c1)C2=O",
+        "total_atoms": 44,
+        "heavy_atoms": 24
+      },
+      "energies_eV": [
+        4.0537,
+        4.3729,
+        4.586,
+        4.6808,
+        5.2346
+      ],
+      "oscillator_strengths": [
+        0.131269,
+        0.003524,
+        0.095692,
+        0.268548,
+        0.122833
+      ],
+      "timing": {
+        "xtb_opt_s": 2.6419164407998323,
+        "xtb4stda_s": 0.7593627255409956,
+        "stda_s": 210.10810496099293,
+        "total_s": 213.50938412733376
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000750_DEQUALINIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 750,
+        "name": "DEQUALINIUM CHLORIDE",
+        "smiles": "Cc1cc(N)c2ccccc2[n+]1CCCCCCCCCC[n+]1c(C)cc(N)c2ccccc21",
+        "total_atoms": 74,
+        "heavy_atoms": 34
+      },
+      "energies_eV": [
+        0.1781,
+        0.9442,
+        1.039,
+        1.1946,
+        1.4203
+      ],
+      "oscillator_strengths": [
+        0.000935,
+        0.014124,
+        0.009042,
+        0.021648,
+        0.001307
+      ],
+      "timing": {
+        "xtb_opt_s": 5.683808904141188,
+        "xtb4stda_s": 1.3299587201327085,
+        "stda_s": 2551.332947326824,
+        "total_s": 2558.346714951098
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000751_DERACOXIB",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 751,
+        "name": "DERACOXIB",
+        "smiles": "COc1ccc(-c2cc(C(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1F",
+        "total_atoms": 41,
+        "heavy_atoms": 27
+      },
+      "energies_eV": [
+        4.5751,
+        4.6849,
+        4.9249,
+        5.0221,
+        5.5489
+      ],
+      "oscillator_strengths": [
+        0.355829,
+        0.193055,
+        0.005511,
+        0.483131,
+        0.156168
+      ],
+      "timing": {
+        "xtb_opt_s": 2.945316219702363,
+        "xtb4stda_s": 0.9407902974635363,
+        "stda_s": 330.21470885165036,
+        "total_s": 334.10081536881626
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000752_DERRUSNIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 752,
+        "name": "DERRUSNIN",
+        "smiles": "COc1cc(OC)c2c(OC)c(-c3ccc4c(c3)OCO4)c(=O)oc2c1",
+        "total_atoms": 42,
+        "heavy_atoms": 26
+      },
+      "energies_eV": [
+        3.8274,
+        4.3027,
+        4.4062,
+        4.6028,
+        4.9274
+      ],
+      "oscillator_strengths": [
+        0.835877,
+        0.010591,
+        0.079281,
+        0.074076,
+        0.003414
+      ],
+      "timing": {
+        "xtb_opt_s": 2.5356551203876734,
+        "xtb4stda_s": 0.8205317575484514,
+        "stda_s": 253.75781656242907,
+        "total_s": 257.1140034403652
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000753_DESACETYLCOLFORSIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 753,
+        "name": "DESACETYLCOLFORSIN",
+        "smiles": "C=C[C@@]1(C)CC(=O)[C@@]2(O)[C@](C)(O1)[C@@H](O)[C@@H](O)C1C(C)(C)CC[C@H](O)[C@@]12C",
+        "total_atoms": 58,
+        "heavy_atoms": 26
+      },
+      "energies_eV": [
+        4.079,
+        5.9492,
+        6.7432,
+        6.838,
+        6.9554
+      ],
+      "oscillator_strengths": [
+        0.001638,
+        0.075418,
+        0.025302,
+        0.012552,
+        0.015066
+      ],
+      "timing": {
+        "xtb_opt_s": 7.539763377979398,
+        "xtb4stda_s": 1.0028580259531736,
+        "stda_s": 727.3403089903295,
+        "total_s": 735.8829303942621
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000754_DESLORATADINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 754,
+        "name": "DESLORATADINE HYDROCHLORIDE",
+        "smiles": "Clc1ccc2c(c1)CCc1cccnc1C2=C1CCNCC1",
+        "total_atoms": 41,
+        "heavy_atoms": 22
+      },
+      "energies_eV": [
+        4.7899,
+        4.8969,
+        4.9772,
+        5.0356,
+        5.1976
+      ],
+      "oscillator_strengths": [
+        0.044806,
+        0.272895,
+        0.010826,
+        0.008815,
+        0.224779
+      ],
+      "timing": {
+        "xtb_opt_s": 2.1612330712378025,
+        "xtb4stda_s": 0.8992700967937708,
+        "stda_s": 133.7284729015082,
+        "total_s": 136.78897606953979
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000755_DESLORATIDINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 755,
+        "name": "DESLORATIDINE",
+        "smiles": "Clc1ccc2c(c1)CCc1cccnc1C2=C1CCNCC1",
+        "total_atoms": 41,
+        "heavy_atoms": 22
+      },
+      "energies_eV": [
+        4.7899,
+        4.8969,
+        4.9772,
+        5.0356,
+        5.1976
+      ],
+      "oscillator_strengths": [
+        0.044806,
+        0.272895,
+        0.010826,
+        0.008815,
+        0.224779
+      ],
+      "timing": {
+        "xtb_opt_s": 2.041280334815383,
+        "xtb4stda_s": 0.8143709264695644,
+        "stda_s": 151.41473330557346,
+        "total_s": 154.2703845668584
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000756_DESOGESTREL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 756,
+        "name": "DESOGESTREL",
+        "smiles": "C#C[C@]1(O)CCC2[C@@H]3CCC4=CCCC[C@@H]4C3C(=C)C[C@@]21CC",
+        "total_atoms": 53,
+        "heavy_atoms": 23
+      },
+      "energies_eV": [
+        5.7856,
+        6.5307,
+        6.631,
+        6.8126,
+        7.0736
+      ],
+      "oscillator_strengths": [
+        0.050712,
+        0.07338,
+        0.067017,
+        0.309047,
+        0.217283
+      ],
+      "timing": {
+        "xtb_opt_s": 2.837131094187498,
+        "xtb4stda_s": 1.0307363029569387,
+        "stda_s": 444.3520270995796,
+        "total_s": 448.219894496724
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000757_DESONIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 757,
+        "name": "DESONIDE",
+        "smiles": "CC1(C)O[C@@H]2CC3C4CCC5=CC(=O)C=C[C@]5(C)C4[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1",
+        "total_atoms": 62,
+        "heavy_atoms": 30
+      },
+      "energies_eV": [
+        3.4159,
+        4.3379,
+        4.401,
+        5.1173,
+        5.936
+      ],
+      "oscillator_strengths": [
+        0.000372,
+        0.083411,
+        0.001836,
+        0.347792,
+        0.061071
+      ],
+      "timing": {
+        "xtb_opt_s": 2.487503081560135,
+        "xtb4stda_s": 1.2182071879506111,
+        "stda_s": 1241.346665142104,
+        "total_s": 1245.0523754116148
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000758_DESOXYMETASONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 758,
+        "name": "DESOXYMETASONE",
+        "smiles": "C[C@@H]1CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@H]1C(=O)CO",
+        "total_atoms": 56,
+        "heavy_atoms": 27
+      },
+      "energies_eV": [
+        3.8626,
+        4.5072,
+        4.7505,
+        5.2422,
+        5.9563
+      ],
+      "oscillator_strengths": [
+        0.000473,
+        0.105729,
+        0.000448,
+        0.394257,
+        0.060522
+      ],
+      "timing": {
+        "xtb_opt_s": 2.100668728351593,
+        "xtb4stda_s": 1.1862097196280956,
+        "stda_s": 509.9909550026059,
+        "total_s": 513.2778334505856
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000759_DESTHIOBIOTIN_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 759,
+        "name": "DESTHIOBIOTIN (+)",
+        "smiles": "C[C@H]1NC(=O)N[C@H]1CCCCCC(=O)O",
+        "total_atoms": 33,
+        "heavy_atoms": 15
+      },
+      "energies_eV": [
+        5.6351,
+        6.1118,
+        6.1573,
+        6.4228,
+        6.5303
+      ],
+      "oscillator_strengths": [
+        0.015056,
+        0.003184,
+        0.078936,
+        0.037564,
+        0.052661
+      ],
+      "timing": {
+        "xtb_opt_s": 1.153143996372819,
+        "xtb4stda_s": 0.6294786501675844,
+        "stda_s": 28.986419728025794,
+        "total_s": 30.769042374566197
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000760_DESVENLAFAXINE_SUCCINATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 760,
+        "name": "DESVENLAFAXINE SUCCINATE",
+        "smiles": "CN(C)C[C@H](c1ccc(O)cc1)C1(O)CCCCC1",
+        "total_atoms": 44,
+        "heavy_atoms": 19
+      },
+      "energies_eV": [
+        4.8387,
+        5.6308,
+        5.6764,
+        5.7957,
+        6.3985
+      ],
+      "oscillator_strengths": [
+        0.040717,
+        0.060365,
+        0.031825,
+        0.122808,
+        0.002396
+      ],
+      "timing": {
+        "xtb_opt_s": 1.888760620728135,
+        "xtb4stda_s": 0.7024062406271696,
+        "stda_s": 114.93494671583176,
+        "total_s": 117.52611357718706
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000761_DETOMIDINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 761,
+        "name": "DETOMIDINE HYDROCHLORIDE",
+        "smiles": "Cc1cccc(Cc2c[nH]cn2)c1C",
+        "total_atoms": 28,
+        "heavy_atoms": 14
+      },
+      "energies_eV": [
+        4.9935,
+        5.1458,
+        5.9557,
+        6.1317,
+        6.2445
+      ],
+      "oscillator_strengths": [
+        0.000248,
+        0.0019,
+        0.001813,
+        0.051482,
+        0.076517
+      ],
+      "timing": {
+        "xtb_opt_s": 3.1042810548096895,
+        "xtb4stda_s": 0.5083087310194969,
+        "stda_s": 11.918548123911023,
+        "total_s": 15.53113790974021
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000762_DEXFOSFOSERINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 762,
+        "name": "DEXFOSFOSERINE HYDROCHLORIDE",
+        "smiles": "N[C@@H](COP(=O)(O)O)C(=O)O",
+        "total_atoms": 19,
+        "heavy_atoms": 11
+      },
+      "energies_eV": [
+        6.0474,
+        6.1426,
+        6.388,
+        6.9769,
+        7.2076
+      ],
+      "oscillator_strengths": [
+        0.029524,
+        0.010154,
+        0.008158,
+        0.036452,
+        0.029527
+      ],
+      "timing": {
+        "xtb_opt_s": 1.4117392990738153,
+        "xtb4stda_s": 0.37635956145823,
+        "stda_s": 2.504141002893448,
+        "total_s": 4.292239863425493
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000763_DEXIBUPROFEN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 763,
+        "name": "DEXIBUPROFEN",
+        "smiles": "CC(C)Cc1ccc([C@@H](C)C(=O)O)cc1",
+        "total_atoms": 33,
+        "heavy_atoms": 15
+      },
+      "energies_eV": [
+        5.0678,
+        5.8356,
+        6.1876,
+        6.64,
+        6.9536
+      ],
+      "oscillator_strengths": [
+        0.001548,
+        0.147431,
+        0.00624,
+        0.034427,
+        0.489543
+      ],
+      "timing": {
+        "xtb_opt_s": 0.7679447960108519,
+        "xtb4stda_s": 0.5648463051766157,
+        "stda_s": 24.88624134659767,
+        "total_s": 26.21903244778514
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000764_DEXLANSOPRAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 764,
+        "name": "DEXLANSOPRAZOLE",
+        "smiles": "Cc1c(OCC(F)(F)F)ccnc1C[S@](=O)c1nc2ccccc2[nH]1",
+        "total_atoms": 39,
+        "heavy_atoms": 25
+      },
+      "energies_eV": [
+        4.7074,
+        4.9516,
+        5.0747,
+        5.3044,
+        5.485
+      ],
+      "oscillator_strengths": [
+        0.177431,
+        0.169304,
+        0.017827,
+        0.086422,
+        0.024768
+      ],
+      "timing": {
+        "xtb_opt_s": 1.870416110381484,
+        "xtb4stda_s": 0.8392163384705782,
+        "stda_s": 171.69384782761335,
+        "total_s": 174.40348027646542
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000765_DEXPANTHENOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 765,
+        "name": "DEXPANTHENOL",
+        "smiles": "CC(C)(CO)[C@H](O)C(=O)NCCCO",
+        "total_atoms": 33,
+        "heavy_atoms": 14
+      },
+      "energies_eV": [
+        5.7425,
+        6.1429,
+        6.3157,
+        6.8763,
+        7.2247
+      ],
+      "oscillator_strengths": [
+        0.005634,
+        0.0114,
+        0.194085,
+        0.001172,
+        0.034252
+      ],
+      "timing": {
+        "xtb_opt_s": 3.8835192434489727,
+        "xtb4stda_s": 0.6356020998209715,
+        "stda_s": 26.09827378205955,
+        "total_s": 30.617395125329494
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000766_DEXPROPRANOLOL_HYDROCHLORIDE_R_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 766,
+        "name": "DEXPROPRANOLOL HYDROCHLORIDE [R(+)]",
+        "smiles": "CC(C)NC[C@H](O)COc1cccc2ccccc12",
+        "total_atoms": 40,
+        "heavy_atoms": 19
+      },
+      "energies_eV": [
+        4.2287,
+        4.2639,
+        5.7286,
+        5.7612,
+        5.8101
+      ],
+      "oscillator_strengths": [
+        0.16219,
+        0.075343,
+        0.243581,
+        0.000954,
+        0.450423
+      ],
+      "timing": {
+        "xtb_opt_s": 6.973603995516896,
+        "xtb4stda_s": 0.875677403062582,
+        "stda_s": 98.7034594193101,
+        "total_s": 106.55274081788957
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000767_DEXRAZOXANE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 767,
+        "name": "DEXRAZOXANE",
+        "smiles": "C[C@@H](CN1CC(=O)NC(=O)C1)N1CC(=O)NC(=O)C1",
+        "total_atoms": 35,
+        "heavy_atoms": 19
+      },
+      "energies_eV": [
+        4.5973,
+        4.7308,
+        5.3339,
+        5.3508,
+        5.533
+      ],
+      "oscillator_strengths": [
+        0.000328,
+        0.001342,
+        0.010315,
+        0.05772,
+        0.001951
+      ],
+      "timing": {
+        "xtb_opt_s": 1.4927044678479433,
+        "xtb4stda_s": 0.6334465462714434,
+        "stda_s": 56.87738863378763,
+        "total_s": 59.00353964790702
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000768_DI-O-DEMETHYLCURCUMIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 768,
+        "name": "DI-O-DEMETHYLCURCUMIN",
+        "smiles": "O=C(/C=C(O)/C=C/c1ccc(O)c(O)c1)/C=C/c1ccc(O)c(O)c1",
+        "total_atoms": 41,
+        "heavy_atoms": 25
+      },
+      "energies_eV": [
+        3.3295,
+        4.0036,
+        4.1048,
+        4.1596,
+        4.3415
+      ],
+      "oscillator_strengths": [
+        1.072354,
+        0.44371,
+        0.01049,
+        0.04001,
+        0.015613
+      ],
+      "timing": {
+        "xtb_opt_s": 5.8368173930794,
+        "xtb4stda_s": 0.8323338180780411,
+        "stda_s": 197.89129145629704,
+        "total_s": 204.56044266745448
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000769_DIACERIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 769,
+        "name": "DIACERIN",
+        "smiles": "CC(=O)Oc1cccc2c1C(=O)c1c(OC(C)=O)cc(C(=O)O)cc1C2=O",
+        "total_atoms": 39,
+        "heavy_atoms": 27
+      },
+      "energies_eV": [
+        2.5682,
+        3.4725,
+        3.5881,
+        3.6285,
+        3.6601
+      ],
+      "oscillator_strengths": [
+        0.001047,
+        0.258528,
+        0.005535,
+        0.004653,
+        0.045972
+      ],
+      "timing": {
+        "xtb_opt_s": 2.21068561822176,
+        "xtb4stda_s": 0.9130933340638876,
+        "stda_s": 260.96476732194424,
+        "total_s": 264.0885462742299
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000770_DIACETAMATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 770,
+        "name": "DIACETAMATE",
+        "smiles": "CC(=O)Nc1ccc(OC(C)=O)cc1",
+        "total_atoms": 25,
+        "heavy_atoms": 14
+      },
+      "energies_eV": [
+        4.5847,
+        4.9462,
+        5.5158,
+        5.7406,
+        5.8213
+      ],
+      "oscillator_strengths": [
+        0.043782,
+        0.683404,
+        0.000981,
+        0.006433,
+        0.005699
+      ],
+      "timing": {
+        "xtb_opt_s": 0.788695028051734,
+        "xtb4stda_s": 0.5230995006859303,
+        "stda_s": 7.681828573346138,
+        "total_s": 8.993623102083802
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000771_DIALLYL_SULFIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 771,
+        "name": "DIALLYL SULFIDE",
+        "smiles": "C=CCSCC=C",
+        "total_atoms": 17,
+        "heavy_atoms": 7
+      },
+      "energies_eV": [
+        5.2385,
+        5.8373,
+        5.9303,
+        6.3592,
+        6.4632
+      ],
+      "oscillator_strengths": [
+        0.004443,
+        0.001452,
+        0.01122,
+        0.03923,
+        0.004118
+      ],
+      "timing": {
+        "xtb_opt_s": 0.3978743590414524,
+        "xtb4stda_s": 0.296417148783803,
+        "stda_s": 0.7996420226991177,
+        "total_s": 1.493933530524373
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000772_DIALLYL_TRISULFIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 772,
+        "name": "DIALLYL TRISULFIDE",
+        "smiles": "C=CCSSSCC=C",
+        "total_atoms": 19,
+        "heavy_atoms": 9
+      },
+      "energies_eV": [
+        5.2952,
+        5.4349,
+        5.6636,
+        5.8283,
+        5.9464
+      ],
+      "oscillator_strengths": [
+        0.036139,
+        0.021574,
+        0.003623,
+        0.00121,
+        0.110121
+      ],
+      "timing": {
+        "xtb_opt_s": 0.7589654326438904,
+        "xtb4stda_s": 0.37396973744034767,
+        "stda_s": 1.462590228766203,
+        "total_s": 2.595525398850441
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000773_DIATRIZOIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 773,
+        "name": "DIATRIZOIC ACID",
+        "smiles": "CC(=O)Nc1c(I)c(NC(C)=O)c(I)c(C(=O)O)c1I",
+        "total_atoms": 29,
+        "heavy_atoms": 20
+      },
+      "energies_eV": [
+        3.2074,
+        3.6015,
+        4.5149,
+        4.5434,
+        4.7259
+      ],
+      "oscillator_strengths": [
+        0.00125,
+        0.008402,
+        0.013409,
+        0.011769,
+        0.008277
+      ],
+      "timing": {
+        "xtb_opt_s": 2.142838452011347,
+        "xtb4stda_s": 0.6581168062984943,
+        "stda_s": 46.20654949918389,
+        "total_s": 49.007504757493734
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000774_DIAVERIDINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 774,
+        "name": "DIAVERIDINE",
+        "smiles": "COc1ccc(Cc2cnc(N)nc2N)cc1OC",
+        "total_atoms": 35,
+        "heavy_atoms": 19
+      },
+      "energies_eV": [
+        4.5894,
+        4.699,
+        5.0448,
+        5.2077,
+        5.3396
+      ],
+      "oscillator_strengths": [
+        0.093555,
+        0.180939,
+        0.006466,
+        0.317133,
+        0.109251
+      ],
+      "timing": {
+        "xtb_opt_s": 2.6019782088696957,
+        "xtb4stda_s": 0.6653147023171186,
+        "stda_s": 59.33208221755922,
+        "total_s": 62.59937512874603
+      },
+      "stda_energy_window_eV": 30.0
     }
   ]
 }
