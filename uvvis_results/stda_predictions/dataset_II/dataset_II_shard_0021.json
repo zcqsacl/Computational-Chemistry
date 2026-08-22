@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 55,
+  "n_records": 64,
   "records": [
     {
       "status": "success",
@@ -1795,6 +1795,243 @@
         "xtb4stda_s": 1.628907922655344,
         "stda_s": 5223.33075571619,
         "total_s": 5258.532125692815
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001378_METHYL_7-DESACETYLKHIVORINATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1378,
+        "name": "METHYL 7-DESACETYLKHIVORINATE",
+        "smiles": "COC(=O)[C@@H]1OC(=O)C2OC23[C@@]1(C)CCC1[C@]2(C)C(C[C@@H](O)[C@]13C)C(C)(C)[C@H](OC(C)=O)C[C@@H]2OC(C)=O",
+        "total_atoms": 78,
+        "heavy_atoms": 38
+      },
+      "energies_eV": [
+        5.8276,
+        6.1133,
+        6.2439,
+        6.2496,
+        7.3682
+      ],
+      "oscillator_strengths": [
+        0.007773,
+        0.008088,
+        0.002784,
+        0.007476,
+        0.009605
+      ],
+      "timing": {
+        "xtb_opt_s": 10.349926143884659,
+        "xtb4stda_s": 1.6016818676143885,
+        "stda_s": 4710.314327673987,
+        "total_s": 4722.265935685486
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000575_CETALKONIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 575,
+        "name": "CETALKONIUM CHLORIDE",
+        "smiles": "CCCCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1",
+        "total_atoms": 72,
+        "heavy_atoms": 26
+      },
+      "energies_eV": [
+        1.1349,
+        2.0423,
+        2.0554,
+        2.4715,
+        2.9917
+      ],
+      "oscillator_strengths": [
+        0.001897,
+        0.027949,
+        0.008708,
+        0.013271,
+        0.003365
+      ],
+      "timing": {
+        "xtb_opt_s": 2.59460287168622,
+        "xtb4stda_s": 1.220086332410574,
+        "stda_s": 10661.770607275888,
+        "total_s": 10665.585296479985
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001584_PANTETHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1584,
+        "name": "PANTETHINE",
+        "smiles": "CC(C)(CO)C(O)C(=O)NCCC(=O)NCCSSCCNC(=O)CCNC(=O)C(O)C(C)(C)CO",
+        "total_atoms": 78,
+        "heavy_atoms": 36
+      },
+      "energies_eV": [
+        5.4154,
+        5.6066,
+        5.9346,
+        5.969,
+        6.0574
+      ],
+      "oscillator_strengths": [
+        0.005168,
+        0.010959,
+        0.007817,
+        0.004424,
+        0.018813
+      ],
+      "timing": {
+        "xtb_opt_s": 30.323394291102886,
+        "xtb4stda_s": 1.3598315510898829,
+        "stda_s": 5221.34297764115,
+        "total_s": 5253.026203483343
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000216_AGELASINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 216,
+        "name": "AGELASINE",
+        "smiles": "CC1=CCC[C@H]2[C@]1(C)CC[C@H](C)[C@]2(C)CC/C(C)=C/Cn1c[n+](C)c2c(N)ncnc21",
+        "total_atoms": 71,
+        "heavy_atoms": 31
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000560_CEFSULODIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 560,
+        "name": "CEFSULODIN SODIUM",
+        "smiles": "NC(=O)c1cc[n+](CC2=C(C(=O)O)N3C(=O)C(NC(=O)C(c4ccccc4)S(=O)(=O)O)C3SC2)cc1",
+        "total_atoms": 57,
+        "heavy_atoms": 36
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000561_CEFTAZIDIME",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 561,
+        "name": "CEFTAZIDIME",
+        "smiles": "CC(C)(O/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(C[n+]3ccccc3)CSC12)c1csc(N)n1)C(=O)O",
+        "total_atoms": 60,
+        "heavy_atoms": 37
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001116_HESPERIDIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1116,
+        "name": "HESPERIDIN",
+        "smiles": "COc1ccc([C@H]2CC(=O)c3c(O)cc(O[C@H]4O[C@@H](CO[C@@H]5O[C@H](C)[C@@H](O)[C@H](O)[C@@H]5O)[C@H](O)[C@@H](O)[C@@H]4O)cc3O2)cc1O",
+        "total_atoms": 77,
+        "heavy_atoms": 43
+      },
+      "energies_eV": [
+        3.7718,
+        4.3396,
+        4.3837,
+        4.6474,
+        5.1357
+      ],
+      "oscillator_strengths": [
+        0.074048,
+        0.356319,
+        0.005915,
+        0.076593,
+        0.006364
+      ],
+      "timing": {
+        "xtb_opt_s": 18.204060282558203,
+        "xtb4stda_s": 1.518368599936366,
+        "stda_s": 6138.340290654451,
+        "total_s": 6158.062719536945
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001434_MONTELUKAST_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1434,
+        "name": "MONTELUKAST SODIUM",
+        "smiles": "CC(C)(O)c1ccccc1CC[C@H](SCC1(CC(=O)O)CC1)c1cccc(/C=C/c2ccc3ccc(Cl)cc3n2)c1",
+        "total_atoms": 77,
+        "heavy_atoms": 41
+      },
+      "energies_eV": [
+        3.8302,
+        4.1995,
+        4.2283,
+        4.5978,
+        4.6964
+      ],
+      "oscillator_strengths": [
+        1.072689,
+        0.144149,
+        0.010302,
+        0.007591,
+        0.709281
+      ],
+      "timing": {
+        "xtb_opt_s": 30.961804492399096,
+        "xtb4stda_s": 1.5047631114721298,
+        "stda_s": 6008.224846409634,
+        "total_s": 6040.691414013505
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001113_HEPARIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1113,
+        "name": "HEPARIN SODIUM",
+        "smiles": "N[C@H]1[C@@H](O[C@@H]2[C@@H](C(=O)O)O[C@@H](CO[C@@H]3[C@@H](CO)O[C@H](O)[C@H](O)[C@H]3O)[C@H](OS(=O)(=O)O)[C@H]2O)O[C@H](COS(=O)(=O)O)[C@@H](O)[C@@H]1O",
+        "total_atoms": 77,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        5.7173,
+        6.5352,
+        6.9328,
+        6.9444,
+        7.092
+      ],
+      "oscillator_strengths": [
+        0.008301,
+        0.02505,
+        0.049041,
+        0.010976,
+        0.010251
+      ],
+      "timing": {
+        "xtb_opt_s": 15.709127819165587,
+        "xtb4stda_s": 1.547842849045992,
+        "stda_s": 7644.70707106404,
+        "total_s": 7661.964041732252
       },
       "stda_energy_window_eV": 30.0
     }
