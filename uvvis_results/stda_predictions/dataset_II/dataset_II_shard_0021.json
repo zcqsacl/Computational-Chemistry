@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 28,
+  "n_records": 29,
   "records": [
     {
       "status": "success",
@@ -904,6 +904,39 @@
         "xtb4stda_s": 1.3421083930879831,
         "stda_s": 1949.1513249892741,
         "total_s": 1961.414399266243
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001810_RHOIFOLIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1810,
+        "name": "RHOIFOLIN",
+        "smiles": "C[C@H]1O[C@H](O[C@@H]2[C@@H](Oc3cc(O)c4c(=O)cc(-c5ccc(O)cc5)oc4c3)O[C@@H](CO)[C@H](O)[C@H]2O)[C@@H](O)[C@@H](O)[C@@H]1O",
+        "total_atoms": 71,
+        "heavy_atoms": 41
+      },
+      "energies_eV": [
+        4.0502,
+        4.412,
+        4.4801,
+        4.6853,
+        4.7349
+      ],
+      "oscillator_strengths": [
+        0.349122,
+        0.173283,
+        0.003222,
+        0.088563,
+        0.381008
+      ],
+      "timing": {
+        "xtb_opt_s": 9.32660055346787,
+        "xtb4stda_s": 1.4410555716603994,
+        "stda_s": 3979.1134610436857,
+        "total_s": 3989.881117168814
       },
       "stda_energy_window_eV": 30.0
     }
