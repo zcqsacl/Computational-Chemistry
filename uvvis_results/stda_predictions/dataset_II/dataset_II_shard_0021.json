@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 64,
+  "n_records": 70,
   "records": [
     {
       "status": "success",
@@ -2032,6 +2032,184 @@
         "xtb4stda_s": 1.547842849045992,
         "stda_s": 7644.70707106404,
         "total_s": 7661.964041732252
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001444_MUPIROCIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1444,
+        "name": "MUPIROCIN",
+        "smiles": "C/C(=C\\C(=O)OCCCCCCCCC(=O)O)C[C@@H]1OC[C@H](C[C@@H]2O[C@H]2[C@@H](C)[C@H](C)O)[C@@H](O)[C@H]1O",
+        "total_atoms": 79,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        5.4706,
+        5.8666,
+        6.1212,
+        6.9829,
+        7.0114
+      ],
+      "oscillator_strengths": [
+        0.046211,
+        0.532192,
+        0.002644,
+        0.032399,
+        0.003238
+      ],
+      "timing": {
+        "xtb_opt_s": 19.388317162171006,
+        "xtb4stda_s": 1.4835282377898693,
+        "stda_s": 3242.6188251208514,
+        "total_s": 3263.4906705208123
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001415_MILTEFOSINE_5mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1415,
+        "name": "MILTEFOSINE [5mM]",
+        "smiles": "CCCCCCCCCCCCCCCCO[P@@](=O)(O)OCC[N+](C)(C)C",
+        "total_atoms": 74,
+        "heavy_atoms": 27
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001597_PECTOLINARIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1597,
+        "name": "PECTOLINARIN",
+        "smiles": "COc1ccc(-c2cc(=O)c3c(O)c(OC)c(O[C@H]4O[C@H](CO[C@@H]5O[C@@H](C)[C@H](O)[C@@H](O)[C@H]5O)[C@@H](O)[C@H](O)[C@H]4O)cc3o2)cc1",
+        "total_atoms": 78,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        3.3147,
+        4.0959,
+        4.3398,
+        4.4954,
+        4.6766
+      ],
+      "oscillator_strengths": [
+        0.085934,
+        0.323217,
+        0.925186,
+        0.04917,
+        0.004172
+      ],
+      "timing": {
+        "xtb_opt_s": 23.362693950533867,
+        "xtb4stda_s": 1.5863949675112963,
+        "stda_s": 7086.100947979838,
+        "total_s": 7111.050036897883
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000061_3-DEACETYLKHIVORIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 61,
+        "name": "3-DEACETYLKHIVORIN",
+        "smiles": "CC(=O)O[C@H]1C[C@@H](O)C(C)(C)C2C[C@@H](OC(C)=O)[C@]3(C)C(CC[C@@]4(C)[C@H](c5ccoc5)OC(=O)C5OC543)[C@]21C",
+        "total_atoms": 79,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        5.7802,
+        5.8111,
+        5.9784,
+        6.1704,
+        6.2118
+      ],
+      "oscillator_strengths": [
+        0.001699,
+        0.024632,
+        0.238424,
+        0.002361,
+        0.005626
+      ],
+      "timing": {
+        "xtb_opt_s": 10.134209578856826,
+        "xtb4stda_s": 1.8570724576711655,
+        "stda_s": 4714.224934116006,
+        "total_s": 4726.216216152534
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000138_7-DEACETYLKHIVORIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 138,
+        "name": "7-DEACETYLKHIVORIN",
+        "smiles": "CC(=O)O[C@H]1C[C@@H](OC(C)=O)C(C)(C)C2C[C@@H](O)[C@]3(C)C(CC[C@@]4(C)[C@H](c5ccoc5)OC(=O)[C@H]5O[C@]543)[C@]21C",
+        "total_atoms": 79,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        5.7865,
+        5.8065,
+        5.9361,
+        6.2122,
+        6.2474
+      ],
+      "oscillator_strengths": [
+        0.009081,
+        0.022717,
+        0.19869,
+        0.005142,
+        0.003994
+      ],
+      "timing": {
+        "xtb_opt_s": 14.813837999477983,
+        "xtb4stda_s": 1.7207494415342808,
+        "stda_s": 4578.472291907296,
+        "total_s": 4595.006879348308
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_002001_TENIPOSIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2001,
+        "name": "TENIPOSIDE",
+        "smiles": "COc1cc([C@H]2c3cc4c(cc3C(O[C@H]3O[C@H]5CO[C@H](c6cccs6)OC5[C@@H](O)[C@@H]3O)C3COC(=O)[C@H]32)OCO4)cc(OC)c1O",
+        "total_atoms": 78,
+        "heavy_atoms": 46
+      },
+      "energies_eV": [
+        4.5078,
+        4.5736,
+        5.0428,
+        5.1212,
+        5.2218
+      ],
+      "oscillator_strengths": [
+        0.098347,
+        0.017933,
+        0.014006,
+        0.179193,
+        0.084929
+      ],
+      "timing": {
+        "xtb_opt_s": 12.459522221237421,
+        "xtb4stda_s": 1.8801141493022442,
+        "stda_s": 8029.799262840301,
+        "total_s": 8044.1388992108405
       },
       "stda_energy_window_eV": 30.0
     }
