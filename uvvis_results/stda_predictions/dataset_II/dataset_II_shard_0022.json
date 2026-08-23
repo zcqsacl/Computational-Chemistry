@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 16,
+  "n_records": 24,
   "records": [
     {
       "status": "success",
@@ -448,6 +448,150 @@
         "xtb4stda_s": 1.8917720075696707,
         "stda_s": 8319.76807504706,
         "total_s": 8342.363197928295
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000581_CHICAGO_SKY_BLUE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 581,
+        "name": "CHICAGO SKY BLUE",
+        "smiles": "COc1cc(-c2ccc(/N=N/c3ccc4c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c4c3O)c(OC)c2)ccc1/N=N/c1ccc2c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c2c1O",
+        "total_atoms": 88,
+        "heavy_atoms": 60
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001145_ICARIIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1145,
+        "name": "ICARIIN",
+        "smiles": "COc1ccc(-c2oc3c(CC=C(C)C)c(O[C@H]4O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]4O)cc(O)c3c(=O)c2O[C@H]2O[C@H](C)[C@@H](O)[C@H](O)[C@@H]2O)cc1",
+        "total_atoms": 88,
+        "heavy_atoms": 48
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002022_TETRANDRINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2022,
+        "name": "TETRANDRINE",
+        "smiles": "COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3cc(c(OC)cc3CCN1C)Oc1c(OC)c(OC)cc3c1[C@H](C2)N(C)CC3",
+        "total_atoms": 88,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000228_ALISKIREN_HEMIFUMARATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 228,
+        "name": "ALISKIREN HEMIFUMARATE",
+        "smiles": "COCCCOc1cc(C[C@@H](C[C@H](N)[C@@H](O)C[C@H](C(=O)NCC(C)(C)C(N)=O)C(C)C)C(C)C)ccc1OC",
+        "total_atoms": 92,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        4.6605,
+        5.4516,
+        5.8227,
+        6.0694,
+        6.1073
+      ],
+      "oscillator_strengths": [
+        0.066285,
+        0.13861,
+        0.006868,
+        0.005579,
+        0.02186
+      ],
+      "timing": {
+        "xtb_opt_s": 17.41494905948639,
+        "xtb4stda_s": 1.9067829828709364,
+        "stda_s": 9242.257434789091,
+        "total_s": 9261.579166831449
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001565_OXONITINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1565,
+        "name": "OXONITINE",
+        "smiles": "COC[C@]12CN(C=O)C3[C@@H]4[C@H](OC)C1[C@]3(C1CC3(O)C(OC)C(O)C4(OC(C)=O)C1C3OC(=O)c1ccccc1)[C@@H](OC)C[C@H]2O",
+        "total_atoms": 89,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001044_GAMBOGIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1044,
+        "name": "GAMBOGIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4=O)C3=O",
+        "total_atoms": 90,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000506_CAPREOMYCIN_SULFATE_4mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 506,
+        "name": "CAPREOMYCIN SULFATE [4mM]",
+        "smiles": "N=C1NCCC(C2NC(=O)/C(=C\\NC(N)=O)NC(=O)C(CNC(=O)CC(N)CCCN)NC(=O)C(CO)NC(=O)C(N)CNC2=O)N1",
+        "total_atoms": 91,
+        "heavy_atoms": 47
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000416_beta-AMYRIN_BENZOATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 416,
+        "name": "beta-AMYRIN BENZOATE",
+        "smiles": "CC1(C)CC[C@]2(C)CC[C@]3(C)C(=CCC4[C@@]5(C)CC[C@H](OC(=O)c6ccccc6)C(C)(C)C5CC[C@]43C)C2C1",
+        "total_atoms": 93,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        4.8508,
+        5.5269,
+        5.6362,
+        6.5099,
+        6.7937
+      ],
+      "oscillator_strengths": [
+        0.019464,
+        0.086284,
+        0.193818,
+        0.009678,
+        0.428294
+      ],
+      "timing": {
+        "xtb_opt_s": 13.618283972144127,
+        "xtb4stda_s": 1.8892529681324959,
+        "stda_s": 8715.507711173967,
+        "total_s": 8731.015248114243
       },
       "stda_energy_window_eV": 30.0
     }
