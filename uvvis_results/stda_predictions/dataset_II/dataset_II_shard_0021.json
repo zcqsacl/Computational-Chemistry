@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 21,
-  "n_records": 94,
+  "n_records": 100,
   "records": [
     {
       "status": "success",
@@ -2962,6 +2962,204 @@
         "xtb4stda_s": 1.7878541480749846,
         "stda_s": 3527.0169875994325,
         "total_s": 3536.1278048604727
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001320_MANIDIPINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1320,
+        "name": "MANIDIPINE HYDROCHLORIDE",
+        "smiles": "COC(=O)C1=C(C)NC(C)=C(C(=O)OCCN2CCN(C(c3ccccc3)c3ccccc3)CC2)[C@H]1c1cccc([N+](=O)[O-])c1",
+        "total_atoms": 83,
+        "heavy_atoms": 45
+      },
+      "energies_eV": [
+        3.1776,
+        3.6483,
+        3.9399,
+        4.13,
+        4.2905
+      ],
+      "oscillator_strengths": [
+        0.197325,
+        0.001698,
+        0.020692,
+        0.033209,
+        0.004469
+      ],
+      "timing": {
+        "xtb_opt_s": 17.93671426177025,
+        "xtb4stda_s": 1.9272548779845238,
+        "stda_s": 7917.889818701893,
+        "total_s": 7937.753787841648
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001195_ISORESERPINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1195,
+        "name": "ISORESERPINE",
+        "smiles": "COC(=O)[C@H]1[C@H]2C[C@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC",
+        "total_atoms": 84,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        4.1152,
+        4.2676,
+        4.2888,
+        4.5806,
+        5.2378
+      ],
+      "oscillator_strengths": [
+        0.020418,
+        0.481144,
+        0.092386,
+        0.028609,
+        0.005372
+      ],
+      "timing": {
+        "xtb_opt_s": 16.51757573708892,
+        "xtb4stda_s": 1.8820587396621704,
+        "stda_s": 7756.875251300633,
+        "total_s": 7775.274885777384
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000609_CHOLESTERYL_HEMISUCCINATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 609,
+        "name": "CHOLESTERYL HEMISUCCINATE",
+        "smiles": "CC(C)CCCC(C)[C@@H]1CCC2C3CC=C4C[C@H](OC(=O)CCC(=O)O)CC[C@@]4(C)C3CC[C@]21C",
+        "total_atoms": 85,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        6.1241,
+        6.2306,
+        6.3016,
+        7.1004,
+        7.2667
+      ],
+      "oscillator_strengths": [
+        0.00476,
+        0.031239,
+        0.005251,
+        0.418462,
+        0.04773
+      ],
+      "timing": {
+        "xtb_opt_s": 7.925291959196329,
+        "xtb4stda_s": 1.952597202733159,
+        "stda_s": 4786.323253190145,
+        "total_s": 4796.201142352074
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000242_alpha-TOCHOPHERYL_ACETATE_4mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 242,
+        "name": "alpha-TOCHOPHERYL ACETATE [4mM]",
+        "smiles": "CC(=O)Oc1c(C)c(C)c2c(c1C)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2",
+        "total_atoms": 86,
+        "heavy_atoms": 34
+      },
+      "energies_eV": [
+        4.5616,
+        5.4144,
+        5.6061,
+        5.9787,
+        6.311
+      ],
+      "oscillator_strengths": [
+        0.067973,
+        0.065056,
+        0.005784,
+        0.006854,
+        0.07283
+      ],
+      "timing": {
+        "xtb_opt_s": 5.331207936629653,
+        "xtb4stda_s": 1.7918081432580948,
+        "stda_s": 4596.049945624545,
+        "total_s": 4603.172961704433
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001028_FOSINOPRIL_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1028,
+        "name": "FOSINOPRIL SODIUM",
+        "smiles": "CCC(=O)O[C@@H](O[P@](=O)(CCCCc1ccccc1)CC(=O)N1C[C@H](C2CCCCC2)C[C@H]1C(=O)O)C(C)C",
+        "total_atoms": 85,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        5.1294,
+        5.6472,
+        6.0606,
+        6.1399,
+        6.286
+      ],
+      "oscillator_strengths": [
+        0.001201,
+        0.004442,
+        0.050485,
+        0.032559,
+        0.061513
+      ],
+      "timing": {
+        "xtb_opt_s": 42.91543942503631,
+        "xtb4stda_s": 1.8232194744050503,
+        "stda_s": 5294.2975932359695,
+        "total_s": 5339.036252135411
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001532_OLEANOLIC_ACID_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1532,
+        "name": "OLEANOLIC ACID ACETATE",
+        "smiles": "CC(=O)O[C@@H]1CC[C@@]2(C)C(CC[C@]3(C)C2CC=C2C4CC(C)(C)CC[C@]4(C(=O)O)CC[C@]23C)C1(C)C",
+        "total_atoms": 86,
+        "heavy_atoms": 36
+      },
+      "energies_eV": [
+        6.1362,
+        6.275,
+        6.4326,
+        6.5519,
+        7.0022
+      ],
+      "oscillator_strengths": [
+        0.004149,
+        0.006072,
+        0.001673,
+        0.018899,
+        0.317965
+      ],
+      "timing": {
+        "xtb_opt_s": 8.125870248302817,
+        "xtb4stda_s": 1.8514016587287188,
+        "stda_s": 4331.287158153951,
+        "total_s": 4341.264430060983
       },
       "stda_energy_window_eV": 30.0
     }
