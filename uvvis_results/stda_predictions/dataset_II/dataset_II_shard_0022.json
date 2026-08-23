@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 4,
+  "n_records": 6,
   "records": [
     {
       "status": "success",
@@ -132,6 +132,72 @@
         "xtb4stda_s": 1.9482117556035519,
         "stda_s": 8014.988203853369,
         "total_s": 8029.894600134343
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000409_BERBAMINE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 409,
+        "name": "BERBAMINE HYDROCHLORIDE",
+        "smiles": "COc1cc2c3cc1Oc1c(OC)c(OC)cc4c1[C@H](Cc1cccc(c1)Oc1ccc(c(O)c1)C[C@H]3N(C)CC2)N(C)CC4",
+        "total_atoms": 85,
+        "heavy_atoms": 45
+      },
+      "energies_eV": [
+        4.62,
+        4.687,
+        4.8049,
+        4.9758,
+        5.212
+      ],
+      "oscillator_strengths": [
+        0.012839,
+        0.080482,
+        0.090843,
+        0.017094,
+        0.040502
+      ],
+      "timing": {
+        "xtb_opt_s": 71.57688526436687,
+        "xtb4stda_s": 2.1369907464832067,
+        "stda_s": 8415.505351096392,
+        "total_s": 8489.219227107242
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001542_ORLISTAT",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1542,
+        "name": "ORLISTAT",
+        "smiles": "CCCCCCCCCCC[C@H](C[C@@H]1OC(=O)[C@@H]1CCCCCC)OC(=O)[C@H](CC(C)C)NC=O",
+        "total_atoms": 88,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        5.8897,
+        5.9303,
+        6.0849,
+        6.1086,
+        6.8571
+      ],
+      "oscillator_strengths": [
+        0.005756,
+        0.035939,
+        0.007925,
+        0.003459,
+        0.1202
+      ],
+      "timing": {
+        "xtb_opt_s": 9.727157382294536,
+        "xtb4stda_s": 1.5785895567387342,
+        "stda_s": 5398.2193686924875,
+        "total_s": 5409.525115631521
       },
       "stda_energy_window_eV": 30.0
     }
