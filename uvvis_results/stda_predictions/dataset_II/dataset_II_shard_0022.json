@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 26,
+  "n_records": 29,
   "records": [
     {
       "status": "success",
@@ -618,6 +618,45 @@
         "smiles": "NCCC[C@H](N)CC(=O)NC1CNC(=O)[C@H]([C@H]2C[C@H](O)NC(N)=N2)NC(=O)/C(=C/NC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC1=O",
         "total_atoms": 91,
         "heavy_atoms": 48
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000805_DIHYDROGAMBOGIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 805,
+        "name": "DIHYDROGAMBOGIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4O)C3=O",
+        "total_atoms": 92,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001157_INDINAVIR_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1157,
+        "name": "INDINAVIR SULFATE",
+        "smiles": "CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@H](O)C[C@H](Cc1ccccc1)C(=O)N[C@@H]1c2ccccc2C[C@@H]1O",
+        "total_atoms": 92,
+        "heavy_atoms": 45
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001048_GARCINOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1048,
+        "name": "GARCINOLIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CCCC1C(C)(C)O[C@]2(C/C=C(\\C)C(=O)O)C(=O)O)C3=O",
+        "total_atoms": 93,
+        "heavy_atoms": 47
       },
       "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
     }
