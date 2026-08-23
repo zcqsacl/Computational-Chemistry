@@ -5,6 +5,138 @@
   "records": [
     {
       "status": "success",
+      "label": "dataset_II_000101_4-METHYLESCULETIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 101,
+        "name": "4-METHYLESCULETIN",
+        "smiles": "Cc1cc(=O)oc2cc(O)c(O)cc12",
+        "total_atoms": 22,
+        "heavy_atoms": 14
+      },
+      "energies_eV": [
+        3.8668,
+        4.592,
+        5.0071,
+        5.0751,
+        5.4085
+      ],
+      "oscillator_strengths": [
+        0.28634,
+        0.200806,
+        0.05805,
+        0.002707,
+        0.037914
+      ],
+      "timing": {
+        "xtb_opt_s": 0.49902205169200897,
+        "xtb4stda_s": 0.44654914550483227,
+        "stda_s": 3.9164308421313763,
+        "total_s": 4.8620020393282175
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000102_4-NAPHTHALIMIDOBUTYRIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 102,
+        "name": "4-NAPHTHALIMIDOBUTYRIC ACID",
+        "smiles": "O=C(O)CCCN1C(=O)c2cccc3cccc(c23)C1=O",
+        "total_atoms": 34,
+        "heavy_atoms": 21
+      },
+      "energies_eV": [
+        3.8976,
+        3.9277,
+        4.2865,
+        4.6055,
+        4.7355
+      ],
+      "oscillator_strengths": [
+        0.363523,
+        0.02592,
+        0.089886,
+        0.002346,
+        0.00623
+      ],
+      "timing": {
+        "xtb_opt_s": 1.3578238636255264,
+        "xtb4stda_s": 0.5669321399182081,
+        "stda_s": 63.347007689997554,
+        "total_s": 65.27176369354129
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000103_4-NONYLPHENOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 103,
+        "name": "4-NONYLPHENOL",
+        "smiles": "CCCCCCCCCc1ccc(O)cc1",
+        "total_atoms": 40,
+        "heavy_atoms": 16
+      },
+      "energies_eV": [
+        4.8312,
+        5.632,
+        5.7851,
+        6.4921,
+        6.8378
+      ],
+      "oscillator_strengths": [
+        0.043899,
+        0.037695,
+        0.134606,
+        0.006123,
+        0.187944
+      ],
+      "timing": {
+        "xtb_opt_s": 1.747002949938178,
+        "xtb4stda_s": 0.6074058003723621,
+        "stda_s": 40.26240416802466,
+        "total_s": 42.6168129183352
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000104_4-PHENYLBUTYRIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 104,
+        "name": "4-PHENYLBUTYRIC ACID",
+        "smiles": "O=C(O)CCCc1ccccc1",
+        "total_atoms": 24,
+        "heavy_atoms": 12
+      },
+      "energies_eV": [
+        5.1273,
+        6.04,
+        6.1543,
+        6.6754,
+        6.8213
+      ],
+      "oscillator_strengths": [
+        0.000476,
+        0.002508,
+        0.031945,
+        0.014694,
+        0.018737
+      ],
+      "timing": {
+        "xtb_opt_s": 0.5001097973436117,
+        "xtb4stda_s": 0.38163819909095764,
+        "stda_s": 3.2892535626888275,
+        "total_s": 4.171001559123397
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_II_000105_4_4_-DIMETHOXYDALBERGIONE",
       "metadata": {
         "dataset": "dataset_II",
@@ -1061,6 +1193,72 @@
     },
     {
       "status": "success",
+      "label": "dataset_II_000137_7-DEACETOXY-7-OXOKHIVORIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 137,
+        "name": "7-DEACETOXY-7-OXOKHIVORIN",
+        "smiles": "CC(=O)O[C@H]1C[C@@H](OC(C)=O)[C@]2(C)C(CC(=O)[C@@]3(C)C2CC[C@]2(C)[C@@H](c4ccoc4)OC(=O)[C@@H]4O[C@]432)C1(C)C",
+        "total_atoms": 77,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        4.6278,
+        5.8179,
+        5.8771,
+        5.96,
+        6.2368
+      ],
+      "oscillator_strengths": [
+        0.000414,
+        0.01106,
+        0.014369,
+        0.214848,
+        0.006572
+      ],
+      "timing": {
+        "xtb_opt_s": 5.148747203871608,
+        "xtb4stda_s": 1.5670063346624374,
+        "stda_s": 4608.36271943897,
+        "total_s": 4615.078472977504
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000138_7-DEACETYLKHIVORIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 138,
+        "name": "7-DEACETYLKHIVORIN",
+        "smiles": "CC(=O)O[C@H]1C[C@@H](OC(C)=O)C(C)(C)C2C[C@@H](O)[C@]3(C)C(CC[C@@]4(C)[C@H](c5ccoc5)OC(=O)[C@H]5O[C@]543)[C@]21C",
+        "total_atoms": 79,
+        "heavy_atoms": 39
+      },
+      "energies_eV": [
+        5.7865,
+        5.8065,
+        5.9361,
+        6.2122,
+        6.2474
+      ],
+      "oscillator_strengths": [
+        0.009081,
+        0.022717,
+        0.19869,
+        0.005142,
+        0.003994
+      ],
+      "timing": {
+        "xtb_opt_s": 14.813837999477983,
+        "xtb4stda_s": 1.7207494415342808,
+        "stda_s": 4578.472291907296,
+        "total_s": 4595.006879348308
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_II_000139_7-DEHYDROXYCHOL-8_14_-ENIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
@@ -1853,6 +2051,39 @@
     },
     {
       "status": "success",
+      "label": "dataset_II_000164_ACARBOSE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 164,
+        "name": "ACARBOSE",
+        "smiles": "C[C@H]1O[C@H](O[C@@H]2[C@@H](CO)O[C@H](O[C@@H]3[C@@H](CO)OC(O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
+        "total_atoms": 87,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        5.6402,
+        5.9426,
+        6.2447,
+        6.5409,
+        6.6515
+      ],
+      "oscillator_strengths": [
+        0.016991,
+        0.017861,
+        0.135071,
+        0.005365,
+        0.002328
+      ],
+      "timing": {
+        "xtb_opt_s": 51.27858021482825,
+        "xtb4stda_s": 1.8794094119220972,
+        "stda_s": 8909.93841020763,
+        "total_s": 8963.09639983438
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_II_000165_ACEBUTOLOL_HYDROCHLORIDE",
       "metadata": {
         "dataset": "dataset_II",
@@ -2414,6 +2645,39 @@
     },
     {
       "status": "success",
+      "label": "dataset_II_000182_ACETOXOLONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 182,
+        "name": "ACETOXOLONE",
+        "smiles": "CC(=O)O[C@H]1CC[C@@]2(C)C(CC[C@]3(C)C2C(=O)C=C2[C@@H]4C[C@@](C)(C(=O)O)CC[C@]4(C)CC[C@]23C)C1(C)C",
+        "total_atoms": 85,
+        "heavy_atoms": 37
+      },
+      "energies_eV": [
+        4.0229,
+        5.082,
+        6.1796,
+        6.2598,
+        6.3419
+      ],
+      "oscillator_strengths": [
+        0.000657,
+        0.462442,
+        0.003796,
+        0.006505,
+        0.002101
+      ],
+      "timing": {
+        "xtb_opt_s": 6.951814215630293,
+        "xtb4stda_s": 1.9623793680220842,
+        "stda_s": 4773.303394861519,
+        "total_s": 4782.217588445172
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_II_000183_ACETRIAZOIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
@@ -2508,6 +2772,39 @@
         "xtb4stda_s": 0.4117667730897665,
         "stda_s": 8.48395729623735,
         "total_s": 9.829458992928267
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000186_ACETYL-DIHYDRO-7-EPIKHIVORIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 186,
+        "name": "ACETYL-DIHYDRO-7-EPIKHIVORIN",
+        "smiles": "CC(=O)OC1O[C@@H](c2ccoc2)[C@]2(C)CCC3[C@]4(C)C(C[C@H](OC(C)=O)C[C@@H]4OC(C)=O)C[C@H](OC(C)=O)[C@@]3(C)C23OC13",
+        "total_atoms": 85,
+        "heavy_atoms": 43
+      },
+      "energies_eV": [
+        5.7164,
+        5.9607,
+        6.2099,
+        6.2399,
+        6.2791
+      ],
+      "oscillator_strengths": [
+        0.002016,
+        0.235589,
+        0.005871,
+        0.005395,
+        0.005313
+      ],
+      "timing": {
+        "xtb_opt_s": 12.958184525370598,
+        "xtb4stda_s": 1.9482117556035519,
+        "stda_s": 8014.988203853369,
+        "total_s": 8029.894600134343
       },
       "stda_energy_window_eV": 30.0
     },
@@ -3003,303 +3300,6 @@
         "xtb4stda_s": 0.4912232980132103,
         "stda_s": 14.920974522829056,
         "total_s": 16.932726291939616
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000203_ADAPALENE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 203,
-        "name": "ADAPALENE",
-        "smiles": "COc1ccc(-c2ccc3cc(C(=O)O)ccc3c2)cc1C12CC3CC(CC(C3)C1)C2",
-        "total_atoms": 59,
-        "heavy_atoms": 31
-      },
-      "energies_eV": [
-        4.0358,
-        4.145,
-        4.7051,
-        4.8448,
-        5.3036
-      ],
-      "oscillator_strengths": [
-        0.04,
-        0.464563,
-        0.047134,
-        0.796346,
-        0.307544
-      ],
-      "timing": {
-        "xtb_opt_s": 3.750029245391488,
-        "xtb4stda_s": 0.9300215560942888,
-        "stda_s": 719.8550485372543,
-        "total_s": 724.5350993387401
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000204_ADEFOVIR_DIPIVOXYL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 204,
-        "name": "ADEFOVIR DIPIVOXYL",
-        "smiles": "CC(C)(C)C(=O)OCOP(=O)(COCCn1cnc2c(N)ncnc21)OCOC(=O)C(C)(C)C",
-        "total_atoms": 66,
-        "heavy_atoms": 34
-      },
-      "energies_eV": [
-        4.7925,
-        5.0437,
-        5.1376,
-        5.4446,
-        5.7738
-      ],
-      "oscillator_strengths": [
-        0.444159,
-        0.004298,
-        0.061239,
-        0.012101,
-        0.002533
-      ],
-      "timing": {
-        "xtb_opt_s": 13.036023769527674,
-        "xtb4stda_s": 0.10842628963291645,
-        "stda_s": 2038.5263819545507,
-        "total_s": 2051.6708320137113
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000205_ADELMIDROL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 205,
-        "name": "ADELMIDROL",
-        "smiles": "O=C(CCCCCCCC(=O)NCCO)NCCO",
-        "total_atoms": 45,
-        "heavy_atoms": 19
-      },
-      "energies_eV": [
-        5.7617,
-        5.7763,
-        5.9844,
-        5.9918,
-        6.2534
-      ],
-      "oscillator_strengths": [
-        0.045636,
-        0.010964,
-        0.019963,
-        0.035962,
-        0.046605
-      ],
-      "timing": {
-        "xtb_opt_s": 3.576104983687401,
-        "xtb4stda_s": 0.649689469486475,
-        "stda_s": 118.0397636257112,
-        "total_s": 122.26555807888508
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000206_ADENINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 206,
-        "name": "ADENINE",
-        "smiles": "Nc1ncnc2[nH]cnc12",
-        "total_atoms": 15,
-        "heavy_atoms": 10
-      },
-      "energies_eV": [
-        4.8132,
-        5.0908,
-        5.1659,
-        5.4418,
-        5.7714
-      ],
-      "oscillator_strengths": [
-        0.385171,
-        0.0799,
-        0.00135,
-        0.011523,
-        0.003221
-      ],
-      "timing": {
-        "xtb_opt_s": 0.38076383993029594,
-        "xtb4stda_s": 0.3613900486379862,
-        "stda_s": 0.8830811399966478,
-        "total_s": 1.62523502856493
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000207_ADENOSINE_5-MONOPHOSPHATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 207,
-        "name": "ADENOSINE 5-MONOPHOSPHATE",
-        "smiles": "Nc1ncnc2c1ncn2C1O[C@@H](COP(=O)(O)O)[C@H](O)[C@@H]1O",
-        "total_atoms": 37,
-        "heavy_atoms": 23
-      },
-      "energies_eV": [
-        4.7137,
-        5.0415,
-        5.1252,
-        5.615,
-        5.7345
-      ],
-      "oscillator_strengths": [
-        0.350768,
-        0.074814,
-        0.02407,
-        0.033435,
-        0.008581
-      ],
-      "timing": {
-        "xtb_opt_s": 2.0707550700753927,
-        "xtb4stda_s": 0.6814408600330353,
-        "stda_s": 100.51258777081966,
-        "total_s": 103.26478370092809
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000208_ADENOSINE_TRIPHOSPHATE_DISODIUM",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 208,
-        "name": "ADENOSINE TRIPHOSPHATE DISODIUM",
-        "smiles": "Nc1ncnc2c1ncn2C1O[C@@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@H](O)[C@@H]1O",
-        "total_atoms": 47,
-        "heavy_atoms": 31
-      },
-      "energies_eV": [
-        4.7684,
-        5.0888,
-        5.1674,
-        5.4166,
-        5.857
-      ],
-      "oscillator_strengths": [
-        0.412153,
-        0.076433,
-        0.00474,
-        0.015582,
-        0.003238
-      ],
-      "timing": {
-        "xtb_opt_s": 7.835351102054119,
-        "xtb4stda_s": 0.8516844492405653,
-        "stda_s": 586.6588532105088,
-        "total_s": 595.3458887618035
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000209_ADIPHENINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 209,
-        "name": "ADIPHENINE HYDROCHLORIDE",
-        "smiles": "CCN(CC)CCOC(=O)C(c1ccccc1)c1ccccc1",
-        "total_atoms": 48,
-        "heavy_atoms": 23
-      },
-      "energies_eV": [
-        5.1374,
-        5.1506,
-        5.4245,
-        6.0833,
-        6.1907
-      ],
-      "oscillator_strengths": [
-        0.00015,
-        0.000291,
-        0.014147,
-        0.135502,
-        0.009855
-      ],
-      "timing": {
-        "xtb_opt_s": 2.483231797814369,
-        "xtb4stda_s": 0.7818593345582485,
-        "stda_s": 221.60019327141345,
-        "total_s": 224.86528440378606
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000210_ADIPIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 210,
-        "name": "ADIPIC ACID",
-        "smiles": "O=C(O)CCCCC(=O)O",
-        "total_atoms": 20,
-        "heavy_atoms": 10
-      },
-      "energies_eV": [
-        6.1088,
-        6.1337,
-        7.2726,
-        7.325,
-        8.2738
-      ],
-      "oscillator_strengths": [
-        0.003264,
-        0.003426,
-        0.029329,
-        0.066888,
-        0.044256
-      ],
-      "timing": {
-        "xtb_opt_s": 0.5626271478831768,
-        "xtb4stda_s": 0.4116923436522484,
-        "stda_s": 1.7812368161976337,
-        "total_s": 2.755556307733059
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000211_ADONITOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 211,
-        "name": "ADONITOL",
-        "smiles": "OC[C@H](O)[C@H](O)[C@H](O)CO",
-        "total_atoms": 22,
-        "heavy_atoms": 10
-      },
-      "energies_eV": [
-        6.7364,
-        7.1077,
-        7.155,
-        7.2826,
-        7.5358
-      ],
-      "oscillator_strengths": [
-        0.010115,
-        0.003983,
-        0.001977,
-        0.03287,
-        0.033747
-      ],
-      "timing": {
-        "xtb_opt_s": 1.5682011488825083,
-        "xtb4stda_s": 0.40136035345494747,
-        "stda_s": 2.3507941141724586,
-        "total_s": 4.320355616509914
       },
       "stda_energy_window_eV": 30.0
     }
