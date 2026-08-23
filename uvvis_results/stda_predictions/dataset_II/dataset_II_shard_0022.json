@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 24,
+  "n_records": 26,
   "records": [
     {
       "status": "success",
@@ -594,6 +594,32 @@
         "total_s": 8731.015248114243
       },
       "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001828_ROCURONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1828,
+        "name": "ROCURONIUM BROMIDE",
+        "smiles": "C=CC[N+]1([C@H]2CC3C4CCC5C[C@H](O)[C@@H](N6CCOCC6)C[C@]5(C)C4CC[C@]3(C)[C@H]2OC(C)=O)CCCC1",
+        "total_atoms": 91,
+        "heavy_atoms": 38
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002190_VIOMYCIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2190,
+        "name": "VIOMYCIN SULFATE",
+        "smiles": "NCCC[C@H](N)CC(=O)NC1CNC(=O)[C@H]([C@H]2C[C@H](O)NC(N)=N2)NC(=O)/C(=C/NC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC1=O",
+        "total_atoms": 91,
+        "heavy_atoms": 48
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
     }
   ]
 }
