@@ -5,6 +5,1083 @@
   "records": [
     {
       "status": "success",
+      "label": "dataset_II_000527_CARMUSTINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 527,
+        "name": "CARMUSTINE",
+        "smiles": "O=NN(CCCl)C(=O)NCCCl",
+        "charge": 0,
+        "total_atoms": 21,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        2.5971,
+        4.4693,
+        5.6408,
+        5.9946,
+        6.1601
+      ],
+      "predicted_oscillator_strengths": [
+        0.003966,
+        0.058182,
+        0.161929,
+        0.135411,
+        0.014281
+      ],
+      "timing": {
+        "xtb_s": 2.0786580964922905,
+        "xtb4stda_s": 0.3917603548616171,
+        "stda_s": 3.0699090640991926,
+        "total_s": 5.598127078264952
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000528_CARNITINE_dl_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 528,
+        "name": "CARNITINE (dl) HYDROCHLORIDE",
+        "smiles": "C[N+](C)(C)C[C@@H](O)CC(=O)O",
+        "charge": 1,
+        "total_atoms": 27,
+        "heavy_atoms": 11
+      },
+      "predicted_excitation_energies_eV": [
+        1.1258,
+        1.6345,
+        1.904,
+        2.2464,
+        2.4619
+      ],
+      "predicted_oscillator_strengths": [
+        0.05398,
+        0.022898,
+        0.061289,
+        0.100092,
+        0.107591
+      ],
+      "timing": {
+        "xtb_s": 0.4892040714621544,
+        "xtb4stda_s": 0.5783045962452888,
+        "stda_s": 38.62110072001815,
+        "total_s": 39.98021078109741
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000529_CARNOSINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 529,
+        "name": "CARNOSINE",
+        "smiles": "NCCC(=O)N[C@@H](Cc1c[nH]cn1)C(=O)O",
+        "charge": 0,
+        "total_atoms": 30,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        5.2229,
+        5.6862,
+        6.0508,
+        6.055,
+        6.1
+      ],
+      "predicted_oscillator_strengths": [
+        0.00183,
+        0.012703,
+        0.008092,
+        0.010522,
+        0.010665
+      ],
+      "timing": {
+        "xtb_s": 1.4582799524068832,
+        "xtb4stda_s": 0.5111395698040724,
+        "stda_s": 16.57262558862567,
+        "total_s": 18.632721062749624
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000530_CARPROFEN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 530,
+        "name": "CARPROFEN",
+        "smiles": "C[C@@H](C(=O)O)c1ccc2c(c1)[nH]c1ccc(Cl)cc12",
+        "charge": 0,
+        "total_atoms": 31,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        3.9783,
+        4.5545,
+        5.0362,
+        5.4072,
+        5.451
+      ],
+      "predicted_oscillator_strengths": [
+        0.061173,
+        0.03948,
+        0.590621,
+        0.04931,
+        0.085104
+      ],
+      "timing": {
+        "xtb_s": 0.9924343284219503,
+        "xtb4stda_s": 1.6864015255123377,
+        "stda_s": 26.974445648491383,
+        "total_s": 29.731587247923017
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000531_CARSALAM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 531,
+        "name": "CARSALAM",
+        "smiles": "O=c1[nH]c(=O)c2ccccc2o1",
+        "charge": 0,
+        "total_atoms": 17,
+        "heavy_atoms": 12
+      },
+      "predicted_excitation_energies_eV": [
+        4.6048,
+        5.4584,
+        5.4593,
+        6.2743,
+        6.4494
+      ],
+      "predicted_oscillator_strengths": [
+        0.070179,
+        0.091261,
+        0.001534,
+        0.033481,
+        1.045477
+      ],
+      "timing": {
+        "xtb_s": 0.3013034425675869,
+        "xtb4stda_s": 0.3679458051919937,
+        "stda_s": 1.582331582903862,
+        "total_s": 2.3034716062247753
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000532_CARVEDILOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 532,
+        "name": "CARVEDILOL",
+        "smiles": "COc1ccccc1OCCNC[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.0294,
+        4.6249,
+        4.6394,
+        5.0813,
+        5.322
+      ],
+      "predicted_oscillator_strengths": [
+        0.07444,
+        0.007187,
+        0.069856,
+        0.365869,
+        0.086016
+      ],
+      "timing": {
+        "xtb_s": 8.376437349244952,
+        "xtb4stda_s": 0.844874793663621,
+        "stda_s": 564.8666765466332,
+        "total_s": 574.2690205313265
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000533_CARVEDILOL_PHOSPHATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 533,
+        "name": "CARVEDILOL PHOSPHATE",
+        "smiles": "COc1ccccc1OCCNC[C@H](O)COc1cccc2[nH]c3ccccc3c12",
+        "charge": 0,
+        "total_atoms": 56,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.0294,
+        4.6249,
+        4.6394,
+        5.0813,
+        5.322
+      ],
+      "predicted_oscillator_strengths": [
+        0.07444,
+        0.007187,
+        0.069856,
+        0.365869,
+        0.086016
+      ],
+      "timing": {
+        "xtb_s": 8.521556679159403,
+        "xtb4stda_s": 0.8548521157354116,
+        "stda_s": 668.4521775878966,
+        "total_s": 678.8518509082496
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000534_CARYOPHYLLENE_t_-_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 534,
+        "name": "CARYOPHYLLENE [t(-)]",
+        "smiles": "C=C1C/C=C(\\C)CC[C@H]2[C@H]1CC2(C)C",
+        "charge": 0,
+        "total_atoms": 36,
+        "heavy_atoms": 14
+      },
+      "predicted_excitation_energies_eV": [
+        5.5628,
+        5.8023,
+        6.3258,
+        6.5269,
+        6.5997
+      ],
+      "predicted_oscillator_strengths": [
+        0.181947,
+        0.013584,
+        0.159297,
+        0.039549,
+        0.129098
+      ],
+      "timing": {
+        "xtb_s": 1.281282003968954,
+        "xtb4stda_s": 0.5353617183864117,
+        "stda_s": 16.007918467745185,
+        "total_s": 17.94693244434893
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000535_CARZENIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 535,
+        "name": "CARZENIDE",
+        "smiles": "NS(=O)(=O)c1ccc(C(=O)O)cc1",
+        "charge": 0,
+        "total_atoms": 20,
+        "heavy_atoms": 13
+      },
+      "predicted_excitation_energies_eV": [
+        4.8332,
+        5.3067,
+        5.5354,
+        5.5543,
+        5.7461
+      ],
+      "predicted_oscillator_strengths": [
+        0.022291,
+        0.007184,
+        0.132094,
+        0.21892,
+        0.013084
+      ],
+      "timing": {
+        "xtb_s": 0.43916964158415794,
+        "xtb4stda_s": 0.35543943010270596,
+        "stda_s": 2.7872893568128347,
+        "total_s": 3.6335127279162407
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000536_CASANTHRANOL_cascaroside_A_shown_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 536,
+        "name": "CASANTHRANOL [cascaroside A shown]",
+        "smiles": "O=C1c2c(O)cc(CO)cc2[C@@H](O[C@H]2O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]2O)c2cccc(O[C@H]3O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]3O)c21",
+        "total_atoms": 74,
+        "heavy_atoms": 42
+      },
+      "energies_eV": [
+        3.3769,
+        3.588,
+        3.8379,
+        4.4689,
+        4.9876
+      ],
+      "oscillator_strengths": [
+        0.243981,
+        0.085002,
+        0.153631,
+        0.054404,
+        0.070513
+      ],
+      "timing": {
+        "xtb_opt_s": 14.416405759751797,
+        "xtb4stda_s": 1.3149958159774542,
+        "stda_s": 4723.9661253765225,
+        "total_s": 4739.697526952252
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000537_CATECHIN_TETRAMETHYLETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 537,
+        "name": "CATECHIN TETRAMETHYLETHER",
+        "smiles": "COc1cc(OC)c2c(c1)O[C@H](c1ccc(OC)c(OC)c1)[C@@H](O)C2",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 25
+      },
+      "predicted_excitation_energies_eV": [
+        4.5846,
+        4.6559,
+        5.3088,
+        5.4303,
+        5.5198
+      ],
+      "predicted_oscillator_strengths": [
+        0.104563,
+        0.001292,
+        0.110902,
+        0.078082,
+        0.013493
+      ],
+      "timing": {
+        "xtb_s": 2.482037665322423,
+        "xtb4stda_s": 0.6958906725049019,
+        "stda_s": 266.54714837670326,
+        "total_s": 269.8534090090543
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000538_CEAROIN_3-METHYL_ETHER",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 538,
+        "name": "CEAROIN 3-METHYL ETHER",
+        "smiles": "COc1cccc(C(=O)c2ccccc2)c1",
+        "charge": 0,
+        "total_atoms": 28,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        3.9267,
+        4.0103,
+        4.6565,
+        4.8237,
+        5.1961
+      ],
+      "predicted_oscillator_strengths": [
+        0.013007,
+        0.05471,
+        0.036149,
+        0.3526,
+        0.122652
+      ],
+      "timing": {
+        "xtb_s": 0.5149529166519642,
+        "xtb4stda_s": 0.44855685718357563,
+        "stda_s": 8.69029857777059,
+        "total_s": 9.722491597756743
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000539_CEDRELONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 539,
+        "name": "CEDRELONE",
+        "smiles": "CC1(C)C(=O)C=C[C@@]2(C)C1=C(O)C(=O)[C@]1(C)C2CC[C@@]2(C)[C@H](c3ccoc3)C[C@H]3O[C@]321",
+        "charge": 0,
+        "total_atoms": 61,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        3.7627,
+        3.9572,
+        4.1716,
+        4.3822,
+        5.3422
+      ],
+      "predicted_oscillator_strengths": [
+        0.246639,
+        0.029088,
+        0.022715,
+        0.01421,
+        0.001581
+      ],
+      "timing": {
+        "xtb_s": 3.677114924415946,
+        "xtb4stda_s": 0.992438867688179,
+        "stda_s": 892.7029631175101,
+        "total_s": 897.7199877351522
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000540_CEDROL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 540,
+        "name": "CEDROL",
+        "smiles": "C[C@H]1CC[C@@H]2C(C)(C)C3CC12CC[C@]3(C)O",
+        "charge": 0,
+        "total_atoms": 42,
+        "heavy_atoms": 16
+      },
+      "predicted_excitation_energies_eV": [
+        7.4924,
+        8.2573,
+        8.4302,
+        8.5367,
+        8.6353
+      ],
+      "predicted_oscillator_strengths": [
+        0.010101,
+        0.00818,
+        0.01694,
+        0.001251,
+        0.005218
+      ],
+      "timing": {
+        "xtb_s": 0.7142692524939775,
+        "xtb4stda_s": 0.5696218144148588,
+        "stda_s": 42.777667904272676,
+        "total_s": 44.16192023269832
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000541_CEDRYL_ACETATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 541,
+        "name": "CEDRYL ACETATE",
+        "smiles": "CC(=O)O[C@@]1(C)CC[C@]23CC1C(C)(C)[C@H]2CC[C@@H]3C",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 19
+      },
+      "predicted_excitation_energies_eV": [
+        6.0857,
+        7.7298,
+        8.0054,
+        8.3351,
+        8.5233
+      ],
+      "predicted_oscillator_strengths": [
+        0.005195,
+        0.015769,
+        0.095601,
+        0.005167,
+        0.017067
+      ],
+      "timing": {
+        "xtb_s": 1.1287212800234556,
+        "xtb4stda_s": 0.697949007153511,
+        "stda_s": 121.32160012796521,
+        "total_s": 123.26938909105957
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000542_CEFACLOR",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 542,
+        "name": "CEFACLOR",
+        "smiles": "N[C@H](C(=O)N[C@H]1C(=O)N2C(C(=O)O)=C(Cl)CS[C@@H]12)c1ccccc1",
+        "charge": 0,
+        "total_atoms": 38,
+        "heavy_atoms": 24
+      },
+      "predicted_excitation_energies_eV": [
+        4.2466,
+        4.643,
+        5.0599,
+        5.1146,
+        5.2232
+      ],
+      "predicted_oscillator_strengths": [
+        0.194698,
+        0.062614,
+        0.010382,
+        0.001102,
+        0.094689
+      ],
+      "timing": {
+        "xtb_s": 4.12279874458909,
+        "xtb4stda_s": 0.6438540406525135,
+        "stda_s": 137.8107950873673,
+        "total_s": 142.68432307615876
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000543_CEFALONIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 543,
+        "name": "CEFALONIUM",
+        "smiles": "NC(=O)c1cc[n+](CC2=C(C(=O)O)N3C(=O)[C@H](NC(=O)Cc4cccs4)[C@@H]3SC2)cc1",
+        "total_atoms": 50,
+        "heavy_atoms": 31
+      },
+      "energies_eV": [
+        0.7214,
+        1.441,
+        2.511,
+        2.6571,
+        3.1259
+      ],
+      "oscillator_strengths": [
+        0.000429,
+        0.02017,
+        0.001176,
+        0.073834,
+        0.060906
+      ],
+      "timing": {
+        "xtb_opt_s": 11.592923130840063,
+        "xtb4stda_s": 1.0857898965477943,
+        "stda_s": 5170.87147314474,
+        "total_s": 5183.550186172128
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000544_CEFAMANDOLE_NAFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 544,
+        "name": "CEFAMANDOLE NAFATE",
+        "smiles": "Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)C(NC(=O)C(OC=O)c3ccccc3)C2SC1",
+        "charge": 0,
+        "total_atoms": 51,
+        "heavy_atoms": 33
+      },
+      "predicted_excitation_energies_eV": [
+        4.5256,
+        5.0626,
+        5.1294,
+        5.2457,
+        5.4817
+      ],
+      "predicted_oscillator_strengths": [
+        0.460481,
+        0.009847,
+        0.000115,
+        0.002636,
+        0.078637
+      ],
+      "timing": {
+        "xtb_s": 12.145642768591642,
+        "xtb4stda_s": 0.7674023564904928,
+        "stda_s": 782.7308967318386,
+        "total_s": 795.7933045569807
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000545_CEFAMANDOLE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 545,
+        "name": "CEFAMANDOLE SODIUM",
+        "smiles": "Cn1nnnc1SCC1=C(C(=O)O)N2C(=O)C(NC(=O)C(O)c3ccccc3)C2SC1",
+        "charge": 0,
+        "total_atoms": 49,
+        "heavy_atoms": 31
+      },
+      "predicted_excitation_energies_eV": [
+        3.6901,
+        4.1508,
+        4.8008,
+        5.0402,
+        5.1263
+      ],
+      "predicted_oscillator_strengths": [
+        0.170882,
+        0.078072,
+        0.003277,
+        0.051071,
+        0.001493
+      ],
+      "timing": {
+        "xtb_s": 11.149907803162932,
+        "xtb4stda_s": 0.8610433768481016,
+        "stda_s": 605.2489231824875,
+        "total_s": 617.4041737355292
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000546_CEFCAPENE_PIVOXIL_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 546,
+        "name": "CEFCAPENE PIVOXIL HYDROCHLORIDE",
+        "smiles": "CC/C=C(/C(=O)N[C@H]1C(=O)N2C(C(=O)OCOC(=O)C(C)(C)C)=C(COC(N)=O)CS[C@@H]12)c1csc(N)n1",
+        "total_atoms": 67,
+        "heavy_atoms": 38
+      },
+      "energies_eV": [
+        3.8923,
+        4.0923,
+        4.161,
+        4.2671,
+        4.7552
+      ],
+      "oscillator_strengths": [
+        0.056129,
+        0.088328,
+        0.105332,
+        0.060095,
+        0.159531
+      ],
+      "timing": {
+        "xtb_opt_s": 28.523821711540222,
+        "xtb4stda_s": 0.16381904669106007,
+        "stda_s": 2840.272329101339,
+        "total_s": 2868.9599698595703
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000547_CEFDINIR",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 547,
+        "name": "CEFDINIR",
+        "smiles": "C=CC1=C(C(=O)O)N2C(=O)[C@H](NC(=O)/C(=N\\O)c3csc(N)n3)[C@@H]2SC1",
+        "charge": 0,
+        "total_atoms": 39,
+        "heavy_atoms": 26
+      },
+      "predicted_excitation_energies_eV": [
+        3.9257,
+        4.1041,
+        4.1906,
+        4.5509,
+        4.8089
+      ],
+      "predicted_oscillator_strengths": [
+        0.57468,
+        0.088366,
+        0.133959,
+        0.07979,
+        0.22825
+      ],
+      "timing": {
+        "xtb_s": 3.564716588705778,
+        "xtb4stda_s": 0.6364945769309998,
+        "stda_s": 196.33985213935375,
+        "total_s": 200.65750813484192
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000548_CEFDITORIN_PIVOXIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 548,
+        "name": "CEFDITORIN PIVOXIL",
+        "smiles": "CO/N=C(\\C(=O)NC1C(=O)N2C(C(=O)OCOC(=O)C(C)(C)C)=C(/C=C\\c3scnc3C)CSC12)c1csc(N)n1",
+        "total_atoms": 69,
+        "heavy_atoms": 41
+      },
+      "energies_eV": [
+        3.3083,
+        4.1554,
+        4.2638,
+        4.4064,
+        4.4287
+      ],
+      "oscillator_strengths": [
+        0.269576,
+        0.036812,
+        0.242266,
+        0.157132,
+        0.016167
+      ],
+      "timing": {
+        "xtb_opt_s": 33.53954029455781,
+        "xtb4stda_s": 1.3968419712036848,
+        "stda_s": 4738.064751626924,
+        "total_s": 4773.001133892685
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000549_CEFEPIME_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 549,
+        "name": "CEFEPIME HYDROCHLORIDE",
+        "smiles": "CO/N=C(/C(=O)NC1C(=O)N2C(C(=O)O)=C(C[N+]3(C)CCCC3)CSC12)c1csc(N)n1",
+        "total_atoms": 57,
+        "heavy_atoms": 32
+      },
+      "energies_eV": [
+        2.2246,
+        2.7465,
+        2.9917,
+        3.2256,
+        3.5919
+      ],
+      "oscillator_strengths": [
+        0.113557,
+        4.5e-05,
+        0.012641,
+        0.160881,
+        0.029266
+      ],
+      "timing": {
+        "xtb_opt_s": 9.815413327887654,
+        "xtb4stda_s": 1.2418616879731417,
+        "stda_s": 9689.958921320736,
+        "total_s": 9701.016196336597
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000550_CEFIXIME",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 550,
+        "name": "CEFIXIME",
+        "smiles": "C=CC1=C(C(=O)O)N2C(=O)C(NC(=O)/C(=N/OCC(=O)O)c3csc(N)n3)C2SC1",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        3.6229,
+        3.7915,
+        4.1409,
+        4.3681,
+        4.423
+      ],
+      "predicted_oscillator_strengths": [
+        0.171147,
+        0.595978,
+        0.032775,
+        0.037707,
+        0.07414
+      ],
+      "timing": {
+        "xtb_s": 9.301916478201747,
+        "xtb4stda_s": 0.8169495929032564,
+        "stda_s": 468.13420219160616,
+        "total_s": 478.3877751789987
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000551_CEFMETAZOLE_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 551,
+        "name": "CEFMETAZOLE SODIUM",
+        "smiles": "CO[C@]1(NC(=O)CSCC#N)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CSC21",
+        "charge": 0,
+        "total_atoms": 47,
+        "heavy_atoms": 30
+      },
+      "predicted_excitation_energies_eV": [
+        4.0392,
+        4.5264,
+        5.1969,
+        5.2246,
+        5.2401
+      ],
+      "predicted_oscillator_strengths": [
+        0.319879,
+        0.053518,
+        0.172555,
+        0.051125,
+        0.012111
+      ],
+      "timing": {
+        "xtb_s": 5.603571847081184,
+        "xtb4stda_s": 0.7644432168453932,
+        "stda_s": 408.6617735493928,
+        "total_s": 415.16415600664914
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000552_CEFONICID_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 552,
+        "name": "CEFONICID SODIUM",
+        "smiles": "O=C(O)C1=C(CSc2nnnn2CS(=O)(=O)O)CS[C@H]2C(NC(=O)[C@@H](O)c3ccccc3)C(=O)N12",
+        "total_atoms": 53,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        3.9053,
+        4.3341,
+        4.7606,
+        4.9586,
+        5.093
+      ],
+      "oscillator_strengths": [
+        0.186193,
+        0.068559,
+        0.168581,
+        0.005595,
+        0.00033
+      ],
+      "timing": {
+        "xtb_opt_s": 11.774719163775444,
+        "xtb4stda_s": 0.07337926886975765,
+        "stda_s": 1304.2441346868873,
+        "total_s": 1316.0922331195325
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000553_CEFOPERAZONE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 553,
+        "name": "CEFOPERAZONE",
+        "smiles": "CCN1CCN(C(=O)NC(C(=O)NC2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CSC23)c2ccc(O)cc2)C(=O)C1=O",
+        "total_atoms": 71,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        4.1785,
+        4.4011,
+        4.6047,
+        4.857,
+        4.9544
+      ],
+      "oscillator_strengths": [
+        0.236267,
+        0.005659,
+        0.085096,
+        0.031346,
+        0.092921
+      ],
+      "timing": {
+        "xtb_opt_s": 10.049466935917735,
+        "xtb4stda_s": 1.3698422126471996,
+        "stda_s": 5696.724850725383,
+        "total_s": 5708.1441598739475
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000554_CEFORANIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 554,
+        "name": "CEFORANIDE",
+        "smiles": "NCc1ccccc1CC(=O)NC1C(=O)N2C(C(=O)O)=C(CSc3nnnn3CC(=O)O)CSC12",
+        "total_atoms": 56,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        4.0077,
+        4.6307,
+        5.0729,
+        5.1213,
+        5.2303
+      ],
+      "oscillator_strengths": [
+        0.163593,
+        0.005546,
+        0.0002,
+        0.030381,
+        0.079419
+      ],
+      "timing": {
+        "xtb_opt_s": 28.88851614482701,
+        "xtb4stda_s": 0.08100187219679356,
+        "stda_s": 1228.0495039522648,
+        "total_s": 1257.0190219692886
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000555_CEFOTETAN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 555,
+        "name": "CEFOTETAN",
+        "smiles": "CO[C@]1(NC(=O)C2SC(C(C(N)=O)C(=O)O)S2)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CSC21",
+        "total_atoms": 55,
+        "heavy_atoms": 36
+      },
+      "energies_eV": [
+        4.1362,
+        4.5721,
+        5.0654,
+        5.3874,
+        5.4376
+      ],
+      "oscillator_strengths": [
+        0.34087,
+        0.069273,
+        0.316606,
+        0.049268,
+        0.024216
+      ],
+      "timing": {
+        "xtb_opt_s": 20.687817316502333,
+        "xtb4stda_s": 0.07827785052359104,
+        "stda_s": 1637.6813051477075,
+        "total_s": 1658.4474003147334
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000556_CEFOXITIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 556,
+        "name": "CEFOXITIN SODIUM",
+        "smiles": "CO[C@]1(NC(=O)Cc2cccs2)C(=O)N2C(C(=O)O)=C(COC(N)=O)CS[C@H]21",
+        "charge": 0,
+        "total_atoms": 45,
+        "heavy_atoms": 28
+      },
+      "predicted_excitation_energies_eV": [
+        4.3588,
+        4.7141,
+        4.9418,
+        5.2944,
+        5.3261
+      ],
+      "predicted_oscillator_strengths": [
+        0.196336,
+        0.021116,
+        0.061861,
+        0.096381,
+        0.201558
+      ],
+      "timing": {
+        "xtb_s": 3.1310522314161062,
+        "xtb4stda_s": 0.7372663468122482,
+        "stda_s": 325.11662871204317,
+        "total_s": 329.13812641240656
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000557_CEFPIRAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 557,
+        "name": "CEFPIRAMIDE",
+        "smiles": "Cc1cc(O)c(C(=O)N[C@@H](C(=O)N[C@@H]2C(=O)N3C(C(=O)O)=C(CSc4nnnn4C)CSC23)c2ccc(O)cc2)cn1",
+        "total_atoms": 66,
+        "heavy_atoms": 42
+      },
+      "energies_eV": [
+        3.9893,
+        4.6354,
+        4.6388,
+        4.8542,
+        4.8845
+      ],
+      "oscillator_strengths": [
+        0.232529,
+        0.138944,
+        0.046193,
+        0.012727,
+        0.04532
+      ],
+      "timing": {
+        "xtb_opt_s": 24.117760226130486,
+        "xtb4stda_s": 0.11446252092719078,
+        "stda_s": 3166.6606046408415,
+        "total_s": 3190.892827387899
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000558_CEFPODOXIME_PROXETIL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 558,
+        "name": "CEFPODOXIME PROXETIL",
+        "smiles": "COCC1=C(C(=O)OC(C)OC(=O)OC(C)C)N2C(=O)[C@H](NC(=O)/C(=N/OC)c3csc(N)n3)[C@@H]2SC1",
+        "total_atoms": 64,
+        "heavy_atoms": 37
+      },
+      "energies_eV": [
+        3.9575,
+        3.9786,
+        4.0212,
+        4.2574,
+        4.5511
+      ],
+      "oscillator_strengths": [
+        0.154757,
+        0.143929,
+        0.011954,
+        0.019321,
+        0.012769
+      ],
+      "timing": {
+        "xtb_opt_s": 18.66757899709046,
+        "xtb4stda_s": 0.10293855331838131,
+        "stda_s": 2503.797231057659,
+        "total_s": 2522.5677486080676
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_II_000559_CEFPROZIL",
       "metadata": {
         "dataset": "dataset_II",
@@ -439,6 +1516,72 @@
         "xtb4stda_s": 0.7237360384315252,
         "stda_s": 235.39105807244778,
         "total_s": 242.87137043848634
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000574_CEPHARANTHINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 574,
+        "name": "CEPHARANTHINE",
+        "smiles": "COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3c(cc4c(c3Oc3cc5c(cc3OC)CCN(C)[C@@H]5C2)OCO4)CCN1C",
+        "total_atoms": 83,
+        "heavy_atoms": 45
+      },
+      "energies_eV": [
+        4.4889,
+        4.6419,
+        4.7271,
+        4.7551,
+        5.0071
+      ],
+      "oscillator_strengths": [
+        0.046661,
+        0.080402,
+        0.010578,
+        0.07492,
+        0.016837
+      ],
+      "timing": {
+        "xtb_opt_s": 26.534561356529593,
+        "xtb4stda_s": 1.8332118578255177,
+        "stda_s": 8422.496122356504,
+        "total_s": 8450.86389557086
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000575_CETALKONIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 575,
+        "name": "CETALKONIUM CHLORIDE",
+        "smiles": "CCCCCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1",
+        "total_atoms": 72,
+        "heavy_atoms": 26
+      },
+      "energies_eV": [
+        1.1349,
+        2.0423,
+        2.0554,
+        2.4715,
+        2.9917
+      ],
+      "oscillator_strengths": [
+        0.001897,
+        0.027949,
+        0.008708,
+        0.013271,
+        0.003365
+      ],
+      "timing": {
+        "xtb_opt_s": 2.59460287168622,
+        "xtb4stda_s": 1.220086332410574,
+        "stda_s": 10661.770607275888,
+        "total_s": 10665.585296479985
       },
       "stda_energy_window_eV": 30.0
     },
@@ -1523,6 +2666,39 @@
     },
     {
       "status": "success",
+      "label": "dataset_II_000609_CHOLESTERYL_HEMISUCCINATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 609,
+        "name": "CHOLESTERYL HEMISUCCINATE",
+        "smiles": "CC(C)CCCC(C)[C@@H]1CCC2C3CC=C4C[C@H](OC(=O)CCC(=O)O)CC[C@@]4(C)C3CC[C@]21C",
+        "total_atoms": 85,
+        "heavy_atoms": 35
+      },
+      "energies_eV": [
+        6.1241,
+        6.2306,
+        6.3016,
+        7.1004,
+        7.2667
+      ],
+      "oscillator_strengths": [
+        0.00476,
+        0.031239,
+        0.005251,
+        0.418462,
+        0.04773
+      ],
+      "timing": {
+        "xtb_opt_s": 7.925291959196329,
+        "xtb4stda_s": 1.952597202733159,
+        "stda_s": 4786.323253190145,
+        "total_s": 4796.201142352074
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_II_000610_CHOLIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
@@ -2196,1193 +3372,6 @@
         "xtb4stda_s": 2.4586651511490345,
         "stda_s": 300.3749791495502,
         "total_s": 307.8930519018322
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000631_CINROMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 631,
-        "name": "CINROMIDE",
-        "smiles": "CCNC(=O)/C=C/c1cccc(Br)c1",
-        "charge": 0,
-        "total_atoms": 26,
-        "heavy_atoms": 14
-      },
-      "predicted_excitation_energies_eV": [
-        4.6349,
-        4.6677,
-        4.7871,
-        5.0854,
-        5.6429
-      ],
-      "predicted_oscillator_strengths": [
-        0.61579,
-        0.127911,
-        0.274394,
-        0.083247,
-        0.000595
-      ],
-      "timing": {
-        "xtb_s": 1.2391491178423166,
-        "xtb4stda_s": 0.40484892949461937,
-        "stda_s": 6.101156668737531,
-        "total_s": 7.848911078646779
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000632_CINTRIAMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 632,
-        "name": "CINTRIAMIDE",
-        "smiles": "COc1cc(/C=C/C(N)=O)cc(OC)c1OC",
-        "charge": 0,
-        "total_atoms": 32,
-        "heavy_atoms": 17
-      },
-      "predicted_excitation_energies_eV": [
-        3.921,
-        3.9464,
-        4.5947,
-        5.1374,
-        5.2321
-      ],
-      "predicted_oscillator_strengths": [
-        0.348918,
-        0.435714,
-        0.003387,
-        0.234283,
-        0.098842
-      ],
-      "timing": {
-        "xtb_s": 2.6166571602225304,
-        "xtb4stda_s": 0.4904921520501375,
-        "stda_s": 24.17574343085289,
-        "total_s": 27.373010370880365
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000633_CIPROFIBRATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 633,
-        "name": "CIPROFIBRATE",
-        "smiles": "CC(C)(Oc1ccc([C@H]2CC2(Cl)Cl)cc1)C(=O)O",
-        "charge": 0,
-        "total_atoms": 32,
-        "heavy_atoms": 18
-      },
-      "predicted_excitation_energies_eV": [
-        4.8164,
-        5.5684,
-        5.648,
-        6.1759,
-        6.4359
-      ],
-      "predicted_oscillator_strengths": [
-        0.036992,
-        0.025382,
-        0.244489,
-        0.004198,
-        0.00706
-      ],
-      "timing": {
-        "xtb_s": 1.413300747051835,
-        "xtb4stda_s": 0.49979795701801777,
-        "stda_s": 29.064275931566954,
-        "total_s": 31.10345604456961
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000634_CIPROFLOXACIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 634,
-        "name": "CIPROFLOXACIN",
-        "smiles": "O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O",
-        "charge": 0,
-        "total_atoms": 42,
-        "heavy_atoms": 24
-      },
-      "predicted_excitation_energies_eV": [
-        3.859,
-        4.1292,
-        4.4897,
-        4.7734,
-        4.8397
-      ],
-      "predicted_oscillator_strengths": [
-        0.090591,
-        0.044548,
-        0.945336,
-        0.116555,
-        0.340782
-      ],
-      "timing": {
-        "xtb_s": 3.269360875710845,
-        "xtb4stda_s": 0.7291281726211309,
-        "stda_s": 144.95510178990662,
-        "total_s": 149.05738293752074
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000635_CISPLATIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 635,
-        "name": "CISPLATIN",
-        "smiles": "Cl[Pt]Cl",
-        "total_atoms": 3,
-        "heavy_atoms": 3
-      },
-      "energies_eV": [
-        0.0153,
-        0.0153,
-        0.0153,
-        0.0153,
-        0.0444
-      ],
-      "oscillator_strengths": [
-        2.4e-05,
-        2.4e-05,
-        2e-06,
-        4e-06,
-        0.0
-      ],
-      "timing": {
-        "xtb_opt_s": 0.815662145614624,
-        "xtb4stda_s": 0.2761990260332823,
-        "stda_s": 0.23808018304407597,
-        "total_s": 1.3299413546919823
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000636_CITALOPRAM_HYDROBROMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 636,
-        "name": "CITALOPRAM HYDROBROMIDE",
-        "smiles": "CN(C)CCC[C@]1(c2ccc(F)cc2)OCc2cc(C#N)ccc21",
-        "charge": 0,
-        "total_atoms": 45,
-        "heavy_atoms": 24
-      },
-      "predicted_excitation_energies_eV": [
-        4.8578,
-        5.1098,
-        5.5396,
-        5.5574,
-        6.1017
-      ],
-      "predicted_oscillator_strengths": [
-        0.016944,
-        0.003122,
-        0.263197,
-        0.074108,
-        0.052798
-      ],
-      "timing": {
-        "xtb_s": 2.622873282060027,
-        "xtb4stda_s": 0.7015815395861864,
-        "stda_s": 196.28148637525737,
-        "total_s": 199.79279549978673
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000638_CITIOLONE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 638,
-        "name": "CITIOLONE",
-        "smiles": "CC(=O)N[C@H]1CCSC1=O",
-        "charge": 0,
-        "total_atoms": 19,
-        "heavy_atoms": 10
-      },
-      "predicted_excitation_energies_eV": [
-        5.2332,
-        5.3982,
-        5.8269,
-        5.8848,
-        6.0881
-      ],
-      "predicted_oscillator_strengths": [
-        0.010819,
-        0.07326,
-        0.048462,
-        0.033554,
-        0.063984
-      ],
-      "timing": {
-        "xtb_s": 0.7054485715925694,
-        "xtb4stda_s": 0.39468534477055073,
-        "stda_s": 1.5711390506476164,
-        "total_s": 2.7457476276904345
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000639_CITRIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 639,
-        "name": "CITRIC ACID",
-        "smiles": "O=C(O)CC(O)(CC(=O)O)C(=O)O",
-        "charge": 0,
-        "total_atoms": 21,
-        "heavy_atoms": 13
-      },
-      "predicted_excitation_energies_eV": [
-        5.8125,
-        5.9743,
-        6.0641,
-        6.7129,
-        6.9986
-      ],
-      "predicted_oscillator_strengths": [
-        0.008156,
-        0.00264,
-        0.002582,
-        0.045778,
-        0.023783
-      ],
-      "timing": {
-        "xtb_s": 0.6066609788686037,
-        "xtb4stda_s": 0.3819836061447859,
-        "stda_s": 3.6253889556974173,
-        "total_s": 4.67481142282486
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000640_CITRININ",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 640,
-        "name": "CITRININ",
-        "smiles": "CC1=C2C(=CO[C@@H](C)[C@@H]2C)C(O)=C(C(=O)O)C1=O",
-        "charge": 0,
-        "total_atoms": 32,
-        "heavy_atoms": 18
-      },
-      "predicted_excitation_energies_eV": [
-        3.7315,
-        3.9727,
-        4.2913,
-        4.6635,
-        5.2692
-      ],
-      "predicted_oscillator_strengths": [
-        0.044314,
-        0.593634,
-        0.009347,
-        0.220818,
-        0.133562
-      ],
-      "timing": {
-        "xtb_s": 0.9775238391011953,
-        "xtb4stda_s": 0.48618901148438454,
-        "stda_s": 34.67128061503172,
-        "total_s": 36.213822316378355
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000641_CITRONELLAL_R_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 641,
-        "name": "CITRONELLAL (R+)",
-        "smiles": "CC(C)=CCC[C@H](C)CC=O",
-        "charge": 0,
-        "total_atoms": 29,
-        "heavy_atoms": 11
-      },
-      "predicted_excitation_energies_eV": [
-        4.5268,
-        5.836,
-        6.6201,
-        6.7876,
-        7.1066
-      ],
-      "predicted_oscillator_strengths": [
-        0.000393,
-        0.018171,
-        0.016554,
-        0.419372,
-        0.029979
-      ],
-      "timing": {
-        "xtb_s": 0.8434725403785706,
-        "xtb4stda_s": 0.4227362424135208,
-        "stda_s": 7.95579625852406,
-        "total_s": 9.293487766757607
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000642_CITROPTEN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 642,
-        "name": "CITROPTEN",
-        "smiles": "COc1cc(OC)c2ccc(=O)oc2c1",
-        "charge": 0,
-        "total_atoms": 25,
-        "heavy_atoms": 15
-      },
-      "predicted_excitation_energies_eV": [
-        4.1026,
-        4.2046,
-        5.2976,
-        5.384,
-        5.8289
-      ],
-      "predicted_oscillator_strengths": [
-        0.140511,
-        0.417734,
-        0.235848,
-        0.000838,
-        0.178394
-      ],
-      "timing": {
-        "xtb_s": 0.3853490334004164,
-        "xtb4stda_s": 0.41435288079082966,
-        "stda_s": 9.542364610359073,
-        "total_s": 10.415647894144058
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000643_CITRULLINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 643,
-        "name": "CITRULLINE",
-        "smiles": "NC(=O)NCCC[C@H](N)C(=O)O",
-        "charge": 0,
-        "total_atoms": 25,
-        "heavy_atoms": 12
-      },
-      "predicted_excitation_energies_eV": [
-        5.8162,
-        5.8977,
-        5.9915,
-        6.1282,
-        6.2429
-      ],
-      "predicted_oscillator_strengths": [
-        0.023503,
-        0.026871,
-        0.084144,
-        0.01247,
-        0.00334
-      ],
-      "timing": {
-        "xtb_s": 1.311488974839449,
-        "xtb4stda_s": 0.39137497171759605,
-        "stda_s": 4.535586554557085,
-        "total_s": 6.3001022562384605
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000645_CLAVULANATE_LITHIUM",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 645,
-        "name": "CLAVULANATE LITHIUM",
-        "smiles": "O=C(O)[C@H]1/C(=C/CO)O[C@@H]2CC(=O)N21",
-        "charge": 0,
-        "total_atoms": 23,
-        "heavy_atoms": 14
-      },
-      "predicted_excitation_energies_eV": [
-        4.9064,
-        5.2084,
-        5.5112,
-        5.6853,
-        5.8709
-      ],
-      "predicted_oscillator_strengths": [
-        0.031679,
-        0.074513,
-        0.02934,
-        0.001601,
-        0.006755
-      ],
-      "timing": {
-        "xtb_s": 0.7007815651595592,
-        "xtb4stda_s": 0.4029325358569622,
-        "stda_s": 5.802396172657609,
-        "total_s": 6.979578427970409
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000646_CLEMIZOLE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 646,
-        "name": "CLEMIZOLE HYDROCHLORIDE",
-        "smiles": "Clc1ccc(Cn2c(CN3CCCC3)nc3ccccc32)cc1",
-        "charge": 0,
-        "total_atoms": 43,
-        "heavy_atoms": 23
-      },
-      "predicted_excitation_energies_eV": [
-        4.7258,
-        5.0822,
-        5.1507,
-        5.5995,
-        6.0528
-      ],
-      "predicted_oscillator_strengths": [
-        0.100353,
-        0.001899,
-        0.163714,
-        0.026396,
-        0.108023
-      ],
-      "timing": {
-        "xtb_s": 2.373481208458543,
-        "xtb4stda_s": 0.6505255661904812,
-        "stda_s": 153.76171750947833,
-        "total_s": 158.08498458378017
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000647_CLENBUTEROL_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 647,
-        "name": "CLENBUTEROL HYDROCHLORIDE",
-        "smiles": "CC(C)(C)NC[C@H](O)c1cc(Cl)c(N)c(Cl)c1",
-        "charge": 0,
-        "total_atoms": 35,
-        "heavy_atoms": 17
-      },
-      "predicted_excitation_energies_eV": [
-        4.0079,
-        4.3672,
-        4.9542,
-        5.6105,
-        5.6509
-      ],
-      "predicted_oscillator_strengths": [
-        0.0217,
-        0.070924,
-        0.324274,
-        0.000172,
-        0.008693
-      ],
-      "timing": {
-        "xtb_s": 1.213240034878254,
-        "xtb4stda_s": 0.5689578484743834,
-        "stda_s": 40.892368264496326,
-        "total_s": 42.78074676729739
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000648_CLEROCIDIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 648,
-        "name": "CLEROCIDIN",
-        "smiles": "C[C@@H]1CC[C@]2(C)C(C=O)=CCC[C@H]2[C@]1(C)CC1OC(O)C(=O)C12CO2",
-        "charge": 0,
-        "total_atoms": 53,
-        "heavy_atoms": 25
-      },
-      "predicted_excitation_energies_eV": [
-        3.846,
-        4.0895,
-        5.1004,
-        6.4265,
-        6.4823
-      ],
-      "predicted_oscillator_strengths": [
-        8.5e-05,
-        0.000474,
-        0.353431,
-        0.009747,
-        0.003485
-      ],
-      "timing": {
-        "xtb_s": 2.34363379701972,
-        "xtb4stda_s": 0.8221322353929281,
-        "stda_s": 325.56888067163527,
-        "total_s": 329.0304718594998
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000649_CLIMBAZOLE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 649,
-        "name": "CLIMBAZOLE",
-        "smiles": "CC(C)(C)C(=O)[C@H](Oc1ccc(Cl)cc1)n1ccnc1",
-        "charge": 0,
-        "total_atoms": 37,
-        "heavy_atoms": 20
-      },
-      "predicted_excitation_energies_eV": [
-        4.2093,
-        4.8094,
-        5.1581,
-        5.4315,
-        5.4533
-      ],
-      "predicted_oscillator_strengths": [
-        0.001304,
-        0.044869,
-        0.006347,
-        0.001577,
-        0.023
-      ],
-      "timing": {
-        "xtb_s": 3.8930704426020384,
-        "xtb4stda_s": 0.6340341232717037,
-        "stda_s": 67.25574123300612,
-        "total_s": 71.90347450040281
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000650_CLINAFOXACIN_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 650,
-        "name": "CLINAFOXACIN HYDROCHLORIDE",
-        "smiles": "N[C@H]1CCN(c2c(F)cc3c(=O)c(C(=O)O)cn(C4CC4)c3c2Cl)C1",
-        "charge": 0,
-        "total_atoms": 42,
-        "heavy_atoms": 25
-      },
-      "predicted_excitation_energies_eV": [
-        3.5987,
-        3.9568,
-        4.3496,
-        4.4496,
-        4.7322
-      ],
-      "predicted_oscillator_strengths": [
-        0.108789,
-        0.030931,
-        0.481061,
-        0.50905,
-        0.519488
-      ],
-      "timing": {
-        "xtb_s": 2.0528649520128965,
-        "xtb4stda_s": 0.6992578208446503,
-        "stda_s": 182.97798324935138,
-        "total_s": 185.8427619729191
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000652_CLIOQUINOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 652,
-        "name": "CLIOQUINOL",
-        "smiles": "Oc1c(I)cc(Cl)c2cccnc12",
-        "charge": 0,
-        "total_atoms": 18,
-        "heavy_atoms": 13
-      },
-      "predicted_excitation_energies_eV": [
-        3.8462,
-        3.9256,
-        4.2111,
-        4.9269,
-        5.3675
-      ],
-      "predicted_oscillator_strengths": [
-        0.134137,
-        0.004111,
-        0.006786,
-        0.008575,
-        0.000895
-      ],
-      "timing": {
-        "xtb_s": 0.3569971155375242,
-        "xtb4stda_s": 0.41189065761864185,
-        "stda_s": 2.3502618484199047,
-        "total_s": 3.1688969004899263
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000653_CLOBETASOL_PROPIONATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 653,
-        "name": "CLOBETASOL PROPIONATE",
-        "smiles": "CCC(=O)O[C@]1(C(=O)CCl)[C@@H](C)CC2C3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C",
-        "total_atoms": 64,
-        "heavy_atoms": 32
-      },
-      "energies_eV": [
-        3.8372,
-        4.16,
-        4.4691,
-        5.2208,
-        6.0268
-      ],
-      "oscillator_strengths": [
-        0.000834,
-        0.000258,
-        0.105734,
-        0.38703,
-        0.007569
-      ],
-      "timing": {
-        "xtb_opt_s": 5.018779648467898,
-        "xtb4stda_s": 0.11620207130908966,
-        "stda_s": 1552.0270414482802,
-        "total_s": 1557.1620231680572
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000654_CLOFAZIMINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 654,
-        "name": "CLOFAZIMINE",
-        "smiles": "CC(C)/N=c1\\cc2n(-c3ccc(Cl)cc3)c3ccccc3nc-2cc1Nc1ccc(Cl)cc1",
-        "total_atoms": 55,
-        "heavy_atoms": 33
-      },
-      "energies_eV": [
-        2.5442,
-        2.9072,
-        3.9319,
-        4.2317,
-        4.3306
-      ],
-      "oscillator_strengths": [
-        0.262504,
-        0.807812,
-        0.004794,
-        0.000808,
-        0.048808
-      ],
-      "timing": {
-        "xtb_opt_s": 4.345342004671693,
-        "xtb4stda_s": 0.08426383323967457,
-        "stda_s": 969.2205497901887,
-        "total_s": 973.6501556281
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000655_CLOFIBRATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 655,
-        "name": "CLOFIBRATE",
-        "smiles": "CCOC(=O)C(C)(C)Oc1ccc(Cl)cc1",
-        "charge": 0,
-        "total_atoms": 31,
-        "heavy_atoms": 16
-      },
-      "predicted_excitation_energies_eV": [
-        5.0082,
-        5.9017,
-        6.1326,
-        6.3376,
-        6.6078
-      ],
-      "predicted_oscillator_strengths": [
-        0.00759,
-        0.116088,
-        0.010726,
-        0.007068,
-        0.025566
-      ],
-      "timing": {
-        "xtb_s": 0.7806614059954882,
-        "xtb4stda_s": 0.5107368025928736,
-        "stda_s": 15.88621873036027,
-        "total_s": 17.291050935164094
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000656_CLOFIBRIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 656,
-        "name": "CLOFIBRIC ACID",
-        "smiles": "CC(C)(Oc1ccc(Cl)cc1)C(=O)O",
-        "charge": 0,
-        "total_atoms": 25,
-        "heavy_atoms": 14
-      },
-      "predicted_excitation_energies_eV": [
-        4.79,
-        5.5742,
-        5.7588,
-        6.1818,
-        6.5816
-      ],
-      "predicted_oscillator_strengths": [
-        0.045083,
-        0.044724,
-        0.141537,
-        0.004572,
-        0.013971
-      ],
-      "timing": {
-        "xtb_s": 0.8989221546798944,
-        "xtb4stda_s": 5.8627665266394615,
-        "stda_s": 6.053545221686363,
-        "total_s": 12.947862271219492
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000657_CLOFOCTOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 657,
-        "name": "CLOFOCTOL",
-        "smiles": "CC(C)(C)CC(C)(C)c1ccc(O)c(Cc2ccc(Cl)cc2Cl)c1",
-        "charge": 0,
-        "total_atoms": 50,
-        "heavy_atoms": 24
-      },
-      "predicted_excitation_energies_eV": [
-        4.7921,
-        5.0335,
-        5.625,
-        5.7484,
-        5.8567
-      ],
-      "predicted_oscillator_strengths": [
-        0.064618,
-        0.002034,
-        0.054526,
-        0.046816,
-        0.080233
-      ],
-      "timing": {
-        "xtb_s": 4.594341583549976,
-        "xtb4stda_s": 0.8720786720514297,
-        "stda_s": 297.51994586735964,
-        "total_s": 303.2095222324133
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000658_CLOMIPRAMINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 658,
-        "name": "CLOMIPRAMINE HYDROCHLORIDE",
-        "smiles": "CN(C)CCCN1c2ccccc2CCc2ccc(Cl)cc21",
-        "charge": 0,
-        "total_atoms": 45,
-        "heavy_atoms": 22
-      },
-      "predicted_excitation_energies_eV": [
-        4.1623,
-        4.2077,
-        4.2239,
-        4.8844,
-        4.9184
-      ],
-      "predicted_oscillator_strengths": [
-        0.162269,
-        0.188455,
-        0.032251,
-        0.018633,
-        0.152597
-      ],
-      "timing": {
-        "xtb_s": 2.2773733157664537,
-        "xtb4stda_s": 0.716191079467535,
-        "stda_s": 175.36763126403093,
-        "total_s": 178.4894434325397
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000659_CLONIXIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 659,
-        "name": "CLONIXIN",
-        "smiles": "Cc1c(Cl)cccc1Nc1ncccc1C(=O)O",
-        "charge": 0,
-        "total_atoms": 29,
-        "heavy_atoms": 18
-      },
-      "predicted_excitation_energies_eV": [
-        3.5837,
-        4.4201,
-        4.5432,
-        4.6571,
-        5.4951
-      ],
-      "predicted_oscillator_strengths": [
-        0.304419,
-        0.552384,
-        0.177667,
-        0.003407,
-        0.006325
-      ],
-      "timing": {
-        "xtb_s": 1.4700013231486082,
-        "xtb4stda_s": 0.5371284913271666,
-        "stda_s": 22.147687321528792,
-        "total_s": 24.23814726434648
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000660_CLOPERASTINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 660,
-        "name": "CLOPERASTINE HYDROCHLORIDE",
-        "smiles": "Clc1ccc([C@@H](OCCN2CCCCC2)c2ccccc2)cc1",
-        "charge": 0,
-        "total_atoms": 47,
-        "heavy_atoms": 23
-      },
-      "predicted_excitation_energies_eV": [
-        5.066,
-        5.1224,
-        5.5203,
-        5.9013,
-        6.1524
-      ],
-      "predicted_oscillator_strengths": [
-        0.001156,
-        0.000687,
-        0.021927,
-        0.2167,
-        0.016093
-      ],
-      "timing": {
-        "xtb_s": 3.3676100969314575,
-        "xtb4stda_s": 0.6696753166615963,
-        "stda_s": 231.6222596615553,
-        "total_s": 235.7893486469984
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000661_CLOPIDOGREL_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 661,
-        "name": "CLOPIDOGREL SULFATE",
-        "smiles": "COC(=O)[C@@H](c1ccccc1Cl)N1CCc2sccc2C1",
-        "charge": 0,
-        "total_atoms": 37,
-        "heavy_atoms": 21
-      },
-      "predicted_excitation_energies_eV": [
-        5.0749,
-        5.1022,
-        5.313,
-        5.4425,
-        5.5403
-      ],
-      "predicted_oscillator_strengths": [
-        0.000831,
-        0.009877,
-        0.007658,
-        0.016523,
-        0.222723
-      ],
-      "timing": {
-        "xtb_s": 1.2519708797335625,
-        "xtb4stda_s": 0.6100623179227114,
-        "stda_s": 82.85464936867356,
-        "total_s": 84.80484963394701
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000662_CLOPIDOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 662,
-        "name": "CLOPIDOL",
-        "smiles": "Cc1nc(C)c(Cl)c(O)c1Cl",
-        "charge": 0,
-        "total_atoms": 18,
-        "heavy_atoms": 11
-      },
-      "predicted_excitation_energies_eV": [
-        5.0063,
-        5.609,
-        5.7095,
-        5.7385,
-        5.8871
-      ],
-      "predicted_oscillator_strengths": [
-        0.001949,
-        0.0,
-        0.005846,
-        0.006168,
-        0.007756
-      ],
-      "timing": {
-        "xtb_s": 0.3518611714243889,
-        "xtb4stda_s": 0.39153838343918324,
-        "stda_s": 1.7076768316328526,
-        "total_s": 2.5887867342680693
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000663_CLORGILINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 663,
-        "name": "CLORGILINE HYDROCHLORIDE",
-        "smiles": "C#CCN(C)CCCOc1ccc(Cl)cc1Cl",
-        "charge": 0,
-        "total_atoms": 32,
-        "heavy_atoms": 17
-      },
-      "predicted_excitation_energies_eV": [
-        4.7181,
-        5.0069,
-        5.6334,
-        5.8461,
-        5.9574
-      ],
-      "predicted_oscillator_strengths": [
-        0.051536,
-        0.000578,
-        0.157718,
-        0.00371,
-        0.000333
-      ],
-      "timing": {
-        "xtb_s": 1.2647266276180744,
-        "xtb4stda_s": 0.5058313384652138,
-        "stda_s": 25.48008512146771,
-        "total_s": 27.324461683630943
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000664_CLORSULON",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 664,
-        "name": "CLORSULON",
-        "smiles": "Nc1cc(C(Cl)=C(Cl)Cl)c(S(N)(=O)=O)cc1S(N)(=O)=O",
-        "charge": 0,
-        "total_atoms": 28,
-        "heavy_atoms": 20
-      },
-      "predicted_excitation_energies_eV": [
-        4.1034,
-        4.8887,
-        4.8991,
-        4.9885,
-        5.198
-      ],
-      "predicted_oscillator_strengths": [
-        0.118081,
-        0.10253,
-        0.192747,
-        0.016524,
-        0.321788
-      ],
-      "timing": {
-        "xtb_s": 2.5240465961396694,
-        "xtb4stda_s": 0.5170594546943903,
-        "stda_s": 42.396960163488984,
-        "total_s": 45.55225217714906
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000665_CLOSANTEL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 665,
-        "name": "CLOSANTEL",
-        "smiles": "Cc1cc([C@@H](C#N)c2ccc(Cl)cc2)c(Cl)cc1NC(=O)c1cc(I)cc(I)c1O",
-        "charge": 0,
-        "total_atoms": 44,
-        "heavy_atoms": 30
-      },
-      "predicted_excitation_energies_eV": [
-        3.462,
-        4.1211,
-        4.4336,
-        4.7646,
-        4.8788
-      ],
-      "predicted_oscillator_strengths": [
-        0.000658,
-        0.419344,
-        0.001135,
-        0.258154,
-        0.062864
-      ],
-      "timing": {
-        "xtb_s": 4.814796539023519,
-        "xtb4stda_s": 0.7752392310649157,
-        "stda_s": 362.5015108268708,
-        "total_s": 368.25640746951103
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000666_CLOZAPINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 666,
-        "name": "CLOZAPINE",
-        "smiles": "CN1CCN(C2=Nc3cc(Cl)ccc3Nc3ccccc32)CC1",
-        "charge": 0,
-        "total_atoms": 42,
-        "heavy_atoms": 23
-      },
-      "predicted_excitation_energies_eV": [
-        3.0442,
-        4.1412,
-        4.203,
-        4.4852,
-        4.6324
-      ],
-      "predicted_oscillator_strengths": [
-        0.079271,
-        0.083843,
-        0.06565,
-        0.231039,
-        0.417357
-      ],
-      "timing": {
-        "xtb_s": 2.2880855165421963,
-        "xtb4stda_s": 0.6917964275926352,
-        "stda_s": 140.3222589865327,
-        "total_s": 143.4093920737505
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000667_COLCHICEINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 667,
-        "name": "COLCHICEINE",
-        "smiles": "COc1cc2c(c(OC)c1OC)-c1ccc(O)c(=O)cc1[C@@H](NC(C)=O)CC2",
-        "charge": 0,
-        "total_atoms": 51,
-        "heavy_atoms": 28
-      },
-      "predicted_excitation_energies_eV": [
-        3.6269,
-        3.837,
-        4.0473,
-        4.2604,
-        4.5428
-      ],
-      "predicted_oscillator_strengths": [
-        0.109897,
-        0.475564,
-        0.002263,
-        0.014122,
-        0.014626
-      ],
-      "timing": {
-        "xtb_s": 5.697201801463962,
-        "xtb4stda_s": 0.7711611650884151,
-        "stda_s": 438.87685890495777,
-        "total_s": 445.5061928834766
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000668_COLESEVALAM_HYDROCHLORIDE_high_mol_wt_copolymer_5mg_ml_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 668,
-        "name": "COLESEVALAM HYDROCHLORIDE (high mol wt copolymer @ 5mg/ml)",
-        "smiles": "CCCNCCCCCC[N+](C)(C)C",
-        "charge": 1,
-        "total_atoms": 43,
-        "heavy_atoms": 14
-      },
-      "predicted_excitation_energies_eV": [
-        1.1309,
-        1.29,
-        1.3968,
-        1.9568,
-        2.2476
-      ],
-      "predicted_oscillator_strengths": [
-        0.364183,
-        0.632207,
-        0.424591,
-        0.104112,
-        0.00378
-      ],
-      "timing": {
-        "xtb_s": 1.532024696469307,
-        "xtb4stda_s": 0.5654471796005964,
-        "stda_s": 351.62029944360256,
-        "total_s": 353.83529938943684
       },
       "stda_energy_window_eV": 30.0
     }
