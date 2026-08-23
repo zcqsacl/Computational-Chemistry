@@ -632,6 +632,39 @@
     },
     {
       "status": "success",
+      "label": "dataset_I_000621_SRI-0000660.txt",
+      "metadata": {
+        "dataset": "dataset_I",
+        "dataset_row": 621,
+        "name": "SRI-0000660.txt",
+        "smiles": "CNC(=O)NCC1OC(COC(C)=O)(OC2OC(CNC(C)=O)C(O)C(OC(C)=O)C2OC(C)=O)C(OC(C)=O)C1OC(C)=O",
+        "total_atoms": 84,
+        "heavy_atoms": 45
+      },
+      "energies_eV": [
+        5.695,
+        5.7851,
+        6.118,
+        6.1829,
+        6.2241
+      ],
+      "oscillator_strengths": [
+        0.002529,
+        0.04567,
+        0.089517,
+        0.007475,
+        0.007468
+      ],
+      "timing": {
+        "xtb_opt_s": 16.12828972004354,
+        "xtb4stda_s": 1.6346648689359426,
+        "stda_s": 5694.888397159055,
+        "total_s": 5712.651351748034
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_I_000622_SRI-1053295-001.txt",
       "metadata": {
         "dataset": "dataset_I",
@@ -3267,39 +3300,6 @@
         "xtb4stda_s": 0.7121391296386719,
         "stda_s": 418.45818541012704,
         "total_s": 421.4285930227488
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_I_000702_SRI-0000209.txt",
-      "metadata": {
-        "dataset": "dataset_I",
-        "dataset_row": 702,
-        "name": "SRI-0000209.txt",
-        "smiles": "COC1=CC=C(C=C1)C(=O)OCCN(CCOC(=O)C1=CC=C(OC)C=C1)C1=CNC(=O)NC1=O",
-        "total_atoms": 60,
-        "heavy_atoms": 35
-      },
-      "energies_eV": [
-        4.337,
-        4.7406,
-        4.7434,
-        4.9471,
-        4.983
-      ],
-      "oscillator_strengths": [
-        0.005263,
-        0.002351,
-        0.003238,
-        0.277831,
-        0.53099
-      ],
-      "timing": {
-        "xtb_opt_s": 6.742834957316518,
-        "xtb4stda_s": 0.07356166280806065,
-        "stda_s": 1375.4033761806786,
-        "total_s": 1382.2197728008032
       },
       "stda_energy_window_eV": 30.0
     }
