@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 29,
+  "n_records": 32,
   "records": [
     {
       "status": "success",
@@ -657,6 +657,45 @@
         "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CCCC1C(C)(C)O[C@]2(C/C=C(\\C)C(=O)O)C(=O)O)C3=O",
         "total_atoms": 93,
         "heavy_atoms": 47
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002176_VECURONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2176,
+        "name": "VECURONIUM BROMIDE",
+        "smiles": "CC(=O)O[C@H]1CC2CCC3C(CC[C@@]4(C)C3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1N1CCCCC1",
+        "total_atoms": 97,
+        "heavy_atoms": 40
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\n2   1.915   0.002   Kshft:   0.500  locality: 0.416\n   10  8.17   151.8      113 -> 121     gap,J,K:  10.268   2.602   0.001   Kshft:   0.500  locality: 0.628\n   11  8.53   145.4      113 -> 118     gap,J,K:   9.948   1.919   0.001   Kshft:   0.500  locality: 0.455\n   12  8.55   145.0      113 -> 124     gap,J,K:  10.666   2.618   0.002   Kshft:   0.500  locality: 0.671\n   13  8.61   144.1      113 -> 127     gap,J,K:  10.985   2.882   0.003   Kshft:   0.500  locality: 0.740\n   14  8.70   142.5      108 -> 115     gap,J,K:  11.853   3.661   0.012   Kshft:   0.500  locality: 0.901\n   15  8.72   142.1      113 -> 122     gap,J,K:  10.359   2.137   0.001   Kshft:   0.500  locality: 0.500\n   16  8.89   139.4      113 -> 132     gap,J,K:  11.395   3.002   0.002   Kshft:   0.500  locality: 0.767\n   17  8.91   139.2      107 -> 115     gap,J,K:  11.987   3.582   0.003   Kshft:   0.500  locality: 0.895\n   18  8.91   139.2      112 -> 118     gap,J,K:  11.663   3.256   0.003   Kshft:   0.500  locality: 0.870\n   19  8.91   139.1      113 -> 129     gap,J,K:  11.178   2.766   0.002   Kshft:   0.500  locality: 0.705\n   20  8.92   139.0      113 -> 125     gap,J,K:  10.719   2.298   0.000   Kshft:   0.500  locality: 0.582\n   21  8.95   138.6      113 -> 131     gap,J,K:  11.334   2.889   0.001   Kshft:   0.500  locality: 0.752\n   22  9.09   136.4      109 -> 116     gap,J,K:  11.833   3.251   0.008   Kshft:   0.500  locality: 0.892\n   23  9.11   136.1      113 -> 133     gap,J,K:  11.549   2.941   0.002   Kshft:   0.500  locality: 0.761\n   24  9.23   134.4      113 -> 114     gap,J,K:   9.490   1.765   0.001   Kshft:   1.500  locality: 0.378\n   25  9.31   133.2      112 -> 121     gap,J,K:  11.983   3.179   0.006   Kshft:   0.500  locality: 0.864\n \n selecting CSF ...\n average/max(a)/max(b) PT2 energy lowering (eV):     0.000     0.001     0.001\n CSF included by PT:        2870        1437        1433\n CSF in total:       57073       28607       28466\n calculating TDA matrix ...\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001385_METHYL_GAMBOGATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1385,
+        "name": "METHYL GAMBOGATE",
+        "smiles": "COC(=O)/C(C)=C\\CC12OC(C)(C)C3CC(C=C4C(=O)c5c(O)c6c(c(CC=C(C)C)c5OC431)OC(C)(CCC=C(C)C)C=C6)C2=O",
+        "total_atoms": 93,
+        "heavy_atoms": 47
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001697_POSACONAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1697,
+        "name": "POSACONAZOLE",
+        "smiles": "CC[C@H]([C@@H](C)O)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(F)cc6F)C5)cc4)CC3)cc2)c1=O",
+        "total_atoms": 93,
+        "heavy_atoms": 51
       },
       "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
     }
