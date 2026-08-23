@@ -1,205 +1,317 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 60,
+  "n_records": 11,
   "records": [
     {
       "status": "success",
-      "label": "dataset_II_001247_LANOSTEROL_ACETATE",
+      "label": "dataset_II_002213_ZIDOVUDINE_AZT_",
       "metadata": {
         "dataset": "dataset_II",
-        "dataset_row": 1247,
-        "name": "LANOSTEROL ACETATE",
-        "smiles": "CC(=O)O[C@@H]1CCC2(C)C3=C(CCC2C1(C)C)[C@@]1(C)CCC(C(C)CCC=C(C)C)[C@]1(C)CC3",
-        "total_atoms": 86,
-        "heavy_atoms": 34
+        "dataset_row": 2213,
+        "name": "ZIDOVUDINE [AZT]",
+        "smiles": "Cc1cn(C2CC(N=[N+]=[N-])C(CO)O2)c(=O)[nH]c1=O",
+        "total_atoms": 32,
+        "heavy_atoms": 19
       },
       "energies_eV": [
-        5.9141,
-        5.959,
-        6.2369,
-        6.5692,
-        6.8319
+        4.46,
+        4.9742,
+        5.5751,
+        5.6796,
+        5.8248
       ],
       "oscillator_strengths": [
-        0.014425,
-        0.020597,
-        0.005082,
-        0.175054,
-        0.33734
+        0.001057,
+        0.383576,
+        0.009398,
+        0.017297,
+        0.000925
       ],
       "timing": {
-        "xtb_opt_s": 10.185311948880553,
-        "xtb4stda_s": 1.8024946190416813,
-        "stda_s": 4377.472998723388,
-        "total_s": 4389.46080529131
+        "xtb_opt_s": 1.5657090451568365,
+        "xtb4stda_s": 0.6499980203807354,
+        "stda_s": 48.026120545342565,
+        "total_s": 50.24182761088014
       },
       "stda_energy_window_eV": 30.0
     },
     {
       "status": "success",
-      "label": "dataset_II_001797_RESERPINE",
+      "label": "dataset_II_002214_ZILEUTON",
       "metadata": {
         "dataset": "dataset_II",
-        "dataset_row": 1797,
-        "name": "RESERPINE",
-        "smiles": "COC(=O)[C@H]1[C@H]2C[C@@H]3c4[nH]c5cc(OC)ccc5c4CCN3C[C@H]2C[C@@H](OC(=O)c2cc(OC)c(OC)c(OC)c2)[C@@H]1OC",
-        "total_atoms": 84,
-        "heavy_atoms": 44
+        "dataset_row": 2214,
+        "name": "ZILEUTON",
+        "smiles": "C[C@@H](c1cc2ccccc2s1)N(O)C(N)=O",
+        "total_atoms": 28,
+        "heavy_atoms": 16
       },
       "energies_eV": [
-        4.1082,
-        4.265,
-        4.2888,
-        4.5991,
-        5.2602
+        4.5188,
+        4.8088,
+        5.265,
+        5.514,
+        5.6416
       ],
       "oscillator_strengths": [
-        0.017978,
-        0.520068,
-        0.066726,
-        0.026079,
-        0.006242
+        0.073141,
+        0.217601,
+        0.042434,
+        0.093279,
+        0.364908
       ],
       "timing": {
-        "xtb_opt_s": 16.000427778810263,
-        "xtb4stda_s": 1.9645758289843798,
-        "stda_s": 8597.021902529523,
-        "total_s": 8614.986906137317
+        "xtb_opt_s": 2.9279822073876858,
+        "xtb4stda_s": 0.5511729680001736,
+        "stda_s": 21.820020973682404,
+        "total_s": 25.299176149070263
       },
       "stda_energy_window_eV": 30.0
     },
     {
       "status": "success",
-      "label": "dataset_II_002163_URSOLOLACTONE_ACETATE",
+      "label": "dataset_II_002215_ZINC_UNDECYLENATE_4mM_",
       "metadata": {
         "dataset": "dataset_II",
-        "dataset_row": 2163,
-        "name": "URSOLOLACTONE ACETATE",
-        "smiles": "CC(=O)OC1CC[C@]2(C)C(CC[C@@]3(C)C2CC[C@@]24OC(=O)[C@]5(CCC(C)C(C)C52)CC[C@]34C)C1(C)C",
-        "total_atoms": 86,
-        "heavy_atoms": 36
+        "dataset_row": 2215,
+        "name": "ZINC UNDECYLENATE [4mM]",
+        "smiles": "C=CCCCCCCCCC(=O)O",
+        "total_atoms": 33,
+        "heavy_atoms": 13
       },
       "energies_eV": [
-        6.1831,
-        6.2579,
-        7.6759,
-        7.8711,
-        8.1712
+        6.1045,
+        6.7409,
+        7.3052,
+        7.6439,
+        7.8518
       ],
       "oscillator_strengths": [
-        0.00671,
-        0.004511,
-        0.010274,
-        0.018409,
-        0.043907
+        0.003231,
+        0.030239,
+        0.04925,
+        0.304187,
+        0.001251
       ],
       "timing": {
-        "xtb_opt_s": 12.057354260236025,
-        "xtb4stda_s": 1.8711841739714146,
-        "stda_s": 4466.717222323641,
-        "total_s": 4480.645760757849
+        "xtb_opt_s": 0.8895208518952131,
+        "xtb4stda_s": 0.5206348448991776,
+        "stda_s": 19.916420124471188,
+        "total_s": 21.32657582126558
       },
       "stda_energy_window_eV": 30.0
     },
     {
       "status": "success",
-      "label": "dataset_II_000186_ACETYL-DIHYDRO-7-EPIKHIVORIN",
+      "label": "dataset_II_002216_ZOLEDRONIC_ACID",
       "metadata": {
         "dataset": "dataset_II",
-        "dataset_row": 186,
-        "name": "ACETYL-DIHYDRO-7-EPIKHIVORIN",
-        "smiles": "CC(=O)OC1O[C@@H](c2ccoc2)[C@]2(C)CCC3[C@]4(C)C(C[C@H](OC(C)=O)C[C@@H]4OC(C)=O)C[C@H](OC(C)=O)[C@@]3(C)C23OC13",
-        "total_atoms": 85,
-        "heavy_atoms": 43
+        "dataset_row": 2216,
+        "name": "ZOLEDRONIC ACID",
+        "smiles": "O=P(O)(O)C(O)(Cn1ccnc1)P(=O)(O)O",
+        "total_atoms": 26,
+        "heavy_atoms": 16
       },
       "energies_eV": [
-        5.7164,
-        5.9607,
-        6.2099,
-        6.2399,
-        6.2791
+        5.6274,
+        6.1276,
+        6.4154,
+        6.5082,
+        6.5931
       ],
       "oscillator_strengths": [
-        0.002016,
-        0.235589,
-        0.005871,
-        0.005395,
-        0.005313
+        0.00377,
+        0.050364,
+        0.037892,
+        0.121791,
+        0.005204
       ],
       "timing": {
-        "xtb_opt_s": 12.958184525370598,
-        "xtb4stda_s": 1.9482117556035519,
-        "stda_s": 8014.988203853369,
-        "total_s": 8029.894600134343
+        "xtb_opt_s": 2.3875947408378124,
+        "xtb4stda_s": 0.45865174755454063,
+        "stda_s": 18.650095019489527,
+        "total_s": 21.49634150788188
       },
       "stda_energy_window_eV": 30.0
     },
     {
       "status": "success",
-      "label": "dataset_II_000409_BERBAMINE_HYDROCHLORIDE",
+      "label": "dataset_II_002217_ZOLMITRIPTAN",
       "metadata": {
         "dataset": "dataset_II",
-        "dataset_row": 409,
-        "name": "BERBAMINE HYDROCHLORIDE",
-        "smiles": "COc1cc2c3cc1Oc1c(OC)c(OC)cc4c1[C@H](Cc1cccc(c1)Oc1ccc(c(O)c1)C[C@H]3N(C)CC2)N(C)CC4",
-        "total_atoms": 85,
-        "heavy_atoms": 45
+        "dataset_row": 2217,
+        "name": "ZOLMITRIPTAN",
+        "smiles": "CN(C)CCc1c[nH]c2ccc(C[C@H]3COC(=O)N3)cc12",
+        "total_atoms": 42,
+        "heavy_atoms": 21
       },
       "energies_eV": [
-        4.62,
-        4.687,
-        4.8049,
-        4.9758,
-        5.212
+        4.4845,
+        4.6543,
+        5.2722,
+        5.5847,
+        5.768
       ],
       "oscillator_strengths": [
-        0.012839,
-        0.080482,
-        0.090843,
-        0.017094,
-        0.040502
+        0.099054,
+        0.030658,
+        0.015948,
+        0.026129,
+        0.037606
       ],
       "timing": {
-        "xtb_opt_s": 71.57688526436687,
-        "xtb4stda_s": 2.1369907464832067,
-        "stda_s": 8415.505351096392,
-        "total_s": 8489.219227107242
+        "xtb_opt_s": 2.5009957905858755,
+        "xtb4stda_s": 0.7409224174916744,
+        "stda_s": 153.16466110385954,
+        "total_s": 156.4065793119371
       },
       "stda_energy_window_eV": 30.0
     },
     {
       "status": "success",
-      "label": "dataset_II_001542_ORLISTAT",
+      "label": "dataset_II_002218_ZOLPIDEM",
       "metadata": {
         "dataset": "dataset_II",
-        "dataset_row": 1542,
-        "name": "ORLISTAT",
-        "smiles": "CCCCCCCCCCC[C@H](C[C@@H]1OC(=O)[C@@H]1CCCCCC)OC(=O)[C@H](CC(C)C)NC=O",
-        "total_atoms": 88,
-        "heavy_atoms": 35
+        "dataset_row": 2218,
+        "name": "ZOLPIDEM",
+        "smiles": "Cc1ccc(-c2nc3ccc(C)cn3c2CC(=O)N(C)C)cc1",
+        "total_atoms": 44,
+        "heavy_atoms": 23
       },
       "energies_eV": [
-        5.8897,
-        5.9303,
-        6.0849,
-        6.1086,
-        6.8571
+        3.937,
+        4.5499,
+        4.9284,
+        5.048,
+        5.4069
       ],
       "oscillator_strengths": [
-        0.005756,
-        0.035939,
-        0.007925,
-        0.003459,
-        0.1202
+        0.237862,
+        0.025242,
+        0.013886,
+        0.268666,
+        0.714923
       ],
       "timing": {
-        "xtb_opt_s": 9.727157382294536,
-        "xtb4stda_s": 1.5785895567387342,
-        "stda_s": 5398.2193686924875,
-        "total_s": 5409.525115631521
+        "xtb_opt_s": 2.557512791827321,
+        "xtb4stda_s": 0.7730393968522549,
+        "stda_s": 190.67970342934132,
+        "total_s": 194.0102556180209
       },
       "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_002219_ZOMEPIRAC_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2219,
+        "name": "ZOMEPIRAC SODIUM",
+        "smiles": "Cc1cc(CC(=O)O)n(C)c1C(=O)c1ccc(Cl)cc1",
+        "total_atoms": 34,
+        "heavy_atoms": 20
+      },
+      "energies_eV": [
+        3.8033,
+        4.0494,
+        4.3741,
+        4.8902,
+        4.9798
+      ],
+      "oscillator_strengths": [
+        0.376699,
+        0.005332,
+        0.065991,
+        0.00461,
+        0.049474
+      ],
+      "timing": {
+        "xtb_opt_s": 2.49860268086195,
+        "xtb4stda_s": 0.6968925334513187,
+        "stda_s": 64.81660156138241,
+        "total_s": 68.01209677569568
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_002220_ZONISAMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2220,
+        "name": "ZONISAMIDE",
+        "smiles": "NS(=O)(=O)Cc1noc2ccccc12",
+        "total_atoms": 22,
+        "heavy_atoms": 14
+      },
+      "energies_eV": [
+        4.5447,
+        5.2481,
+        5.3478,
+        5.4273,
+        6.1064
+      ],
+      "oscillator_strengths": [
+        0.159419,
+        0.142872,
+        0.133114,
+        0.015338,
+        0.050395
+      ],
+      "timing": {
+        "xtb_opt_s": 1.095078255981207,
+        "xtb4stda_s": 0.4347926452755928,
+        "stda_s": 5.314051162451506,
+        "total_s": 6.843922063708305
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_002221_ZOXAZOLAMINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2221,
+        "name": "ZOXAZOLAMINE",
+        "smiles": "Nc1nc2cc(Cl)ccc2o1",
+        "total_atoms": 16,
+        "heavy_atoms": 11
+      },
+      "energies_eV": [
+        4.5664,
+        4.9458,
+        5.3578,
+        5.7947,
+        5.8479
+      ],
+      "oscillator_strengths": [
+        0.267068,
+        0.184693,
+        0.104594,
+        0.000667,
+        0.059357
+      ],
+      "timing": {
+        "xtb_opt_s": 0.38857080414891243,
+        "xtb4stda_s": 0.38533906638622284,
+        "stda_s": 1.3468897882848978,
+        "total_s": 2.120799658820033
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000492_CALCIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 492,
+        "name": "CALCIUM CHLORIDE",
+        "smiles": "[Ca+2]",
+        "total_atoms": 1,
+        "heavy_atoms": 1
+      },
+      "error": "Only 3 states found."
     },
     {
       "status": "failed",
@@ -212,896 +324,7 @@
         "total_atoms": 89,
         "heavy_atoms": 52
       },
-      "error": "sTDA failed at 80.0 eV, return=-9\n6   2.494   0.004   Kshft:   0.500  locality: 0.504\n   10  5.27   235.4      131 -> 138     gap,J,K:   9.249   4.581   0.598   Kshft:   0.000  locality: 0.986\n   11  5.30   234.1      129 -> 137     gap,J,K:   7.782   3.690   0.248   Kshft:   0.956  locality: 0.896\n   12  5.30   233.9      136 -> 141     gap,J,K:   7.573   2.744   0.071   Kshft:   0.399  locality: 0.590\n   13  5.41   229.2      131 -> 137     gap,J,K:   7.475   3.313   0.134   Kshft:   1.113  locality: 0.795\n   14  5.60   221.5      135 -> 142     gap,J,K:   8.641   3.325   0.274   Kshft:   0.009  locality: 0.884\n   15  5.64   219.8      135 -> 138     gap,J,K:   7.787   2.674   0.037   Kshft:   0.491  locality: 0.597\n   16  5.88   210.7      123 -> 139     gap,J,K:  10.301   5.057   0.640   Kshft:   0.000  locality: 1.004\n   17  5.89   210.5      135 -> 141     gap,J,K:   8.164   2.763   0.065   Kshft:   0.423  locality: 0.656\n   18  5.93   209.1      125 -> 140     gap,J,K:  10.252   5.000   0.676   Kshft:   0.000  locality: 1.003\n   19  5.97   207.5      131 -> 141     gap,J,K:   9.627   4.352   0.699   Kshft:   0.000  locality: 0.996\n   20  6.04   205.2      122 -> 137     gap,J,K:   8.323   3.539   0.129   Kshft:   1.130  locality: 0.848\n   21  6.05   205.1      136 -> 147     gap,J,K:   8.423   2.850   0.070   Kshft:   0.403  locality: 0.789\n   22  6.10   203.3      125 -> 139     gap,J,K:  10.161   4.989   0.925   Kshft:   0.000  locality: 1.000\n   23  6.12   202.6      135 -> 144     gap,J,K:   8.820   3.138   0.079   Kshft:   0.358  locality: 0.814\n   24  6.19   200.2      136 -> 150     gap,J,K:   8.858   3.096   0.081   Kshft:   0.350  locality: 0.819\n   25  6.20   200.0      128 -> 139     gap,J,K:   9.904   4.230   0.030   Kshft:   0.496  locality: 0.822\n \n selecting CSF ...\n average/max(a)/max(b) PT2 energy lowering (eV):     0.000     0.001     0.001\n CSF included by PT:        4021        2003        2018\n CSF in total:       71331       35732       35599\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_001132_HYDROLYSIS_PRODUCT_OF_BUSSEIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1132,
-        "name": "HYDROLYSIS PRODUCT OF BUSSEIN",
-        "smiles": "CC(C)/C(O)=C1/C(=O)O[C@H](c2ccoc2)[C@@]2(C)C(O)[C@H](O)[C@]34OC5(C)OC67CC(C)(C(O)[C@@]6(O)[C@H](O)[C@@]3(O5)C12)[C@@H](CC(=O)O)[C@@]74C",
-        "total_atoms": 86,
-        "heavy_atoms": 46
-      },
-      "energies_eV": [
-        4.6094,
-        5.7917,
-        5.8067,
-        5.8715,
-        5.9454
-      ],
-      "oscillator_strengths": [
-        0.211335,
-        0.004513,
-        0.022644,
-        0.042786,
-        0.256363
-      ],
-      "timing": {
-        "xtb_opt_s": 7.558363277465105,
-        "xtb4stda_s": 1.9778714291751385,
-        "stda_s": 8656.40114027448,
-        "total_s": 8665.93737498112
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000164_ACARBOSE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 164,
-        "name": "ACARBOSE",
-        "smiles": "C[C@H]1O[C@H](O[C@@H]2[C@@H](CO)O[C@H](O[C@@H]3[C@@H](CO)OC(O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
-        "total_atoms": 87,
-        "heavy_atoms": 44
-      },
-      "energies_eV": [
-        5.6402,
-        5.9426,
-        6.2447,
-        6.5409,
-        6.6515
-      ],
-      "oscillator_strengths": [
-        0.016991,
-        0.017861,
-        0.135071,
-        0.005365,
-        0.002328
-      ],
-      "timing": {
-        "xtb_opt_s": 51.27858021482825,
-        "xtb4stda_s": 1.8794094119220972,
-        "stda_s": 8909.93841020763,
-        "total_s": 8963.09639983438
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_001590_PAROMOMYCIN_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1590,
-        "name": "PAROMOMYCIN SULFATE",
-        "smiles": "NC[C@@H]1O[C@H](O[C@@H]2[C@@H](CO)OC(O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)[C@@H]2O)[C@H](N)[C@@H](O)[C@@H]1O",
-        "total_atoms": 87,
-        "heavy_atoms": 42
-      },
-      "energies_eV": [
-        6.2506,
-        6.2738,
-        6.6054,
-        6.7686,
-        6.8345
-      ],
-      "oscillator_strengths": [
-        0.013375,
-        0.011445,
-        0.019409,
-        0.017137,
-        0.017118
-      ],
-      "timing": {
-        "xtb_opt_s": 34.040774350985885,
-        "xtb4stda_s": 1.9539927765727043,
-        "stda_s": 8694.161130836233,
-        "total_s": 8730.155897963792
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000718_DABIGATRAN_ETEXILATE_MESYLATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 718,
-        "name": "DABIGATRAN ETEXILATE MESYLATE",
-        "smiles": "CCCCCCOC(=O)/N=C(\\N)c1ccc(NCc2nc3cc(C(=O)N(CCC(=O)OCC)c4ccccn4)ccc3n2C)cc1",
-        "total_atoms": 87,
-        "heavy_atoms": 46
-      },
-      "energies_eV": [
-        3.9422,
-        4.3662,
-        4.4555,
-        4.6575,
-        4.8146
-      ],
-      "oscillator_strengths": [
-        0.006895,
-        1.235656,
-        0.04176,
-        0.029678,
-        0.328729
-      ],
-      "timing": {
-        "xtb_opt_s": 17.81669458001852,
-        "xtb4stda_s": 1.9520821943879128,
-        "stda_s": 9559.612593535334,
-        "total_s": 9579.38137030974
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000956_EVANS_BLUE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 956,
-        "name": "EVANS BLUE",
-        "smiles": "Cc1cc(-c2ccc(/N=N/c3ccc4c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c4c3O)c(C)c2)ccc1/N=N/c1ccc2c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c2c1O",
-        "total_atoms": 86,
-        "heavy_atoms": 58
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000520_CARBENOXOLONE_SODIUM",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 520,
-        "name": "CARBENOXOLONE SODIUM",
-        "smiles": "CC1(C)C2CC[C@]3(C)C(C(=O)C=C4[C@@H]5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@]43C)[C@@]2(C)CC[C@@H]1OC(=O)CCC(=O)O",
-        "total_atoms": 91,
-        "heavy_atoms": 41
-      },
-      "energies_eV": [
-        3.999,
-        5.0692,
-        6.0513,
-        6.1847,
-        6.3101
-      ],
-      "oscillator_strengths": [
-        0.000448,
-        0.458007,
-        0.002733,
-        0.004277,
-        0.005123
-      ],
-      "timing": {
-        "xtb_opt_s": 8.432702615857124,
-        "xtb4stda_s": 1.6471552830189466,
-        "stda_s": 7201.024629950523,
-        "total_s": 7211.104487849399
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002145_TUBOCURARINE_CHLORIDE_PENTAHYDRATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2145,
-        "name": "TUBOCURARINE CHLORIDE PENTAHYDRATE",
-        "smiles": "COc1cc2c3cc1Oc1cc(ccc1O)C[C@H]1c4c(cc(OC)c(O)c4Oc4ccc(cc4)C[C@H]3N(C)CC2)CC[N+]1(C)C",
-        "total_atoms": 86,
-        "heavy_atoms": 45
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001205_ITRACONAZOLE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1205,
-        "name": "ITRACONAZOLE HYDROCHLORIDE",
-        "smiles": "CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O",
-        "total_atoms": 87,
-        "heavy_atoms": 49
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_002180_VERATRINE_HYDROCHLORIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2180,
-        "name": "VERATRINE HYDROCHLORIDE",
-        "smiles": "C/C=C(/C)C(=O)O[C@H]1CC[C@@]2(C)[C@@H]3CC[C@@H]4[C@@]2(C[C@@]2(O)[C@@H]5CN6C[C@@H](C)CC[C@H]6[C@@](C)(O)[C@@]5(O)[C@@H](O)C[C@@]42O)O[C@]13O",
-        "total_atoms": 91,
-        "heavy_atoms": 42
-      },
-      "energies_eV": [
-        5.6159,
-        5.9344,
-        5.966,
-        6.6325,
-        6.6337
-      ],
-      "oscillator_strengths": [
-        0.125396,
-        0.181983,
-        0.031211,
-        0.067664,
-        0.013706
-      ],
-      "timing": {
-        "xtb_opt_s": 20.70335087366402,
-        "xtb4stda_s": 1.8917720075696707,
-        "stda_s": 8319.76807504706,
-        "total_s": 8342.363197928295
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000581_CHICAGO_SKY_BLUE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 581,
-        "name": "CHICAGO SKY BLUE",
-        "smiles": "COc1cc(-c2ccc(/N=N/c3ccc4c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c4c3O)c(OC)c2)ccc1/N=N/c1ccc2c(S(=O)(=O)O)cc(S(=O)(=O)O)c(N)c2c1O",
-        "total_atoms": 88,
-        "heavy_atoms": 60
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001145_ICARIIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1145,
-        "name": "ICARIIN",
-        "smiles": "COc1ccc(-c2oc3c(CC=C(C)C)c(O[C@H]4O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]4O)cc(O)c3c(=O)c2O[C@H]2O[C@H](C)[C@@H](O)[C@H](O)[C@@H]2O)cc1",
-        "total_atoms": 88,
-        "heavy_atoms": 48
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002022_TETRANDRINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2022,
-        "name": "TETRANDRINE",
-        "smiles": "COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3cc(c(OC)cc3CCN1C)Oc1c(OC)c(OC)cc3c1[C@H](C2)N(C)CC3",
-        "total_atoms": 88,
-        "heavy_atoms": 46
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000228_ALISKIREN_HEMIFUMARATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 228,
-        "name": "ALISKIREN HEMIFUMARATE",
-        "smiles": "COCCCOc1cc(C[C@@H](C[C@H](N)[C@@H](O)C[C@H](C(=O)NCC(C)(C)C(N)=O)C(C)C)C(C)C)ccc1OC",
-        "total_atoms": 92,
-        "heavy_atoms": 39
-      },
-      "energies_eV": [
-        4.6605,
-        5.4516,
-        5.8227,
-        6.0694,
-        6.1073
-      ],
-      "oscillator_strengths": [
-        0.066285,
-        0.13861,
-        0.006868,
-        0.005579,
-        0.02186
-      ],
-      "timing": {
-        "xtb_opt_s": 17.41494905948639,
-        "xtb4stda_s": 1.9067829828709364,
-        "stda_s": 9242.257434789091,
-        "total_s": 9261.579166831449
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001565_OXONITINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1565,
-        "name": "OXONITINE",
-        "smiles": "COC[C@]12CN(C=O)C3[C@@H]4[C@H](OC)C1[C@]3(C1CC3(O)C(OC)C(O)C4(OC(C)=O)C1C3OC(=O)c1ccccc1)[C@@H](OC)C[C@H]2O",
-        "total_atoms": 89,
-        "heavy_atoms": 46
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001044_GAMBOGIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1044,
-        "name": "GAMBOGIC ACID",
-        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4=O)C3=O",
-        "total_atoms": 90,
-        "heavy_atoms": 46
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000506_CAPREOMYCIN_SULFATE_4mM_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 506,
-        "name": "CAPREOMYCIN SULFATE [4mM]",
-        "smiles": "N=C1NCCC(C2NC(=O)/C(=C\\NC(N)=O)NC(=O)C(CNC(=O)CC(N)CCCN)NC(=O)C(CO)NC(=O)C(N)CNC2=O)N1",
-        "total_atoms": 91,
-        "heavy_atoms": 47
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000416_beta-AMYRIN_BENZOATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 416,
-        "name": "beta-AMYRIN BENZOATE",
-        "smiles": "CC1(C)CC[C@]2(C)CC[C@]3(C)C(=CCC4[C@@]5(C)CC[C@H](OC(=O)c6ccccc6)C(C)(C)C5CC[C@]43C)C2C1",
-        "total_atoms": 93,
-        "heavy_atoms": 39
-      },
-      "energies_eV": [
-        4.8508,
-        5.5269,
-        5.6362,
-        6.5099,
-        6.7937
-      ],
-      "oscillator_strengths": [
-        0.019464,
-        0.086284,
-        0.193818,
-        0.009678,
-        0.428294
-      ],
-      "timing": {
-        "xtb_opt_s": 13.618283972144127,
-        "xtb4stda_s": 1.8892529681324959,
-        "stda_s": 8715.507711173967,
-        "total_s": 8731.015248114243
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001828_ROCURONIUM_BROMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1828,
-        "name": "ROCURONIUM BROMIDE",
-        "smiles": "C=CC[N+]1([C@H]2CC3C4CCC5C[C@H](O)[C@@H](N6CCOCC6)C[C@]5(C)C4CC[C@]3(C)[C@H]2OC(C)=O)CCCC1",
-        "total_atoms": 91,
-        "heavy_atoms": 38
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002190_VIOMYCIN_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2190,
-        "name": "VIOMYCIN SULFATE",
-        "smiles": "NCCC[C@H](N)CC(=O)NC1CNC(=O)[C@H]([C@H]2C[C@H](O)NC(N)=N2)NC(=O)/C(=C/NC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC1=O",
-        "total_atoms": 91,
-        "heavy_atoms": 48
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000805_DIHYDROGAMBOGIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 805,
-        "name": "DIHYDROGAMBOGIC ACID",
-        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4O)C3=O",
-        "total_atoms": 92,
-        "heavy_atoms": 46
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001157_INDINAVIR_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1157,
-        "name": "INDINAVIR SULFATE",
-        "smiles": "CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@H](O)C[C@H](Cc1ccccc1)C(=O)N[C@@H]1c2ccccc2C[C@@H]1O",
-        "total_atoms": 92,
-        "heavy_atoms": 45
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001048_GARCINOLIC_ACID",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1048,
-        "name": "GARCINOLIC ACID",
-        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CCCC1C(C)(C)O[C@]2(C/C=C(\\C)C(=O)O)C(=O)O)C3=O",
-        "total_atoms": 93,
-        "heavy_atoms": 47
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002176_VECURONIUM_BROMIDE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2176,
-        "name": "VECURONIUM BROMIDE",
-        "smiles": "CC(=O)O[C@H]1CC2CCC3C(CC[C@@]4(C)C3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1N1CCCCC1",
-        "total_atoms": 97,
-        "heavy_atoms": 40
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\n2   1.915   0.002   Kshft:   0.500  locality: 0.416\n   10  8.17   151.8      113 -> 121     gap,J,K:  10.268   2.602   0.001   Kshft:   0.500  locality: 0.628\n   11  8.53   145.4      113 -> 118     gap,J,K:   9.948   1.919   0.001   Kshft:   0.500  locality: 0.455\n   12  8.55   145.0      113 -> 124     gap,J,K:  10.666   2.618   0.002   Kshft:   0.500  locality: 0.671\n   13  8.61   144.1      113 -> 127     gap,J,K:  10.985   2.882   0.003   Kshft:   0.500  locality: 0.740\n   14  8.70   142.5      108 -> 115     gap,J,K:  11.853   3.661   0.012   Kshft:   0.500  locality: 0.901\n   15  8.72   142.1      113 -> 122     gap,J,K:  10.359   2.137   0.001   Kshft:   0.500  locality: 0.500\n   16  8.89   139.4      113 -> 132     gap,J,K:  11.395   3.002   0.002   Kshft:   0.500  locality: 0.767\n   17  8.91   139.2      107 -> 115     gap,J,K:  11.987   3.582   0.003   Kshft:   0.500  locality: 0.895\n   18  8.91   139.2      112 -> 118     gap,J,K:  11.663   3.256   0.003   Kshft:   0.500  locality: 0.870\n   19  8.91   139.1      113 -> 129     gap,J,K:  11.178   2.766   0.002   Kshft:   0.500  locality: 0.705\n   20  8.92   139.0      113 -> 125     gap,J,K:  10.719   2.298   0.000   Kshft:   0.500  locality: 0.582\n   21  8.95   138.6      113 -> 131     gap,J,K:  11.334   2.889   0.001   Kshft:   0.500  locality: 0.752\n   22  9.09   136.4      109 -> 116     gap,J,K:  11.833   3.251   0.008   Kshft:   0.500  locality: 0.892\n   23  9.11   136.1      113 -> 133     gap,J,K:  11.549   2.941   0.002   Kshft:   0.500  locality: 0.761\n   24  9.23   134.4      113 -> 114     gap,J,K:   9.490   1.765   0.001   Kshft:   1.500  locality: 0.378\n   25  9.31   133.2      112 -> 121     gap,J,K:  11.983   3.179   0.006   Kshft:   0.500  locality: 0.864\n \n selecting CSF ...\n average/max(a)/max(b) PT2 energy lowering (eV):     0.000     0.001     0.001\n CSF included by PT:        2870        1437        1433\n CSF in total:       57073       28607       28466\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001385_METHYL_GAMBOGATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1385,
-        "name": "METHYL GAMBOGATE",
-        "smiles": "COC(=O)/C(C)=C\\CC12OC(C)(C)C3CC(C=C4C(=O)c5c(O)c6c(c(CC=C(C)C)c5OC431)OC(C)(CCC=C(C)C)C=C6)C2=O",
-        "total_atoms": 93,
-        "heavy_atoms": 47
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001697_POSACONAZOLE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1697,
-        "name": "POSACONAZOLE",
-        "smiles": "CC[C@H]([C@@H](C)O)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(F)cc6F)C5)cc4)CC3)cc2)c1=O",
-        "total_atoms": 93,
-        "heavy_atoms": 51
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000503_CANTHAXANTHIN_euglenanone_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 503,
-        "name": "CANTHAXANTHIN (euglenanone)",
-        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)CCC2(C)C)C(C)(C)CCC1=O",
-        "total_atoms": 94,
-        "heavy_atoms": 42
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001299_LOPINAVIR",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1299,
-        "name": "LOPINAVIR",
-        "smiles": "Cc1cccc(C)c1OCC(=O)N[C@@H](Cc1ccccc1)[C@@H](O)C[C@H](Cc1ccccc1)NC(=O)[C@H](C(C)C)N1CCCNC1=O",
-        "total_atoms": 94,
-        "heavy_atoms": 46
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000048_2_2_-BISEPIGALLOCATECHIN_DIGALLATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 48,
-        "name": "2',2'-BISEPIGALLOCATECHIN DIGALLATE",
-        "smiles": "O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(O)c(O)c1-c1c([C@H]2Oc3cc(O)cc(O)c3C[C@H]2OC(=O)c2cc(O)c(O)c(O)c2)cc(O)c(O)c1O)c1cc(O)c(O)c(O)c1",
-        "total_atoms": 100,
-        "heavy_atoms": 66
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.974\n    9  5.56   223.2      169 -> 172     gap,J,K:   7.864   2.829   0.010   Kshft:   0.500  locality: 0.635\n   10  5.58   222.1      162 -> 173     gap,J,K:   8.556   3.356   0.148   Kshft:   0.086  locality: 0.765\n   11  5.81   213.4      170 -> 173     gap,J,K:   7.983   2.686   0.006   Kshft:   0.500  locality: 0.606\n   12  5.85   211.9      170 -> 172     gap,J,K:   7.803   2.464   0.006   Kshft:   0.500  locality: 0.558\n   13  5.86   211.6      170 -> 175     gap,J,K:   8.988   3.866   0.367   Kshft:   0.003  locality: 0.978\n   14  5.86   211.5      166 -> 173     gap,J,K:   8.293   3.000   0.048   Kshft:   0.475  locality: 0.633\n   15  5.96   208.1      171 -> 175     gap,J,K:   8.915   3.385   0.198   Kshft:   0.030  locality: 0.840\n   16  6.03   205.8      169 -> 173     gap,J,K:   8.045   2.526   0.003   Kshft:   0.500  locality: 0.565\n   17  6.04   205.3      171 -> 173     gap,J,K:   7.911   2.377   0.003   Kshft:   0.500  locality: 0.526\n   18  6.04   205.2      169 -> 175     gap,J,K:   9.050   3.710   0.350   Kshft:   0.003  locality: 0.930\n   19  6.19   200.2      163 -> 181     gap,J,K:   9.724   4.509   0.489   Kshft:   0.001  locality: 0.993\n   20  6.24   198.6      160 -> 174     gap,J,K:   9.417   4.029   0.427   Kshft:   0.002  locality: 0.996\n   21  6.28   197.5      167 -> 180     gap,J,K:   9.501   4.151   0.463   Kshft:   0.001  locality: 0.961\n   22  6.38   194.5      160 -> 172     gap,J,K:   8.653   2.809   0.016   Kshft:   0.500  locality: 0.648\n   23  6.38   194.3      170 -> 186     gap,J,K:   9.554   3.577   0.181   Kshft:   0.042  locality: 0.973\n   24  6.42   193.1      168 -> 172     gap,J,K:   7.879   1.966   0.005   Kshft:   0.500  locality: 0.404\n   25  6.45   192.1      169 -> 186     gap,J,K:   9.615   3.557   0.173   Kshft:   0.051  locality: 0.958\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2851 CSF included by PT.\n       49235 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001216_KATACINE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1216,
-        "name": "KATACINE",
-        "smiles": "Oc1cc(O)c2c(c1)O[C@H](c1cc(O)c(O)c(O)c1)[C@H](O)[C@H]2c1c(O)cc(O)c2c1O[C@H](c1cc(O)c(O)c(O)c1)[C@H](O)[C@H]2c1c(O)cc(O)c2c1O[C@H](c1cc(O)c(O)c(O)c1)[C@H](O)C2",
-        "total_atoms": 104,
-        "heavy_atoms": 66
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.876\n    9  6.35   195.3      166 -> 177     gap,J,K:   9.364   3.468   0.216   Kshft:   0.022  locality: 0.922\n   10  6.38   194.5      172 -> 186     gap,J,K:   9.333   3.377   0.193   Kshft:   0.034  locality: 0.933\n   11  6.38   194.4      171 -> 183     gap,J,K:   9.333   3.441   0.235   Kshft:   0.016  locality: 0.965\n   12  6.38   194.3      166 -> 173     gap,J,K:   9.012   3.198   0.056   Kshft:   0.454  locality: 0.839\n   13  6.38   194.3      170 -> 186     gap,J,K:   9.511   3.691   0.277   Kshft:   0.008  locality: 0.996\n   14  6.41   193.3      161 -> 173     gap,J,K:   9.467   3.595   0.071   Kshft:   0.400  locality: 0.870\n   15  6.42   193.3      165 -> 177     gap,J,K:   9.439   3.555   0.260   Kshft:   0.011  locality: 0.933\n   16  6.45   192.3      166 -> 178     gap,J,K:   9.429   3.382   0.178   Kshft:   0.046  locality: 0.980\n   17  6.47   191.7      165 -> 178     gap,J,K:   9.504   3.445   0.185   Kshft:   0.040  locality: 0.985\n   18  6.48   191.4      168 -> 180     gap,J,K:   9.353   3.308   0.202   Kshft:   0.028  locality: 0.938\n   19  6.48   191.4      169 -> 180     gap,J,K:   9.311   3.291   0.218   Kshft:   0.021  locality: 0.962\n   20  6.50   190.6      172 -> 179     gap,J,K:   9.098   2.978   0.141   Kshft:   0.100  locality: 0.776\n   21  6.55   189.4      167 -> 189     gap,J,K:   9.817   3.900   0.312   Kshft:   0.005  locality: 0.989\n   22  6.58   188.5      168 -> 176     gap,J,K:   9.209   3.031   0.177   Kshft:   0.046  locality: 0.925\n   23  6.59   188.1      169 -> 176     gap,J,K:   9.167   3.000   0.197   Kshft:   0.031  locality: 0.944\n   24  6.63   187.0      166 -> 175     gap,J,K:   9.339   3.128   0.112   Kshft:   0.193  locality: 0.961\n   25  6.64   186.6      172 -> 184     gap,J,K:   9.230   2.968   0.146   Kshft:   0.089  locality: 0.949\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2315 CSF included by PT.\n       51078 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001472_NATAMYCIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1472,
-        "name": "NATAMYCIN",
-        "smiles": "CC1C/C=C/C=C/C=C/C=C/C(O[C@H]2O[C@@H](C)[C@H](O)[C@@H](N)[C@H]2O)CC2OC(O)(CC(O)CC3OC3/C=C/C(=O)O1)CC(O)C2C(=O)O",
-        "total_atoms": 94,
-        "heavy_atoms": 47
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000360_AZADIRACHTIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 360,
-        "name": "AZADIRACHTIN",
-        "smiles": "C/C=C(\\C)C(=O)O[C@H]1C[C@@H](OC(C)=O)[C@@]2(C(=O)OC)CO[C@@H]3C2[C@]12CO[C@](O)(C(=O)OC)[C@H]2[C@](C)(C12O[C@@]1(C)[C@H]1C[C@@H]2OC2OC=C[C@@]21O)[C@@H]3O",
-        "total_atoms": 95,
-        "heavy_atoms": 51
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000380_BEMOTRIZINOL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 380,
-        "name": "BEMOTRIZINOL",
-        "smiles": "CCCCC(CC)COc1ccc(-c2nc(-c3ccc(OC)cc3)nc(-c3ccc(OCC(CC)CCCC)cc3O)n2)c(O)c1",
-        "total_atoms": 95,
-        "heavy_atoms": 46
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000396_BENZONATATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 396,
-        "name": "BENZONATATE",
-        "smiles": "CCCCNc1ccc(C(=O)OCCOCCOCCOCCOCCOCCOCCOCCOCCOC)cc1",
-        "total_atoms": 95,
-        "heavy_atoms": 42
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_000417_beta-CAROTENE_2mM_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 417,
-        "name": "beta-CAROTENE [2mM]",
-        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)CCCC2(C)C)C(C)(C)CCC1",
-        "total_atoms": 96,
-        "heavy_atoms": 40
-      },
-      "energies_eV": [
-        2.8079,
-        3.4684,
-        3.9588,
-        4.1119,
-        4.562
-      ],
-      "oscillator_strengths": [
-        6.306028,
-        0.003324,
-        0.15551,
-        0.006555,
-        0.143702
-      ],
-      "timing": {
-        "xtb_opt_s": 14.833895061165094,
-        "xtb4stda_s": 1.7728291358798742,
-        "stda_s": 8950.842990357429,
-        "total_s": 8967.449714554474
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001871_SENNOSIDE_A",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1871,
-        "name": "SENNOSIDE A",
-        "smiles": "O=C(O)c1cc(O)c2c(c1)[C@@H]([C@H]1c3cc(C(=O)O)cc(O)c3C(=O)c3c(O[C@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)cccc31)c1cccc(O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3O)c1C2=O",
-        "total_atoms": 100,
-        "heavy_atoms": 62
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.975\n    9  4.86   254.9      161 -> 165     gap,J,K:   7.686   3.236   0.115   Kshft:   0.184  locality: 0.905\n   10  4.91   252.5      156 -> 164     gap,J,K:   8.011   3.654   0.065   Kshft:   0.422  locality: 0.965\n   11  4.91   252.5      155 -> 164     gap,J,K:   8.078   3.730   0.035   Kshft:   0.492  locality: 0.912\n   12  4.98   249.1      158 -> 165     gap,J,K:   8.187   3.594   0.138   Kshft:   0.109  locality: 0.965\n   13  5.09   243.5      159 -> 165     gap,J,K:   7.983   3.329   0.104   Kshft:   0.231  locality: 0.934\n   14  5.21   238.2      157 -> 165     gap,J,K:   8.377   3.555   0.139   Kshft:   0.105  locality: 0.981\n   15  5.33   232.4      163 -> 166     gap,J,K:   8.276   3.325   0.139   Kshft:   0.106  locality: 0.896\n   16  5.36   231.4      156 -> 165     gap,J,K:   8.402   3.591   0.068   Kshft:   0.411  locality: 0.961\n   17  5.42   228.9      155 -> 165     gap,J,K:   8.468   3.609   0.032   Kshft:   0.495  locality: 0.894\n   18  5.49   225.9      163 -> 167     gap,J,K:   8.531   3.439   0.174   Kshft:   0.049  locality: 0.931\n   19  5.57   222.5      160 -> 164     gap,J,K:   7.443   2.396   0.012   Kshft:   0.500  locality: 0.592\n   20  5.58   222.2      151 -> 164     gap,J,K:   8.465   3.388   0.245   Kshft:   0.013  locality: 0.946\n   21  5.69   217.9      152 -> 164     gap,J,K:   8.403   3.106   0.168   Kshft:   0.055  locality: 0.897\n   22  5.69   217.9      162 -> 166     gap,J,K:   8.667   3.375   0.175   Kshft:   0.048  locality: 0.956\n   23  5.92   209.4      151 -> 165     gap,J,K:   8.855   3.348   0.190   Kshft:   0.036  locality: 0.948\n   24  5.99   207.1      153 -> 164     gap,J,K:   8.371   2.813   0.108   Kshft:   0.212  locality: 0.790\n   25  6.02   206.0      160 -> 165     gap,J,K:   7.833   2.335   0.010   Kshft:   0.500  locality: 0.586\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2563 CSF included by PT.\n       46768 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001387_METHYL_GAMBOGINATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1387,
-        "name": "METHYL GAMBOGINATE",
-        "smiles": "COC(=O)/C(C)=C\\CC12OC(C)(C)C3CC(C=C4C(=O)c5c(O)c6c(c(CCC(C)(C)Cl)c5OC431)OC1(C)CCC(=C(C)C)C6C1)C2=O",
-        "total_atoms": 95,
-        "heavy_atoms": 48
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "success",
-      "label": "dataset_II_001804_RETINYL_PALMITATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1804,
-        "name": "RETINYL PALMITATE",
-        "smiles": "CCCCCCCCCCCCCCCC(=O)OC/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C",
-        "total_atoms": 98,
-        "heavy_atoms": 38
-      },
-      "energies_eV": [
-        3.6652,
-        4.5475,
-        4.8491,
-        5.3015,
-        5.6416
-      ],
-      "oscillator_strengths": [
-        1.250722,
-        0.132667,
-        0.224996,
-        0.417831,
-        0.071906
-      ],
-      "timing": {
-        "xtb_opt_s": 55.1000118739903,
-        "xtb4stda_s": 1.9838610757142305,
-        "stda_s": 8293.063957763836,
-        "total_s": 8350.14783071354
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002165_UTILIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2165,
-        "name": "UTILIN",
-        "smiles": "CCC(C)C(=O)O[C@@H]1C[C@@]2(C)[C@H](c3ccoc3)OC(=O)CC23OC2(C)O[C@@]34[C@H](OC(C)=O)[C@@]3(O)C(OC(=O)C5(C)OC5C)C5(C)CC3(O)[C@@](C)([C@H]5CC(=O)OC)[C@@]14O2",
-        "total_atoms": 110,
-        "heavy_atoms": 58
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.673\n    9  8.01   154.8      159 -> 163     gap,J,K:   9.741   2.280   0.068   Kshft:   0.410  locality: 0.571\n   10  8.09   153.2      159 -> 173     gap,J,K:  10.922   3.340   0.081   Kshft:   0.351  locality: 0.818\n   11  8.11   152.8      159 -> 164     gap,J,K:   9.799   2.249   0.060   Kshft:   0.443  locality: 0.526\n   12  8.16   151.9      155 -> 160     gap,J,K:  10.937   3.277   0.001   Kshft:   0.500  locality: 0.766\n   13  8.18   151.6      153 -> 164     gap,J,K:  11.634   3.971   0.008   Kshft:   0.500  locality: 0.969\n   14  8.28   149.7      158 -> 160     gap,J,K:  10.626   2.860   0.007   Kshft:   0.500  locality: 0.676\n   15  8.40   147.5      152 -> 160     gap,J,K:  11.417   3.521   0.004   Kshft:   0.500  locality: 0.802\n   16  8.45   146.7      157 -> 163     gap,J,K:  11.088   3.148   0.005   Kshft:   0.500  locality: 0.889\n   17  8.51   145.8      154 -> 160     gap,J,K:  11.132   3.151   0.013   Kshft:   0.500  locality: 0.764\n   18  8.51   145.8      157 -> 160     gap,J,K:  10.730   2.730   0.003   Kshft:   0.500  locality: 0.608\n   19  8.53   145.4      159 -> 179     gap,J,K:  11.436   3.805   0.448   Kshft:   0.001  locality: 0.924\n   20  8.56   144.8      159 -> 168     gap,J,K:  10.239   2.179   0.001   Kshft:   0.500  locality: 0.583\n   21  8.58   144.5      158 -> 161     gap,J,K:  10.872   2.795   0.001   Kshft:   0.500  locality: 0.815\n   22  8.60   144.2      157 -> 161     gap,J,K:  10.976   2.884   0.003   Kshft:   0.500  locality: 0.792\n   23  8.61   144.0      156 -> 160     gap,J,K:  10.912   2.813   0.006   Kshft:   0.500  locality: 0.560\n   24  8.64   143.5      158 -> 163     gap,J,K:  10.983   2.854   0.004   Kshft:   0.500  locality: 0.855\n   25  8.72   142.1      159 -> 167     gap,J,K:  10.143   1.924   0.001   Kshft:   0.500  locality: 0.503\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2865 CSF included by PT.\n       47693 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001934_SUCRALFATE_5mM_",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1934,
-        "name": "SUCRALFATE [5mM]",
-        "smiles": "O=S(=O)(OC[C@@H]1O[C@@H](O[C@@]2(COS(=O)(=O)O[Al](O)O)O[C@@H](COS(=O)(=O)O[Al](O)O)[C@H](OS(=O)(=O)O[Al](O)O)[C@H]2OS(=O)(=O)O[Al](O)O)[C@@H](OS(=O)(=O)O[Al](O)O)[C@H](OS(=O)(=O)O[Al](O)O)[C@H]1OS(=O)(=O)O[Al](O)O)O[Al](O)O",
-        "total_atoms": 109,
-        "heavy_atoms": 79
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\n 0.147   Kshft:   0.088  locality: 0.887\n    9  0.48  2580.4      224 -> 229     gap,J,K:   4.144   4.490   0.412   Kshft:   0.002  locality: 0.851\n   10  0.50  2456.4      224 -> 231     gap,J,K:   4.782   4.831   0.272   Kshft:   0.009  locality: 0.864\n   11  0.53  2342.3      227 -> 231     gap,J,K:   4.238   5.209   0.750   Kshft:   0.000  locality: 0.942\n   12  0.98  1263.4      228 -> 230     gap,J,K:   3.636   4.895   1.120   Kshft:   0.000  locality: 0.930\n   13  1.00  1245.4      223 -> 230     gap,J,K:   4.572   3.985   0.117   Kshft:   0.174  locality: 0.879\n   14  1.03  1209.5      221 -> 231     gap,J,K:   5.203   4.575   0.124   Kshft:   0.150  locality: 0.873\n   15  1.08  1150.6      221 -> 229     gap,J,K:   4.564   4.146   0.327   Kshft:   0.004  locality: 0.839\n   16  1.09  1134.1      225 -> 229     gap,J,K:   3.946   3.336   0.233   Kshft:   0.016  locality: 0.700\n   17  1.12  1106.8      221 -> 230     gap,J,K:   4.785   4.329   0.330   Kshft:   0.004  locality: 0.873\n   18  1.19  1039.7      225 -> 230     gap,J,K:   4.166   3.425   0.099   Kshft:   0.253  locality: 0.717\n   19  1.38   896.6      223 -> 231     gap,J,K:   4.990   4.138   0.016   Kshft:   0.500  locality: 0.864\n   20  1.44   863.4      225 -> 231     gap,J,K:   4.584   3.674   0.013   Kshft:   0.500  locality: 0.728\n   21  1.66   746.0      219 -> 231     gap,J,K:   5.588   4.481   0.029   Kshft:   0.496  locality: 0.916\n   22  1.72   720.2      219 -> 229     gap,J,K:   4.950   3.799   0.282   Kshft:   0.008  locality: 0.823\n   23  1.74   713.9      222 -> 230     gap,J,K:   4.677   3.329   0.164   Kshft:   0.060  locality: 0.752\n   24  1.79   691.2      219 -> 230     gap,J,K:   5.170   4.064   0.342   Kshft:   0.004  locality: 0.878\n   25  1.81   684.8      223 -> 229     gap,J,K:   4.352   3.903   0.681   Kshft:   0.000  locality: 0.864\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.001\n        4328 CSF included by PT.\n       67483 CSF in total.\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001576_PACLITAXEL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1576,
-        "name": "PACLITAXEL",
-        "smiles": "CC(=O)O[C@@H]1C(=O)[C@]2(C)C([C@@H](OC(=O)c3ccccc3)[C@@]3(O)C[C@@H](OC(=O)[C@@H](O)[C@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C1C3(C)C)[C@@]1(OC(C)=O)CO[C@H]1C[C@H]2O",
-        "total_atoms": 113,
-        "heavy_atoms": 62
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.987\n    9  6.45   192.3      155 -> 167     gap,J,K:  10.172   4.269   0.070   Kshft:   0.405  locality: 0.890\n   10  6.55   189.3      154 -> 166     gap,J,K:   9.821   3.787   0.008   Kshft:   0.500  locality: 0.794\n   11  6.55   189.2      158 -> 167     gap,J,K:   9.857   4.720   0.708   Kshft:   0.000  locality: 1.000\n   12  6.62   187.4      152 -> 166     gap,J,K:  10.292   4.207   0.016   Kshft:   0.500  locality: 0.904\n   13  6.66   186.1      163 -> 169     gap,J,K:   9.719   3.620   0.036   Kshft:   0.492  locality: 0.748\n   14  6.66   186.0      164 -> 176     gap,J,K:   9.670   3.513   0.004   Kshft:   0.500  locality: 0.781\n   15  6.73   184.1      161 -> 169     gap,J,K:  10.256   4.690   0.584   Kshft:   0.000  locality: 1.001\n   16  6.76   183.5      162 -> 165     gap,J,K:   8.749   2.493   0.001   Kshft:   0.500  locality: 0.539\n   17  6.77   183.2      162 -> 170     gap,J,K:  10.127   4.314   0.477   Kshft:   0.001  locality: 0.991\n   18  6.78   182.9      161 -> 165     gap,J,K:   8.956   2.681   0.001   Kshft:   0.500  locality: 0.568\n   19  6.84   181.4      164 -> 175     gap,J,K:   9.625   3.314   0.013   Kshft:   0.500  locality: 0.809\n   20  6.85   180.9      156 -> 168     gap,J,K:  10.465   4.802   0.594   Kshft:   0.000  locality: 0.999\n   21  6.92   179.1      163 -> 170     gap,J,K:   9.796   3.427   0.030   Kshft:   0.496  locality: 0.748\n   22  6.94   178.7      162 -> 169     gap,J,K:  10.050   4.546   0.716   Kshft:   0.000  locality: 0.988\n   23  6.95   178.3      163 -> 171     gap,J,K:   9.817   3.396   0.074   Kshft:   0.386  locality: 0.743\n   24  7.00   177.0      151 -> 166     gap,J,K:  10.379   3.898   0.011   Kshft:   0.500  locality: 0.866\n   25  7.01   176.9      153 -> 166     gap,J,K:  10.164   3.660   0.002   Kshft:   0.500  locality: 0.769\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2792 CSF included by PT.\n       51135 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002187_VINCRISTINE_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2187,
-        "name": "VINCRISTINE SULFATE",
-        "smiles": "CC[C@@]12C=CCN3CC[C@]4(c5cc([C@]6(C(=O)OC)CC7CN(CCc8c6[nH]c6ccccc86)C[C@@](O)(CC)C7)c(OC)cc5N(C=O)[C@@H]4[C@](O)(C(=O)OC)[C@H]1OC(C)=O)[C@H]32",
-        "total_atoms": 116,
-        "heavy_atoms": 60
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.648\n    9  6.26   197.9      158 -> 163     gap,J,K:   8.801   3.062   0.012   Kshft:   0.500  locality: 0.799\n   10  6.29   197.0      157 -> 162     gap,J,K:   9.112   3.323   0.245   Kshft:   0.013  locality: 0.835\n   11  6.39   193.9      160 -> 163     gap,J,K:   8.401   2.510   0.001   Kshft:   0.500  locality: 0.597\n   12  6.40   193.7      156 -> 162     gap,J,K:   9.572   3.729   0.275   Kshft:   0.009  locality: 0.916\n   13  6.41   193.4      159 -> 173     gap,J,K:   9.396   3.375   0.131   Kshft:   0.127  locality: 0.940\n   14  6.42   193.3      159 -> 163     gap,J,K:   8.623   2.713   0.003   Kshft:   0.500  locality: 0.710\n   15  6.43   192.8      160 -> 167     gap,J,K:   8.672   2.748   0.004   Kshft:   0.500  locality: 0.715\n   16  6.46   191.9      156 -> 161     gap,J,K:   9.301   3.266   0.196   Kshft:   0.032  locality: 0.793\n   17  6.51   190.4      160 -> 173     gap,J,K:   9.174   3.219   0.064   Kshft:   0.428  locality: 0.815\n   18  6.53   189.9      160 -> 168     gap,J,K:   8.766   2.752   0.008   Kshft:   0.500  locality: 0.728\n   19  6.61   187.5      160 -> 172     gap,J,K:   9.128   3.068   0.029   Kshft:   0.497  locality: 0.882\n   20  6.63   187.0      158 -> 165     gap,J,K:   8.914   2.772   0.088   Kshft:   0.313  locality: 0.785\n   21  6.64   186.7      159 -> 167     gap,J,K:   8.893   2.758   0.003   Kshft:   0.500  locality: 0.790\n   22  6.68   185.6      159 -> 168     gap,J,K:   8.988   2.837   0.015   Kshft:   0.500  locality: 0.826\n   23  6.68   185.5      158 -> 168     gap,J,K:   9.166   3.031   0.025   Kshft:   0.498  locality: 0.880\n   24  6.68   185.5      159 -> 164     gap,J,K:   8.723   2.592   0.066   Kshft:   0.421  locality: 0.674\n   25  6.75   183.7      156 -> 164     gap,J,K:   9.920   4.087   0.458   Kshft:   0.001  locality: 0.960\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2941 CSF included by PT.\n       50878 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000339_ASTAXANTHIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 339,
-        "name": "ASTAXANTHIN",
-        "smiles": "CC1=C(/C=C/C(C)=C/C=C/C(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C2=C(C)C(=O)C(O)CC2(C)C)C(C)(C)CC(O)C1=O",
-        "total_atoms": 96,
-        "heavy_atoms": 44
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000478_BUSSEIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 478,
-        "name": "BUSSEIN",
-        "smiles": "COC(=O)C[C@@H]1C2(C)CC34OC5(C)O[C@@]6(C7/C(=C(/O)C(C)C)C(=O)O[C@H](c8ccoc8)[C@@]7(C)C(OC(C)=O)[C@H](OC(C)=O)[C@@]6(O5)[C@@]13C)[C@@H](OC(C)=O)[C@]4(O)C2OC(=O)C(C)C",
-        "total_atoms": 115,
-        "heavy_atoms": 61
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.839\n    9  7.53   164.7      167 -> 172     gap,J,K:   9.606   2.592   0.007   Kshft:   0.500  locality: 0.697\n   10  7.54   164.3      167 -> 170     gap,J,K:   9.346   2.303   0.001   Kshft:   0.500  locality: 0.526\n   11  7.59   163.4      167 -> 169     gap,J,K:   9.233   2.148   0.001   Kshft:   0.500  locality: 0.468\n   12  7.62   162.6      166 -> 171     gap,J,K:   9.700   2.646   0.044   Kshft:   0.482  locality: 0.572\n   13  7.68   161.4      166 -> 175     gap,J,K:   9.967   2.742   0.098   Kshft:   0.259  locality: 0.740\n   14  7.70   161.0      167 -> 174     gap,J,K:   9.767   2.636   0.040   Kshft:   0.488  locality: 0.556\n   15  7.76   159.8      156 -> 169     gap,J,K:  11.794   4.547   0.006   Kshft:   0.500  locality: 0.990\n   16  7.76   159.7      167 -> 176     gap,J,K:  10.000   2.787   0.026   Kshft:   0.498  locality: 0.705\n   17  7.79   159.2      167 -> 171     gap,J,K:   9.580   2.295   0.002   Kshft:   0.500  locality: 0.503\n   18  7.79   159.1      167 -> 175     gap,J,K:   9.847   2.574   0.009   Kshft:   0.500  locality: 0.704\n   19  7.80   159.0      160 -> 168     gap,J,K:  10.822   3.535   0.005   Kshft:   0.500  locality: 0.669\n   20  7.89   157.2      161 -> 177     gap,J,K:  11.974   4.619   0.016   Kshft:   0.500  locality: 1.007\n   21  7.92   156.6      167 -> 180     gap,J,K:  10.380   2.998   0.018   Kshft:   0.500  locality: 0.810\n   22  7.92   156.5      165 -> 168     gap,J,K:  10.129   2.708   0.001   Kshft:   0.500  locality: 0.532\n   23  7.97   155.7      166 -> 172     gap,J,K:   9.726   2.275   0.007   Kshft:   0.500  locality: 0.603\n   24  7.99   155.2      158 -> 171     gap,J,K:  11.996   4.520   0.006   Kshft:   0.500  locality: 0.995\n   25  8.06   153.8      158 -> 170     gap,J,K:  11.762   4.212   0.005   Kshft:   0.500  locality: 0.965\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        3275 CSF included by PT.\n       51768 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000487_CABAZITAXEL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 487,
-        "name": "CABAZITAXEL",
-        "smiles": "CO[C@@H]1C(=O)[C@]2(C)C([C@@H](OC(=O)c3ccccc3)[C@@]3(O)C[C@@H](OC(=O)[C@@H](O)[C@H](NC(=O)OC(C)(C)C)c4ccccc4)C(C)=C1C3(C)C)[C@@]1(OC(C)=O)CO[C@H]1C[C@H]2OC",
-        "total_atoms": 117,
-        "heavy_atoms": 60
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.558\n    9  6.42   193.0      149 -> 164     gap,J,K:  10.331   4.417   0.005   Kshft:   0.500  locality: 0.907\n   10  6.56   188.9      157 -> 166     gap,J,K:  10.289   5.083   0.679   Kshft:   0.000  locality: 1.005\n   11  6.61   187.5      160 -> 167     gap,J,K:  10.196   4.768   0.593   Kshft:   0.000  locality: 0.993\n   12  6.64   186.8      162 -> 167     gap,J,K:   9.583   3.449   0.001   Kshft:   0.500  locality: 0.673\n   13  6.69   185.3      161 -> 169     gap,J,K:  10.435   4.186   0.102   Kshft:   0.238  locality: 0.962\n   14  6.79   182.5      163 -> 166     gap,J,K:   8.806   2.518   0.002   Kshft:   0.500  locality: 0.517\n   15  6.81   182.0      156 -> 164     gap,J,K:   9.442   3.206   0.284   Kshft:   0.008  locality: 0.798\n   16  6.84   181.3      163 -> 170     gap,J,K:   9.554   3.287   0.044   Kshft:   0.481  locality: 0.774\n   17  6.88   180.3      163 -> 167     gap,J,K:   8.889   2.527   0.007   Kshft:   0.500  locality: 0.519\n   18  7.00   177.2      160 -> 166     gap,J,K:  10.113   4.773   0.828   Kshft:   0.000  locality: 0.994\n   19  7.20   172.3      156 -> 165     gap,J,K:   9.581   2.891   0.003   Kshft:   0.500  locality: 0.706\n   20  7.20   172.2      160 -> 165     gap,J,K:   9.355   2.658   0.001   Kshft:   0.500  locality: 0.553\n   21  7.24   171.3      162 -> 170     gap,J,K:  10.248   3.563   0.028   Kshft:   0.497  locality: 0.798\n   22  7.25   171.0      163 -> 172     gap,J,K:   9.730   3.023   0.023   Kshft:   0.499  locality: 0.811\n   23  7.27   170.5      157 -> 167     gap,J,K:  10.372   5.058   0.979   Kshft:   0.000  locality: 1.000\n   24  7.31   169.7      158 -> 168     gap,J,K:  10.449   4.770   0.815   Kshft:   0.000  locality: 0.996\n   25  7.32   169.4      159 -> 168     gap,J,K:  10.436   4.315   0.599   Kshft:   0.000  locality: 0.969\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2692 CSF included by PT.\n       50679 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001080_GLYCYRRHIZIC_ACID_AMMONIUM_SALT",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1080,
-        "name": "GLYCYRRHIZIC ACID, AMMONIUM SALT",
-        "smiles": "CC1(C)C2CC[C@@]3(C)C4CC[C@@]5(C)CC[C@](C)(C(=O)O)C[C@H]5C4=CC(=O)C3[C@@]2(C)CC[C@@H]1O[C@@H]1O[C@H](C(=O)O)[C@@H](O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O",
-        "total_atoms": 117,
-        "heavy_atoms": 57
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.839\n    9  7.58   163.5      153 -> 161     gap,J,K:   9.883   2.807   0.003   Kshft:   0.500  locality: 0.570\n   10  7.69   161.2      151 -> 161     gap,J,K:  10.024   2.847   0.006   Kshft:   0.500  locality: 0.693\n   11  7.81   158.7      155 -> 163     gap,J,K:  11.369   4.080   0.013   Kshft:   0.500  locality: 0.811\n   12  7.83   158.3      156 -> 161     gap,J,K:   9.476   2.147   0.001   Kshft:   0.500  locality: 0.462\n   13  7.87   157.4      159 -> 167     gap,J,K:  10.922   3.553   0.003   Kshft:   0.500  locality: 0.838\n   14  7.88   157.3      155 -> 165     gap,J,K:  11.572   4.213   0.011   Kshft:   0.500  locality: 0.951\n   15  7.92   156.6      154 -> 163     gap,J,K:  11.491   4.084   0.005   Kshft:   0.500  locality: 0.800\n   16  7.92   156.6      154 -> 165     gap,J,K:  11.694   4.289   0.007   Kshft:   0.500  locality: 0.954\n   17  7.97   155.6      143 -> 161     gap,J,K:  10.946   3.548   0.047   Kshft:   0.476  locality: 0.829\n   18  8.00   154.9      146 -> 161     gap,J,K:  10.732   3.241   0.006   Kshft:   0.500  locality: 0.814\n   19  8.02   154.7      142 -> 161     gap,J,K:  10.973   3.503   0.069   Kshft:   0.409  locality: 0.849\n   20  8.04   154.2      145 -> 161     gap,J,K:  10.769   3.240   0.007   Kshft:   0.500  locality: 0.823\n   21  8.19   151.4      141 -> 161     gap,J,K:  11.019   3.367   0.019   Kshft:   0.499  locality: 0.811\n   22  8.19   151.3      158 -> 166     gap,J,K:  10.957   3.276   0.007   Kshft:   0.500  locality: 0.752\n   23  8.21   151.1      157 -> 167     gap,J,K:  11.344   3.649   0.005   Kshft:   0.500  locality: 0.871\n   24  8.23   150.6      153 -> 166     gap,J,K:  11.864   4.146   0.008   Kshft:   0.500  locality: 0.975\n   25  8.28   149.7      157 -> 161     gap,J,K:   9.197   1.415   0.000   Kshft:   0.500  locality: 0.286\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.001\n        2873 CSF included by PT.\n       49726 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000624_CIMICIFUGOSIDE_H1",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 624,
-        "name": "CIMICIFUGOSIDE H1",
-        "smiles": "C[C@@H](CC(=O)C1OC1(C)C)[C@@H]1C(=O)C[C@]2(C)C3=CCC4C(C)(C)[C@H](O[C@H]5OC[C@H](O)[C@@H](O)[C@@H]5O)CC[C@]45C[C@]35[C@H](O)C[C@@]12C",
-        "total_atoms": 96,
-        "heavy_atoms": 44
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_002185_VINBLASTINE_SULFATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 2185,
-        "name": "VINBLASTINE SULFATE",
-        "smiles": "CC[C@@]12C=CCN3CC[C@]4(c5cc([C@]6(C(=O)OC)CC7CN(CCc8c6[nH]c6ccccc86)C[C@@](O)(CC)C7)c(OC)cc5N(C)[C@@H]4[C@](O)(C(=O)OC)[C@H]1OC(C)=O)[C@H]32",
-        "total_atoms": 117,
-        "heavy_atoms": 59
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.663\n    9  6.07   204.3      158 -> 163     gap,J,K:   8.435   2.909   0.023   Kshft:   0.499  locality: 0.841\n   10  6.07   204.1      158 -> 165     gap,J,K:   8.593   2.942   0.110   Kshft:   0.202  locality: 0.820\n   11  6.12   202.7      158 -> 166     gap,J,K:   8.619   3.004   0.084   Kshft:   0.332  locality: 0.887\n   12  6.14   201.8      158 -> 168     gap,J,K:   8.720   2.960   0.152   Kshft:   0.080  locality: 0.906\n   13  6.24   198.7      157 -> 171     gap,J,K:   9.166   3.495   0.280   Kshft:   0.008  locality: 0.902\n   14  6.47   191.6      157 -> 164     gap,J,K:   8.629   2.711   0.027   Kshft:   0.497  locality: 0.791\n   15  6.57   188.6      158 -> 167     gap,J,K:   8.646   2.624   0.027   Kshft:   0.497  locality: 0.764\n   16  6.58   188.3      157 -> 160     gap,J,K:   8.354   2.342   0.051   Kshft:   0.467  locality: 0.632\n   17  6.67   186.0      157 -> 172     gap,J,K:   9.264   3.104   0.004   Kshft:   0.500  locality: 0.917\n   18  6.68   185.6      157 -> 163     gap,J,K:   8.516   2.345   0.005   Kshft:   0.500  locality: 0.696\n   19  6.75   183.6      157 -> 161     gap,J,K:   8.369   2.180   0.037   Kshft:   0.491  locality: 0.590\n   20  6.80   182.2      153 -> 160     gap,J,K:   9.759   3.610   0.326   Kshft:   0.004  locality: 0.890\n   21  6.86   180.7      157 -> 166     gap,J,K:   8.700   2.375   0.018   Kshft:   0.499  locality: 0.719\n   22  6.91   179.5      154 -> 163     gap,J,K:   9.653   3.263   0.008   Kshft:   0.500  locality: 0.832\n   23  6.92   179.2      157 -> 168     gap,J,K:   8.801   2.438   0.030   Kshft:   0.496  locality: 0.767\n   24  6.93   178.9      153 -> 161     gap,J,K:   9.773   3.373   0.260   Kshft:   0.011  locality: 0.833\n   25  6.97   177.9      157 -> 167     gap,J,K:   8.727   2.272   0.007   Kshft:   0.500  locality: 0.679\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2882 CSF included by PT.\n       50378 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001081_GLYCYRRHIZIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1081,
-        "name": "GLYCYRRHIZIN",
-        "smiles": "CC1(C)[C@@H](O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O[C@@H]2O[C@H](C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)CC[C@@]2(C)[C@H]1CC[C@]1(C)[C@@H]2C(=O)C=C2C3C[C@@](C)(C(=O)O)CC[C@]3(C)CC[C@]21C",
-        "total_atoms": 120,
-        "heavy_atoms": 58
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.795\n    9  7.77   159.6      150 -> 164     gap,J,K:  10.438   3.196   0.013   Kshft:   0.500  locality: 0.804\n   10  7.78   159.3      160 -> 165     gap,J,K:  10.691   3.417   0.005   Kshft:   0.500  locality: 0.780\n   11  7.91   156.7      161 -> 164     gap,J,K:   9.098   1.691   0.004   Kshft:   0.500  locality: 0.369\n   12  7.97   155.6      147 -> 164     gap,J,K:  10.683   3.225   0.005   Kshft:   0.500  locality: 0.810\n   13  7.99   155.2      161 -> 165     gap,J,K:  10.503   3.018   0.002   Kshft:   0.500  locality: 0.644\n   14  8.03   154.5      160 -> 164     gap,J,K:   9.286   1.759   0.000   Kshft:   0.500  locality: 0.411\n   15  8.08   153.5      146 -> 164     gap,J,K:  10.902   3.365   0.020   Kshft:   0.499  locality: 0.801\n   16  8.09   153.2      145 -> 164     gap,J,K:  10.936   3.391   0.069   Kshft:   0.408  locality: 0.841\n   17  8.14   152.3      159 -> 164     gap,J,K:   9.381   1.742   0.001   Kshft:   0.500  locality: 0.399\n   18  8.17   151.8      151 -> 165     gap,J,K:  11.718   4.102   0.025   Kshft:   0.498  locality: 0.812\n   19  8.20   151.2      144 -> 164     gap,J,K:  11.032   3.381   0.026   Kshft:   0.498  locality: 0.825\n   20  8.24   150.6      158 -> 164     gap,J,K:   9.608   1.874   0.001   Kshft:   0.500  locality: 0.423\n   21  8.25   150.3      152 -> 164     gap,J,K:  10.271   2.540   0.008   Kshft:   0.500  locality: 0.678\n   22  8.25   150.2      162 -> 166     gap,J,K:  10.833   3.089   0.005   Kshft:   0.500  locality: 0.631\n   23  8.26   150.1      160 -> 167     gap,J,K:  11.145   3.395   0.005   Kshft:   0.500  locality: 0.828\n   24  8.30   149.4      153 -> 164     gap,J,K:  10.211   2.420   0.003   Kshft:   0.500  locality: 0.634\n   25  8.42   147.2      138 -> 164     gap,J,K:  11.526   3.662   0.032   Kshft:   0.495  locality: 0.844\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.001\n        2834 CSF included by PT.\n       51330 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001386_METHYL_GAMBOGATE_METHYL_ETHER",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1386,
-        "name": "METHYL GAMBOGATE METHYL ETHER",
-        "smiles": "COC(=O)/C(C)=C\\CC12OC(C)(C)C3CC(C=C4C(=O)c5c(OC)c6c(c(CC=C(C)C)c5OC431)OC(C)(CCC=C(C)C)C=C6)C2=O",
-        "total_atoms": 96,
-        "heavy_atoms": 48
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000839_DOCETAXEL",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 839,
-        "name": "DOCETAXEL",
-        "smiles": "CC(=O)O[C@]12CO[C@H]1C[C@@H](O)[C@]1(C)C(=O)[C@@H](O)C3=C(C)[C@H](OC(=O)[C@@H](O)[C@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@](O)([C@H](OC(=O)c4ccccc4)C21)C3(C)C",
-        "total_atoms": 111,
-        "heavy_atoms": 58
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.764\n    9  6.33   195.9      144 -> 158     gap,J,K:  10.326   4.506   0.004   Kshft:   0.500  locality: 0.905\n   10  6.33   195.9      156 -> 158     gap,J,K:   8.587   2.769   0.005   Kshft:   0.500  locality: 0.548\n   11  6.36   195.0      157 -> 165     gap,J,K:   9.598   3.629   0.163   Kshft:   0.063  locality: 0.757\n   12  6.64   186.8      155 -> 162     gap,J,K:  10.229   4.508   0.457   Kshft:   0.001  locality: 0.964\n   13  6.76   183.4      151 -> 160     gap,J,K:  10.435   4.937   0.632   Kshft:   0.000  locality: 1.001\n   14  6.80   182.3      150 -> 159     gap,J,K:   9.897   3.603   0.005   Kshft:   0.500  locality: 0.760\n   15  6.86   180.8      149 -> 159     gap,J,K:  10.177   3.835   0.008   Kshft:   0.500  locality: 0.844\n   16  6.87   180.4      155 -> 161     gap,J,K:  10.147   4.524   0.624   Kshft:   0.000  locality: 0.973\n   17  6.94   178.6      154 -> 158     gap,J,K:   9.103   2.671   0.005   Kshft:   0.500  locality: 0.645\n   18  6.96   178.1      153 -> 161     gap,J,K:  10.302   4.402   0.531   Kshft:   0.001  locality: 0.983\n   19  6.99   177.3      157 -> 160     gap,J,K:   9.094   2.602   0.001   Kshft:   0.500  locality: 0.529\n   20  7.01   176.7      155 -> 158     gap,J,K:   8.957   2.447   0.003   Kshft:   0.500  locality: 0.535\n   21  7.16   173.1      150 -> 158     gap,J,K:   9.510   2.919   0.047   Kshft:   0.476  locality: 0.653\n   22  7.19   172.5      156 -> 160     gap,J,K:   9.738   3.069   0.009   Kshft:   0.500  locality: 0.595\n   23  7.24   171.2      152 -> 160     gap,J,K:  10.394   5.016   0.932   Kshft:   0.000  locality: 1.000\n   24  7.29   170.0      151 -> 159     gap,J,K:   9.671   2.888   0.004   Kshft:   0.500  locality: 0.564\n   25  7.36   168.5      152 -> 159     gap,J,K:   9.630   2.778   0.003   Kshft:   0.500  locality: 0.534\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2541 CSF included by PT.\n       46941 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_000819_DIMETHYL_GAMBOGINATE",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 819,
-        "name": "DIMETHYL GAMBOGINATE",
-        "smiles": "COC(=O)/C(C)=C\\CC12OC(C)(C)C3CC(C=C4C(=O)c5c(c(CCC(C)(C)Cl)c6c(c5OC)C5CC(C)(CCC5=C(C)C)O6)OC431)C2=O",
-        "total_atoms": 98,
-        "heavy_atoms": 49
-      },
-      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001868_SELAMECTIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1868,
-        "name": "SELAMECTIN",
-        "smiles": "CO[C@@H]1CC(O[C@H]2/C(C)=C/C[C@H]3C[C@H](C[C@@]4(CC[C@@H](C)[C@H](C5CCCCC5)O4)O3)OC(=O)[C@H]3C=C(C)/C(=N/O)[C@@H]4OC/C(=C\\C=C\\[C@H]2C)[C@]34O)O[C@H](C)C1O",
-        "total_atoms": 118,
-        "heavy_atoms": 55
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.939\n    9  7.34   169.0      153 -> 157     gap,J,K:   9.673   2.847   0.005   Kshft:   0.500  locality: 0.744\n   10  7.48   165.7      153 -> 160     gap,J,K:   9.968   2.986   0.001   Kshft:   0.500  locality: 0.849\n   11  7.50   165.4      153 -> 158     gap,J,K:   9.686   2.693   0.002   Kshft:   0.500  locality: 0.632\n   12  7.52   164.8      152 -> 158     gap,J,K:  10.379   4.301   0.723   Kshft:   0.000  locality: 0.971\n   13  7.54   164.3      144 -> 154     gap,J,K:  10.450   3.472   0.039   Kshft:   0.488  locality: 0.804\n   14  7.55   164.2      153 -> 156     gap,J,K:   9.533   2.496   0.007   Kshft:   0.500  locality: 0.668\n   15  7.58   163.7      142 -> 155     gap,J,K:  10.848   3.702   0.200   Kshft:   0.030  locality: 0.899\n   16  7.70   161.0      141 -> 154     gap,J,K:  10.888   3.569   0.147   Kshft:   0.087  locality: 0.887\n   17  7.79   159.2      152 -> 157     gap,J,K:  10.366   3.083   0.245   Kshft:   0.014  locality: 0.774\n   18  7.80   159.0      140 -> 154     gap,J,K:  10.949   3.632   0.233   Kshft:   0.016  locality: 0.954\n   19  7.86   157.7      152 -> 155     gap,J,K:   9.119   1.770   0.006   Kshft:   0.500  locality: 0.356\n   20  7.91   156.7      151 -> 168     gap,J,K:  11.485   4.444   0.434   Kshft:   0.001  locality: 0.989\n   21  7.92   156.6      152 -> 156     gap,J,K:  10.226   2.710   0.122   Kshft:   0.157  locality: 0.697\n   22  7.93   156.4      141 -> 155     gap,J,K:  11.055   3.677   0.068   Kshft:   0.414  locality: 0.888\n   23  8.01   154.8      153 -> 162     gap,J,K:  10.167   2.661   0.002   Kshft:   0.500  locality: 0.797\n   24  8.02   154.6      150 -> 168     gap,J,K:  11.744   4.284   0.034   Kshft:   0.493  locality: 0.941\n   25  8.05   154.0      135 -> 154     gap,J,K:  11.496   3.844   0.122   Kshft:   0.155  locality: 0.884\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.001\n        2891 CSF included by PT.\n       49089 CSF in total.\n calculating TDA matrix ...\n"
-    },
-    {
-      "status": "failed",
-      "label": "dataset_II_001815_RIFAMPIN",
-      "metadata": {
-        "dataset": "dataset_II",
-        "dataset_row": 1815,
-        "name": "RIFAMPIN",
-        "smiles": "CO[C@@H]1/C=C/O[C@]2(C)Oc3c(C)c(O)c4c(O)c(c(CNN5CCN(C)CC5)c(O)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\C(C)[C@@H](O)[C@H](C)[C@H](O)[C@H](C)[C@H](OC(C)=O)[C@H]1C",
-        "total_atoms": 119,
-        "heavy_atoms": 59
-      },
-      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.943\n    9  5.26   235.8      155 -> 163     gap,J,K:   8.541   3.737   0.216   Kshft:   0.022  locality: 0.940\n   10  5.39   230.0      152 -> 163     gap,J,K:   8.964   4.110   0.019   Kshft:   0.499  locality: 0.945\n   11  5.63   220.2      161 -> 164     gap,J,K:   7.669   2.607   0.042   Kshft:   0.484  locality: 0.646\n   12  5.63   220.1      158 -> 164     gap,J,K:   8.147   4.219   0.853   Kshft:   0.000  locality: 0.994\n   13  5.74   216.1      160 -> 164     gap,J,K:   7.712   2.542   0.055   Kshft:   0.458  locality: 0.646\n   14  5.84   212.1      162 -> 167     gap,J,K:   8.128   2.794   0.081   Kshft:   0.349  locality: 0.778\n   15  5.92   209.5      162 -> 172     gap,J,K:   8.740   3.203   0.151   Kshft:   0.081  locality: 0.888\n   16  6.04   205.4      157 -> 163     gap,J,K:   8.082   2.605   0.062   Kshft:   0.435  locality: 0.600\n   17  6.08   203.9      162 -> 168     gap,J,K:   8.255   2.726   0.066   Kshft:   0.420  locality: 0.760\n   18  6.13   202.2      157 -> 164     gap,J,K:   8.224   2.645   0.028   Kshft:   0.497  locality: 0.597\n   19  6.16   201.1      153 -> 164     gap,J,K:   8.859   3.200   0.003   Kshft:   0.500  locality: 0.680\n   20  6.27   197.7      149 -> 164     gap,J,K:   9.670   3.935   0.019   Kshft:   0.499  locality: 0.843\n   21  6.29   197.0      161 -> 165     gap,J,K:   9.055   3.162   0.178   Kshft:   0.045  locality: 0.851\n   22  6.36   195.0      158 -> 163     gap,J,K:   8.004   2.204   0.064   Kshft:   0.430  locality: 0.530\n   23  6.36   194.9      155 -> 164     gap,J,K:   8.684   2.762   0.103   Kshft:   0.235  locality: 0.681\n   24  6.42   193.2      160 -> 165     gap,J,K:   9.098   3.081   0.176   Kshft:   0.047  locality: 0.850\n   25  6.44   192.4      162 -> 169     gap,J,K:   8.485   2.554   0.006   Kshft:   0.500  locality: 0.689\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2652 CSF included by PT.\n       51830 CSF in total.\n calculating TDA matrix ...\n"
+      "error": "sTDA failed at 80.0 eV, return=-9\n5   4.705   0.619   Kshft:   0.000  locality: 0.987\n   10  5.20   238.4      122 -> 137     gap,J,K:   7.549   3.554   0.225   Kshft:   0.979  locality: 0.914\n   11  5.21   237.9      124 -> 137     gap,J,K:   7.242   3.268   0.140   Kshft:   1.097  locality: 0.768\n   12  5.28   234.9      130 -> 137     gap,J,K:   6.123   2.352   0.008   Kshft:   1.500  locality: 0.531\n   13  5.51   225.2      135 -> 144     gap,J,K:   8.782   3.600   0.107   Kshft:   0.216  locality: 0.804\n   14  5.54   223.7      132 -> 137     gap,J,K:   5.860   1.820   0.004   Kshft:   1.500  locality: 0.365\n   15  5.56   223.0      135 -> 138     gap,J,K:   7.411   2.360   0.009   Kshft:   0.500  locality: 0.490\n   16  5.69   218.0      133 -> 143     gap,J,K:   8.997   3.541   0.152   Kshft:   0.079  locality: 0.868\n   17  5.69   217.9      135 -> 139     gap,J,K:   7.759   2.588   0.052   Kshft:   0.466  locality: 0.564\n   18  5.70   217.6      135 -> 145     gap,J,K:   8.847   3.591   0.078   Kshft:   0.364  locality: 0.801\n   19  5.83   212.7      124 -> 139     gap,J,K:   9.613   4.525   0.739   Kshft:   0.000  locality: 0.996\n   20  5.88   210.9      127 -> 137     gap,J,K:   6.787   2.412   0.005   Kshft:   1.500  locality: 0.545\n   21  5.89   210.6      136 -> 138     gap,J,K:   6.726   1.340   0.001   Kshft:   0.500  locality: 0.257\n   22  5.97   207.6      117 -> 137     gap,J,K:   8.130   3.364   0.198   Kshft:   1.006  locality: 0.919\n   23  5.98   207.2      133 -> 140     gap,J,K:   8.627   2.867   0.187   Kshft:   0.038  locality: 0.786\n   24  6.00   206.7      128 -> 137     gap,J,K:   6.420   1.924   0.003   Kshft:   1.500  locality: 0.394\n   25  6.01   206.5      133 -> 138     gap,J,K:   7.752   2.273   0.030   Kshft:   0.496  locality: 0.546\n \n selecting CSF ...\n average/max(a)/max(b) PT2 energy lowering (eV):     0.000     0.001     0.000\n CSF included by PT:        3383        1674        1709\n CSF in total:       69469       34793       34676\n calculating TDA matrix ...\n"
     }
   ]
 }
