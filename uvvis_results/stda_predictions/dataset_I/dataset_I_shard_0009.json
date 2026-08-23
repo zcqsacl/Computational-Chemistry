@@ -5,6 +5,39 @@
   "records": [
     {
       "status": "success",
+      "label": "dataset_I_000802_SRI-0000526.txt",
+      "metadata": {
+        "dataset": "dataset_I",
+        "dataset_row": 802,
+        "name": "SRI-0000526.txt",
+        "smiles": "COC(=O)C1=CC(=CC(N)=C1)C1=CC=C(Cl)C=C1",
+        "total_atoms": 30,
+        "heavy_atoms": 18
+      },
+      "energies_eV": [
+        3.7655,
+        4.7276,
+        4.9669,
+        5.0545,
+        5.3236
+      ],
+      "oscillator_strengths": [
+        0.120618,
+        0.088544,
+        0.001161,
+        0.062988,
+        0.602658
+      ],
+      "timing": {
+        "xtb_opt_s": 0.7993805855512619,
+        "xtb4stda_s": 0.5010747350752354,
+        "stda_s": 19.929118556901813,
+        "total_s": 21.22957387752831
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
       "label": "dataset_I_000803_SRI-0000297.txt",
       "metadata": {
         "dataset": "dataset_I",
@@ -3267,39 +3300,6 @@
         "xtb4stda_s": 0.08089084550738335,
         "stda_s": 1690.8160709310323,
         "total_s": 1704.4247311931103
-      },
-      "stda_energy_window_eV": 30.0
-    },
-    {
-      "status": "success",
-      "label": "dataset_I_000903_SRI-0000473.txt",
-      "metadata": {
-        "dataset": "dataset_I",
-        "dataset_row": 903,
-        "name": "SRI-0000473.txt",
-        "smiles": "COC(=O)C(=C\\C1=CC(Cl)=CC(Cl)=C1)\\C1=CC=NC=C1",
-        "total_atoms": 31,
-        "heavy_atoms": 20
-      },
-      "energies_eV": [
-        4.2922,
-        4.5197,
-        4.9194,
-        5.0043,
-        5.1293
-      ],
-      "oscillator_strengths": [
-        0.517896,
-        0.102968,
-        0.064077,
-        0.023862,
-        0.013567
-      ],
-      "timing": {
-        "xtb_opt_s": 2.522574109956622,
-        "xtb4stda_s": 1.8145753238350153,
-        "stda_s": 47.867775270715356,
-        "total_s": 52.20492470450699
       },
       "stda_energy_window_eV": 30.0
     }
