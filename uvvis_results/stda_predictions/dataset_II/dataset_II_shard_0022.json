@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 6,
+  "n_records": 11,
   "records": [
     {
       "status": "success",
@@ -198,6 +198,151 @@
         "xtb4stda_s": 1.5785895567387342,
         "stda_s": 5398.2193686924875,
         "total_s": 5409.525115631521
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000966_FAST_GREEN_FCF",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 966,
+        "name": "FAST GREEN FCF",
+        "smiles": "CCN(Cc1cccc(S(=O)(=O)O)c1)c1cccc(C(=C2C=CC(=[N+](CC)Cc3cccc(S(=O)(=O)O)c3)C=C2)c2ccc(O)cc2S(=O)(=O)O)c1",
+        "total_atoms": 89,
+        "heavy_atoms": 52
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\n6   2.494   0.004   Kshft:   0.500  locality: 0.504\n   10  5.27   235.4      131 -> 138     gap,J,K:   9.249   4.581   0.598   Kshft:   0.000  locality: 0.986\n   11  5.30   234.1      129 -> 137     gap,J,K:   7.782   3.690   0.248   Kshft:   0.956  locality: 0.896\n   12  5.30   233.9      136 -> 141     gap,J,K:   7.573   2.744   0.071   Kshft:   0.399  locality: 0.590\n   13  5.41   229.2      131 -> 137     gap,J,K:   7.475   3.313   0.134   Kshft:   1.113  locality: 0.795\n   14  5.60   221.5      135 -> 142     gap,J,K:   8.641   3.325   0.274   Kshft:   0.009  locality: 0.884\n   15  5.64   219.8      135 -> 138     gap,J,K:   7.787   2.674   0.037   Kshft:   0.491  locality: 0.597\n   16  5.88   210.7      123 -> 139     gap,J,K:  10.301   5.057   0.640   Kshft:   0.000  locality: 1.004\n   17  5.89   210.5      135 -> 141     gap,J,K:   8.164   2.763   0.065   Kshft:   0.423  locality: 0.656\n   18  5.93   209.1      125 -> 140     gap,J,K:  10.252   5.000   0.676   Kshft:   0.000  locality: 1.003\n   19  5.97   207.5      131 -> 141     gap,J,K:   9.627   4.352   0.699   Kshft:   0.000  locality: 0.996\n   20  6.04   205.2      122 -> 137     gap,J,K:   8.323   3.539   0.129   Kshft:   1.130  locality: 0.848\n   21  6.05   205.1      136 -> 147     gap,J,K:   8.423   2.850   0.070   Kshft:   0.403  locality: 0.789\n   22  6.10   203.3      125 -> 139     gap,J,K:  10.161   4.989   0.925   Kshft:   0.000  locality: 1.000\n   23  6.12   202.6      135 -> 144     gap,J,K:   8.820   3.138   0.079   Kshft:   0.358  locality: 0.814\n   24  6.19   200.2      136 -> 150     gap,J,K:   8.858   3.096   0.081   Kshft:   0.350  locality: 0.819\n   25  6.20   200.0      128 -> 139     gap,J,K:   9.904   4.230   0.030   Kshft:   0.496  locality: 0.822\n \n selecting CSF ...\n average/max(a)/max(b) PT2 energy lowering (eV):     0.000     0.001     0.001\n CSF included by PT:        4021        2003        2018\n CSF in total:       71331       35732       35599\n calculating TDA matrix ...\n"
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001132_HYDROLYSIS_PRODUCT_OF_BUSSEIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1132,
+        "name": "HYDROLYSIS PRODUCT OF BUSSEIN",
+        "smiles": "CC(C)/C(O)=C1/C(=O)O[C@H](c2ccoc2)[C@@]2(C)C(O)[C@H](O)[C@]34OC5(C)OC67CC(C)(C(O)[C@@]6(O)[C@H](O)[C@@]3(O5)C12)[C@@H](CC(=O)O)[C@@]74C",
+        "total_atoms": 86,
+        "heavy_atoms": 46
+      },
+      "energies_eV": [
+        4.6094,
+        5.7917,
+        5.8067,
+        5.8715,
+        5.9454
+      ],
+      "oscillator_strengths": [
+        0.211335,
+        0.004513,
+        0.022644,
+        0.042786,
+        0.256363
+      ],
+      "timing": {
+        "xtb_opt_s": 7.558363277465105,
+        "xtb4stda_s": 1.9778714291751385,
+        "stda_s": 8656.40114027448,
+        "total_s": 8665.93737498112
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000164_ACARBOSE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 164,
+        "name": "ACARBOSE",
+        "smiles": "C[C@H]1O[C@H](O[C@@H]2[C@@H](CO)O[C@H](O[C@@H]3[C@@H](CO)OC(O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O",
+        "total_atoms": 87,
+        "heavy_atoms": 44
+      },
+      "energies_eV": [
+        5.6402,
+        5.9426,
+        6.2447,
+        6.5409,
+        6.6515
+      ],
+      "oscillator_strengths": [
+        0.016991,
+        0.017861,
+        0.135071,
+        0.005365,
+        0.002328
+      ],
+      "timing": {
+        "xtb_opt_s": 51.27858021482825,
+        "xtb4stda_s": 1.8794094119220972,
+        "stda_s": 8909.93841020763,
+        "total_s": 8963.09639983438
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001590_PAROMOMYCIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1590,
+        "name": "PAROMOMYCIN SULFATE",
+        "smiles": "NC[C@@H]1O[C@H](O[C@@H]2[C@@H](CO)OC(O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)[C@@H]2O)[C@H](N)[C@@H](O)[C@@H]1O",
+        "total_atoms": 87,
+        "heavy_atoms": 42
+      },
+      "energies_eV": [
+        6.2506,
+        6.2738,
+        6.6054,
+        6.7686,
+        6.8345
+      ],
+      "oscillator_strengths": [
+        0.013375,
+        0.011445,
+        0.019409,
+        0.017137,
+        0.017118
+      ],
+      "timing": {
+        "xtb_opt_s": 34.040774350985885,
+        "xtb4stda_s": 1.9539927765727043,
+        "stda_s": 8694.161130836233,
+        "total_s": 8730.155897963792
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_000718_DABIGATRAN_ETEXILATE_MESYLATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 718,
+        "name": "DABIGATRAN ETEXILATE MESYLATE",
+        "smiles": "CCCCCCOC(=O)/N=C(\\N)c1ccc(NCc2nc3cc(C(=O)N(CCC(=O)OCC)c4ccccn4)ccc3n2C)cc1",
+        "total_atoms": 87,
+        "heavy_atoms": 46
+      },
+      "energies_eV": [
+        3.9422,
+        4.3662,
+        4.4555,
+        4.6575,
+        4.8146
+      ],
+      "oscillator_strengths": [
+        0.006895,
+        1.235656,
+        0.04176,
+        0.029678,
+        0.328729
+      ],
+      "timing": {
+        "xtb_opt_s": 17.81669458001852,
+        "xtb4stda_s": 1.9520821943879128,
+        "stda_s": 9559.612593535334,
+        "total_s": 9579.38137030974
       },
       "stda_energy_window_eV": 30.0
     }
