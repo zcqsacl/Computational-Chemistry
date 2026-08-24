@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 23,
-  "n_records": 7,
+  "n_records": 8,
   "records": [
     {
       "status": "failed",
@@ -93,6 +93,19 @@
         "heavy_atoms": 51
       },
       "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '80.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000644_CLARITHROMYCIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 644,
+        "name": "CLARITHROMYCIN",
+        "smiles": "CC[C@@H]1OC(=O)[C@@H](C)[C@H](O[C@@H]2C[C@](C)(OC)[C@H](O)[C@@H](C)O2)[C@@H](C)[C@H](O[C@H]2O[C@@H](C)C[C@@H](N(C)C)[C@@H]2O)[C@@](C)(OC)C[C@H](C)C(=O)[C@@H](C)[C@H](O)[C@@]1(C)O",
+        "total_atoms": 121,
+        "heavy_atoms": 52
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '50.0']' timed out after 10800 seconds"
     }
   ]
 }
