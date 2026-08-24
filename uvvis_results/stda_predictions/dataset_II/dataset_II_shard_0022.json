@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 38,
+  "n_records": 42,
   "records": [
     {
       "status": "success",
@@ -716,6 +716,58 @@
         "heavy_atoms": 62
       },
       "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.975\n    9  5.03   246.4      157 -> 164     gap,J,K:   8.098   3.631   0.036   Kshft:   0.492  locality: 0.948\n   10  5.07   244.4      160 -> 165     gap,J,K:   8.128   3.486   0.107   Kshft:   0.215  locality: 0.942\n   11  5.18   239.5      156 -> 164     gap,J,K:   8.169   3.403   0.115   Kshft:   0.180  locality: 0.944\n   12  5.21   237.9      159 -> 164     gap,J,K:   7.971   3.258   0.085   Kshft:   0.328  locality: 0.900\n   13  5.36   231.5      163 -> 166     gap,J,K:   8.268   3.295   0.152   Kshft:   0.079  locality: 0.914\n   14  5.43   228.2      162 -> 166     gap,J,K:   8.309   3.279   0.179   Kshft:   0.044  locality: 0.902\n   15  5.46   227.2      158 -> 165     gap,J,K:   8.342   3.448   0.059   Kshft:   0.445  locality: 0.958\n   16  5.49   225.7      157 -> 165     gap,J,K:   8.428   3.505   0.047   Kshft:   0.477  locality: 0.929\n   17  5.54   223.7      156 -> 165     gap,J,K:   8.499   3.344   0.134   Kshft:   0.118  locality: 0.941\n   18  5.57   222.4      163 -> 167     gap,J,K:   8.530   3.345   0.166   Kshft:   0.058  locality: 0.931\n   19  5.59   221.7      154 -> 164     gap,J,K:   8.501   3.342   0.203   Kshft:   0.028  locality: 0.965\n   20  5.65   219.6      159 -> 165     gap,J,K:   8.301   3.178   0.077   Kshft:   0.368  locality: 0.891\n   21  5.73   216.4      162 -> 167     gap,J,K:   8.570   3.269   0.108   Kshft:   0.213  locality: 0.902\n   22  5.76   215.2      161 -> 166     gap,J,K:   8.827   3.447   0.147   Kshft:   0.088  locality: 0.899\n   23  5.98   207.5      154 -> 165     gap,J,K:   8.831   3.248   0.169   Kshft:   0.055  locality: 0.952\n   24  5.98   207.5      153 -> 164     gap,J,K:   8.566   2.973   0.150   Kshft:   0.082  locality: 0.905\n   25  6.06   204.6      152 -> 164     gap,J,K:   8.638   2.961   0.147   Kshft:   0.089  locality: 0.883\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.001\n        2827 CSF included by PT.\n       46599 CSF in total.\n calculating TDA matrix ...\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001934_SUCRALFATE_5mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1934,
+        "name": "SUCRALFATE [5mM]",
+        "smiles": "O=S(=O)(OC[C@@H]1O[C@@H](O[C@@]2(COS(=O)(=O)O[Al](O)O)O[C@@H](COS(=O)(=O)O[Al](O)O)[C@H](OS(=O)(=O)O[Al](O)O)[C@H]2OS(=O)(=O)O[Al](O)O)[C@@H](OS(=O)(=O)O[Al](O)O)[C@H](OS(=O)(=O)O[Al](O)O)[C@H]1OS(=O)(=O)O[Al](O)O)O[Al](O)O",
+        "total_atoms": 109,
+        "heavy_atoms": 79
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\n 0.026   Kshft:   0.498  locality: 0.788\n    9  7.49   165.6      221 -> 229     gap,J,K:   9.938   2.963   0.006   Kshft:   0.500  locality: 0.590\n   10  7.62   162.8      219 -> 229     gap,J,K:  10.081   2.978   0.007   Kshft:   0.500  locality: 0.560\n   11  7.68   161.5      218 -> 229     gap,J,K:  10.109   2.965   0.017   Kshft:   0.500  locality: 0.689\n   12  7.96   155.9      202 -> 229     gap,J,K:  10.939   3.530   0.024   Kshft:   0.498  locality: 0.731\n   13  8.03   154.3      217 -> 229     gap,J,K:  10.234   2.707   0.003   Kshft:   0.500  locality: 0.679\n   14  8.16   151.9      199 -> 229     gap,J,K:  11.113   3.466   0.007   Kshft:   0.500  locality: 0.770\n   15  8.18   151.7      228 -> 231     gap,J,K:  10.128   2.456   0.001   Kshft:   0.500  locality: 0.615\n   16  8.20   151.1      197 -> 229     gap,J,K:  11.209   3.549   0.022   Kshft:   0.499  locality: 0.809\n   17  8.21   151.0      208 -> 229     gap,J,K:  10.626   2.927   0.005   Kshft:   0.500  locality: 0.673\n   18  8.21   151.0      210 -> 229     gap,J,K:  10.555   2.869   0.012   Kshft:   0.500  locality: 0.698\n   19  8.24   150.4      227 -> 235     gap,J,K:  11.429   3.708   0.011   Kshft:   0.500  locality: 0.832\n   20  8.26   150.0      215 -> 229     gap,J,K:  10.330   2.581   0.008   Kshft:   0.500  locality: 0.640\n   21  8.30   149.4      224 -> 230     gap,J,K:  10.264   2.469   0.001   Kshft:   0.500  locality: 0.573\n   22  8.30   149.4      198 -> 229     gap,J,K:  11.200   3.412   0.005   Kshft:   0.500  locality: 0.756\n   23  8.34   148.6      226 -> 230     gap,J,K:  10.067   2.231   0.004   Kshft:   0.500  locality: 0.529\n   24  8.35   148.6      216 -> 229     gap,J,K:  10.281   2.455   0.010   Kshft:   0.500  locality: 0.520\n   25  8.35   148.5      211 -> 229     gap,J,K:  10.501   2.666   0.006   Kshft:   0.500  locality: 0.625\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.001\n        4334 CSF included by PT.\n       67713 CSF in total.\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002165_UTILIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2165,
+        "name": "UTILIN",
+        "smiles": "CCC(C)C(=O)O[C@@H]1C[C@@]2(C)[C@H](c3ccoc3)OC(=O)CC23OC2(C)O[C@@]34[C@H](OC(C)=O)[C@@]3(O)C(OC(=O)C5(C)OC5C)C5(C)CC3(O)[C@@](C)([C@H]5CC(=O)OC)[C@@]14O2",
+        "total_atoms": 110,
+        "heavy_atoms": 58
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.621\n    9  7.91   156.7      159 -> 160     gap,J,K:   9.291   1.880   0.000   Kshft:   0.500  locality: 0.346\n   10  7.92   156.6      154 -> 160     gap,J,K:  11.124   3.779   0.051   Kshft:   0.469  locality: 0.807\n   11  7.93   156.3      158 -> 161     gap,J,K:  10.554   3.133   0.005   Kshft:   0.500  locality: 0.672\n   12  8.02   154.6      159 -> 163     gap,J,K:   9.754   2.280   0.023   Kshft:   0.499  locality: 0.470\n   13  8.06   153.7      155 -> 161     gap,J,K:  11.192   3.644   0.008   Kshft:   0.500  locality: 0.704\n   14  8.24   150.5      159 -> 165     gap,J,K:   9.887   2.154   0.001   Kshft:   0.500  locality: 0.554\n   15  8.26   150.2      159 -> 168     gap,J,K:  10.167   2.414   0.002   Kshft:   0.500  locality: 0.659\n   16  8.31   149.3      149 -> 161     gap,J,K:  11.819   4.015   0.001   Kshft:   0.500  locality: 0.908\n   17  8.33   148.8      154 -> 161     gap,J,K:  11.233   3.442   0.021   Kshft:   0.499  locality: 0.745\n   18  8.34   148.7      159 -> 162     gap,J,K:   9.592   1.753   0.001   Kshft:   0.500  locality: 0.377\n   19  8.40   147.6      158 -> 160     gap,J,K:  10.445   2.552   0.004   Kshft:   0.500  locality: 0.540\n   20  8.43   147.1      150 -> 161     gap,J,K:  11.747   3.824   0.003   Kshft:   0.500  locality: 0.848\n   21  8.44   147.0      158 -> 166     gap,J,K:  11.192   3.269   0.007   Kshft:   0.500  locality: 0.872\n   22  8.45   146.7      159 -> 171     gap,J,K:  10.621   2.670   0.001   Kshft:   0.500  locality: 0.709\n   23  8.47   146.4      159 -> 169     gap,J,K:  10.398   2.436   0.003   Kshft:   0.500  locality: 0.618\n   24  8.49   146.1      159 -> 167     gap,J,K:  10.099   2.113   0.001   Kshft:   0.500  locality: 0.534\n   25  8.50   145.9      157 -> 161     gap,J,K:  10.854   2.863   0.003   Kshft:   0.500  locality: 0.605\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2820 CSF included by PT.\n       47218 CSF in total.\n calculating TDA matrix ...\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001817_RIFAXIMIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1817,
+        "name": "RIFAXIMIN",
+        "smiles": "CO[C@@H]1/C=C/O[C@]2(C)Oc3c(C)c(O)c4c(O)c(c5c(nc6cc(C)ccn65)c4c3C2=O)NC(=O)/C(C)=C\\C=C\\[C@@H](C)[C@@H](O)[C@H](C)C(O)[C@H](C)[C@@H](OC(C)=O)[C@H]1C",
+        "total_atoms": 108,
+        "heavy_atoms": 57
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.881\n    9  5.33   232.8      150 -> 154     gap,J,K:   7.979   3.107   0.216   Kshft:   0.022  locality: 0.827\n   10  5.47   226.7      147 -> 153     gap,J,K:   8.529   3.495   0.204   Kshft:   0.028  locality: 0.916\n   11  5.54   223.8      146 -> 153     gap,J,K:   8.633   3.645   0.028   Kshft:   0.497  locality: 0.894\n   12  5.61   221.0      149 -> 154     gap,J,K:   8.142   3.597   0.533   Kshft:   0.001  locality: 0.969\n   13  5.67   218.8      150 -> 155     gap,J,K:   8.373   3.232   0.258   Kshft:   0.011  locality: 0.944\n   14  5.69   217.8      149 -> 153     gap,J,K:   7.777   2.564   0.090   Kshft:   0.300  locality: 0.700\n   15  5.76   215.3      152 -> 157     gap,J,K:   8.156   2.906   0.004   Kshft:   0.500  locality: 0.701\n   16  5.79   214.2      144 -> 153     gap,J,K:   8.899   3.685   0.284   Kshft:   0.008  locality: 0.960\n   17  5.88   210.9      145 -> 153     gap,J,K:   8.727   3.420   0.052   Kshft:   0.465  locality: 0.850\n   18  5.91   209.8      152 -> 159     gap,J,K:   8.317   2.938   0.015   Kshft:   0.500  locality: 0.803\n   19  5.94   208.6      148 -> 155     gap,J,K:   8.772   3.394   0.278   Kshft:   0.008  locality: 0.991\n   20  5.98   207.5      148 -> 154     gap,J,K:   8.378   2.785   0.142   Kshft:   0.099  locality: 0.741\n   21  6.08   204.1      149 -> 155     gap,J,K:   8.536   2.874   0.189   Kshft:   0.036  locality: 0.849\n   22  6.14   201.9      152 -> 161     gap,J,K:   8.629   2.946   0.098   Kshft:   0.261  locality: 0.886\n   23  6.21   199.8      150 -> 156     gap,J,K:   9.101   3.345   0.213   Kshft:   0.023  locality: 0.918\n   24  6.23   199.1      143 -> 154     gap,J,K:   9.383   3.676   0.010   Kshft:   0.500  locality: 0.895\n   25  6.26   198.2      151 -> 155     gap,J,K:   8.219   2.495   0.017   Kshft:   0.500  locality: 0.605\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2778 CSF included by PT.\n       45597 CSF in total.\n calculating TDA matrix ...\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000839_DOCETAXEL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 839,
+        "name": "DOCETAXEL",
+        "smiles": "CC(=O)O[C@]12CO[C@H]1C[C@@H](O)[C@]1(C)C(=O)[C@@H](O)C3=C(C)[C@H](OC(=O)[C@@H](O)[C@H](NC(=O)OC(C)(C)C)c4ccccc4)C[C@](O)([C@H](OC(=O)c4ccccc4)C21)C3(C)C",
+        "total_atoms": 111,
+        "heavy_atoms": 58
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\nality: 0.434\n    9  6.57   188.6      152 -> 160     gap,J,K:  10.312   5.108   0.685   Kshft:   0.000  locality: 1.005\n   10  6.61   187.6      143 -> 158     gap,J,K:  10.337   4.228   0.000   Kshft:   0.500  locality: 0.894\n   11  6.72   184.6      154 -> 161     gap,J,K:  10.305   4.560   0.486   Kshft:   0.001  locality: 0.960\n   12  6.80   182.2      151 -> 162     gap,J,K:  10.468   4.948   0.642   Kshft:   0.000  locality: 1.001\n   13  6.93   179.0      157 -> 164     gap,J,K:   9.664   3.123   0.160   Kshft:   0.066  locality: 0.772\n   14  6.97   177.8      154 -> 160     gap,J,K:  10.223   4.565   0.658   Kshft:   0.000  locality: 0.971\n   15  7.14   173.7      148 -> 159     gap,J,K:  10.036   3.405   0.003   Kshft:   0.500  locality: 0.758\n   16  7.22   171.8      144 -> 159     gap,J,K:  10.567   3.859   0.004   Kshft:   0.500  locality: 0.834\n   17  7.27   170.6      152 -> 161     gap,J,K:  10.394   5.136   1.005   Kshft:   0.000  locality: 1.000\n   18  7.29   170.0      153 -> 162     gap,J,K:  10.436   5.097   0.976   Kshft:   0.000  locality: 1.000\n   19  7.31   169.7      148 -> 158     gap,J,K:   9.751   2.996   0.067   Kshft:   0.418  locality: 0.711\n   20  7.31   169.6      149 -> 158     gap,J,K:   9.700   2.930   0.020   Kshft:   0.499  locality: 0.651\n   21  7.32   169.3      155 -> 163     gap,J,K:  10.669   3.730   0.152   Kshft:   0.079  locality: 0.896\n   22  7.41   167.4      156 -> 159     gap,J,K:   8.955   2.053   0.002   Kshft:   0.500  locality: 0.391\n   23  7.44   166.6      146 -> 158     gap,J,K:  10.032   3.144   0.029   Kshft:   0.497  locality: 0.703\n   24  7.47   165.9      156 -> 164     gap,J,K:  10.292   3.337   0.009   Kshft:   0.500  locality: 0.807\n   25  7.52   165.0      142 -> 159     gap,J,K:  10.909   3.954   0.033   Kshft:   0.494  locality: 0.845\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.000\n        2818 CSF included by PT.\n       47708 CSF in total.\n calculating TDA matrix ...\n"
     }
   ]
 }
