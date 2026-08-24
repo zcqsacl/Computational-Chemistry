@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 15,
+  "n_records": 33,
   "records": [
     {
       "status": "success",
@@ -397,6 +397,260 @@
         "total_s": 9306.360128089786
       },
       "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "success",
+      "label": "dataset_II_001044_GAMBOGIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1044,
+        "name": "GAMBOGIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4=O)C3=O",
+        "total_atoms": 90,
+        "heavy_atoms": 46
+      },
+      "energies_eV": [
+        3.1238,
+        3.6891,
+        3.9541,
+        4.0694,
+        4.3274
+      ],
+      "oscillator_strengths": [
+        0.047719,
+        0.408967,
+        0.028564,
+        0.00455,
+        0.496085
+      ],
+      "timing": {
+        "xtb_opt_s": 17.766725989058614,
+        "xtb4stda_s": 1.8210218120366335,
+        "stda_s": 10687.173975704238,
+        "total_s": 10706.761723505333
+      },
+      "stda_energy_window_eV": 30.0
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001393_METHYLBENZETHONIUM_CHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1393,
+        "name": "METHYLBENZETHONIUM CHLORIDE",
+        "smiles": "Cc1cc(C(C)(C)CC(C)(C)C)ccc1OCCOCC[N+](C)(C)Cc1ccccc1",
+        "total_atoms": 75,
+        "heavy_atoms": 31
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001565_OXONITINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1565,
+        "name": "OXONITINE",
+        "smiles": "COC[C@]12CN(C=O)C3[C@@H]4[C@H](OC)C1[C@]3(C1CC3(O)C(OC)C(O)C4(OC(C)=O)C1C3OC(=O)c1ccccc1)[C@@H](OC)C[C@H]2O",
+        "total_atoms": 89,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002022_TETRANDRINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2022,
+        "name": "TETRANDRINE",
+        "smiles": "COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3cc(c(OC)cc3CCN1C)Oc1c(OC)c(OC)cc3c1[C@H](C2)N(C)CC3",
+        "total_atoms": 88,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000561_CEFTAZIDIME",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 561,
+        "name": "CEFTAZIDIME",
+        "smiles": "CC(C)(O/N=C(\\C(=O)N[C@@H]1C(=O)N2C(C(=O)O)=C(C[n+]3ccccc3)CSC12)c1csc(N)n1)C(=O)O",
+        "total_atoms": 60,
+        "heavy_atoms": 37
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000805_DIHYDROGAMBOGIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 805,
+        "name": "DIHYDROGAMBOGIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CC4CC1C(C)(C)OC2(C/C=C(/C)C(=O)O)C4O)C3=O",
+        "total_atoms": 92,
+        "heavy_atoms": 46
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000560_CEFSULODIN_SODIUM",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 560,
+        "name": "CEFSULODIN SODIUM",
+        "smiles": "NC(=O)c1cc[n+](CC2=C(C(=O)O)N3C(=O)C(NC(=O)C(c4ccccc4)S(=O)(=O)O)C3SC2)cc1",
+        "total_atoms": 57,
+        "heavy_atoms": 36
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001145_ICARIIN",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1145,
+        "name": "ICARIIN",
+        "smiles": "COc1ccc(-c2oc3c(CC=C(C)C)c(O[C@H]4O[C@@H](CO)[C@H](O)[C@@H](O)[C@@H]4O)cc(O)c3c(=O)c2O[C@H]2O[C@H](C)[C@@H](O)[C@H](O)[C@@H]2O)cc1",
+        "total_atoms": 88,
+        "heavy_atoms": 48
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001697_POSACONAZOLE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1697,
+        "name": "POSACONAZOLE",
+        "smiles": "CC[C@H]([C@@H](C)O)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(F)cc6F)C5)cc4)CC3)cc2)c1=O",
+        "total_atoms": 93,
+        "heavy_atoms": 51
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001415_MILTEFOSINE_5mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1415,
+        "name": "MILTEFOSINE [5mM]",
+        "smiles": "CCCCCCCCCCCCCCCCO[P@@](=O)(O)OCC[N+](C)(C)C",
+        "total_atoms": 74,
+        "heavy_atoms": 27
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000216_AGELASINE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 216,
+        "name": "AGELASINE",
+        "smiles": "CC1=CCC[C@H]2[C@]1(C)CC[C@H](C)[C@]2(C)CC/C(C)=C/Cn1c[n+](C)c2c(N)ncnc21",
+        "total_atoms": 71,
+        "heavy_atoms": 31
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001157_INDINAVIR_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1157,
+        "name": "INDINAVIR SULFATE",
+        "smiles": "CC(C)(C)NC(=O)[C@@H]1CN(Cc2cccnc2)CCN1C[C@H](O)C[C@H](Cc1ccccc1)C(=O)N[C@@H]1c2ccccc2C[C@@H]1O",
+        "total_atoms": 92,
+        "heavy_atoms": 45
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001048_GARCINOLIC_ACID",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1048,
+        "name": "GARCINOLIC ACID",
+        "smiles": "CC(C)=CCCC1(C)C=Cc2c(O)c3c(c(CC=C(C)C)c2O1)OC12C(=CCCC1C(C)(C)O[C@]2(C/C=C(\\C)C(=O)O)C(=O)O)C3=O",
+        "total_atoms": 93,
+        "heavy_atoms": 47
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002190_VIOMYCIN_SULFATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2190,
+        "name": "VIOMYCIN SULFATE",
+        "smiles": "NCCC[C@H](N)CC(=O)NC1CNC(=O)[C@H]([C@H]2C[C@H](O)NC(N)=N2)NC(=O)/C(=C/NC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC1=O",
+        "total_atoms": 91,
+        "heavy_atoms": 48
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001205_ITRACONAZOLE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1205,
+        "name": "ITRACONAZOLE HYDROCHLORIDE",
+        "smiles": "CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O",
+        "total_atoms": 87,
+        "heavy_atoms": 49
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000506_CAPREOMYCIN_SULFATE_4mM_",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 506,
+        "name": "CAPREOMYCIN SULFATE [4mM]",
+        "smiles": "N=C1NCCC(C2NC(=O)/C(=C\\NC(N)=O)NC(=O)C(CNC(=O)CC(N)CCCN)NC(=O)C(CO)NC(=O)C(N)CNC2=O)N1",
+        "total_atoms": 91,
+        "heavy_atoms": 47
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001385_METHYL_GAMBOGATE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1385,
+        "name": "METHYL GAMBOGATE",
+        "smiles": "COC(=O)/C(C)=C\\CC12OC(C)(C)C3CC(C=C4C(=O)c5c(O)c6c(c(CC=C(C)C)c5OC431)OC(C)(CCC=C(C)C)C=C6)C2=O",
+        "total_atoms": 93,
+        "heavy_atoms": 47
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002176_VECURONIUM_BROMIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2176,
+        "name": "VECURONIUM BROMIDE",
+        "smiles": "CC(=O)O[C@H]1CC2CCC3C(CC[C@@]4(C)C3C[C@H]([N+]3(C)CCCCC3)[C@@H]4OC(C)=O)[C@@]2(C)C[C@@H]1N1CCCCC1",
+        "total_atoms": 97,
+        "heavy_atoms": 40
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\n3   3.074   0.002   Kshft:   0.500  locality: 0.791\n   10  8.28   149.8      112 -> 116     gap,J,K:  11.325   3.441   0.090   Kshft:   0.302  locality: 0.851\n   11  8.38   147.9      113 -> 128     gap,J,K:  11.045   3.165   0.002   Kshft:   0.500  locality: 0.818\n   12  8.63   143.6      113 -> 118     gap,J,K:   9.906   1.775   0.001   Kshft:   0.500  locality: 0.402\n   13  8.70   142.5      113 -> 125     gap,J,K:  10.793   2.592   0.001   Kshft:   0.500  locality: 0.670\n   14  8.78   141.2      113 -> 130     gap,J,K:  11.222   2.940   0.002   Kshft:   0.500  locality: 0.751\n   15  8.81   140.7      109 -> 116     gap,J,K:  11.837   3.528   0.003   Kshft:   0.500  locality: 0.940\n   16  8.83   140.4      113 -> 122     gap,J,K:  10.298   1.970   0.000   Kshft:   0.500  locality: 0.448\n   17  8.99   137.9      112 -> 118     gap,J,K:  11.714   3.228   0.002   Kshft:   0.500  locality: 0.836\n   18  9.01   137.7      107 -> 115     gap,J,K:  11.997   3.495   0.004   Kshft:   0.500  locality: 0.905\n   19  9.02   137.4      108 -> 115     gap,J,K:  11.880   3.366   0.009   Kshft:   0.500  locality: 0.881\n   20  9.07   136.7      113 -> 136     gap,J,K:  11.661   3.098   0.007   Kshft:   0.500  locality: 0.772\n   21  9.08   136.5      113 -> 124     gap,J,K:  10.621   2.040   0.000   Kshft:   0.500  locality: 0.501\n   22  9.12   135.9      113 -> 133     gap,J,K:  11.490   2.866   0.001   Kshft:   0.500  locality: 0.738\n   23  9.15   135.5      110 -> 115     gap,J,K:  11.723   3.081   0.007   Kshft:   0.500  locality: 0.785\n   24  9.22   134.4      113 -> 132     gap,J,K:  11.429   2.705   0.001   Kshft:   0.500  locality: 0.713\n   25  9.30   133.3      113 -> 129     gap,J,K:  11.121   2.323   0.002   Kshft:   0.500  locality: 0.574\n \n selecting CSF ...\n average/max(a)/max(b) PT2 energy lowering (eV):     0.000     0.000     0.000\n CSF included by PT:        3511        1752        1759\n CSF in total:       57513       28825       28688\n calculating TDA matrix ...\n"
     }
   ]
 }
