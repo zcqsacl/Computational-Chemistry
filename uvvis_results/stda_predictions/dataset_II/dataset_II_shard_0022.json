@@ -1,7 +1,7 @@
 {
   "dataset": "dataset_II",
   "shard_index": 22,
-  "n_records": 97,
+  "n_records": 100,
   "records": [
     {
       "status": "success",
@@ -1581,6 +1581,45 @@
         "smiles": "CC[C@@H]1OC(=O)[C@@H](C)[C@H](O[C@@H]2C[C@](C)(OC)[C@H](O)[C@@H](C)O2)[C@@H](C)[C@H](O[C@H]2O[C@@H](C)C[C@@H](N(C)C)[C@@H]2O)[C@@](C)(O)C[C@H](C)C(=O)[C@@H](C)[C@H](O)[C@@]1(C)O",
         "total_atoms": 118,
         "heavy_atoms": 51
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_000651_CLINDAMYCIN_PALMITATE_HYDROCHLORIDE",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 651,
+        "name": "CLINDAMYCIN PALMITATE HYDROCHLORIDE",
+        "smiles": "CCCCCCCCCCCCCCCC(=O)O[C@@H]1[C@H](SC)OC([C@@H](NC(=O)[C@H]2C[C@H](CCC)CN2C)[C@@H](C)Cl)[C@@H](O)[C@H]1O",
+        "total_atoms": 107,
+        "heavy_atoms": 44
+      },
+      "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '50.0']' timed out after 10800 seconds"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_002041_THIOSTREPTON",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 2041,
+        "name": "THIOSTREPTON",
+        "smiles": "C=C(NC(=O)C(=C)NC(=O)c1csc(C2=NC3c4csc(n4)C4NC(=O)c5csc(n5)C(C(C)(O)C(C)O)NC(=O)C5CSC(=N5)/C(=C\\C)NC(=O)C(C(C)O)NC(=O)c5csc(n5)C3(CC2)NC(=O)C(C)NC(=O)C(=C)NC(=O)C(C)NC(=O)C(C(C)CC)NC2C=Cc3c(C(C)O)cc(nc3C2O)C(=O)OC4C)n1)C(N)=O",
+        "total_atoms": 199,
+        "heavy_atoms": 114
+      },
+      "error": "sTDA failed at 80.0 eV, return=-9\n 0.609   Kshft:   0.000  locality: 0.941\n    9  5.33   232.7      300 -> 304     gap,J,K:   7.341   2.513   0.001   Kshft:   0.500  locality: 0.636\n   10  5.42   228.7      292 -> 305     gap,J,K:   7.999   3.121   0.022   Kshft:   0.499  locality: 0.727\n   11  5.46   227.1      303 -> 304     gap,J,K:   6.866   1.908   0.001   Kshft:   0.500  locality: 0.411\n   12  5.50   225.2      301 -> 313     gap,J,K:   8.987   4.305   0.411   Kshft:   0.002  locality: 0.981\n   13  5.51   224.9      298 -> 309     gap,J,K:   8.633   3.936   0.407   Kshft:   0.002  locality: 0.942\n   14  5.67   218.6      286 -> 304     gap,J,K:   8.453   3.305   0.012   Kshft:   0.500  locality: 0.888\n   15  5.68   218.2      302 -> 307     gap,J,K:   7.909   2.646   0.194   Kshft:   0.033  locality: 0.640\n   16  5.74   215.9      302 -> 304     gap,J,K:   7.273   2.031   0.000   Kshft:   0.500  locality: 0.516\n   17  5.83   212.5      301 -> 305     gap,J,K:   7.376   2.088   0.024   Kshft:   0.498  locality: 0.443\n   18  5.87   211.4      302 -> 305     gap,J,K:   7.341   1.979   0.002   Kshft:   0.500  locality: 0.479\n   19  5.89   210.4      297 -> 305     gap,J,K:   7.679   2.310   0.012   Kshft:   0.500  locality: 0.545\n   20  5.90   210.1      296 -> 305     gap,J,K:   7.776   2.268   0.126   Kshft:   0.141  locality: 0.677\n   21  5.92   209.5      299 -> 310     gap,J,K:   8.494   3.128   0.027   Kshft:   0.498  locality: 0.652\n   22  5.98   207.2      290 -> 310     gap,J,K:   9.231   3.774   0.258   Kshft:   0.011  locality: 0.875\n   23  6.00   206.5      303 -> 307     gap,J,K:   7.502   1.998   0.000   Kshft:   0.500  locality: 0.410\n   24  6.01   206.3      298 -> 304     gap,J,K:   7.537   2.027   0.000   Kshft:   0.500  locality: 0.503\n   25  6.07   204.3      297 -> 304     gap,J,K:   7.611   2.049   0.003   Kshft:   0.500  locality: 0.508\n \n selecting CSF ...\n average/max PT2 energy lowering (eV):     0.000     0.002\n        8782 CSF included by PT.\n      165253 CSF in total.\n"
+    },
+    {
+      "status": "failed",
+      "label": "dataset_II_001902_SOLANESOL",
+      "metadata": {
+        "dataset": "dataset_II",
+        "dataset_row": 1902,
+        "name": "SOLANESOL",
+        "smiles": "CC(C)=CCC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CC/C(C)=C/CO",
+        "total_atoms": 120,
+        "heavy_atoms": 46
       },
       "error": "Command '['/workspace/stda_install/bin/stda_v1.6.3', '-xtb', '-e', '30.0']' timed out after 10800 seconds"
     }
