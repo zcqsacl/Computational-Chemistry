@@ -1,0 +1,9 @@
+dataset,config,input_type,n_estimators,max_depth,min_samples_leaf,min_samples_split,max_features,criterion,bootstrap,n_train,n_test,test_median_rmse,fit_predict_time_s
+Dataset_I,sklearn_default,smiles_only,100,,1,2,1.0,squared_error,True,757,190,0.1198275908827781,9.285059554502368
+Dataset_I,sklearn_default,exc_osc_only,100,,1,2,1.0,squared_error,True,757,190,0.1115053296089172,2.5922752767801285
+Dataset_I,deep_unregularized,smiles_plus_exc,300,,1,2,1.0,squared_error,True,757,190,0.1065751165151596,86.26877817884088
+Dataset_I,sklearn_default,smiles_plus_exc_osc,100,,1,2,1.0,squared_error,True,757,190,0.1086972802877426,29.894530419260263
+Dataset_II,deep_unregularized,smiles_only,300,,1,2,1.0,squared_error,True,1692,424,0.0715146288275718,127.52636585198344
+Dataset_II,no_bootstrap,exc_osc_only,300,15.0,3,2,sqrt,squared_error,False,1692,424,0.078380599617958,10.252592165023088
+Dataset_II,shallow_regularized,smiles_plus_exc,300,10.0,5,10,sqrt,squared_error,True,1692,424,0.0797336399555206,15.03059633821249
+Dataset_II,sqrt_features,smiles_plus_exc_osc,300,15.0,3,2,sqrt,squared_error,True,1692,424,0.0757754147052764,21.538925759494305
